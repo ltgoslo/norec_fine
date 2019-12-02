@@ -1,7 +1,10 @@
 # Annotation guidelines for SANT, Fine-grained
 April 2019
 
+#Table of Contents
 
+1. [Introduction] (#Introduction)
+2. [Part 1: Terminology](#Part-1:-Terminology)
 ## Introduction
 These guidelines are intended to give an introduction to fine grained annotation for the SANT project, based on the previous sentence level annotations. The sentences that were labeled as evaluative in the previous round are annotated on a more fine-grained level, based largely upon the schema introduced in Van de Kauter et al. (link). These guidelines come in three parts: an introduction to terminology, an introduction to Brat labels and terminology, and a detailed description of how to annotate and how to delimit spans.
 
