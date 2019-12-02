@@ -1,0 +1,63 @@
+T1	E 76 76	
+T2	E 290 290	
+T3	E 454 454	
+T4	EFINP 509 509	
+T5	E 592 592	
+T6	E 754 754	
+T7	E 767 767	
+T8	Entity 290 302	Torvunds ord
+T9	Polar_expression 303 313	fanger deg
+E1	Polar_expression:T9 Target:T8
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Type E1 E
+T10	Entity 454 465	Samarbeidet
+T11	Polar_expression 466 474	fungerer
+E2	Polar_expression:T11 Target:T10
+A5	Polarity E2 Positive
+A6	Source_is_author E2
+A7	Intensity E2 Standard
+A8	Type E2 E
+T12	Entity 481 489	hver del
+T13	Polar_expression 490 506	får lov å skinne
+E3	Polar_expression:T13 Target:T12
+A9	Polarity E3 Positive
+A10	Source_is_author E3
+A11	Intensity E3 Standard
+A12	Type E3 E
+A13	Target_is_general E2
+T14	Polar_expression 509 545	Elementene kan understreke hverandre
+E4	Polar_expression:T14 Target:T15
+A14	Polarity E4 Positive
+A15	Source_is_author E4
+A16	Intensity E4 Standard
+A18	Type E4 E
+T15	Entity 554 589	starten av " Den veldige musikken "
+T16	Entity 622 639	" Hitlertennene "
+T17	Polar_expression 644 657	tunge gitarer
+E5	Polar_expression:T17 Target:T16
+A17	Polarity E5 Positive
+A19	Source_is_author E5
+A20	Intensity E5 Standard
+A21	Type E5 E
+T18	Polar_expression 661 670	varme ord
+E6	Polar_expression:T18 Target:T16
+A22	Polarity E6 Positive
+A23	Source_is_author E6
+A24	Intensity E6 Standard
+A25	Type E6 E
+T19	Polar_expression 644 649	tunge
+E7	Polar_expression:T19 Target:T20
+A26	Polarity E7 Positive
+A27	Source_is_author E7
+A28	Intensity E7 Standard
+A29	Type E7 E
+T20	Entity 650 657	gitarer
+T21	Polar_expression 661 666	varme
+E8	Polar_expression:T21 Target:T22
+A30	Polarity E8 Positive
+A31	Source_is_author E8
+A32	Intensity E8 Standard
+A33	Type E8 E
+T22	Entity 667 670	ord

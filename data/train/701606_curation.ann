@@ -1,0 +1,81 @@
+T1	E 37 37	
+T2	E 142 142	
+T3	EFINP 239 239	
+T4	E 368 368	
+T5	E 592 592	
+T6	E 864 864	
+T7	Entity 55 61	ordtak
+T8	Polar_expression 873 941	så kjedelig at den vil kunne føre til at vorspielere blir akutt edru
+E16	Polar_expression:T8 
+A74	Polarity E16 Negative
+A75	Intensity E16 Strong
+A76	Type E16 E
+A77	Source_is_author E16
+A78	Target_is_general E16
+T9	Polar_expression 40 54	litt resignert
+E17	Polar_expression:T9 Target:T7
+A79	Polarity E17 Negative
+A80	Intensity E17 Slight
+A81	Type E17 E
+A82	Source_is_author E17
+A83	NOT E17
+T10	Entity 152 158	filmen
+T11	Polar_expression 179 236	mer livssyn enn vett forsøkt å overgå Gud i eksentrisitet
+E1	Polar_expression:T11 Target:T10
+A1	Polarity E1 Negative
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Target_is_general E1
+A5	Type E1 E
+T12	Entity 239 247	Omslaget
+T13	Polar_expression 259 365	antyder at filmen er en dramatisk katastrofe-thriller av den sorten der cruiseskip skylles i land i Sahara
+E2	Polar_expression:T13 Target:T12
+A6	Polarity E2 Negative
+A7	Source_is_author E2
+A8	Intensity E2 Standard
+A9	Type E2 E
+T14	Polar_expression 239 365	Omslaget til DVD-en antyder at filmen er en dramatisk katastrofe-thriller av den sorten der cruiseskip skylles i land i Sahara
+E3	Polar_expression:T14 Target:T15
+A10	Polarity E3 Negative
+A11	Source_is_author E3
+A12	Intensity E3 Standard
+A13	Target_is_general E3
+A14	Type E3 E
+T15	Entity 270 276	filmen
+T16	Entity 372 392	« The moment after »
+T17	Polar_expression 412 447	merkelig , nesten komisk fortelling
+E4	Polar_expression:T17 Target:T16
+A15	Polarity E4 Negative
+A16	Source_is_author E4
+A17	Intensity E4 Standard
+A18	Target_is_general E4
+A19	Type E4 E
+T18	Entity 756 776	« The moment after »
+T19	Polar_expression 780 795	svakt formulert
+E5	Polar_expression:T19 Target:T18
+A20	Polarity E5 Negative
+A21	Source_is_author E5
+A22	Intensity E5 Standard
+A23	Target_is_general E5
+A24	Type E5 E
+T20	Polar_expression 799 860	temperamentsløs film-andakt uten verken mening eller forstand
+E6	Polar_expression:T20 Target:T18
+A25	Polarity E6 Negative
+A26	Source_is_author E6
+A27	Intensity E6 Standard
+A28	Target_is_general E6
+A29	Type E6 E
+T21	Polar_expression 658 738	en jødisk rabbi viser seg å være Kristus-tilhenger uten at noen syns det er rart
+E7	Polar_expression:T21 Target:T18
+A30	Polarity E7 Negative
+A31	Source_is_author E7
+A32	Intensity E7 Standard
+A33	NOT E7
+A34	Type E7 E
+T22	Polar_expression 592 655	FBI-folk siger som gullfisker fra hus til hus for å etterforske
+E8	Polar_expression:T22 Target:T18
+A35	Polarity E8 Negative
+A36	Source_is_author E8
+A37	Intensity E8 Standard
+A38	NOT E8
+A39	Type E8 E

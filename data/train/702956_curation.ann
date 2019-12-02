@@ -1,0 +1,49 @@
+T1	E 21 21	
+T2	E 233 233	
+T3	E 403 403	
+T4	E 723 723	
+T5	E 857 857	
+T6	Entity 21 36	Alison Eastwood
+T7	Polar_expression 63 104	tøffeste etterforskeren siden Dirty Harry
+E1	Polar_expression:T7 
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	NOT E1
+A5	Type E1 E
+T8	Entity 233 236	Hun
+T9	Polar_expression 244 278	stikkende , utålmodig personlighet
+E2	Polar_expression:T9 Target:T8
+A6	Polarity E2 Negative
+A7	Source_is_author E2
+A8	Intensity E2 Standard
+A9	NOT E2
+A10	Type E2 E
+T10	Polar_expression 407 418	passer godt
+E3	Polar_expression:T10 Target:T11
+A11	Polarity E3 Positive
+A12	Source_is_author E3
+A13	Intensity E3 Standard
+A14	Target_is_general E3
+A15	Type E3 E
+T11	Entity 433 443	thrilleren
+T12	Polar_expression 723 733	Mye stilig
+E4	Polar_expression:T12 
+A16	Polarity E4 Positive
+A17	Source_is_author E4
+A18	Intensity E4 Standard
+A19	Target_is_general E4
+A20	Type E4 E
+T13	Entity 857 866	Thrillere
+T14	Polar_expression 870 897	visuelt behagelige for tida
+E5	Polar_expression:T14 Target:T13
+A21	Polarity E5 Positive
+A22	Source_is_author E5
+A23	Intensity E5 Standard
+A24	Type E5 E
+T15	Polar_expression 909 959	gate-gotikk som melker mørket for enkle stemninger
+E6	Polar_expression:T15 Target:T13
+A25	Polarity E6 Positive
+A26	Source_is_author E6
+A27	Intensity E6 Standard
+A28	Type E6 E

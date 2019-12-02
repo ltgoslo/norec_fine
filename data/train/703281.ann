@@ -1,0 +1,90 @@
+T1	E 17 17	
+T2	E 103 103	
+T3	E 401 401	
+A1	NOT T3
+T4	E 491 491	
+T5	E 978 978	
+A2	NOT T5
+T6	E 1720 1720	
+T7	E 1869 1869	
+T8	Polar_expression 42 99	løftes av skildringer fra Berlin før og etter murens fall
+E1	Polar_expression:T8 Target:T9
+A3	Polarity E1 Positive
+A4	Source_is_author E1
+A5	Intensity E1 Standard
+A6	Type E1 E
+T9	Entity 17 41	Andreboka om danske Ravn
+T10	Polar_expression 425 446	sporet fullstendig av
+E2	Polar_expression:T10 Target:T11
+A7	Polarity E2 Negative
+A8	Source_is_author E2
+A9	Intensity E2 Strong
+A10	NOT E2
+A11	Type E2 E
+T11	Entity 401 424	Førsteboka " Avsporet "
+T12	Polar_expression 452 488	seriemorder ført langt ut i parodien
+E3	Polar_expression:T12 Target:T13
+A12	Polarity E3 Negative
+A13	Source_is_author E3
+A14	Intensity E3 Standard
+A15	NOT E3
+A16	Type E3 E
+T13	Entity 452 463	seriemorder
+T14	Polar_expression 124 235	kan lett beskyldes for å prøve seg på en variant av krimsuksessen Jussi Adler-Olsen og historiene om avdeling Q
+E4	Polar_expression:T14 Target:T15
+A17	Polarity E4 Positive
+A18	Source_is_author E4
+A19	Intensity E4 Slight
+A20	Type E4 E
+T15	Entity 103 123	Michael Katz Krefeld
+T16	Polar_expression 578 596	relativt humørløst
+E5	Polar_expression:T16 
+A21	Polarity E5 Negative
+A22	Source_is_author E5
+A23	Intensity E5 Standard
+A24	Target_is_general E5
+A25	Type E5 E
+T17	Polar_expression 508 511;525 551	har bedre grep om virkemidlene
+E6	Polar_expression:T17 Target:T18
+A26	Polarity E6 Positive
+A27	Source_is_author E6
+A28	Intensity E6 Standard
+A29	Type E6 E
+T18	Entity 512 524	Katz Krefeld
+T19	Entity 1869 1879	" Savnet "
+T20	Polar_expression 1888 1900;1904 1927	angstbitersk veldreid liten thriller
+E7	Polar_expression:T20 Target:T19
+A30	Polarity E7 Positive
+A31	Source_is_author E7
+A32	Intensity E7 Standard
+A33	Type E7 E
+T21	Polar_expression 1751 1787	ikke fullt så utpenslet denne gangen
+E8	Polar_expression:T21 Target:T22
+A34	Polarity E8 Negative
+A35	Source_is_author E8
+A36	Intensity E8 Standard
+A37	Type E8 E
+#1	AnnotatorNotes E8	Negation
+T22	Entity 1720 1747	Ravns selvdestruktive sider
+T23	Polar_expression 1807 1821	godt kommet på
+E9	Polar_expression:T23 Target:T24
+A38	Polarity E9 Positive
+A39	Source_is_author E9
+A40	Intensity E9 Standard
+A41	Type E9 E
+T24	Entity 1790 1803	gærne Hausser
+T25	Polar_expression 1842 1866	tettere enn i førsteboka
+E10	Polar_expression:T25 Target:T26
+A42	Polarity E10 Positive
+A43	Source_is_author E10
+A44	Intensity E10 Standard
+A45	Type E10 E
+T26	Entity 1831 1838	plottet
+#2	AnnotatorNotes E10	Sammenlikning
+T27	Polar_expression 1041 1076;978 1018	var knapt Stasi-funksjonærene flest Fullt så gruvekkende og sertifisert psyk
+E11	Polar_expression:T27 Target:T28
+A46	Polarity E11 Negative
+A47	Source_is_author E11
+A48	Intensity E11 Slight
+A49	Type E11 E
+T28	Entity 1033 1040	Hausser

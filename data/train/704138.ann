@@ -1,0 +1,32 @@
+T1	E 106 106	
+T2	E 194 194	
+T3	E 403 403	
+T4	Polar_expression 171 175;182 191	ikke vellykket
+E1	Polar_expression:T4 
+A1	Polarity E1 Negative
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Target_is_general E1
+A5	Type E1 E
+T5	Polar_expression 225 261	skarp stemme som ikke passer til alt
+E2	Polar_expression:T5 Target:T6
+A6	Polarity E2 Negative
+A7	Source_is_author E2
+A8	Intensity E2 Standard
+A9	Target_is_general E2
+A10	Type E2 E
+T6	Entity 194 204	66-åringen
+T7	Polar_expression 279 304	tolkninger her som funker
+E3	Polar_expression:T7 
+A11	Polarity E3 Positive
+A12	Source_is_author E3
+A13	Intensity E3 Standard
+A14	Target_is_general E3
+A15	Type E3 E
+T8	Polar_expression 403 408	Beste
+E4	Polar_expression:T8 Target:T9
+A16	Polarity E4 Positive
+A17	Source_is_author E4
+A18	Intensity E4 Standard
+A19	Type E4 E
+T9	Entity 409 413	spor

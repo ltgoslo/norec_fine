@@ -1,0 +1,150 @@
+T1	E 63 63	
+T2	E 332 332	
+A1	NOT T2
+T3	E 695 695	
+A2	NOT T3
+A3	NFP T3
+T4	E 1003 1003	
+A4	NOT T4
+T5	E 1368 1368	
+A5	NOT T5
+A6	NFP T5
+T6	E 1587 1587	
+A7	NOT T6
+T7	E 2473 2473	
+T8	E 2906 2906	
+T9	E 3081 3081	
+T10	E 3249 3249	
+T11	E 3339 3339	
+A8	NOT T11
+T12	E 3680 3680	
+T13	E 3744 3744	
+T14	Polar_expression 70 85	krevende å lese
+E1	Polar_expression:T14 Target:T15
+A9	Polarity E1 Negative
+A10	Source_is_author E1
+A11	Intensity E1 Standard
+A12	Target_is_general E1
+A13	Type E1 E
+T15	Entity 128 135	romaner
+T16	Entity 334 351	De fattige i Lodz
+T17	Polar_expression 380 390	monumental
+E2	Polar_expression:T17 Target:T16
+A14	Polarity E2 Positive
+A15	Source_is_author E2
+A16	Intensity E2 Standard
+A17	Target_is_general E2
+A18	Type E2 E
+A19	NOT E2
+T19	Polar_expression 2600 2650	verdt å følge Sem-Sandberg gjennom de mange sidene
+E3	Polar_expression:T19 
+A20	Polarity E3 Positive
+A21	Source_is_author E3
+A22	Intensity E3 Standard
+A23	Target_is_general E3
+A24	Type E3 E
+T20	Polar_expression 2923 2950	romanteknisk kunstferdighet
+E4	Polar_expression:T20 
+A25	Polarity E4 Positive
+A26	Source_is_author E4
+A27	Intensity E4 Standard
+A28	Target_is_general E4
+A29	Type E4 E
+T21	Polar_expression 2968 2986	tid— og stedsprang
+E5	Polar_expression:T21 
+A30	Polarity E5 Positive
+A31	Source_is_author E5
+A32	Intensity E5 Standard
+A33	Target_is_general E5
+A34	Type E5 E
+T22	Polar_expression 2989 3077	vekslinger mellom rein fiksjonsdikting og bruk av samtidige legejournaler og domspapirer
+E6	Polar_expression:T22 
+A35	Polarity E6 Positive
+A36	Source_is_author E6
+A37	Intensity E6 Standard
+A38	Target_is_general E6
+A39	Type E6 E
+T23	Polar_expression 3118 3131	i gode hender
+E7	Polar_expression:T23 Target2:T39
+A40	Polarity E7 Positive
+A41	Source_is_author E7
+A42	Intensity E7 Standard
+A43	Target_is_general E7
+A44	Type E7 E
+T25	Polar_expression 3169 3175;3180 3212	savner så mye lesefremmende punktuering
+E8	Polar_expression:T25 Target2:T24
+A45	Polarity E8 Negative
+A46	Source_is_author E8
+A47	Intensity E8 Standard
+A48	Target_is_general E8
+A49	Type E8 E
+T27	Polar_expression 3249 3336	Den som ikke blir rystende berørt av « De utvalgte » , må være forherdet til det immune
+E9	Polar_expression:T27 Target:T38
+A50	Polarity E9 Positive
+A51	Source_is_author E9
+A52	Intensity E9 Standard
+A53	Target_is_general E9
+A54	Type E9 E
+T28	Polar_expression 3376 3392	aller uhyrligste
+E10	Polar_expression:T28 Target2:T26
+A55	Polarity E10 Negative
+A56	Source_is_author E10
+A57	Intensity E10 Standard
+A58	NOT E10
+A59	Type E10 E
+T30	Polar_expression 2526 2545	vanskjøttet barndom
+E11	Polar_expression:T30 Target:T31
+A60	Polarity E11 Negative
+A61	Source_is_author E11
+A62	Intensity E11 Standard
+A63	Type E11 E
+T31	Entity 2490 2509	Adrian Zieglers liv
+A64	NOT E11
+T32	Polar_expression 1051 1235	utryddelse som statlig politikk , samvittighetsfullt eksekvert av ideologiske fanatikere uten samvittighet , eller av helt « vanlige » , pliktoppfyllende mennesker uten moralsk kompass
+E12	Polar_expression:T32 
+A65	Polarity E12 Negative
+A66	Source_is_author E12
+A67	Intensity E12 Standard
+A68	NOT E12
+A69	Type E12 E
+T33	Polar_expression 1602 1626	grotesk eksperimentering
+E13	Polar_expression:T33 
+A70	Polarity E13 Negative
+A71	Source_is_author E13
+A72	Intensity E13 Strong
+A73	Type E13 E
+T34	Polar_expression 1591 1598	testing
+E14	Polar_expression:T34 
+A74	Polarity E14 Negative
+A75	Source_is_author E14
+A76	Intensity E14 Standard
+A77	Type E14 E
+T35	Polar_expression 1638 1686	blir de fleste vanskjøttet og deformert til døde
+E15	Polar_expression:T35 
+A78	Polarity E15 Negative
+A79	Source_is_author E15
+A80	Intensity E15 Standard
+A81	Type E15 E
+T36	Polar_expression 1698 1756	blir avlivet når de ikke lenger er interessante til forsøk
+E16	Polar_expression:T36 
+A82	Polarity E16 Negative
+A83	Source_is_author E16
+A84	Intensity E16 Standard
+A85	NOT E16
+A86	Type E16 E
+A87	NOT E15
+A88	NOT E13
+A89	NOT E14
+T18	Polar_expression 785 941	nazistenes eutanasiprogram til utryddelse av uønskete individer , evneveike , retarderte , vanskapte , « rasemessig retarderte » og uregjerlige menneskebarn
+E17	Polar_expression:T18 Source:T37
+A90	Polarity E17 Negative
+A91	Source_is_author E17
+A92	Intensity E17 Standard
+A93	NFP E17
+A94	NOT E17
+A95	Type E17 E
+T37	Entity 785 795	nazistenes
+T38	Entity 3286 3301	« De utvalgte »
+T39	Entity 3081 3094	Oversettelsen
+T24	Entity 3233 3245	tekstkroppen
+T26	Entity 3393 3573	hvordan så mange på tysk område etter krigen ikke så ut til å kjenne ansvar og skyld , eller faktisk erklærte at de ikke visste hva som skjedde i konsentrasjons- og eutanasileirene
