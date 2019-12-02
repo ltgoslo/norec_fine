@@ -5,6 +5,14 @@ April 2019
 
 1. [Introduction](#introduction)
 2. [Part 1: Terminology](#part-1-terminology)\
+2.1 [Terms](#terms)
+2.2 [Polar Expression](#polar-expression)
+2.3 [Target](#target)
+2.4 [Source](#source)
+2.5 [Type](#type)
+3. [Part 2: Brat](#part-2-brat)
+3.1 [Brat](#brat)
+3.2 [Entities, Events and Attributes](#entities-events-and-attributes)
 
 ## Introduction
 These guidelines are intended to give an introduction to fine grained annotation for the SANT project, based on the previous sentence level annotations. The sentences that were labeled as evaluative in the previous round are annotated on a more fine-grained level, based largely upon the schema introduced in Van de Kauter et al. (link). These guidelines come in three parts: an introduction to terminology, an introduction to Brat labels and terminology, and a detailed description of how to annotate and how to delimit spans.
