@@ -1,0 +1,134 @@
+T1	E 36 36	
+T2	E 163 163	
+A1	NOT T2
+A2	NFP T2
+T3	E 810 810	
+A3	NOT T3
+T4	E 980 980	
+A4	NOT T4
+T5	E 1348 1348	
+A5	NOT T5
+T6	E 1659 1659	
+T7	E 1887 1887	
+T8	E 2080 2080	
+T9	Polar_expression 81 128	bukker under for moderne animasjonsfilmestetikk
+E1	Polar_expression:T9 Target:T10
+A6	Polarity E1 Negative
+A7	Source_is_author E1
+A8	Intensity E1 Standard
+A9	Target_is_general E1
+A10	Type E1 E
+T10	Entity 133 150	Den lille prinsen
+T11	Polar_expression 229 254	tidenes mest solgte bøker
+E2	Polar_expression:T11 Target:T12
+A11	Polarity E2 Positive
+A12	Source_is_author E2
+A13	Intensity E2 Standard
+A14	Target_is_general E2
+A15	Type E2 E
+T12	Entity 200 217	Den lille prinsen
+T13	Polar_expression 838 851	absurd mengde
+E3	Polar_expression:T13 Target:T14
+A16	Polarity E3 Negative
+A17	Source_is_author E3
+A18	Intensity E3 Standard
+A19	Target_is_general E3
+A20	Type E3 E
+A21	NOT E3
+T14	Entity 852 860	oppgaver
+T15	Polar_expression 924 976	etterlater forsvinnende lite tid til det å være barn
+E4	Polar_expression:T15 Target:T14
+A22	Polarity E4 Negative
+A23	Source_is_author E4
+A24	Intensity E4 Standard
+A25	NOT E4
+A26	Type E4 E
+T16	Polar_expression 1037 1099	eksentriker som er full av vidløftige ideer og pussige innfall
+E5	Polar_expression:T16 Target:T17
+A27	Polarity E5 Positive
+A28	Source_is_author E5
+A29	Intensity E5 Standard
+A30	NOT E5
+A31	Type E5 E
+T17	Entity 1011 1015	nabo
+T18	Polar_expression 1120 1166	innvier jenta i historien om den lille prinsen
+E6	Polar_expression:T18 Target:T17
+A32	Source_is_author E6
+A33	Intensity E6 Standard
+A34	NOT E6
+A35	Type E6 E
+A36	Polarity E6 Positive
+T20	Entity 1444 1467	glatte defaultuttrykket
+T21	Polar_expression 1533 1656	truer med å sluke den globale barnekulturen og gulpe den opp som en stri strøm av blankpolerte , signaturløse forbruksvarer
+E8	Polar_expression:T21 Target:T20
+A40	Polarity E8 Negative
+A43	Source_is_author E8
+A44	Intensity E8 Standard
+A45	NOT E8
+A46	Type E8 E
+T19	Polar_expression 1724 1738	nonkonformitet
+E7	Polar_expression:T19 Target:T22
+A37	Polarity E7 Positive
+A38	Source_is_author E7
+A39	Intensity E7 Standard
+A41	Target_is_general E7
+A42	Type E7 E
+T22	Entity 1685 1708	stop motion-animasjonen
+T23	Polar_expression 1742 1757	antikapitalisme
+E9	Polar_expression:T23 Target:T22
+A47	Polarity E9 Positive
+A48	Source_is_author E9
+A49	Intensity E9 Standard
+A50	Target_is_general E9
+A51	Type E9 E
+T24	Polar_expression 1812 1832	kommersielle rammene
+E10	Polar_expression:T24 Target:T26
+A52	Polarity E10 Negative
+A53	Source_is_author E10
+A54	Intensity E10 Standard
+A55	Target_is_general E10
+A56	Type E10 E
+T25	Polar_expression 1850 1857;1879 1883	klinger hult
+E11	Polar_expression:T25 Target:T26
+A57	Polarity E11 Negative
+A58	Source_is_author E11
+A59	Intensity E11 Standard
+A60	Target_is_general E11
+A61	Type E11 E
+T26	Entity 1773 1782	protesten
+T27	Polar_expression 1773 1883	protesten finner sted innenfor de mest kommersielle rammene som tenkes kan , klinger den mer enn en smule hult
+E12	Polar_expression:T27 
+A62	Polarity E12 Negative
+A63	Source_is_author E12
+A64	Intensity E12 Slight
+A65	Target_is_general E12
+A66	Type E12 E
+E13	Polar_expression:T24 Target:T22
+A67	Polarity E13 Negative
+A68	Source_is_author E13
+A69	Intensity E13 Standard
+A70	Target_is_general E13
+A71	Type E13 E
+T28	Entity 1927 1947	dataanimerte partier
+T29	Polar_expression 1958 1973	mest vellykkede
+E14	Polar_expression:T29 Target:T28
+A72	Polarity E14 Positive
+A73	Source_is_author E14
+A74	Intensity E14 Standard
+A75	Target_is_general E14
+A76	Type E14 E
+T30	Polar_expression 2119 2137	ganske middelmådig
+E15	Polar_expression:T30 Target:T32
+A77	Polarity E15 Negative
+A78	Source_is_author E15
+A79	Intensity E15 Standard
+A80	Target_is_general E15
+A81	Type E15 E
+T31	Polar_expression 2149 2212	seier for strømlinjeformingens utrettelige , umettelige krefter
+E16	Polar_expression:T31 Target:T32
+A82	Polarity E16 Positive
+A83	Source_is_author E16
+A84	Intensity E16 Standard
+A85	Target_is_general E16
+A86	Type E16 E
+T32	Entity 2091 2108	Den lille prinsen

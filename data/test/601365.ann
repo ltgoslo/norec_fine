@@ -1,0 +1,65 @@
+T1	E 41 41	
+T2	E 116 116	
+T3	E 692 692	
+T4	E 1223 1223	
+A1	NOT T4
+T5	E 1894 1894	
+T6	E 2021 2021	
+T7	Entity 41 59	Tor Åge Bringsværd
+T8	Polar_expression 68 72	lærd
+E1	Polar_expression:T8 Target:T7
+A2	Polarity E1 Positive
+A3	Source_is_author E1
+A4	Intensity E1 Standard
+A5	NOT E1
+A6	Type E1 E
+T9	Polar_expression 76 80	klok
+E2	Polar_expression:T9 Target:T7
+A7	Polarity E2 Positive
+A8	Source_is_author E2
+A9	Intensity E2 Standard
+A10	NOT E2
+A11	Type E2 E
+T10	Polar_expression 84 112	deler gjerne med sine lesere
+E3	Polar_expression:T10 Target:T7
+A12	Polarity E3 Positive
+A13	Source_is_author E3
+A14	Intensity E3 Standard
+A15	NOT E3
+A16	Type E3 E
+T11	Polar_expression 116 173	Alt det du ikke visste at du hadde lyst til å vite noe om
+E4	Polar_expression:T11 
+A17	Polarity E4 Positive
+A18	Source_is_author E4
+A19	Intensity E4 Standard
+A20	Target_is_general E4
+A21	Type E4 E
+T12	Entity 1223 1245	« Bing og Bringsværd »
+T13	Polar_expression 1249 1289	en etablert størrelse i norsk litteratur
+E5	Polar_expression:T13 Target:T12
+A22	Polarity E5 Positive
+A23	Source_is_author E5
+A24	Intensity E5 Standard
+A25	NOT E5
+A26	Type E5 E
+T14	Polar_expression 1894 2018	Om ikke alt er like interessant for alle , skal det godt gjøres å ikke finne noe her som vil interessere nettopp den enkelte
+E6	Polar_expression:T14 
+A27	Polarity E6 Positive
+A28	Source_is_author E6
+A29	Intensity E6 Strong
+A30	Target_is_general E6
+A31	Type E6 E
+T15	Polar_expression 2054 2060	viktig
+E7	Polar_expression:T15 Target:T16
+A32	Polarity E7 Positive
+A33	Source_is_author E7
+A34	Intensity E7 Standard
+A35	Type E7 E
+T16	Entity 2061 2074	samtidskritik
+T17	Polar_expression 2027 2074	bæres mye av stoffet av en viktig samtidskritik
+E8	Polar_expression:T17 
+A36	Polarity E8 Positive
+A37	Source_is_author E8
+A38	Intensity E8 Standard
+A39	Target_is_general E8
+A40	Type E8 E

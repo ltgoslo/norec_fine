@@ -1,0 +1,29 @@
+T1	E 46 46	
+T2	E 209 209	
+T3	Polar_expression 68 97	tidsriktig og smygende godbit
+E1	Polar_expression:T3 
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Target_is_general E1
+A5	Type E1 E
+T4	Polar_expression 102 146	bygger seg naturlig opp mot et svært refreng
+E2	Polar_expression:T4 
+A6	Polarity E2 Positive
+A7	Source_is_author E2
+A8	Intensity E2 Standard
+A9	Target_is_general E2
+A10	Type E2 E
+T5	Entity 213 222	refrenget
+T6	Polar_expression 235 292	mer rettet mot hitlister enn direkte mot Eurovision-seire
+E3	Polar_expression:T6 Target:T7
+A11	Polarity E3 Negative
+A12	Source_is_author E3
+A13	Intensity E3 Standard
+A14	Type E3 E
+T7	Entity 308 324	sceneopptredenen
+E4	Polar_expression:T6 Target:T5
+A15	Polarity E4 Negative
+A16	Source_is_author E4
+A17	Intensity E4 Standard
+A18	Type E4 E

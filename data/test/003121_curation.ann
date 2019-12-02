@@ -1,0 +1,226 @@
+T1	E 0 0	
+T2	E 22 22	
+T3	E 88 88	
+T4	EFINP 138 138	
+T5	EFINP 281 281	
+T6	E 305 305	
+T7	E 604 604	
+T8	E 695 695	
+T9	E 813 813	
+T10	E 886 886	
+T11	E 984 984	
+T12	E 1065 1065	
+T13	E 1194 1194	
+T14	E 1359 1359	
+T15	E 1430 1430	
+T16	E 1591 1591	
+T17	Entity 325 339	merkevarebytte
+T18	Polar_expression 308 314	riktig
+E55	Polar_expression:T18 Target:T17
+A254	Polarity E55 Positive
+A255	Intensity E55 Standard
+A256	Type E55 E
+A257	Source_is_author E55
+A258	NOT E55
+T19	Polar_expression 354 386	stor anerkjennelse fra høyt hold
+E56	Polar_expression:T19 Target:T17
+A259	Polarity E56 Positive
+A260	Intensity E56 Standard
+A261	Type E56 E
+A262	Source_is_author E56
+A263	NOT E56
+T20	Polar_expression 318 324	viktig
+E57	Polar_expression:T20 Target:T17
+A264	Polarity E57 Positive
+A265	Intensity E57 Standard
+A266	Type E57 E
+A267	Source_is_author E57
+A268	NOT E57
+T21	Polar_expression 0 13	Ikke kødd med
+E1	Polar_expression:T21 Target:T22
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Strong
+A5	Type E1 E
+T22	Entity 14 20	Sigrid
+T23	Polar_expression 53 84	smeller til som ei rivningskule
+E2	Polar_expression:T23 Target:T24
+A6	Polarity E2 Positive
+A7	Source_is_author E2
+A8	Intensity E2 Strong
+A10	Type E2 E
+T24	Entity 22 52	Elton Johns nye favorittartist
+T25	Polar_expression 22 52	Elton Johns nye favorittartist
+E3	Polar_expression:T25 
+A11	Polarity E3 Positive
+A12	Source_is_author E3
+A13	Intensity E3 Strong
+T26	Entity 88 107	Utskiftning av navn
+T27	Polar_expression 126 135	effektivt
+E4	Polar_expression:T27 Target:T26
+A15	Polarity E4 Positive
+A16	Source_is_author E4
+A17	Intensity E4 Standard
+A18	NOT E4
+A19	Type E4 E
+T28	Polar_expression 160 164;176 206	bare lillesøstra til Tellef Raabe ,
+E5	Polar_expression:T28 Target:T30
+A20	Polarity E5 Negative
+A21	Source_is_author E5
+A22	Intensity E5 Standard
+A23	NOT E5
+A24	Type E5 E
+T29	Entity 165 171	Sigrid
+T30	Entity 211 223	Sigrid Raabe
+T31	Polar_expression 211 278	Sigrid Raabe er nå long gone med null spor fra tidligere utgivelser
+E6	Polar_expression:T31 Target:T29
+A25	Polarity E6 Positive
+A26	Source_is_author E6
+A27	Intensity E6 Standard
+A28	Type E6 EFINP
+T32	Polar_expression 281 302	Nå er hun bare Sigrid
+E7	Polar_expression:T32 Target:T33
+A29	Polarity E7 Positive
+A30	Source_is_author E7
+A31	Intensity E7 Standard
+A33	Type E7 EFINP
+T33	Entity 296 302	Sigrid
+T34	Entity 604 614	Sistnevnte
+T35	Polar_expression 615 661	sklir lett inn i Sigrids hit-baserte repertoar
+E8	Polar_expression:T35 Target:T34
+A4	Polarity E8 Positive
+A9	Source_is_author E8
+A14	Intensity E8 Standard
+A32	Type E8 E
+T36	Polar_expression 672 692	bein i nesa-tematikk
+E9	Polar_expression:T36 
+A34	Polarity E9 Positive
+A35	Source_is_author E9
+A36	Intensity E9 Standard
+A37	Target_is_general E9
+A38	Type E9 E
+T37	Entity 706 720	« Plot Twist »
+T38	Entity 803 810	refreng
+T39	Entity 785 791	lyrikk
+T40	Polar_expression 795 802	bastant
+E10	Polar_expression:T40 Target:T38
+A39	Polarity E10 Positive
+A40	Source_is_author E10
+A41	Intensity E10 Standard
+A42	Type E10 E
+T41	Polar_expression 771 784	overbevisende
+E11	Polar_expression:T41 Target:T39
+A43	Polarity E11 Positive
+A44	Source_is_author E11
+A45	Intensity E11 Standard
+A46	Type E11 E
+T42	Polar_expression 746 812	Highasakite-estetikk med overbevisende lyrikk og bastant refreng .
+E12	Polar_expression:T42 Target:T37
+A47	Polarity E12 Positive
+A48	Source_is_author E12
+A49	Intensity E12 Standard
+A50	Type E12 E
+T43	Entity 813 819	Sigrid
+T44	Polar_expression 823 842	ingen fisefin liten
+E13	Polar_expression:T44 Target:T43
+A51	Polarity E13 Positive
+A52	Source_is_author E13
+A53	Intensity E13 Standard
+A54	Type E13 E
+T45	Polar_expression 858 867	hardbarka
+E14	Polar_expression:T45 Target:T43
+A55	Polarity E14 Positive
+A56	Source_is_author E14
+A57	Intensity E14 Standard
+A58	Type E14 E
+T46	Polar_expression 871 877	genuin
+E15	Polar_expression:T46 Target:T43
+A59	Polarity E15 Positive
+A60	Source_is_author E15
+A61	Intensity E15 Standard
+A62	Type E15 E
+T47	Entity 925 937	« Dynamite »
+T49	Polar_expression 959 981	“ in your face”-låtene
+E17	Polar_expression:T49 Target:T50
+A67	Polarity E17 Positive
+A68	Source_is_author E17
+A69	Intensity E17 Standard
+A70	Target_is_general E17
+A71	Type E17 E
+T50	Entity 890 896	EP-ens
+T51	Entity 984 987	Den
+T52	Polar_expression 991 1006	ikke smertefull
+E18	Polar_expression:T52 Target:T51
+A72	Polarity E18 Positive
+A73	Source_is_author E18
+A74	Intensity E18 Standard
+A75	Type E18 E
+T53	Polar_expression 1022 1062	beklageligvis som en litt døll Adele-låt
+E19	Polar_expression:T53 Target:T51
+A76	Polarity E19 Negative
+A77	Source_is_author E19
+A78	Intensity E19 Standard
+A79	Type E19 E
+T54	Entity 1088 1096	balladen
+T55	Polar_expression 1097 1107	unødvendig
+E20	Polar_expression:T55 Target:T54
+A80	Polarity E20 Negative
+A81	Source_is_author E20
+A82	Intensity E20 Standard
+A83	Type E20 E
+T56	Entity 1194 1216	« Don't Kill My Vibe »
+T57	Polar_expression 1248 1257	sterkeste
+E21	Polar_expression:T57 Target:T56
+A84	Polarity E21 Positive
+A85	Source_is_author E21
+A86	Intensity E21 Strong
+A87	Type E21 E
+T58	Entity 1268 1282	« Plot Twist »
+T59	Entity 1286 1302	« Fake Friends »
+T60	Polar_expression 1303 1355	backer overbevisende den uungåelige allsang-faktoren
+E22	Polar_expression:T60 Target:T59
+A88	Polarity E22 Positive
+A89	Source_is_author E22
+A90	Intensity E22 Standard
+A91	Type E22 E
+E23	Polar_expression:T60 Target:T58
+A92	Polarity E23 Positive
+A93	Source_is_author E23
+A94	Intensity E23 Standard
+A95	Type E23 E
+T48	Polar_expression 914 943	forsvinner « Dynamite » glatt
+E16	Polar_expression:T48 Target:T47
+A63	Polarity E16 Negative
+A64	Source_is_author E16
+A65	Intensity E16 Standard
+A66	Type E16 E
+T61	Polar_expression 1407 1427	på tide å bli frelst
+E24	Polar_expression:T61 
+A96	Polarity E24 Positive
+A97	Source_is_author E24
+A98	Intensity E24 Standard
+A99	Target_is_general E24
+A100	Type E24 E
+T62	Entity 1430 1457	« Don ’ t Kill My Vibe EP »
+T63	Polar_expression 1474 1484	mer enn ok
+E25	Polar_expression:T63 Target:T62
+A101	Polarity E25 Positive
+A102	Source_is_author E25
+A103	Intensity E25 Standard
+A104	Target_is_general E25
+A105	Type E25 E
+T64	Entity 1515 1521	artist
+T65	Polar_expression 1526 1588	allerede har funnet et selvsikkert fotfeste i musikklandskapet
+E26	Polar_expression:T65 Target:T64
+A106	Polarity E26 Positive
+A107	Source_is_author E26
+A108	Intensity E26 Standard
+A109	Type E26 E
+T66	Polar_expression 1595 1715	skal ikke mer til enn ett lytt før en tar seg selv i å dundre gjennom de tynne kollektivveggene med Sigrid i høyttalerne
+E27	Polar_expression:T66 Target:T67
+A110	Polarity E27 Positive
+A111	Source_is_author E27
+A112	Intensity E27 Strong
+A113	Target_is_general E27
+A114	Type E27 E
+T67	Entity 1695 1701	Sigrid

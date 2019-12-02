@@ -1,0 +1,180 @@
+T1	E 0 0	
+T2	E 35 35	
+T3	E 91 91	
+T4	E 201 201	
+T5	EFINP 477 477	
+T6	E 1200 1200	
+T7	E 1335 1335	
+T8	E 1381 1381	
+T9	E 1598 1598	
+T10	E 1775 1775	
+T11	E 2130 2130	
+T12	E 2403 2403	
+A1	NOT T12
+T13	E 2519 2519	
+T14	Polar_expression 0 19	Poetisk og politisk
+E1	Polar_expression:T14 
+A2	Polarity E1 Positive
+A3	Source_is_author E1
+A4	Intensity E1 Standard
+A5	Target_is_general E1
+A6	Type E1 E
+T15	Polar_expression 39 88	innsikt i en kultur de færreste av oss vet noe om
+E2	Polar_expression:T15 
+A7	Polarity E2 Positive
+A8	Source_is_author E2
+A9	Intensity E2 Standard
+A10	Target_is_general E2
+A11	Type E2 E
+T16	Polar_expression 91 154	Etterpå vil du ikke være verken kunnskapen eller filmen foruten
+E3	Polar_expression:T16 Target:T17
+A12	Polarity E3 Positive
+A13	Source_is_author E3
+A14	Intensity E3 Standard
+A15	Target_is_general E3
+A16	Type E3 E
+T17	Entity 140 146	filmen
+T18	Polar_expression 272 298	mektig og poetisk innblikk
+E4	Polar_expression:T18 
+A17	Polarity E4 Positive
+A18	Source_is_author E4
+A19	Intensity E4 Standard
+A20	Type E4 E
+T19	Polar_expression 234 259	nær kulturen han skildrer
+E5	Polar_expression:T19 Target:T20
+A21	Polarity E5 Positive
+A22	Source_is_author E5
+A23	Intensity E5 Standard
+A24	Type E5 E
+T20	Entity 211 226	Jayro Bustamant
+T21	Polar_expression 517 522;530 568	laget i nært samarbeid med lokalbefolkningen
+E6	Polar_expression:T21 Target:T22
+A25	Polarity E6 Positive
+A27	Intensity E6 Standard
+A28	Target_is_general E6
+A29	Type E6 EFINP
+T22	Entity 523 529	filmen
+T23	Entity 1224 1240	Jayro Bustamante
+T24	Polar_expression 1311 1331	usedvanlige talenter
+E7	Polar_expression:T24 Target:T23
+A26	Polarity E7 Positive
+A30	Source_is_author E7
+A31	Intensity E7 Standard
+A32	Type E7 E
+T25	Entity 1335 1341	Filmen
+T26	Polar_expression 1345 1378	til tider nesten hypnotisk vakker
+E8	Polar_expression:T26 Target:T25
+A33	Polarity E8 Positive
+A34	Source_is_author E8
+A35	Intensity E8 Standard
+A36	Target_is_general E8
+A37	Type E8 E
+T27	Polar_expression 1381 1389	Dvelende
+E9	Polar_expression:T27 Target:T31
+A38	Polarity E9 Positive
+A39	Source_is_author E9
+A40	Intensity E9 Standard
+A41	Target_is_general E9
+A42	Type E9 E
+T28	Polar_expression 1396 1413	uten å eksotisere
+E10	Polar_expression:T28 Target:T31
+A43	Polarity E10 Positive
+A44	Source_is_author E10
+A45	Intensity E10 Standard
+A46	Target_is_general E10
+A47	Type E10 E
+T29	Polar_expression 1424 1452	tett på levesett og gjøremål
+E11	Polar_expression:T29 Target:T31
+A48	Polarity E11 Positive
+A49	Source_is_author E11
+A50	Intensity E11 Standard
+A51	Target_is_general E11
+A52	Type E11 E
+T30	Polar_expression 1519 1594	panorere et landskap som både er brutalt og goldt og mektig i sin skjønnhet
+E12	Polar_expression:T30 Target:T31
+A53	Polarity E12 Positive
+A54	Source_is_author E12
+A55	Intensity E12 Standard
+A56	Target_is_general E12
+A57	Type E12 E
+T31	Entity 1420 1423	den
+T32	Polar_expression 1615 1645	talentet for personinstruksjon
+E13	Polar_expression:T32 
+A58	Polarity E13 Positive
+A59	Source_is_author E13
+A60	Intensity E13 Standard
+A61	Target_is_general E13
+A62	Type E13 E
+T33	Polar_expression 1790 1810	ikke en eneste unote
+E14	Polar_expression:T33 
+A63	Polarity E14 Positive
+A64	Source_is_author E14
+A65	Intensity E14 Standard
+A66	Target_is_general E14
+A67	Type E14 E
+T34	Polar_expression 1840 1852	autentisitet
+E15	Polar_expression:T34 
+A68	Polarity E15 Positive
+A69	Source_is_author E15
+A70	Intensity E15 Standard
+A71	Target_is_general E15
+A72	Type E15 E
+T35	Polar_expression 1856 1871	voldsomt nærvær
+E16	Polar_expression:T35 
+A73	Polarity E16 Positive
+A74	Source_is_author E16
+A75	Intensity E16 Standard
+A76	Target_is_general E16
+A77	Type E16 E
+T36	Polar_expression 1840 1884	autentisitet og voldsomt nærvær , særlig fra
+E17	Polar_expression:T36 Target:T37
+A78	Polarity E17 Positive
+A79	Source_is_author E17
+A80	Intensity E17 Standard
+A81	Type E17 E
+T37	Entity 1905 1925	María Mercedes Coroy
+T38	Entity 2146 2157	« Ixcanul »
+T39	Polar_expression 2176 2182	vakker
+E18	Polar_expression:T39 Target:T38
+A82	Polarity E18 Positive
+A83	Source_is_author E18
+A84	Intensity E18 Standard
+A85	Target_is_general E18
+A86	Type E18 E
+T40	Polar_expression 2185 2192	poetisk
+E19	Polar_expression:T40 Target:T38
+A87	Polarity E19 Positive
+A88	Source_is_author E19
+A89	Intensity E19 Standard
+A90	Target_is_general E19
+A91	Type E19 E
+T41	Polar_expression 2213 2223	smertefull
+E20	Polar_expression:T41 Target:T38
+A92	Polarity E20 Negative
+A93	Source_is_author E20
+A94	Intensity E20 Strong
+A95	Target_is_general E20
+A96	Type E20 E
+T42	Polar_expression 2226 2234	politisk
+E21	Polar_expression:T42 Target:T38
+A97	Polarity E21 Negative
+A98	Source_is_author E21
+A99	Intensity E21 Slight
+A100	Target_is_general E21
+A101	Type E21 EFINP
+T44	Entity 2403 2412	Guatemala
+T43	Polar_expression 2420 2441	lang , stygg historie
+E22	Polar_expression:T43 Target:T44
+A102	Polarity E22 Negative
+A103	Source_is_author E22
+A104	Intensity E22 Standard
+A105	NOT E22
+A106	Type E22 E
+T45	Entity 2531 2537	filmen
+T46	Polar_expression 2552 2570	direkte og brutalt
+E23	Polar_expression:T46 Target:T45
+A107	Polarity E23 Positive
+A108	Source_is_author E23
+A109	Intensity E23 Standard
+A110	Target_is_general E23
+A111	Type E23 E

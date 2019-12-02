@@ -1,0 +1,157 @@
+T1	E 0 0	
+T2	E 51 51	
+T3	E 478 478	
+T4	E 553 553	
+T5	E 880 880	
+T6	E 896 896	
+A1	NOT T6
+T7	E 1128 1128	
+T8	E 1138 1138	
+T9	E 1369 1369	
+T10	E 2000 2000	
+A2	NOT T10
+T11	E 2278 2278	
+T12	E 2340 2340	
+T13	E 2885 2885	
+A3	NOT T13
+T14	E 2960 2960	
+A4	NOT T14
+T15	E 2986 2986	
+A5	NOT T15
+T16	E 3164 3164	
+A6	NOT T16
+T17	Polar_expression 15 21	triumf
+E1	Polar_expression:T17 Target:T18
+A7	Polarity E1 Positive
+A8	Source_is_author E1
+A9	Intensity E1 Standard
+A10	Type E1 E
+T18	Entity 0 14	Rogers Waters'
+T19	Polar_expression 101 121	sitt beste soloalbum
+E2	Polar_expression:T19 
+A11	Polarity E2 Positive
+A12	Source_is_author E2
+A13	Intensity E2 Strong
+A14	Target_is_general E2
+A15	Type E2 E
+T20	Polar_expression 488 513;520 549	interessant er det å høre så bra form etter så mange år
+E3	Polar_expression:T20 Target:T21
+A16	Polarity E3 Positive
+A17	Source_is_author E3
+A18	Intensity E3 Standard
+A19	Type E3 E
+T21	Entity 514 517	ham
+T22	Polar_expression 553 574	« Nesten » Pink Floyd
+E4	Polar_expression:T22 
+A20	Polarity E4 Positive
+A21	Source_is_author E4
+A22	Intensity E4 Standard
+A23	Target_is_general E4
+A24	Type E4 E
+T23	Polar_expression 880 894	Nådde ikke opp
+E5	Polar_expression:T23 
+A25	Polarity E5 Negative
+A26	Source_is_author E5
+A27	Intensity E5 Standard
+A29	Type E5 E
+A28	Target_is_general E5
+T24	Polar_expression 944 1006	klarte aldri å kopiere suksessen fra Pink Floyd som soloartist
+E6	Polar_expression:T24 Target:T25
+A30	Polarity E6 Negative
+A31	Source_is_author E6
+A32	Intensity E6 Standard
+A33	NOT E6
+A34	Type E6 EFINP
+T25	Entity 930 943	Rogers Waters
+T26	Polar_expression 1109 1124	har mye for seg
+E7	Polar_expression:T26 Target:T27
+A35	Polarity E7 Positive
+A36	Source_is_author E7
+A37	Intensity E7 Standard
+A38	NOT E7
+A39	Type E7 E
+T27	Entity 1080 1099	« Amused To Death »
+T28	Entity 1030 1067	« The Pros And Cons Of Hitch Hiking »
+E8	Polar_expression:T26 Target:T28
+A40	Polarity E8 Positive
+A41	Source_is_author E8
+A42	Intensity E8 Standard
+A43	NOT E8
+A44	Type E8 E
+T29	Polar_expression 1179 1214	spilt inn over en periode på sju år
+E9	Polar_expression:T29 
+A45	Polarity E9 Positive
+A46	Source_is_author E9
+A47	Intensity E9 Standard
+A48	Target_is_general E9
+A49	Type E9 EFINP
+T30	Polar_expression 1221 1245;1248 1257;1261 1284	akkurat så konseptpreget teatralsk dramatisk som forventet
+E10	Polar_expression:T30 
+A50	Polarity E10 Positive
+A51	Source_is_author E10
+A52	Intensity E10 Standard
+A53	Target_is_general E10
+A54	Type E10 E
+T31	Polar_expression 1287 1365	med samplinger i form av stemmer , måkeskrik , folkemengder og andre lydbilder
+E11	Polar_expression:T31 
+A55	Polarity E11 Positive
+A56	Source_is_author E11
+A57	Intensity E11 Slight
+A58	Target_is_general E11
+A59	Type E11 EFINP
+T32	Polar_expression 2128 2164	vanlige dusteprat om hvor bra alt er
+E12	Polar_expression:T32 Target:T33
+A60	Polarity E12 Negative
+A61	Source_is_author E12
+A62	Intensity E12 Standard
+A63	NOT E12
+A64	Type E12 E
+T33	Entity 2091 2096	Trump
+T34	Polar_expression 2286 2290	gode
+E13	Polar_expression:T34 Target:T35
+A65	Polarity E13 Positive
+A66	Source_is_author E13
+A67	Intensity E13 Standard
+A68	NOT E13
+A69	Type E13 E
+T35	Entity 2291 2305	støttespillere
+T36	Polar_expression 2413 2433	ingen hvem som helst
+E14	Polar_expression:T36 Target:T37
+A70	Polarity E14 Positive
+A71	Source_is_author E14
+A72	Intensity E14 Standard
+A73	NOT E14
+A74	Type E14 E
+T37	Entity 2340 2349	Produsent
+T38	Polar_expression 2911 2956	dessverre er det ingen Europa-datoer så langt
+E15	Polar_expression:T38 Target:T39
+A75	Polarity E15 Negative
+A76	Source_is_author E15
+A77	Intensity E15 Slight
+A78	NOT E15
+A79	Type E15 EFINP
+T39	Entity 2885 2888	Den
+T40	Entity 3036 3075;3121 3161	framføring av « Dark Side Of The Moon » i Bergen for ganske nøyaktig ti år siden
+T41	Polar_expression 2998 3027	absolutte konserthøydepunkter
+E16	Polar_expression:T41 Target:T40 Source:T42
+A80	Polarity E16 Positive
+A81	Source_is_author E16
+A82	Intensity E16 Standard
+A83	NOT E16
+A84	Type E16 E
+T42	Entity 2993 2997	mine
+T43	Polar_expression 3164 3173	Suksessen
+E17	Polar_expression:T43 
+A85	Polarity E17 Positive
+A86	Source_is_author E17
+A87	Intensity E17 Standard
+A88	NOT E17
+A89	Type E17 E
+T44	Polar_expression 3250 3293	kom mer til sin rett inne i Vestlandshallen
+E18	Polar_expression:T44 Target:T45
+A90	Polarity E18 Negative
+A91	Source_is_author E18
+A92	Intensity E18 Slight
+A93	NOT E18
+A94	Type E18 E
+T45	Entity 3218 3249	det gedigne laser- og lysshowet

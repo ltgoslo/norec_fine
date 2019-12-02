@@ -1,0 +1,32 @@
+T1	E 26 26	
+T2	E 268 268	
+T3	E 367 367	
+T4	Entity 26 29	Han
+T5	Polar_expression 44 66	innøvd takknemmelighet
+E1	Polar_expression:T5 Target:T4
+A1	Polarity E1 Negative
+A2	Source_is_author E1
+A3	Intensity E1 Slight
+A4	Type E1 E
+T6	Entity 292 300	balladen
+T7	Polar_expression 272 291	kleine og prosaiske
+E2	Polar_expression:T7 Target:T6
+A5	Polarity E2 Negative
+A6	Source_is_author E2
+A7	Intensity E2 Standard
+A8	Target_is_general E2
+A9	Type E2 E
+T8	Entity 359 364	vokal
+T9	Polar_expression 329 358	varm og overraskende inderlig
+E3	Polar_expression:T9 Target:T8
+A10	Polarity E3 Positive
+A11	Source_is_author E3
+A12	Intensity E3 Strong
+A13	Type E3 E
+T10	Polar_expression 367 395	Redder likevel ikke nummeret
+E4	Polar_expression:T10 
+A14	Polarity E4 Negative
+A15	Source_is_author E4
+A16	Intensity E4 Standard
+A17	Target_is_general E4
+A18	Type E4 E

@@ -1,0 +1,72 @@
+T1	E 16 16	
+T2	E 490 490	
+A1	NOT T2
+T3	E 742 742	
+T4	E 1028 1028	
+T5	E 1191 1191	
+T6	Entity 16 36	" My Cousin Rachel "
+T7	Polar_expression 130 155	real psykologisk thriller
+E1	Polar_expression:T7 Target:T6
+A2	Polarity E1 Positive
+A3	Source_is_author E1
+A4	Intensity E1 Standard
+A5	Target_is_general E1
+A6	Type E1 E
+T8	Polar_expression 600 611	klassikerne
+E2	Polar_expression:T8 Target:T9
+A7	Polarity E2 Positive
+A8	Source_is_author E2
+A9	Intensity E2 Strong
+A10	Type E2 E
+A11	NOT E2
+T9	Entity 612 632	" Rebecca " ( 1940 )
+T10	Entity 636 656	" Fuglene " ( 1963 )
+E3	Polar_expression:T8 Target:T10
+A12	Polarity E3 Positive
+A13	Source_is_author E3
+A14	Intensity E3 Strong
+A15	Type E3 E
+A16	NOT E3
+T11	Polar_expression 767 801	ikke kan sies å være helt på høyde
+E4	Polar_expression:T11 Target:T12
+A17	Polarity E4 Negative
+A18	Source_is_author E4
+A19	Intensity E4 Slight
+A20	Target_is_general E4
+A21	Type E4 E
+T12	Entity 746 766	" My Cousin Rachel "
+T13	Polar_expression 901 929	ikke kommer overraskende nok
+E5	Polar_expression:T13 Target:T14
+A22	Polarity E5 Negative
+A23	Source_is_author E5
+A24	Intensity E5 Standard
+A25	Type E5 E
+T14	Entity 880 900	vendingene i plottet
+T15	Entity 1084 1096	skuespillere
+T16	Polar_expression 1076 1083	dyktige
+E6	Polar_expression:T16 Target:T15
+A26	Polarity E6 Positive
+A27	Source_is_author E6
+A28	Intensity E6 Standard
+A29	Type E6 E
+T17	Entity 1113 1119	bilder
+T18	Polar_expression 1099 1112	velkomponerte
+E7	Polar_expression:T18 Target:T17
+A30	Polarity E7 Positive
+A31	Source_is_author E7
+A32	Intensity E7 Standard
+A33	Type E7 E
+T19	Polar_expression 1147 1187	elegante blanding av romantikk og gotikk
+E8	Polar_expression:T19 
+A34	Polarity E8 Positive
+A35	Source_is_author E8
+A36	Intensity E8 Standard
+A37	Target_is_general E8
+A38	Type E8 E
+T20	Polar_expression 1211 1246	kan trygt koste på seg et kinobesøk
+E9	Polar_expression:T20 
+A39	Polarity E9 Positive
+A40	Source_is_author E9
+A41	Intensity E9 Standard
+A42	Target_is_general E9
+A43	Type E9 E

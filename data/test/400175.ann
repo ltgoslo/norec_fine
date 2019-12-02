@@ -1,0 +1,212 @@
+T1	E 15 15	
+T2	E 53 53	
+T3	E 687 687	
+T4	E 1359 1359	
+A1	NOT T4
+T5	E 1698 1698	
+T6	E 1884 1884	
+T7	E 2065 2065	
+T8	E 2267 2267	
+T9	E 2395 2395	
+T10	E 2431 2431	
+T11	E 2563 2563	
+T12	E 2746 2746	
+T13	E 2838 2838	
+T14	E 3052 3052	
+T15	E 3214 3214	
+T16	E 3302 3302	
+T17	Polar_expression 15 49	Er dette årets beste nordiske film
+E1	Polar_expression:T17 
+A2	Polarity E1 Positive
+A3	Source_is_author E1
+A4	Intensity E1 Standard
+A5	Target_is_general E1
+A6	Type E1 E
+T18	Polar_expression 53 88	Enda en dansk krigsfilm uten helter
+E2	Polar_expression:T18 
+A7	Polarity E2 Negative
+A8	Source_is_author E2
+A9	Intensity E2 Slight
+A10	Target_is_general E2
+A11	Type E2 E
+T19	Polar_expression 99 113	ekstraordinære
+E3	Polar_expression:T19 Target:T20
+A12	Polarity E3 Positive
+A13	Source_is_author E3
+A14	Intensity E3 Strong
+A15	Type E3 E
+T20	Entity 114 137	skuespillerprestasjoner
+T21	Polar_expression 713 719	sterke
+E4	Polar_expression:T21 Target:T22
+A16	Polarity E4 Positive
+A17	Source_is_author E4
+A18	Intensity E4 Standard
+A19	Type E4 E
+T22	Entity 720 733	danske filmen
+T23	Polar_expression 2395 2429	Står støtt som klassisk dansk film
+E5	Polar_expression:T23 
+A20	Polarity E5 Positive
+A21	Source_is_author E5
+A22	Intensity E5 Standard
+A23	Target_is_general E5
+A24	Type E5 E
+T24	Polar_expression 1486 1497	forferdelig
+E6	Polar_expression:T24 Target:T25
+A25	Polarity E6 Negative
+A26	Source_is_author E6
+A27	Intensity E6 Standard
+A28	NOT E6
+A29	Type E6 E
+T25	Entity 1446 1482	den psykologiske effekten på guttene
+T26	Polar_expression 1383 1391	uerfarne
+E7	Polar_expression:T26 Target:T27
+A30	Polarity E7 Negative
+A31	Source_is_author E7
+A32	Intensity E7 Standard
+A33	NOT E7
+A34	Type E7 E
+T27	Entity 1359 1376	De unge soldatene
+T28	Polar_expression 1698 1718	Mesterlig oppvisning
+E8	Polar_expression:T28 Target:T29
+A35	Polarity E8 Positive
+A36	Source_is_author E8
+A37	Intensity E8 Standard
+A38	NOT E8
+A39	Type E8 E
+T29	Entity 1721 1731	underspill
+T30	Polar_expression 1698 1731	Mesterlig oppvisning i underspill
+E9	Polar_expression:T30 
+A40	Polarity E9 Positive
+A41	Source_is_author E9
+A42	Intensity E9 Strong
+A43	Target_is_general E9
+A44	Type E9 E
+T31	Entity 1892 1905	Roland Møller
+T32	Polar_expression 1888 1891;1906 1946	gir oss en mesterlig oppvisning i underspill
+E10	Polar_expression:T32 Target:T31
+A45	Polarity E10 Positive
+A46	Source_is_author E10
+A47	Intensity E10 Strong
+A48	Type E10 E
+T33	Polar_expression 2159 2165;2170 2264	løfter dansk skuespillerkunst til høyder som ganske sikkert vil gi ham et internasjonalt gjennombrudd
+E11	Polar_expression:T33 Target:T34
+A49	Polarity E11 Positive
+A50	Source_is_author E11
+A51	Intensity E11 Strong
+A52	Type E11 E
+T34	Entity 2166 2169	han
+T35	Polar_expression 2084 2148	utmerke seg i urbane ” nyrealistiske ” danske filmer som Nordøst
+E12	Polar_expression:T35 Target:T36
+A53	Polarity E12 Positive
+A54	Source_is_author E12
+A55	Intensity E12 Standard
+A56	NOT E12
+A57	Type E12 E
+T36	Entity 2077 2083	Møller
+T37	Polar_expression 2324 2332	begavede
+E13	Polar_expression:T37 Target:T38
+A58	Polarity E13 Positive
+A59	Source_is_author E13
+A60	Intensity E13 Standard
+A61	Type E13 E
+T38	Entity 2333 2356	unge tyske skuespillere
+T39	Polar_expression 2274 2391	ville ikke vært like virkningsfull uten et knippe begavede unge tyske skuespillere som det er hjerteskjærende å følge
+E14	Polar_expression:T39 Target:T40
+A62	Polarity E14 Negative
+A63	Source_is_author E14
+A64	Intensity E14 Slight
+A65	Type E14 E
+T40	Entity 2267 2273	Rollen
+T41	Polar_expression 2452 2560	hvordan de makter å veksle mellom å framstå som for gamle for sin alder og samtidig tviholde på det barnlige
+E15	Polar_expression:T41 Target:T42
+A66	Polarity E15 Positive
+A67	Source_is_author E15
+A68	Intensity E15 Standard
+A69	Type E15 E
+T42	Entity 2431 2448	Det som imponerer
+T43	Polar_expression 2463 2560	makter å veksle mellom å framstå som for gamle for sin alder og samtidig tviholde på det barnlige
+E16	Polar_expression:T43 Target:T44
+A70	Polarity E16 Positive
+A71	Source_is_author E16
+A72	Intensity E16 Standard
+A73	Type E16 E
+T44	Entity 2460 2462	de
+T45	Polar_expression 2746 2767;2778 2800	Som filmskaper bruker ofte enkle virkemidler
+E17	Polar_expression:T45 Target:T46
+A74	Polarity E17 Negative
+A75	Source_is_author E17
+A76	Intensity E17 Slight
+A77	NOT E17
+A78	Type E17 E
+T46	Entity 2768 2777	Zandvliet
+T47	Polar_expression 2821 2835	desto sterkere
+E18	Polar_expression:T47 Target:T48
+A79	Polarity E18 Positive
+A80	Source_is_author E18
+A81	Intensity E18 Standard
+A82	Type E18 E
+T48	Entity 2807 2815	effekten
+T49	Polar_expression 2852 2857	vakre
+E19	Polar_expression:T49 Target:T51
+A83	Polarity E19 Positive
+A84	Source_is_author E19
+A85	Intensity E19 Strong
+A86	NOT E19
+A87	Type E19 E
+T50	Polar_expression 2860 2870	storslåtte
+E20	Polar_expression:T50 Target:T51
+A88	Polarity E20 Positive
+A89	Source_is_author E20
+A90	Intensity E20 Strong
+A91	NOT E20
+A92	Type E20 E
+T51	Entity 2871 2882	omgivelsene
+T52	Entity 2921 2928	dramaet
+T53	Polar_expression 2895 2903	grusomme
+E21	Polar_expression:T53 Target:T52
+A93	Polarity E21 Negative
+A94	Source_is_author E21
+A95	Intensity E21 Strong
+A96	NOT E21
+A97	Type E21 E
+T54	Polar_expression 2906 2920	menneskeskapte
+E22	Polar_expression:T54 Target:T52
+A98	Polarity E22 Negative
+A99	Source_is_author E22
+A100	Intensity E22 Standard
+A101	NOT E22
+A102	Type E22 E
+T55	Polar_expression 3115 3119;3141 3170	står støtt som klassisk dansk film
+E23	Polar_expression:T55 Target:T56
+A103	Polarity E23 Positive
+A104	Source_is_author E23
+A105	Intensity E23 Standard
+A107	Type E23 E
+T56	Entity 3120 3132	denne filmen
+T57	Polar_expression 3060 3112	arven fra særlig klassisk amerikansk film er merkbar
+E24	Polar_expression:T57 
+A106	Polarity E24 Negative
+A108	Source_is_author E24
+A109	Intensity E24 Slight
+A110	Target_is_general E24
+A111	Type E24 E
+T58	Polar_expression 3214 3230	Eneste svakheten
+E25	Polar_expression:T58 Target:T59
+A112	Polarity E25 Negative
+A113	Source_is_author E25
+A114	Intensity E25 Standard
+A115	Type E25 E
+T59	Entity 3234 3241	slutten
+T60	Polar_expression 3258 3284	avrundingen blir for enkel
+E26	Polar_expression:T60 Target:T59
+A116	Polarity E26 Negative
+A117	Source_is_author E26
+A118	Intensity E26 Standard
+A119	Type E26 E
+T61	Polar_expression 2585 2633	tangerer humanismen i klassiske antikrigsdramaer
+E27	Polar_expression:T61 Target:T62
+A120	Polarity E27 Positive
+A121	Source_is_author E27
+A122	Intensity E27 Standard
+A123	Type E27 E
+T62	Entity 2570 2576	scener
