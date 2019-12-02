@@ -1,0 +1,177 @@
+T1	E 0 0	
+T2	E 25 25	
+T3	E 98 98	
+T4	E 489 489	
+T5	E 643 643	
+T6	E 654 654	
+T7	E 842 842	
+T8	E 1081 1081	
+T9	E 1271 1271	
+T10	E 1473 1473	
+T11	E 1611 1611	
+T12	Entity 1596 1607	Arcade Fire
+T13	Polar_expression 1473 1607	Selv når bandet viser frem tydelig inspirasjon fra haitisk ra-ra-musikk på « Here Come The Night Time » , høres det ut som Arcade Fire
+E33	Polar_expression:T13 Target:T12
+A146	Polarity E33 Positive
+A147	Intensity E33 Standard
+A148	Type E33 E
+A149	Source_is_author E33
+T14	Polar_expression 0 23	Suveren mørkemannsdisco
+E1	Polar_expression:T14 
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Strong
+A4	Target_is_general E1
+A5	Type E1 E
+T15	Entity 88 94	plater
+T16	Polar_expression 70 87	en av årets beste
+E2	Polar_expression:T16 Target:T15
+A6	Polarity E2 Positive
+A7	Source_is_author E2
+A8	Intensity E2 Strong
+A9	Target_is_general E2
+A10	Type E2 E
+T17	Polar_expression 130 136	obskur
+E3	Polar_expression:T17 Target:T19
+A11	Polarity E3 Negative
+A12	Source_is_author E3
+A13	Intensity E3 Slight
+A14	NOT E3
+A15	Type E3 E
+T18	Polar_expression 140 151	forvirrende
+E4	Polar_expression:T18 Target:T19
+A16	Polarity E4 Negative
+A17	Source_is_author E4
+A18	Intensity E4 Slight
+A19	NOT E4
+A20	Type E4 E
+T19	Entity 152 165	markedsføring
+T20	Polar_expression 172 217	mystiske tegninger malt på vegger verden over
+E5	Polar_expression:T20 Target:T19
+A21	Polarity E5 Negative
+A22	Source_is_author E5
+A23	Intensity E5 Slight
+A24	NOT E5
+A25	Type E5 E
+T21	Polar_expression 220 242	lange geriljakonserter
+E6	Polar_expression:T21 Target:T19
+A26	Polarity E6 Negative
+A27	Source_is_author E6
+A28	Intensity E6 Slight
+A29	NOT E6
+A30	Type E6 E
+T22	Polar_expression 276 310	humoristiske videoklipp på Youtube
+E7	Polar_expression:T22 Target:T19
+A31	Polarity E7 Negative
+A32	Source_is_author E7
+A33	Intensity E7 Slight
+A34	NOT E7
+A35	Type E7 E
+T23	Polar_expression 355 366	endelig her
+E8	Polar_expression:T23 Target:T24
+A36	Polarity E8 Positive
+A37	Source_is_author E8
+A38	Intensity E8 Standard
+A39	Target_is_general E8
+A40	Type E8 E
+T24	Entity 343 354	fjerdealbum
+T25	Entity 531 542	Arcade Fire
+T26	Polar_expression 581 640	mest ambisiøse og storslåtte verkene på denne siden av 2010
+E9	Polar_expression:T26 
+A41	Polarity E9 Positive
+A42	Source_is_author E9
+A43	Intensity E9 Strong
+A44	Target_is_general E9
+A45	Type E9 E
+T27	Polar_expression 547 640	laget det som kanskje er et av de mest ambisiøse og storslåtte verkene på denne siden av 2010
+E10	Polar_expression:T27 Target:T25
+A46	Polarity E10 Positive
+A47	Source_is_author E10
+A48	Intensity E10 Strong
+A49	Type E10 E
+T28	Polar_expression 658 678	vil ikke bli skuffet
+E11	Polar_expression:T28 
+A50	Polarity E11 Positive
+A51	Source_is_author E11
+A52	Intensity E11 Standard
+A53	Type E11 E
+T29	Entity 692 707	« The Suburbs »
+T30	Polar_expression 725 755	vant det kommersielle publikum
+E12	Polar_expression:T30 Target:T29
+A54	Polarity E12 Positive
+A55	Source_is_author E12
+A56	Intensity E12 Standard
+A57	NOT E12
+A58	Type E12 E
+T31	Polar_expression 759 806	mot alle odds endte opp med å få en Grammy-pris
+E13	Polar_expression:T31 Target:T29
+A59	Polarity E13 Positive
+A60	Source_is_author E13
+A61	Intensity E13 Standard
+A62	NOT E13
+A63	Type E13 E
+T32	Entity 842 859	« The Reflektor »
+T33	Polar_expression 881 907	mer dansbart enn noensinne
+E14	Polar_expression:T33 Target:T32
+A64	Polarity E14 Positive
+A65	Source_is_author E14
+A66	Intensity E14 Strong
+A67	Target_is_general E14
+A68	Type E14 E
+T34	Entity 1081 1092	Perkusjonen
+T35	Entity 1130 1133	før
+T36	Polar_expression 1096 1125	langt mer levende og energisk
+E15	Polar_expression:T36 Target:T34
+A69	Polarity E15 Positive
+A70	Source_is_author E15
+A71	Intensity E15 Standard
+A72	Type E15 E
+T37	Polar_expression 1081 1133	Perkusjonen er langt mer levende og energisk enn før
+E16	Polar_expression:T37 Target:T35
+A73	Polarity E16 Negative
+A74	Source_is_author E16
+A75	Intensity E16 Standard
+A76	NOT E16
+A77	Type E16 E
+T38	Polar_expression 1271 1322	Kunststykket er at Arcade Fire fortsatt er seg selv
+E17	Polar_expression:T38 Target:T39
+A78	Polarity E17 Positive
+A79	Source_is_author E17
+A80	Intensity E17 Standard
+A81	Type E17 E
+T39	Entity 1290 1301	Arcade Fire
+T40	Entity 1338 1350	« We Exist »
+T41	Entity 1353 1387	« It's Never Over ( Oh Orpheus ) »
+T42	Entity 1390 1410	« You Already Know »
+T43	Polar_expression 1411 1470	kunne like godt ha dukket opp på en av deres forrige plater
+E18	Polar_expression:T43 Target:T42
+A82	Polarity E18 Positive
+A83	Source_is_author E18
+A84	Intensity E18 Standard
+A85	Type E18 E
+E19	Polar_expression:T43 Target:T41
+E20	Polar_expression:T43 Target:T40
+A86	Polarity E19 Positive
+A87	Polarity E20 Positive
+A88	Source_is_author E19
+A89	Source_is_author E20
+A90	Intensity E19 Standard
+A91	Intensity E20 Standard
+A92	Type E19 E
+A93	Type E20 E
+T44	Entity 1626 1643	« The Reflektor »
+T45	Polar_expression 1661 1675	helt nytt nivå
+E21	Polar_expression:T45 Target:T44
+A94	Polarity E21 Positive
+A95	Source_is_author E21
+A96	Intensity E21 Strong
+A97	Target_is_general E21
+A98	Type E21 E
+T46	Polar_expression 1697 1759	bekymret for hvordan de noen gang kan komme til å overgå dette
+E22	Polar_expression:T46 Source:T47 Target:T44
+A99	Polarity E22 Positive
+A100	Source_is_author E22
+A101	Intensity E22 Strong
+A102	Target_is_general E22
+A103	Type E22 E
+T47	Entity 1693 1696	jeg

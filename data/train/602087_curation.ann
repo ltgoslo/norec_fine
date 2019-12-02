@@ -1,0 +1,590 @@
+T1	E 0 0	
+T2	E 28 28	
+T3	E 122 122	
+T4	E 354 354	
+T5	E 785 785	
+T6	E 1021 1021	
+T7	E 1241 1241	
+T8	E 1420 1420	
+T9	E 1497 1497	
+T10	E 1585 1585	
+T11	E 1766 1766	
+T12	E 1902 1902	
+T13	E 1930 1930	
+T14	E 2104 2104	
+T15	E 2195 2195	
+T16	E 2289 2289	
+T17	E 2417 2417	
+T18	E 2452 2452	
+T19	E 2619 2619	
+T20	E 2977 2977	
+T21	E 3035 3035	
+T22	E 3082 3082	
+T23	E 3263 3263	
+T24	E 3352 3352	
+T25	E 3550 3550	
+T26	E 3756 3756	
+T27	E 3821 3821	
+T28	E 3987 3987	
+T29	E 4074 4074	
+T30	E 4142 4142	
+T31	E 4294 4294	
+T32	E 4487 4487	
+T33	E 4565 4565	
+T34	E 4658 4658	
+T35	E 4719 4719	
+T36	E 4802 4802	
+T37	E 4850 4850	
+T38	E 5027 5027	
+T39	E 5208 5208	
+T40	Entity 18 26	Sjøhuset
+T41	Entity 126 131	maten
+T42	Entity 135 143	servicen
+T43	Entity 1427 1460	flaske Joseph Mellot Pouilly-Fumé
+T44	Entity 3369 3395	underetasjen av kreasjonen
+T45	Polar_expression 3411 3420	skuffelse
+E140	Polar_expression:T45 Target:T44
+A591	Polarity E140 Negative
+A592	Intensity E140 Standard
+A593	Type E140 E
+A594	Source_is_author E140
+T46	Entity 4120 4131	breiflabben
+T47	Polar_expression 4136 4139	god
+E141	Polar_expression:T47 Target:T46
+A595	Polarity E141 Positive
+A596	Intensity E141 Standard
+A597	Type E141 E
+A598	Source_is_author E141
+T48	Entity 4518 4528	dessertene
+T49	Polar_expression 4495 4512	ikke dårlige valg
+E142	Polar_expression:T49 Target:T48
+A599	Polarity E142 Positive
+A600	Intensity E142 Standard
+A601	Type E142 E
+A602	Source_is_author E142
+T50	Polar_expression 4536 4562	fin avslutning på måltidet
+E143	Polar_expression:T50 Target:T48
+A603	Polarity E143 Positive
+A604	Intensity E143 Standard
+A605	Type E143 E
+A606	Source_is_author E143
+T51	Polar_expression 0 13	Skjær i sikte
+E144	Polar_expression:T51 Target:T40
+A607	Polarity E144 Negative
+A608	Intensity E144 Standard
+A609	Type E144 E
+A610	Source_is_author E144
+A611	Target_is_general E144
+T52	Polar_expression 144 165	står ikke helt i stil
+E145	Polar_expression:T52 Target:T41
+A612	Polarity E145 Negative
+A613	Intensity E145 Standard
+A614	Type E145 E
+A615	Source_is_author E145
+E146	Polar_expression:T52 Target:T42
+A616	Polarity E146 Negative
+A617	Intensity E146 Standard
+A618	Type E146 E
+A619	Source_is_author E146
+T53	Polar_expression 1461 1493	lå det til rette for gode smaker
+E147	Polar_expression:T53 Target:T43
+A620	Polarity E147 Positive
+A621	Intensity E147 Standard
+A622	Type E147 E
+A623	Source_is_author E147
+T54	Entity 96 104	Sjøhuset
+T55	Entity 28 41	Beliggenheten
+T56	Entity 61 71	stemningen
+T57	Polar_expression 45 55	fantastisk
+E1	Polar_expression:T57 Target:T55
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Strong
+A4	Type E1 E
+T58	Polar_expression 28 55	Beliggenheten er fantastisk
+E2	Polar_expression:T58 Target:T54
+A5	Polarity E2 Positive
+A6	Source_is_author E2
+A7	Intensity E2 Strong
+A8	Target_is_general E2
+A9	Type E2 E
+T59	Polar_expression 105 119;72 82	er upåklagelig rundt og i
+E3	Polar_expression:T59 Target:T56
+A10	Polarity E3 Positive
+A11	Source_is_author E3
+A12	Intensity E3 Strong
+A13	Type E3 E
+T60	Polar_expression 105 119;61 82	er upåklagelig stemningen rundt og i
+E4	Polar_expression:T60 Target:T54
+A14	Polarity E4 Positive
+A15	Source_is_author E4
+A16	Intensity E4 Strong
+A17	Target_is_general E4
+A18	Type E4 E
+T61	Polar_expression 379 385	flotte
+E5	Polar_expression:T61 Target:T62 Source:T64
+A19	Polarity E5 Positive
+A20	Source_is_author E5
+A21	Intensity E5 Strong
+A22	Type E5 E
+T62	Entity 386 394	utsikten
+T63	Polar_expression 357 371	store vinduene
+E6	Polar_expression:T63 Source:T64
+A23	Polarity E6 Positive
+A24	Source_is_author E6
+A25	Intensity E6 Standard
+A26	Type E6 E
+T64	Entity 400 408	Rosmarin
+T65	Entity 838 845	service
+T66	Polar_expression 850 869	ikke helt holdt mål
+E7	Polar_expression:T66 Target:T65
+A27	Polarity E7 Negative
+A28	Source_is_author E7
+A29	Intensity E7 Standard
+A30	Type E7 E
+T67	Polar_expression 811 831	lang ventetid på mat
+E8	Polar_expression:T67 
+A31	Polarity E8 Negative
+A32	Source_is_author E8
+A33	Intensity E8 Standard
+A34	Target_is_general E8
+A35	Type E8 E
+T68	Entity 1252 1256	pris
+T69	Polar_expression 1260 1275	over 600 kroner
+E9	Polar_expression:T69 Target:T68
+A36	Polarity E9 Negative
+A37	Source_is_author E9
+A38	Intensity E9 Slight
+A39	Type E9 E
+T70	Entity 1547 1557	servitøren
+T71	Polar_expression 1497 1542	Menyvalget ble i stor grad gjort uten bistand
+E10	Polar_expression:T71 Target:T70 Source:T72
+A40	Polarity E10 Negative
+A41	Source_is_author E10
+A42	Intensity E10 Standard
+A43	Type E10 E
+T72	Entity 1566 1577	anmeldernes
+T73	Polar_expression 1593 1627	ikke så mye hjelp til anbefalinger
+E11	Polar_expression:T73 
+A44	Polarity E11 Negative
+A45	Source_is_author E11
+A46	Intensity E11 Standard
+A47	Target_is_general E11
+A48	Type E11 E
+T74	Entity 1704 1716	Ny-Hellesund
+T75	Polar_expression 1687 1701	dansk dynamitt
+E12	Polar_expression:T75 Target:T74
+A49	Polarity E12 Positive
+A50	Source_is_author E12
+A51	Intensity E12 Standard
+A52	Type E12 E
+A53	NOT E12
+T76	Polar_expression 1660 1716	kontrastene blir store til dansk dynamitt i Ny-Hellesund
+E13	Polar_expression:T76 
+A54	Polarity E13 Negative
+A55	Source_is_author E13
+A56	Intensity E13 Standard
+A57	Target_is_general E13
+A58	Type E13 E
+T77	Polar_expression 1883 1899	så tiltalende ut
+E14	Polar_expression:T77 Target:T79 Source:T78
+A59	Polarity E14 Positive
+A60	Source_is_author E14
+A61	Intensity E14 Standard
+A62	Type E14 E
+T78	Entity 1780 1788	Rosmarin
+T79	Entity 1810 1882	sterkt reduserte bisquen med sjøkrepshale og julienne-kuttede grønnsaker
+T80	Entity 1906 1912	smaken
+T81	Polar_expression 1917 1924	ramsalt
+E15	Polar_expression:T81 Target:T80
+A63	Polarity E15 Negative
+A64	Source_is_author E15
+A65	Intensity E15 Standard
+A66	Type E15 E
+T82	Entity 1985 1993	Rosmarin
+T83	Entity 2094 2100	suppen
+T84	Polar_expression 1934 1974	må nesten ha skjedd en feil på kjøkkenet
+E16	Polar_expression:T84 Source:T82 Target:T83
+A67	Polarity E16 Negative
+A68	Source_is_author E16
+A69	Intensity E16 Standard
+A70	Type E16 E
+T85	Polar_expression 2011 2052	ikke klarte å spise mer enn et par skjeer
+E17	Polar_expression:T85 Target2:T83 Source:T82
+A71	Polarity E17 Negative
+A72	Source_is_author E17
+A73	Intensity E17 Standard
+A74	Type E17 E
+T86	Polar_expression 2088 2093	salte
+E18	Polar_expression:T86 Source:T82 Target:T83
+A75	Polarity E18 Negative
+A76	Source_is_author E18
+A77	Intensity E18 Standard
+A78	Type E18 E
+T87	Entity 2104 2112	Estragon
+T88	Polar_expression 2119 2168	ennå ikke hadde sett noe til sin kombinasjonsrett
+E19	Polar_expression:T88 Target:T87
+A79	Polarity E19 Negative
+A80	Source_is_author E19
+A81	Intensity E19 Standard
+A82	Type E19 E
+T89	Entity 2216 2222	kokken
+T90	Polar_expression 2227 2262	saltet kraften før den ble redusert
+E20	Polar_expression:T90 Target:T89
+A83	Polarity E20 Negative
+A84	Source_is_author E20
+A85	Intensity E20 Standard
+A86	Type E20 E
+T91	Polar_expression 2268 2285	går det fort galt
+E21	Polar_expression:T91 
+A87	Polarity E21 Negative
+A88	Source_is_author E21
+A89	Intensity E21 Standard
+A90	Type E21 E
+T92	Polar_expression 2305 2357;2382 2413	skulle man tro det opprinnelige saltlageret fra 1892 fremdeles satt i kjøkkenveggene
+E22	Polar_expression:T92 
+A91	Polarity E22 Negative
+A92	Source_is_author E22
+A93	Intensity E22 Standard
+A94	Type E22 E
+#1	AnnotatorNotes E22	sarcasm
+T93	Entity 2417 2425	Estragon
+T94	Polar_expression 2426 2449	begynte å bli utålmodig
+E23	Polar_expression:T94 Target:T93
+A95	Polarity E23 Negative
+A96	Source_is_author E23
+A97	Intensity E23 Standard
+A98	Target_is_general E23
+A99	Type E23 E
+T95	Entity 2458 2468	restaurant
+T96	Entity 2511 2514	mat
+T97	Entity 2518 2525	service
+T98	Polar_expression 2490 2502	høy kvalitet
+E24	Polar_expression:T98 Source:T95 Target:T96
+A100	Polarity E24 Positive
+A101	Intensity E24 Standard
+A102	NFP E24
+A103	Type E24 E
+E25	Polar_expression:T98 Source:T95 Target:T97
+A104	Polarity E25 Positive
+A105	Intensity E25 Standard
+A106	NFP E25
+A107	Type E25 E
+T99	Polar_expression 2535 2574	underlig ikke å tenke på den ventetiden
+E26	Polar_expression:T99 Target:T95
+A108	Polarity E26 Negative
+A109	Source_is_author E26
+A110	Intensity E26 Standard
+A111	Target_is_general E26
+A112	Type E26 E
+T100	Entity 2660 2668	Estragon
+T101	Polar_expression 2623 2654;2669 2673	føles litt som å vente på Godot matt
+E27	Polar_expression:T101 Source:T100
+A113	Polarity E27 Negative
+A114	Source_is_author E27
+A115	Intensity E27 Standard
+A116	Type E27 E
+#2	AnnotatorNotes E27	metaphor
+T102	Polar_expression 2681 2721	hadde gått fem kvarter siden de bestilte
+E28	Polar_expression:T102 Source:T100
+A117	Polarity E28 Negative
+A118	Source_is_author E28
+A119	Intensity E28 Standard
+A120	Target_is_general E28
+A121	Type E28 E
+T103	Polar_expression 3028 3032	godt
+E29	Polar_expression:T103 
+A122	Polarity E29 Positive
+A123	Source_is_author E29
+A124	Intensity E29 Standard
+A125	Type E29 E
+T104	Entity 3052 3056	fisk
+T105	Entity 3070 3078	tilbehør
+T106	Polar_expression 3035 3051	Riktig tilberedt
+E30	Polar_expression:T106 Target:T104
+A126	Polarity E30 Positive
+A127	Source_is_author E30
+A128	Intensity E30 Standard
+A129	Type E30 E
+T107	Polar_expression 3060 3069	smakfullt
+E31	Polar_expression:T107 Target:T105
+A130	Polarity E31 Positive
+A131	Source_is_author E31
+A132	Intensity E31 Standard
+A133	Type E31 E
+T108	Entity 3092 3111	skalldyrkombinasjon
+T109	Entity 3082 3091	Estragons
+T110	Polar_expression 3142 3168	så riktig så innbydende ut
+E32	Polar_expression:T110 Target:T108 Source:T109
+A134	Polarity E32 Positive
+A135	Source_is_author E32
+A136	Intensity E32 Standard
+A137	Type E32 E
+T111	Polar_expression 3271 3282	velsmakende
+E33	Polar_expression:T111 Target:T113
+A138	Polarity E33 Positive
+A139	Source_is_author E33
+A140	Intensity E33 Standard
+A141	Type E33 E
+T113	Entity 3298 3316;3343 3349	kamskjell med rogn frosne
+T114	Polar_expression 3291 3342	ferske kamskjell med rogn hadde vært enda bedre enn
+E34	Polar_expression:T114 Target:T113
+A142	Polarity E34 Negative
+A143	Source_is_author E34
+A144	Intensity E34 Standard
+A145	Type E34 E
+T112	Entity 3554 3574	kokt canadisk hummer
+T115	Polar_expression 3581 3633	ikke smakte som den ble levert levende til kjøkkenet
+E35	Polar_expression:T115 Target:T112
+A146	Polarity E35 Negative
+A147	Source_is_author E35
+A148	Intensity E35 Standard
+A149	Type E35 E
+T116	Entity 3636 3653	fylt krabbeskjell
+T117	Polar_expression 3656 3686	slik man får det i nærbutikken
+E36	Polar_expression:T117 Target:T116
+A150	Polarity E36 Negative
+A151	Source_is_author E36
+A152	Intensity E36 Standard
+A153	Type E36 E
+T118	Entity 3690 3701	kongekrabbe
+T119	Polar_expression 3706 3723	kom helt naturell
+E37	Polar_expression:T119 Target:T118
+A154	Polarity E37 Negative
+A155	Source_is_author E37
+A156	Intensity E37 Standard
+A157	Type E37 E
+T120	Polar_expression 3724 3750	, blir ikke det helt store
+E38	Polar_expression:T120 Target:T112
+A158	Polarity E38 Negative
+A159	Source_is_author E38
+A160	Intensity E38 Standard
+A161	Type E38 E
+E39	Polar_expression:T120 Target:T116
+E40	Polar_expression:T120 Target:T118
+A162	Polarity E39 Negative
+A163	Polarity E40 Negative
+A164	Source_is_author E39
+A165	Source_is_author E40
+A166	Intensity E39 Standard
+A167	Intensity E40 Standard
+A168	Type E39 E
+A169	Type E40 E
+T121	Entity 3804 3812	Estragon
+T122	Polar_expression 3760 3775	savner tilbehør
+E41	Polar_expression:T122 Source:T121
+A170	Polarity E41 Negative
+A171	Source_is_author E41
+A172	Intensity E41 Standard
+A173	Type E41 E
+T123	Polar_expression 3760 3766;3779 3797	savner kreative løsninger
+E42	Polar_expression:T123 Source:T121
+A174	Polarity E42 Negative
+A175	Source_is_author E42
+A176	Intensity E42 Standard
+A177	Target_is_general E42
+A178	Type E42 E
+A179	Target_is_general E41
+T124	Polar_expression 3827 3841;3899 3924	r ingen sauser som hadde løftet råvarene
+E43	Polar_expression:T124 
+A180	Polarity E43 Negative
+A181	Source_is_author E43
+A182	Intensity E43 Standard
+A183	Target_is_general E43
+A184	Type E43 E
+T125	Polar_expression 3829 3834;3899 3924	ingen som hadde løftet råvarene
+E44	Polar_expression:T125 
+A185	Polarity E44 Negative
+A186	Source_is_author E44
+A187	Intensity E44 Standard
+A188	Type E44 E
+T127	Polar_expression 3829 3834;3866 3871;3899 3924	ingen aioli som hadde løftet råvarene
+E45	Polar_expression:T127 
+A189	Polarity E45 Negative
+A190	Source_is_author E45
+A191	Intensity E45 Standard
+A192	Type E45 E
+T128	Polar_expression 3829 3834;3874 3886;3899 3924	ingen focacciabrød som hadde løftet råvarene
+E46	Polar_expression:T128 
+A193	Polarity E46 Negative
+A194	Source_is_author E46
+A195	Intensity E46 Standard
+A196	Type E46 E
+T126	Polar_expression 3927 3934;3944 3979	majones stod i menyen og ble nok bare glemt
+E47	Polar_expression:T126 
+A197	Polarity E47 Negative
+A198	Source_is_author E47
+A199	Intensity E47 Standard
+A200	Target_is_general E47
+A201	Type E47 E
+A202	Target_is_general E44
+A203	Target_is_general E46
+A204	Target_is_general E45
+T129	Polar_expression 3938 3979	aioli stod i menyen og ble nok bare glemt
+E48	Polar_expression:T129 
+A205	Polarity E48 Negative
+A206	Source_is_author E48
+A207	Intensity E48 Standard
+A208	Target_is_general E48
+A209	Type E48 E
+T130	Entity 4025 4027	vi
+T131	Entity 4052 4070	varme hovedrettene
+T132	Polar_expression 4028 4051	skulle holdt oss til de
+E49	Polar_expression:T132 Target:T131 Source:T130
+A210	Polarity E49 Positive
+A211	Source_is_author E49
+A212	Intensity E49 Standard
+A213	Type E49 E
+T133	Polar_expression 4028 4070	skulle holdt oss til de varme hovedrettene
+E50	Polar_expression:T133 Source:T130
+A214	Polarity E50 Negative
+A215	Source_is_author E50
+A216	Intensity E50 Standard
+A217	Type E50 E
+T134	Entity 4142 4161	Skalldyrtallerkenen
+T135	Polar_expression 4162 4197	innfridde på sin side absolutt ikke
+E51	Polar_expression:T135 Target:T134
+A218	Polarity E51 Negative
+A219	Source_is_author E51
+A220	Intensity E51 Strong
+A221	Type E51 E
+T136	Polar_expression 4200 4203;4216 4232	mye manglende helhet
+E52	Polar_expression:T136 Target:T134
+A222	Polarity E52 Negative
+A223	Source_is_author E52
+A224	Intensity E52 Standard
+A225	Type E52 E
+T137	Polar_expression 4200 4203;4236 4251	mye valg av råvarer
+E53	Polar_expression:T137 Target:T134
+A226	Polarity E53 Negative
+A227	Source_is_author E53
+A228	Intensity E53 Standard
+A229	Type E53 E
+T138	Entity 4294 4304	Mangosuppe
+T139	Polar_expression 4305 4329	hørtes mest spennende ut
+E54	Polar_expression:T139 Target:T138
+A230	Polarity E54 Positive
+A231	Source_is_author E54
+A232	Intensity E54 Standard
+A233	Type E54 E
+T140	Entity 4339 4351	karamellisen
+T141	Polar_expression 4352 4383	ikke kunne tilskrives kjøkkenet
+E55	Polar_expression:T141 Target:T140
+A234	Polarity E55 Negative
+A235	Source_is_author E55
+A236	Intensity E55 Standard
+A237	Type E55 E
+T142	Polar_expression 4339 4383	karamellisen ikke kunne tilskrives kjøkkenet
+E56	Polar_expression:T142 Target:T138
+A238	Polarity E56 Negative
+A239	Source_is_author E56
+A240	Intensity E56 Standard
+A241	Type E56 E
+T143	Entity 4565 4573	Sorbeten
+T144	Polar_expression 4580 4601	kraftig bjørnebærsmak
+E57	Polar_expression:T144 Target:T143
+A242	Polarity E57 Positive
+A243	Source_is_author E57
+A244	Intensity E57 Standard
+A245	Type E57 E
+T145	Polar_expression 4604 4654	små biter av kiwi og granateple passet godt sammen
+E58	Polar_expression:T145 Target:T143
+A246	Polarity E58 Positive
+A247	Source_is_author E58
+A248	Intensity E58 Standard
+A249	Type E58 E
+T146	Entity 4658 4667	Estragons
+T147	Entity 4668 4675	fondant
+T148	Polar_expression 4682 4716	sterk og konsentrert sjokoladesmak
+E59	Polar_expression:T148 Target:T147 Source:T146
+A250	Polarity E59 Positive
+A251	Source_is_author E59
+A252	Intensity E59 Standard
+A253	Type E59 E
+T149	Entity 4739 4741	is
+T150	Polar_expression 4748 4778	dessverre ikke var hjemmelaget
+E60	Polar_expression:T150 Target:T149
+A254	Polarity E60 Negative
+A255	Source_is_author E60
+A256	Intensity E60 Standard
+A257	Type E60 E
+T151	Entity 4838 4846	Rosmarin
+T152	Polar_expression 4812 4823	litt ujevnt
+E61	Polar_expression:T152 Source:T151
+A258	Polarity E61 Negative
+A259	Source_is_author E61
+A260	Intensity E61 Standard
+A261	Target_is_general E61
+A262	Type E61 E
+T153	Entity 4878 4889	beliggenhet
+T154	Entity 4893 4900	lokaler
+T155	Polar_expression 4854 4873	gode utgangspunktet
+E62	Polar_expression:T155 Target:T153
+A263	Polarity E62 Positive
+A264	Source_is_author E62
+A265	Intensity E62 Standard
+A266	Type E62 E
+E63	Polar_expression:T155 Target:T154
+A267	Polarity E63 Positive
+A268	Source_is_author E63
+A269	Intensity E63 Standard
+A270	Type E63 E
+T156	Polar_expression 4901 4938	kunne gitt en perle av perfeksjonisme
+E64	Polar_expression:T156 
+A271	Polarity E64 Negative
+A272	Source_is_author E64
+A273	Intensity E64 Standard
+A274	Target_is_general E64
+A275	Type E64 E
+T157	Polar_expression 5046 5056	papirduker
+E65	Polar_expression:T157 
+A276	Polarity E65 Negative
+A277	Source_is_author E65
+A278	Intensity E65 Standard
+A279	Target_is_general E65
+A280	Type E65 EFINP
+T158	Polar_expression 5059 5081	smør i aluminiumskåler
+E66	Polar_expression:T158 
+A281	Polarity E66 Negative
+A282	Source_is_author E66
+A283	Intensity E66 Standard
+A284	Target_is_general E66
+A285	Type E66 EFINP
+T159	Entity 5087 5097	servitører
+T160	Polar_expression 5102 5158	ikke vasker og rydder bordet mellom hovedrett og dessert
+E67	Polar_expression:T160 Target:T159
+A286	Polarity E67 Negative
+A287	Source_is_author E67
+A288	Intensity E67 Standard
+A289	Type E67 E
+T161	Polar_expression 5164 5204	dessverre ikke et slikt sted helt verdig
+E68	Polar_expression:T161 
+A290	Polarity E68 Negative
+A291	Source_is_author E68
+A292	Intensity E68 Standard
+A293	Target_is_general E68
+A294	Type E68 E
+T162	Polar_expression 5263 5276	i toppsjiktet
+E69	Polar_expression:T162 Target:T163
+A295	Polarity E69 Negative
+A296	Source_is_author E69
+A297	Intensity E69 Standard
+A298	Target_is_general E69
+A299	Type E69 E
+T163	Entity 5208 5218	Prisnivået
+T164	Entity 5279 5284	maten
+T165	Polar_expression 5289 5321	dessverre ikke helt i samme stil
+E70	Polar_expression:T165 Target:T164
+A300	Polarity E70 Negative
+A301	Source_is_author E70
+A302	Intensity E70 Standard
+A303	Type E70 E
+#3	AnnotatorNotes E13	Comparative
+#4	AnnotatorNotes E34	Comparative
+T166	Polar_expression 5027 5042	Papirservietter
+E71	Polar_expression:T166 
+A304	Polarity E71 Negative
+A305	Source_is_author E71
+A306	Intensity E71 Standard
+A307	Target_is_general E71
+A308	Type E71 E

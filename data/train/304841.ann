@@ -1,0 +1,126 @@
+T1	E 0 0	
+T2	E 30 30	
+T3	E 96 96	
+T4	E 323 323	
+T5	E 505 505	
+T6	E 645 645	
+T7	E 1000 1000	
+T8	E 1304 1304	
+T9	E 1546 1546	
+T10	Polar_expression 0 12	Lys og varme
+E1	Polar_expression:T10 
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Target_is_general E1
+A5	Type E1 E
+T11	Polar_expression 30 58	Ingen åpenbare tretthetstegn
+E2	Polar_expression:T11 Target:T12
+A6	Polarity E2 Positive
+A7	Source_is_author E2
+A8	Intensity E2 Standard
+A9	Target_is_general E2
+A10	Type E2 E
+T12	Entity 61 84	« Child of the Future »
+T14	Polar_expression 340 358	vitalt og dynamisk
+E4	Polar_expression:T14 Target:T15
+A15	Polarity E4 Positive
+A16	Source_is_author E4
+A17	Intensity E4 Standard
+A18	Target_is_general E4
+A19	Type E4 E
+T15	Entity 359 364	album
+T16	Polar_expression 505 526	Dekker hele spekteret
+E5	Polar_expression:T16 
+A20	Polarity E5 Positive
+A21	Source_is_author E5
+A22	Intensity E5 Standard
+A23	Target_is_general E5
+A24	Type E5 E
+T17	Polar_expression 649 660	melodisterk
+E6	Polar_expression:T17 Target:T18
+A25	Polarity E6 Positive
+A26	Source_is_author E6
+A27	Intensity E6 Standard
+A28	Type E6 E
+T18	Entity 694 730	« The Ozzylot ( Hidden in a Girl ) »
+T19	Polar_expression 959 984	lekre og rikt illustrerte
+E7	Polar_expression:T19 Target:T20
+A29	Polarity E7 Positive
+A30	Source_is_author E7
+A31	Intensity E7 Strong
+A32	Type E7 E
+T20	Entity 985 996	lydlandskap
+T21	Polar_expression 879 910	varme og neddempede pustehullet
+E8	Polar_expression:T21 Target:T22
+A33	Polarity E8 Positive
+A34	Source_is_author E8
+A35	Intensity E8 Standard
+A36	Type E8 E
+T22	Entity 911 931	« The Waiting Game »
+T23	Polar_expression 959 996	lekre og rikt illustrerte lydlandskap
+E9	Polar_expression:T23 Target:T22
+A37	Polarity E9 Positive
+A38	Source_is_author E9
+A39	Intensity E9 Strong
+A40	Type E9 E
+E10	Polar_expression:T23 Target:T18
+A41	Polarity E10 Positive
+A42	Source_is_author E10
+A43	Intensity E10 Strong
+A44	Type E10 E
+T24	Entity 771 800	« Black Hole / Black Canvas »
+E11	Polar_expression:T17 Target:T24
+A45	Polarity E11 Positive
+A46	Source_is_author E11
+A47	Intensity E11 Standard
+A48	Type E11 E
+A49	NOT E11
+T25	Entity 815 836	« Whole Lotta Diana »
+T26	Entity 856 870	« Cornucopia »
+E12	Polar_expression:T23 Target:T25
+A50	Polarity E12 Positive
+A51	Source_is_author E12
+A52	Intensity E12 Strong
+A53	Type E12 E
+E13	Polar_expression:T23 Target:T26
+A54	Polarity E13 Positive
+A55	Source_is_author E13
+A56	Intensity E13 Strong
+A57	Type E13 E
+T27	Entity 1000 1023	« Child of the Future »
+T28	Polar_expression 1118 1147	umiskjennelig identitetssterk
+E14	Polar_expression:T28 Target:T27
+A58	Polarity E14 Positive
+A59	Source_is_author E14
+A60	Intensity E14 Strong
+A61	Type E14 E
+T29	Polar_expression 1038 1101	god Motorpsycho-tradisjon spekket med platesamlerrockreferanser
+E15	Polar_expression:T29 Target:T27
+A62	Polarity E15 Positive
+A63	Source_is_author E15
+A64	Intensity E15 Standard
+A65	Target_is_general E15
+A66	Type E15 E
+A67	Target_is_general E14
+T30	Entity 1327 1355	trommeslager Kenneth Kapstad
+T31	Polar_expression 1370 1386	funnet sin plass
+E16	Polar_expression:T31 Target:T30
+A68	Polarity E16 Positive
+A69	Source_is_author E16
+A70	Intensity E16 Standard
+A71	Type E16 E
+T32	Polar_expression 1393 1403	vellagrede
+E17	Polar_expression:T32 Target:T33
+A72	Polarity E17 Positive
+A73	Source_is_author E17
+A74	Intensity E17 Standard
+A75	Type E17 E
+T33	Entity 1404 1413	lydbildet
+T34	Polar_expression 1572 1600	ingen åpenbare tretthetstegn
+E18	Polar_expression:T34 
+A76	Polarity E18 Positive
+A77	Source_is_author E18
+A78	Intensity E18 Standard
+A79	Target_is_general E18
+A80	Type E18 E

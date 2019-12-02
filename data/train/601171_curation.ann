@@ -1,0 +1,294 @@
+T1	E 0 0	
+T2	E 30 30	
+T3	E 566 566	
+T4	E 832 832	
+T5	E 900 900	
+T6	E 1205 1205	
+T7	E 1293 1293	
+T8	E 1399 1399	
+T9	E 1488 1488	
+T10	E 1646 1646	
+T11	E 1746 1746	
+T12	EFINP 1990 1990	
+T13	E 2123 2123	
+T14	E 2220 2220	
+T15	E 2320 2320	
+T16	Polar_expression 0 7	Velbygd
+E1	Polar_expression:T16 
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Target_is_general E1
+A5	Type E1 E
+T17	Polar_expression 10 18	effektiv
+E2	Polar_expression:T17 
+A6	Polarity E2 Positive
+A7	Source_is_author E2
+A8	Intensity E2 Standard
+A9	Target_is_general E2
+A10	Type E2 E
+T18	Entity 70 83	kriminalroman
+T19	Polar_expression 41 49	effektiv
+E3	Polar_expression:T19 Target:T18
+A11	Polarity E3 Positive
+A12	Source_is_author E3
+A13	Intensity E3 Standard
+A14	Target_is_general E3
+A15	Type E3 E
+T20	Polar_expression 30 37	Velbygd
+E4	Polar_expression:T20 Target:T18
+A16	Polarity E4 Positive
+A17	Source_is_author E4
+A18	Intensity E4 Standard
+A19	Target_is_general E4
+A20	Type E4 E
+T21	Polar_expression 628 634	elsker
+E5	Polar_expression:T21 Target:T23 Source:T22
+A21	Polarity E5 Positive
+A22	Intensity E5 Strong
+A23	NFP E5
+A24	NOT E5
+A25	Type E5 E
+T22	Entity 607 617	Harry Hole
+T23	Entity 599 606	kvinnen
+T24	Entity 881 897	Harry Hole-bøker
+T25	Polar_expression 853 871	eventyrlig suksess
+E6	Polar_expression:T25 Target:T24
+A26	Polarity E6 Positive
+A27	Source_is_author E6
+A28	Intensity E6 Strong
+A29	NOT E6
+A30	Type E6 E
+T26	Polar_expression 853 871;881 897	eventyrlig suksess Harry Hole-bøker
+E7	Polar_expression:T26 Target:T27
+A31	Polarity E7 Positive
+A32	Source_is_author E7
+A33	Intensity E7 Strong
+A34	NOT E7
+A35	Type E7 E
+T27	Entity 832 840	Jo Nesbø
+T28	Polar_expression 906 935	oversatt til hele førti språk
+E8	Polar_expression:T28 Target:T29
+A36	Polarity E8 Positive
+A37	Source_is_author E8
+A38	Intensity E8 Standard
+A39	NOT E8
+A40	Type E8 E
+T29	Entity 900 902	De
+T30	Entity 961 997	amerikanske utgaven av « Sorgenfri »
+T31	Polar_expression 1009 1052	nominert til den prestisjetunge Edgarprisen
+E9	Polar_expression:T31 Target:T30
+A41	Polarity E9 Positive
+A42	Intensity E9 Standard
+A43	NFP E9
+A44	NOT E9
+A45	Type E9 EFINP
+T32	Entity 1205 1213	Struktur
+T33	Entity 1216 1220	form
+T34	Entity 1223 1227	stil
+T35	Entity 1231 1235	tone
+T36	Polar_expression 1262 1274	høy kvalitet
+E10	Polar_expression:T36 Target:T35
+A46	Polarity E10 Positive
+A47	Source_is_author E10
+A48	Intensity E10 Standard
+A49	Type E10 E
+T37	Polar_expression 1278 1290	høyt kaliber
+E11	Polar_expression:T37 Target:T35
+A50	Polarity E11 Positive
+A51	Source_is_author E11
+A52	Intensity E11 Standard
+A53	Type E11 E
+E12	Polar_expression:T36 Target:T34
+E13	Polar_expression:T36 Target:T33
+E14	Polar_expression:T36 Target:T32
+A54	Polarity E12 Positive
+A55	Polarity E13 Positive
+A56	Polarity E14 Positive
+A57	Source_is_author E12
+A58	Source_is_author E13
+A59	Source_is_author E14
+A60	Intensity E12 Standard
+A61	Intensity E13 Standard
+A62	Intensity E14 Standard
+A63	Type E12 E
+A64	Type E13 E
+A65	Type E14 E
+E15	Polar_expression:T37 Target:T34
+E16	Polar_expression:T37 Target:T33
+E17	Polar_expression:T37 Target:T32
+A66	Polarity E15 Positive
+A67	Polarity E16 Positive
+A68	Polarity E17 Positive
+A69	Source_is_author E15
+A70	Source_is_author E16
+A71	Source_is_author E17
+A72	Intensity E15 Standard
+A73	Intensity E16 Standard
+A74	Intensity E17 Standard
+A75	Type E15 E
+A76	Type E16 E
+A77	Type E17 E
+T38	Entity 1293 1295	Vi
+T39	Polar_expression 1310 1369	divisjonene der Henning Mankell og Stieg Larsson vagler seg
+E18	Polar_expression:T39 Source:T38
+A78	Polarity E18 Positive
+A79	Source_is_author E18
+A80	Intensity E18 Standard
+A81	Type E18 E
+T40	Entity 1399 1407	Jo Nesbø
+T41	Polar_expression 1415 1424;1468 1485	strammere enn Stieg Larsson
+E19	Polar_expression:T41 Target:T40
+A82	Polarity E19 Positive
+A83	Source_is_author E19
+A84	Intensity E19 Standard
+A85	Type E19 E
+T42	Polar_expression 1427 1438;1468 1485	mer elegant enn Stieg Larsson
+E20	Polar_expression:T42 Target:T40
+A86	Polarity E20 Positive
+A87	Source_is_author E20
+A88	Intensity E20 Standard
+A89	Type E20 E
+T43	Polar_expression 1399 1424;1468 1471	Jo Nesbø for en strammere enn
+E21	Polar_expression:T43 Target:T45
+A90	Polarity E21 Negative
+A91	Source_is_author E21
+A92	Intensity E21 Standard
+A93	Type E21 E
+T44	Polar_expression 1399 1407;1427 1438;1468 1471	Jo Nesbø mer elegant enn
+E22	Polar_expression:T44 Target:T45
+A94	Polarity E22 Negative
+A95	Source_is_author E22
+A96	Intensity E22 Standard
+A97	Type E22 E
+T45	Entity 1472 1485	Stieg Larsson
+T46	Entity 1549 1557	struktur
+T47	Entity 1560 1564	form
+T48	Entity 1568 1572	stil
+T49	Polar_expression 1506 1530	generelt meget høye nivå
+E23	Polar_expression:T49 Target:T46
+A98	Polarity E23 Positive
+A99	Source_is_author E23
+A100	Intensity E23 Strong
+A101	Type E23 E
+E24	Polar_expression:T49 Target:T47
+E25	Polar_expression:T49 Target:T48
+A102	Polarity E24 Positive
+A103	Polarity E25 Positive
+A104	Source_is_author E24
+A105	Source_is_author E25
+A106	Intensity E24 Strong
+A107	Intensity E25 Strong
+A108	Type E24 E
+A109	Type E25 E
+T50	Entity 1625 1631	bilder
+T51	Entity 1634 1643	metaforer
+T52	Polar_expression 1592 1624	jevne mellomrom skarpe , konsise
+E26	Polar_expression:T52 Target:T50
+A110	Polarity E26 Positive
+A111	Source_is_author E26
+A112	Intensity E26 Standard
+A113	Type E26 E
+E27	Polar_expression:T52 Target:T51
+A114	Polarity E27 Positive
+A115	Source_is_author E27
+A116	Intensity E27 Standard
+A117	Type E27 E
+T53	Entity 1646 1656	Historiene
+T54	Polar_expression 1693 1710	alltid fengslende
+E28	Polar_expression:T54 Target:T53
+A118	Polarity E28 Positive
+A119	Source_is_author E28
+A120	Intensity E28 Standard
+A121	Type E28 E
+T55	Polar_expression 1693 1699;1713 1720	alltid eggende
+E29	Polar_expression:T55 Target:T53
+A122	Polarity E29 Positive
+A123	Source_is_author E29
+A124	Intensity E29 Standard
+A125	Type E29 E
+T56	Polar_expression 1693 1699;1723 1735	alltid stimulerende
+E30	Polar_expression:T56 Target:T53
+A126	Polarity E30 Positive
+A127	Source_is_author E30
+A128	Intensity E30 Standard
+A129	Type E30 E
+T57	Polar_expression 1749 1773	lar oss hurtig fange inn
+E31	Polar_expression:T57 Source:T58
+A130	Polarity E31 Positive
+A131	Source_is_author E31
+A132	Intensity E31 Standard
+A133	NOT E31
+A135	Type E31 EFINP
+T58	Entity 1746 1748	Vi
+T59	Polar_expression 1780 1802	blir med på hele turen
+E32	Polar_expression:T59 Source:T60
+A136	Polarity E32 Positive
+A137	Source_is_author E32
+A138	Intensity E32 Standard
+A139	NOT E32
+A140	Type E32 E
+T60	Entity 1777 1779	vi
+T61	Polar_expression 1993 2040	selve substansen føles mer dyster enn tidligere
+E33	Polar_expression:T61 
+A134	Polarity E33 Positive
+A141	Source_is_author E33
+A142	Intensity E33 Standard
+A143	Target_is_general E33
+A144	Type E33 EFINP
+T63	Polar_expression 2142 2163;2198 2216	ikke noen forringelse snarere tvert imot
+E34	Polar_expression:T63 Target:T62
+A145	Polarity E34 Positive
+A146	Source_is_author E34
+A147	Intensity E34 Standard
+A148	Type E34 E
+T64	Entity 2248 2255	romanen
+T65	Polar_expression 2220 2238;2256 2272	Å si « Anbefales » føles for fattig
+E35	Polar_expression:T65 Target:T64
+A149	Polarity E35 Positive
+A150	Source_is_author E35
+A151	Intensity E35 Strong
+A152	Target_is_general E35
+A153	Type E35 E
+T66	Entity 2362 2374	« Gjenferd »
+T67	Entity 2347 2358	« Ravnene »
+T68	Polar_expression 2375 2387;2420 2433	forsommerens krimlesning !
+E36	Polar_expression:T68 Target:T66
+A154	Polarity E36 Positive
+A155	Source_is_author E36
+A156	Intensity E36 Standard
+A157	Target_is_general E36
+A158	Type E36 E
+T69	Polar_expression 2390 2403;2420 2433	fellesferiens krimlesning !
+E37	Polar_expression:T69 Target:T66
+A159	Polarity E37 Positive
+A160	Source_is_author E37
+A161	Intensity E37 Standard
+A162	Target_is_general E37
+A163	Type E37 E
+T70	Polar_expression 2407 2433	sensommerens krimlesning !
+E38	Polar_expression:T70 Target:T66
+A164	Polarity E38 Positive
+A165	Source_is_author E38
+A166	Intensity E38 Standard
+A167	Target_is_general E38
+A168	Type E38 E
+E39	Polar_expression:T68 Target:T67
+A169	Polarity E39 Positive
+A170	Source_is_author E39
+A171	Intensity E39 Standard
+A173	Type E39 E
+E40	Polar_expression:T69 Target:T67
+A174	Polarity E40 Positive
+A175	Source_is_author E40
+A176	Intensity E40 Standard
+A178	Type E40 E
+E41	Polar_expression:T70 Target:T67
+A179	Polarity E41 Positive
+A180	Source_is_author E41
+A181	Intensity E41 Standard
+A183	Type E41 E
+A172	NOT E39
+A177	NOT E40
+A182	NOT E41
+T62	Entity 2177 2195	Harry Hole-univers

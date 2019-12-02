@@ -1,0 +1,120 @@
+T1	E 0 0	
+T2	E 33 33	
+T3	E 163 163	
+T4	E 301 301	
+T5	E 328 328	
+T6	E 472 472	
+T7	E 640 640	
+A1	NOT T7
+A2	NFP T7
+T8	E 831 831	
+T9	E 1234 1234	
+T10	E 1563 1563	
+T11	E 1617 1617	
+T12	E 1861 1861	
+T13	E 1980 1980	
+T14	Polar_expression 0 16	Delvis vellykket
+E1	Polar_expression:T14 
+A3	Polarity E1 Positive
+A4	Source_is_author E1
+A5	Intensity E1 Slight
+A6	Target_is_general E1
+A7	Type E1 E
+T15	Polar_expression 130 159	solid og traust stykke arbeid
+E2	Polar_expression:T15 Target:T16
+A8	Polarity E2 Positive
+A9	Source_is_author E2
+A10	Intensity E2 Standard
+A11	Target_is_general E2
+A12	Type E2 E
+T16	Entity 46 56	dokumentar
+T17	Polar_expression 167 297	skulle ønske hun hadde appellert mindre til de spesielt interesserte hoder og enda mer til følelser vi alle kan kjenne oss igjen i
+E3	Polar_expression:T17 
+A13	Polarity E3 Negative
+A14	Source_is_author E3
+A15	Intensity E3 Standard
+A16	Target_is_general E3
+A17	Type E3 E
+T18	Entity 305 313	åpningen
+T19	Polar_expression 317 325	knallbra
+E4	Polar_expression:T19 Target:T18
+A18	Polarity E4 Positive
+A19	Source_is_author E4
+A20	Intensity E4 Strong
+A21	Type E4 E
+T20	Polar_expression 328 341	Taust talende
+E5	Polar_expression:T20 Target:T21
+A22	Polarity E5 Positive
+A23	Source_is_author E5
+A24	Intensity E5 Slight
+A25	Type E5 E
+T21	Entity 342 348	bilder
+T22	Polar_expression 423 439	slående kontrast
+E6	Polar_expression:T22 Target:T21
+A26	Polarity E6 Positive
+A27	Source_is_author E6
+A28	Intensity E6 Standard
+A29	Type E6 E
+T23	Polar_expression 551 569	rører hjerterøtter
+E7	Polar_expression:T23 
+A30	Polarity E7 Positive
+A31	Source_is_author E7
+A32	Intensity E7 Standard
+A33	Type E7 E
+T24	Polar_expression 661 687	bedre enn sine forgjengere
+E8	Polar_expression:T24 Target:T25
+A34	Polarity E8 Positive
+A35	Intensity E8 Standard
+A36	NFP E8
+A37	NOT E8
+A38	Type E8 E
+T25	Entity 642 657	Svein Ludvigsen
+T26	Entity 886 901	første halvtime
+T27	Polar_expression 911 919	utmerket
+E9	Polar_expression:T27 Target:T26
+A39	Polarity E9 Positive
+A40	Source_is_author E9
+A41	Intensity E9 Strong
+A42	Type E9 E
+T28	Entity 845 848	han
+T29	Polar_expression 853 880	troverdig og medmenneskelig
+E10	Polar_expression:T29 Target:T28
+A43	Polarity E10 Positive
+A44	Source_is_author E10
+A45	Intensity E10 Standard
+A46	NOT E10
+A47	Type E10 E
+T30	Polar_expression 1279 1290	interessant
+E11	Polar_expression:T30 
+A48	Polarity E11 Positive
+A49	Source_is_author E11
+A50	Intensity E11 Standard
+A51	Type E11 E
+T31	Entity 1571 1594	midtveis i dokumentaren
+T32	Polar_expression 1595 1614	faller temperaturen
+E12	Polar_expression:T32 Target:T31
+A52	Polarity E12 Negative
+A53	Source_is_author E12
+A54	Intensity E12 Standard
+A55	Type E12 E
+T33	Polar_expression 1722 1738	trenger en motor
+E13	Polar_expression:T33 Target:T34
+A56	Polarity E13 Negative
+A57	Source_is_author E13
+A58	Intensity E13 Standard
+A59	Type E13 E
+T34	Entity 1747 1757	handlingen
+T35	Polar_expression 1872 1891	følelsene kobles av
+E14	Polar_expression:T35 Source:T36
+A60	Polarity E14 Negative
+A61	Source_is_author E14
+A62	Intensity E14 Standard
+A63	Type E14 E
+T36	Entity 1895 1898	jeg
+T37	Entity 1991 1995	Holm
+T38	Polar_expression 1996 2013	skal ha masse ros
+E15	Polar_expression:T38 Target:T37
+A64	Polarity E15 Positive
+A65	Source_is_author E15
+A66	Intensity E15 Standard
+A67	Type E15 E

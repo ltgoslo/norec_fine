@@ -1,0 +1,61 @@
+T1	E 24 24	
+T2	E 60 60	
+T3	E 329 329	
+T4	E 1618 1618	
+T5	E 2116 2116	
+T6	E 2332 2332	
+T7	Entity 24 40	Moderne komedier
+T8	Polar_expression 41 57	mangler handling
+E1	Polar_expression:T8 Target:T7
+A1	Polarity E1 Negative
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Type E1 E
+T9	Polar_expression 82 100	uappetittlige menn
+E2	Polar_expression:T9 Target:T19
+A5	Polarity E2 Negative
+A6	Source_is_author E2
+A7	Intensity E2 Strong
+A8	Type E2 E
+T10	Polar_expression 109 132	skiftende humorkvalitet
+E3	Polar_expression:T10 Target:T19
+A9	Polarity E3 Negative
+A10	Source_is_author E3
+A11	Intensity E3 Standard
+A12	Type E3 E
+T11	Polar_expression 339 359	pølse i salatens tid
+E4	Polar_expression:T11 Target:T20
+A13	Polarity E4 Negative
+A14	Source_is_author E4
+A15	Intensity E4 Standard
+A16	Type E4 E
+T12	Polar_expression 371 382	mumlemanisk
+E5	Polar_expression:T12 Target:T20
+A17	Polarity E5 Negative
+A18	Source_is_author E5
+A19	Intensity E5 Standard
+A20	Type E5 E
+T13	Entity 1618 1631	Russell Brand
+T14	Polar_expression 1673 1681	vellykka
+E6	Polar_expression:T14 Target:T13
+A21	Polarity E6 Positive
+A22	Source_is_author E6
+A23	Intensity E6 Standard
+A24	Type E6 E
+T15	Entity 2121 2127	filmen
+T16	Polar_expression 2150 2153	vas
+E7	Polar_expression:T16 Target:T15
+A25	Polarity E7 Negative
+A26	Source_is_author E7
+A27	Intensity E7 Standard
+A28	Type E7 E
+A29	Target_is_general E7
+T17	Polar_expression 2332 2406	Hvis scenene hadde blitt så morsomme som det var meningen at de skulle bli
+E8	Polar_expression:T17 Target:T18
+A30	Polarity E8 Negative
+A31	Source_is_author E8
+A32	Intensity E8 Standard
+A33	Type E8 E
+T18	Entity 2337 2344	scenene
+T19	Entity 76 78	de
+T20	Entity 329 332	Den

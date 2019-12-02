@@ -1,0 +1,141 @@
+T1	E 0 0	
+T2	E 17 17	
+T3	E 241 241	
+T4	E 308 308	
+T5	EFINP 392 392	
+T6	EFINP 1424 1424	
+T7	E 1491 1491	
+T8	E 1782 1782	
+T9	E 1890 1890	
+T10	E 1938 1938	
+T11	E 1996 1996	
+T12	E 2150 2150	
+T13	E 2843 2843	
+T14	Polar_expression 0 15	Kort og intenst
+E33	Polar_expression:T14 
+A139	Polarity E33 Positive
+A140	Intensity E33 Standard
+A141	Type E33 E
+A142	Source_is_author E33
+A143	Target_is_general E33
+T15	Entity 1424 1438	Heivolls tekst
+T16	Polar_expression 1443 1488	kvaliteter som minner om Jon Fosses skuespill
+E34	Polar_expression:T16 Target:T15
+A144	Polarity E34 Positive
+A145	Intensity E34 Standard
+A146	Type E34 EFINP
+A147	Source_is_author E34
+T17	Entity 1949 1957	samtalen
+T18	Polar_expression 1958 1993	ikke realistisk i egentlig forstand
+E35	Polar_expression:T18 Target:T17
+A148	Polarity E35 Negative
+A149	Intensity E35 Standard
+A150	Type E35 E
+A151	Source_is_author E35
+T19	Entity 2908 2922	forestillingen
+T20	Polar_expression 2901 2907	sterke
+E36	Polar_expression:T20 Target:T19
+A152	Polarity E36 Positive
+A153	Intensity E36 Standard
+A154	Type E36 E
+A155	Source_is_author E36
+A156	Target_is_general E36
+T21	Entity 44 74	« Jeg kommer tilbake i kveld »
+T22	Polar_expression 105 112	suksess
+E1	Polar_expression:T22 Target:T21
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Target_is_general E1
+A5	Type E1 E
+T23	Entity 79 92	Gaute Heivoll
+T24	Polar_expression 93 112	føye nok en suksess
+E2	Polar_expression:T24 Target:T23
+A6	Polarity E2 Positive
+A7	Source_is_author E2
+A8	Intensity E2 Standard
+A9	Type E2 E
+T25	Entity 241 253	Agder Teater
+T26	Polar_expression 258 305	vellykket bidratt til å frembringe ny dramatikk
+E3	Polar_expression:T26 Target:T25
+A10	Polarity E3 Positive
+A11	Source_is_author E3
+A12	Intensity E3 Standard
+A13	Type E3 E
+T27	Entity 308 324	Tre skuespillere
+T28	Polar_expression 335 360	levende og intens samtale
+E4	Polar_expression:T28 Target:T27
+A14	Polarity E4 Positive
+A15	Source_is_author E4
+A16	Intensity E4 Standard
+A17	Type E4 E
+T29	Entity 432 442	atmosfæren
+T30	Polar_expression 446 491	så fortettet at man nærmest gisper etter luft
+E5	Polar_expression:T30 Target:T29
+A18	Polarity E5 Positive
+A19	Source_is_author E5
+A20	Intensity E5 Standard
+A21	Type E5 E
+T31	Entity 1586 1602	de tre på scenen
+T32	Polar_expression 1551 1582	utfordring som løses svært godt
+E6	Polar_expression:T32 Target:T31
+A22	Polarity E6 Positive
+A23	Source_is_author E6
+A24	Intensity E6 Standard
+A25	Type E6 E
+T33	Entity 1816 1824	alle tre
+T34	Entity 1849 1864	Henriette Marøs
+T35	Polar_expression 1789 1811	fine karaktertegninger
+E7	Polar_expression:T35 Target:T33
+A26	Polarity E7 Positive
+A27	Source_is_author E7
+A28	Intensity E7 Standard
+A29	Type E7 E
+T36	Polar_expression 1830 1844	ekstra stjerne
+E8	Polar_expression:T36 Target:T34
+A30	Polarity E8 Positive
+A31	Source_is_author E8
+A32	Intensity E8 Standard
+A33	Type E8 E
+T37	Entity 1890 1897	Språket
+T38	Polar_expression 1905 1935	naturlig , tross repetisjonene
+E9	Polar_expression:T38 Target:T37
+A34	Polarity E9 Positive
+A35	Source_is_author E9
+A36	Intensity E9 Standard
+A37	Type E9 E
+T39	Polar_expression 2003 2029	vanskelig å forestille seg
+E10	Polar_expression:T39 
+A38	Polarity E10 Negative
+A39	Source_is_author E10
+A40	Intensity E10 Standard
+A41	Target_is_general E10
+A42	Type E10 E
+T40	Entity 2130 2147	gjesten fra Norge
+T41	Polar_expression 2109 2120	innpåslitne
+E11	Polar_expression:T41 Target:T40
+A43	Polarity E11 Negative
+A44	Source_is_author E11
+A45	Intensity E11 Standard
+A46	NOT E11
+A47	Type E11 E
+T42	Polar_expression 2123 2129	ubudne
+E12	Polar_expression:T42 Target:T40
+A48	Polarity E12 Negative
+A49	Source_is_author E12
+A50	Intensity E12 Standard
+A51	NOT E12
+A52	Type E12 E
+T43	Entity 2183 2187	regi
+T44	Entity 2191 2201	scenografi
+T45	Polar_expression 2150 2180	Realismen er delvis også borte
+E13	Polar_expression:T45 Target:T43
+A53	Polarity E13 Negative
+A54	Source_is_author E13
+A55	Intensity E13 Standard
+A56	Type E13 E
+E14	Polar_expression:T45 Target:T44
+A57	Polarity E14 Negative
+A58	Source_is_author E14
+A59	Intensity E14 Standard
+A60	Type E14 E

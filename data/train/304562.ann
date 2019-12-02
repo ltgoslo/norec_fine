@@ -1,0 +1,147 @@
+T1	E 94 94	
+T2	E 447 447	
+T3	EFINP 563 563	
+T4	E 613 613	
+T5	E 967 967	
+T6	E 1086 1086	
+T7	E 1245 1245	
+A1	NOT T7
+T8	E 1456 1456	
+T9	E 1765 1765	
+T10	E 1867 1867	
+T11	E 2174 2174	
+T12	E 2208 2208	
+T13	Polar_expression 98 112	går sånn passe
+E1	Polar_expression:T13 
+A2	Polarity E1 Negative
+A3	Source_is_author E1
+A4	Intensity E1 Slight
+A5	Target_is_general E1
+A6	Type E1 E
+T14	Polar_expression 573 609	ingen tvil om hvem vi skal juble for
+E2	Polar_expression:T14 
+A7	Polarity E2 Positive
+A8	Source_is_author E2
+A9	Intensity E2 Standard
+A10	Type E2 E
+T15	Polar_expression 613 632	Sterke skuespillere
+E3	Polar_expression:T15 Target:T16
+A11	Polarity E3 Positive
+A12	Source_is_author E3
+A13	Intensity E3 Standard
+A15	Type E3 E
+T16	Entity 620 632	skuespillere
+T17	Polar_expression 1036 1083	øftes helt klart av å ha så sterke hinderløpere
+E4	Polar_expression:T17 Target:T18
+A14	Polarity E4 Positive
+A16	Source_is_author E4
+A17	Intensity E4 Strong
+A18	Type E4 E
+T18	Entity 967 986	« Won't Back Down »
+T19	Entity 1071 1083	hinderløpere
+T20	Polar_expression 1064 1070	sterke
+E5	Polar_expression:T20 Target:T19
+A19	Polarity E5 Positive
+A20	Source_is_author E5
+A21	Intensity E5 Standard
+A22	Type E5 E
+T21	Entity 1086 1096;1100 1105	Gyllenhaal Davis
+T22	Polar_expression 1115 1128;1131 1143	overbevisende karismatiske
+E6	Polar_expression:T22 Target:T21
+A23	Polarity E6 Positive
+A24	Source_is_author E6
+A25	Intensity E6 Standard
+A26	Type E6 E
+T23	Polar_expression 1115 1216	overbevisende , karismatiske skuespillere som får publikum til å tro det de tror og føle det de føler
+E7	Polar_expression:T23 Target:T21
+A27	Polarity E7 Positive
+A28	Source_is_author E7
+A29	Intensity E7 Standard
+A30	NOT E7
+A31	Type E7 E
+T24	Polar_expression 1413 1453	fortjener noen drag pepper og vel så dét
+E8	Polar_expression:T24 Target:T25
+A32	Polarity E8 Negative
+A33	Source_is_author E8
+A34	Intensity E8 Strong
+A35	NOT E8
+A36	Type E8 E
+T25	Entity 1276 1305	det amerikanske skolesystemet
+T26	Polar_expression 1464 1523	spørs om debatten er tjent med optimistiske aktiviststykker
+E9	Polar_expression:T26 Target:T27
+A37	Polarity E9 Negative
+A38	Source_is_author E9
+A39	Intensity E9 Standard
+A40	Type E9 E
+T27	Entity 1473 1481	debatten
+T28	Polar_expression 1554 1608	forsøker å lage en amalagam av kompleks samfunnsdebatt
+E10	Polar_expression:T28 Target:T29
+A41	Polarity E10 Negative
+A42	Source_is_author E10
+A43	Intensity E10 Standard
+A44	Type E10 E
+T29	Entity 1528 1547	« Won't Back Down »
+T30	Polar_expression 1654 1762	fremstiller løsningen som nærmest gitt , bare du har hjertet på rett sted , stå på-vilje og et cheesy slogan
+E11	Polar_expression:T30 Target:T29
+A45	Polarity E11 Negative
+A46	Source_is_author E11
+A47	Intensity E11 Slight
+A48	Type E11 E
+T31	Polar_expression 1612 1644	semitåreperse om David og Goliat
+E12	Polar_expression:T31 Target:T29
+A49	Polarity E12 Negative
+A50	Source_is_author E12
+A51	Intensity E12 Standard
+A52	Type E12 E
+T32	Polar_expression 1780 1798	dels klønete laget
+E13	Polar_expression:T32 Target:T33
+A53	Polarity E13 Negative
+A54	Source_is_author E13
+A55	Intensity E13 Standard
+A56	Type E13 E
+T33	Entity 1765 1771	Filmen
+T34	Polar_expression 1805 1814	underlige
+E14	Polar_expression:T34 Target:T35
+A57	Polarity E14 Negative
+A58	Source_is_author E14
+A59	Intensity E14 Standard
+A60	Type E14 E
+T35	Entity 1815 1826	kameraskift
+T36	Polar_expression 1830 1840	umotiverte
+E15	Polar_expression:T36 Target:T37
+A61	Polarity E15 Negative
+A62	Source_is_author E15
+A63	Intensity E15 Standard
+A64	Type E15 E
+T37	Entity 1841 1850	aksebrudd
+T38	Polar_expression 1805 1826	underlige kameraskift
+E16	Polar_expression:T38 Target:T33
+A65	Polarity E16 Negative
+A66	Source_is_author E16
+A67	Intensity E16 Standard
+A68	Type E16 E
+T39	Polar_expression 1830 1850	umotiverte aksebrudd
+E17	Polar_expression:T39 Target:T33
+A69	Polarity E17 Negative
+A70	Source_is_author E17
+A71	Intensity E17 Standard
+A72	Type E17 E
+T40	Polar_expression 1871 1920	mest interessante og troverdige skjer i det lille
+E18	Polar_expression:T40 Target:T41
+A73	Polarity E18 Positive
+A74	Source_is_author E18
+A75	Intensity E18 Standard
+A76	Type E18 E
+T41	Entity 1928 1960	små frustrasjonene og dilemmaene
+T42	Polar_expression 2174 2205	Her ligger åren til en god film
+E19	Polar_expression:T42 
+A77	Polarity E19 Positive
+A78	Source_is_author E19
+A79	Intensity E19 Standard
+A80	Type E19 E
+T43	Polar_expression 2212 2236	det blir med antydningen
+E20	Polar_expression:T43 
+A81	Polarity E20 Negative
+A82	Source_is_author E20
+A83	Intensity E20 Standard
+A84	Type E20 E

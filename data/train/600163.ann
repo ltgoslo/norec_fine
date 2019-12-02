@@ -1,0 +1,99 @@
+T1	E 0 0	
+T2	E 1331 1331	
+T3	E 1746 1746	
+T4	E 1966 1966	
+T5	E 2098 2098	
+T6	E 2181 2181	
+T7	E 2192 2192	
+T8	Polar_expression 0 17	Briljant thriller
+E1	Polar_expression:T8 
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Strong
+A4	Target_is_general E1
+A5	Type E1 E
+T9	Polar_expression 0 8	Briljant
+E2	Polar_expression:T9 Target:T10
+A6	Polarity E2 Positive
+A7	Source_is_author E2
+A8	Intensity E2 Strong
+A9	Type E2 E
+T10	Entity 9 17	thriller
+T11	Polar_expression 1354 1367	briljant film
+E3	Polar_expression:T11 Target:T12
+A10	Polarity E3 Positive
+A11	Source_is_author E3
+A12	Intensity E3 Strong
+A13	Type E3 E
+T12	Entity 1331 1347	« The American »
+T13	Polar_expression 2181 2189	Briljant
+E4	Polar_expression:T13 
+A14	Polarity E4 Positive
+A15	Source_is_author E4
+A16	Intensity E4 Strong
+A17	Target_is_general E4
+A18	Type E4 E
+T14	Polar_expression 2192 2218	Anbefales på det sterkeste
+E5	Polar_expression:T14 
+A19	Polarity E5 Positive
+A20	Source_is_author E5
+A21	Intensity E5 Strong
+A22	Target_is_general E5
+A23	Type E5 E
+T15	Polar_expression 1765 1796	mer europeiske enn hollywoodske
+E6	Polar_expression:T15 Target:T16
+A24	Polarity E6 Positive
+A25	Source_is_author E6
+A26	Intensity E6 Standard
+A27	Type E6 E
+#1	AnnotatorNotes E6	Sammenlikning
+T16	Entity 1746 1757	Regigrepene
+T17	Polar_expression 1810 1823;1931 1963	rolige rytmen uten at det noen gang blir tregt
+E7	Polar_expression:T17 Target:T18
+A28	Polarity E7 Positive
+A29	Source_is_author E7
+A30	Intensity E7 Standard
+A31	Type E7 E
+T18	Entity 1832 1851;1856 1867;1872 1899;1907 1928	fortellerstrukturen stemningene presentasjonen av personene filmatiske uttrykkene
+T19	Polar_expression 1973 1994	besitter en dyp nerve
+E8	Polar_expression:T19 Target:T20
+A32	Polarity E8 Positive
+A33	Source_is_author E8
+A34	Intensity E8 Standard
+A35	Type E8 E
+T20	Entity 1966 1972	Filmen
+T21	Polar_expression 2001 2020	bygges finurlig opp
+E9	Polar_expression:T21 Target:T20
+A36	Polarity E9 Positive
+A37	Source_is_author E9
+A38	Intensity E9 Standard
+A39	Type E9 E
+T22	Polar_expression 2031 2095	hele tiden beholdes den ulmende spenningen og den tikkende uroen
+E10	Polar_expression:T22 
+A40	Polarity E10 Positive
+A41	Source_is_author E10
+A42	Intensity E10 Strong
+A43	Target_is_general E10
+A44	Type E10 E
+T23	Polar_expression 2098 2140;2157 2169	Handlingsutviklingen kan faktisk avleses i våkne ansikt
+E11	Polar_expression:T23 Target:T24
+A45	Polarity E11 Positive
+A46	Source_is_author E11
+A47	Intensity E11 Standard
+A48	Type E11 E
+T24	Entity 2141 2156	George Clooneys
+T25	Polar_expression 2098 2169	Handlingsutviklingen kan faktisk avleses i George Clooneys våkne ansikt
+E12	Polar_expression:T25 
+A49	Polarity E12 Positive
+A50	Source_is_author E12
+A51	Intensity E12 Standard
+A52	Target_is_general E12
+A53	Type E12 E
+T26	Polar_expression 2157 2162	våkne
+E13	Polar_expression:T26 Target:T27
+A54	Polarity E13 Positive
+A55	Source_is_author E13
+A56	Intensity E13 Standard
+A57	NOT E13
+A58	Type E13 E
+T27	Entity 2163 2169	ansikt

@@ -1,0 +1,133 @@
+T1	E 0 0	
+T2	E 28 28	
+T3	E 209 209	
+T4	E 237 237	
+T5	E 271 271	
+T6	E 508 508	
+T7	E 550 550	
+T8	E 682 682	
+T9	E 729 729	
+T10	E 1079 1079	
+T11	E 1180 1180	
+T12	E 1226 1226	
+T13	Entity 1091 1098	albumet
+T14	Polar_expression 1131 1177	tar likevel noen runder for hele pakken sitter
+E32	Polar_expression:T14 Target:T13
+A155	Polarity E32 Negative
+A156	Intensity E32 Slight
+A157	Type E32 E
+A158	Source_is_author E32
+A159	Target_is_general E32
+T15	Polar_expression 1226 1255	Blant verdens beste rockeband
+E33	Polar_expression:T15 
+A160	Polarity E33 Positive
+A161	Intensity E33 Strong
+A162	Type E33 E
+A163	Source_is_author E33
+A164	Target_is_general E33
+T16	Polar_expression 1103 1120	appell hele veien
+E34	Polar_expression:T16 Target:T13
+A165	Polarity E34 Positive
+A166	Intensity E34 Standard
+A167	Type E34 E
+A168	Source_is_author E34
+A169	Target_is_general E34
+T17	Polar_expression 209 222	To mesterverk
+E1	Polar_expression:T17 
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	NOT E1
+A5	Type E1 E
+T18	Entity 0 13	Drabantbyrock
+T19	Polar_expression 16 26	toppklasse
+E2	Polar_expression:T19 Target:T18
+A6	Polarity E2 Positive
+A7	Source_is_author E2
+A8	Intensity E2 Strong
+A9	Target_is_general E2
+A10	Type E2 E
+T20	Polar_expression 103 134	mektige og lunefulle stemningen
+E3	Polar_expression:T20 Target:T21
+A11	Polarity E3 Positive
+A12	Source_is_author E3
+A13	Intensity E3 Standard
+A14	NOT E3
+A15	Type E3 E
+T21	Entity 159 170	« Funeral »
+T22	Entity 183 197	« Neon Bible »
+E4	Polar_expression:T20 Target:T22
+A16	Polarity E4 Positive
+A17	Source_is_author E4
+A18	Intensity E4 Standard
+A19	NOT E4
+A20	Type E4 E
+T23	Polar_expression 241 250	låter bra
+E5	Polar_expression:T23 
+A21	Polarity E5 Positive
+A22	Source_is_author E5
+A23	Intensity E5 Standard
+A24	Target_is_general E5
+A25	Type E5 E
+T24	Polar_expression 312 337	storslagen og mektig rock
+E6	Polar_expression:T24 Target:T25
+A26	Polarity E6 Positive
+A27	Source_is_author E6
+A28	Intensity E6 Standard
+A29	Target_is_general E6
+A30	Type E6 E
+T25	Entity 342 353	Arcade Fire
+T26	Polar_expression 371 438	et av verdens mest spennende og beste rockeband i verden akkurat nå
+E7	Polar_expression:T26 Target:T25
+A31	Polarity E7 Positive
+A32	Source_is_author E7
+A33	Intensity E7 Strong
+A34	Target_is_general E7
+A35	Type E7 E
+T27	Polar_expression 519 534	stor opplevelse
+E8	Polar_expression:T27 
+A36	Polarity E8 Positive
+A37	Source_is_author E8
+A38	Intensity E8 Standard
+A39	NOT E8
+A40	Type E8 E
+T28	Polar_expression 569 612	lar instrumentene rullere medlemmene mellom
+E9	Polar_expression:T28 Target:T29
+A41	Polarity E9 Positive
+A42	Source_is_author E9
+A43	Intensity E9 Standard
+A44	NOT E9
+A45	Type E9 E
+T29	Entity 566 568	de
+T30	Entity 625 627	de
+T31	Polar_expression 640 679	stil og innlevelse som fenger og fanger
+E10	Polar_expression:T31 Target:T30
+A46	Polarity E10 Positive
+A47	Source_is_author E10
+A48	Intensity E10 Standard
+A49	NOT E10
+A50	Type E10 E
+T32	Entity 682 718	Paret Win Butler og Regine Chassagne
+T33	Polar_expression 719 726	brenner
+E11	Polar_expression:T33 Target:T32
+A51	Polarity E11 Positive
+A52	Source_is_author E11
+A53	Intensity E11 Standard
+A54	NOT E11
+A55	Type E11 E
+T34	Polar_expression 736 751	bobler og koker
+E12	Polar_expression:T34 Target:T35
+A56	Polarity E12 Positive
+A57	Source_is_author E12
+A58	Intensity E12 Strong
+A59	NOT E12
+A60	Type E12 E
+T35	Entity 754 760	bandet
+T36	Entity 1188 1199	Arcade Fire
+T37	Polar_expression 1203 1223	fortsatt å regne med
+E13	Polar_expression:T37 Target:T36
+A61	Polarity E13 Positive
+A62	Source_is_author E13
+A63	Intensity E13 Standard
+A64	Target_is_general E13
+A65	Type E13 E

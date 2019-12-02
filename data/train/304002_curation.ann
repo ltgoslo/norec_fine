@@ -1,0 +1,8 @@
+T1	E 2581 2581	
+T2	Entity 2581 2606	Gaute Tønders lydeffekter
+T3	Polar_expression 2607 2641	bygger opp under underliggjøringen
+E3	Polar_expression:T3 Target:T2
+A9	Polarity E3 Positive
+A10	Intensity E3 Standard
+A11	Type E3 E
+A12	Source_is_author E3

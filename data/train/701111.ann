@@ -1,0 +1,94 @@
+T1	E 18 18	
+T2	E 528 528	
+A1	NOT T2
+T3	E 646 646	
+T4	E 824 824	
+T5	E 918 918	
+T6	E 924 924	
+T7	E 1071 1071	
+T8	E 1245 1245	
+T9	Polar_expression 18 34;57 60	Verre kunne ikke bli
+E1	Polar_expression:T9 Target:T10
+A2	Polarity E1 Negative
+A3	Source_is_author E1
+A4	Intensity E1 Strong
+A5	Type E1 E
+T10	Entity 35 56	lanseringstidspunktet
+T11	Polar_expression 538 549	forferdelig
+E2	Polar_expression:T11 Target:T12
+A6	Polarity E2 Negative
+A7	Source_is_author E2
+A8	Intensity E2 Strong
+A9	NOT E2
+A10	Type E2 E
+T12	Entity 528 534	Mannen
+T13	Polar_expression 653 660;668 696	starter som et nedstemmende pysestyr
+E3	Polar_expression:T13 Target:T14
+A11	Polarity E3 Negative
+A12	Source_is_author E3
+A13	Intensity E3 Standard
+A14	Type E3 E
+T14	Entity 661 667	filmen
+T15	Polar_expression 896 915	skriker du i smerte
+E4	Polar_expression:T15 Target:T16
+A15	Polarity E4 Negative
+A16	Source_is_author E4
+A17	Intensity E4 Strong
+A18	Type E4 E
+T16	Entity 824 893	Når Thurman har sex med en gutt som bærer hårstjert i stedet for lugg
+T17	Polar_expression 918 921	Nei
+E5	Polar_expression:T17 
+A19	Polarity E5 Negative
+A20	Source_is_author E5
+A21	Intensity E5 Standard
+A22	Type E5 E
+T18	Polar_expression 940 956	ville vært bedre
+E6	Polar_expression:T18 Target:T19
+A23	Polarity E6 Positive
+A24	Source_is_author E6
+A25	Intensity E6 Standard
+A26	NOT E6
+A27	Type E6 E
+#1	AnnotatorNotes E6	Irrealis og sammenlikning
+T19	Entity 924 939	Macaulay Culkin
+T20	Polar_expression 924 956	Macaulay Culkin ville vært bedre
+E7	Polar_expression:T20 
+A28	Polarity E7 Negative
+A29	Source_is_author E7
+A30	Intensity E7 Standard
+A31	Type E7 E
+T21	Polar_expression 1175 1178;1195 1242	ser ut som en kortbeint buksedressmodell for Lindex
+E8	Polar_expression:T21 Target:T22
+A32	Polarity E8 Negative
+A33	Source_is_author E8
+A34	Intensity E8 Standard
+A35	Type E8 E
+T22	Entity 1071 1083	Meryl Streep
+T23	Polar_expression 1084 1142	triller en omtenksom karusell av forskrekka ansiktsuttrykk
+E9	Polar_expression:T23 Target:T22
+A36	Polarity E9 Positive
+A37	Source_is_author E9
+A38	Intensity E9 Slight
+A39	Type E9 E
+T24	Polar_expression 1160 1166	tårnet
+E10	Polar_expression:T24 Target:T25
+A40	Polarity E10 Negative
+A41	Source_is_author E10
+A42	Intensity E10 Slight
+A43	Type E10 E
+T25	Entity 1167 1174	Thurman
+T26	Polar_expression 1395 1429	omskåret og ser sørgelig skalla ut
+E11	Polar_expression:T26 Target:T27
+A44	Polarity E11 Negative
+A45	Source_is_author E11
+A46	Intensity E11 Standard
+A47	NOT E11
+A48	Type E11 E
+T27	Entity 1353 1369	kjærestens penis
+T28	Polar_expression 1245 1256	Litt vittig
+E12	Polar_expression:T28 Target:T29
+A49	Polarity E12 Positive
+A50	Source_is_author E12
+A51	Intensity E12 Slight
+A52	Type E12 E
+T29	Entity 1273 1312	når den uvitende Uma snakker med Streep

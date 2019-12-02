@@ -1,0 +1,172 @@
+T1	E 0 0	
+T2	E 21 21	
+T3	E 177 177	
+T4	E 243 243	
+T5	E 358 358	
+T6	EFINP 449 449	
+T7	E 595 595	
+T8	E 676 676	
+T9	E 768 768	
+T10	E 911 911	
+T11	E 1071 1071	
+T12	E 1179 1179	
+T13	Entity 370 408	up-beat danselåter til rolige ballader
+T14	Polar_expression 415 446	ingen av dem imponerer spesielt
+E40	Polar_expression:T14 Target:T13
+A170	Polarity E40 Negative
+A171	Intensity E40 Standard
+A172	Type E40 E
+A173	Source_is_author E40
+T15	Polar_expression 0 19	Smelter pikehjerter
+E1	Polar_expression:T15 
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Target_is_general E1
+A5	Type E1 E
+T16	Entity 21 51	Finlands svar på Justin Bieber
+T17	Polar_expression 52 88	smelter unge pikehjerter verden over
+E2	Polar_expression:T17 Target:T16
+A6	Polarity E2 Positive
+A7	Source_is_author E2
+A8	Intensity E2 Standard
+A9	Target_is_general E2
+A10	Type E2 E
+T18	Entity 207 209	vi
+T19	Entity 192 202	første låt
+T20	Polar_expression 177 185;210 240	Allerede slengt alle klisjeene i trynet
+E3	Polar_expression:T20 Source:T18 Target:T19
+A11	Polarity E3 Negative
+A12	Source_is_author E3
+A13	Intensity E3 Standard
+A14	Type E3 E
+T21	Entity 249 254	tekst
+T22	Polar_expression 243 248	Banal
+E4	Polar_expression:T22 Target:T21
+A15	Polarity E4 Negative
+A16	Source_is_author E4
+A17	Intensity E4 Standard
+A18	Type E4 E
+T23	Polar_expression 279 308	klassiske trance-oppbygningen
+E5	Polar_expression:T23 
+A19	Polarity E5 Negative
+A20	Source_is_author E5
+A21	Intensity E5 Standard
+A22	Type E5 E
+T24	Polar_expression 311 320	popmelodi
+E6	Polar_expression:T24 
+A23	Polarity E6 Negative
+A24	Source_is_author E6
+A25	Intensity E6 Standard
+A26	Type E6 E
+T25	Polar_expression 323 331	autotune
+E7	Polar_expression:T25 
+A27	Polarity E7 Negative
+A28	Source_is_author E7
+A29	Intensity E7 Standard
+A30	Type E7 E
+T26	Polar_expression 335 344	finpolert
+E8	Polar_expression:T26 Target:T27
+A31	Polarity E8 Negative
+A32	Source_is_author E8
+A33	Intensity E8 Standard
+A34	Type E8 E
+T27	Entity 345 355	produksjon
+T28	Entity 463 470	sangene
+T29	Polar_expression 449 462;471 492	Absolutt alle handler om kjærlighet
+E9	Polar_expression:T29 Target:T28
+A35	Polarity E9 Negative
+A36	Source_is_author E9
+A37	Intensity E9 Standard
+A38	Type E9 EFINP
+T30	Entity 498 533	teksten « My heart goes bom , bom »
+T31	Polar_expression 574 592	ekko fra 90-tallet
+E10	Polar_expression:T31 Target:T30
+A39	Polarity E10 Negative
+A40	Source_is_author E10
+A41	Intensity E10 Standard
+A42	Type E10 EFINP
+T32	Entity 595 597	Vi
+T33	Polar_expression 602 630	hørt det så mange ganger før
+E11	Polar_expression:T33 Source:T32
+A43	Polarity E11 Negative
+A44	Source_is_author E11
+A45	Intensity E11 Standard
+A46	Target_is_general E11
+A47	Type E11 E
+T34	Entity 637 639	vi
+T35	Polar_expression 645 672	ikke avskrive han helt enda
+E12	Polar_expression:T35 Target:T36 Source:T34
+A48	Polarity E12 Positive
+A49	Source_is_author E12
+A50	Intensity E12 Standard
+A51	Type E12 E
+T36	Entity 659 662	han
+T37	Entity 676 695	Elliot og hans team
+T38	Polar_expression 696 721	gjør tross alt jobben sin
+E13	Polar_expression:T38 Target:T37
+A52	Polarity E13 Positive
+A53	Source_is_author E13
+A54	Intensity E13 Standard
+A55	Type E13 E
+T39	Entity 799 810	slike låter
+T40	Polar_expression 791 798;815 852	akkurat går rett hjem hos denne aldersgruppen
+E14	Polar_expression:T40 Target:T39
+A56	Source_is_author E14
+A57	Intensity E14 Standard
+A58	Type E14 E
+T41	Entity 929 939	« Engine »
+T42	Polar_expression 911 919	Unntaket
+E15	Polar_expression:T42 Target:T41
+A59	Polarity E15 Positive
+A60	Source_is_author E15
+A61	Intensity E15 Standard
+A62	Type E15 E
+T43	Polar_expression 944 999	viser at Elliot har et håp om en litt mer moden framtid
+E16	Polar_expression:T43 Target:T41
+A63	Polarity E16 Positive
+A64	Source_is_author E16
+A65	Intensity E16 Standard
+A66	Type E16 E
+T44	Polar_expression 1024 1034	funky riff
+E17	Polar_expression:T44 Target:T41
+A67	Polarity E17 Positive
+A68	Source_is_author E17
+A69	Intensity E17 Standard
+A70	Type E17 E
+T45	Polar_expression 1038 1068	noen spennende harmoniseringer
+E18	Polar_expression:T45 Target:T41
+A71	Polarity E18 Positive
+A72	Source_is_author E18
+A73	Intensity E18 Standard
+A74	Type E18 E
+T46	Entity 953 959	Elliot
+T47	Polar_expression 929 939;967 999	« Engine » håp om en litt mer moden framtid
+E19	Polar_expression:T47 Target:T46
+A75	Polarity E19 Positive
+A76	Source_is_author E19
+A77	Intensity E19 Standard
+A78	Type E19 E
+T48	Entity 1102 1105	han
+T49	Polar_expression 1106 1131	smelte enda flere hjerter
+E20	Polar_expression:T49 Target:T48
+A79	Polarity E20 Positive
+A80	Source_is_author E20
+A81	Intensity E20 Standard
+A82	Type E20 E
+T50	Entity 1143 1150	albumet
+E21	Polar_expression:T49 Target:T50
+A83	Polarity E21 Positive
+A84	Source_is_author E21
+A85	Intensity E21 Standard
+A86	Type E21 E
+T51	Entity 1179 1191	Vi gamlinger
+T52	Entity 1216 1223	albumet
+T53	Polar_expression 1192 1209	kan bare ignorere
+E22	Polar_expression:T53 Source:T51 Target:T52
+A87	Polarity E22 Negative
+A88	Source_is_author E22
+A89	Intensity E22 Standard
+A90	Target_is_general E22
+A91	Type E22 E
+A92	Target_is_general E21

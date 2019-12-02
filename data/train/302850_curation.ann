@@ -1,0 +1,381 @@
+T1	E 0 0	
+T2	E 22 22	
+T3	E 69 69	
+T4	E 145 145	
+T5	E 441 441	
+T6	E 583 583	
+T7	E 732 732	
+T8	E 771 771	
+T9	E 935 935	
+T10	E 976 976	
+T11	E 1049 1049	
+T12	E 1303 1303	
+T13	EFINP 1497 1497	
+T14	E 1600 1600	
+T15	E 1747 1747	
+T16	EFINP 1893 1893	
+T17	E 1992 1992	
+T18	E 2030 2030	
+T19	E 2199 2199	
+T20	E 2561 2561	
+T21	E 2589 2589	
+T22	E 2696 2696	
+T23	E 2790 2790	
+T24	E 2859 2859	
+T25	E 2971 2971	
+T26	E 2998 2998	
+T27	E 3046 3046	
+T28	E 3225 3225	
+T29	E 3332 3332	
+T30	E 3468 3468	
+T31	E 3588 3588	
+T32	Entity 11 20	brasserie
+T33	Polar_expression 0 10	Ganske bra
+E98	Polar_expression:T33 Target:T32
+A413	Polarity E98 Positive
+A414	Intensity E98 Standard
+A415	Type E98 E
+A416	Source_is_author E98
+A417	Target_is_general E98
+T34	Entity 48 65	Brasserie Blanche
+T35	Polar_expression 25 44	kan sine klassikere
+E99	Polar_expression:T35 Target:T34
+A418	Polarity E99 Positive
+A419	Intensity E99 Standard
+A420	Type E99 E
+A421	Source_is_author E99
+A422	Target_is_general E99
+T36	Polar_expression 1751 1836	følelsen av virkelig å bli ivaretatt og personlig behandlet , glimret med sitt fravær
+E100	Polar_expression:T36 
+A423	Polarity E100 Negative
+A424	Intensity E100 Standard
+A425	Type E100 E
+A426	Source_is_author E100
+A427	Target_is_general E100
+T37	Entity 72 80	brasseri
+T38	Polar_expression 101 113	kvalitetsmat
+E1	Polar_expression:T38 Target:T37
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Target_is_general E1
+A5	Type E1 E
+T39	Entity 155 171	Brasserie France
+T40	Polar_expression 191 205	en institusjon
+E2	Polar_expression:T40 Target:T39
+A6	Polarity E2 Positive
+A7	Source_is_author E2
+A8	Intensity E2 Standard
+A9	Target_is_general E2
+A10	Type E2 E
+T41	Polar_expression 442 473	Wow , dette var da veldig bra !
+E3	Polar_expression:T41 
+A11	Polarity E3 Positive
+A12	Source_is_author E3
+A13	Intensity E3 Standard
+A14	Target_is_general E3
+A15	Type E3 E
+T42	Polar_expression 587 593	friske
+E4	Polar_expression:T42 Target:T43
+A16	Polarity E4 Positive
+A17	Source_is_author E4
+A18	Intensity E4 Standard
+A19	Type E4 E
+T43	Entity 594 600	pureen
+T44	Polar_expression 635 678	matchet både smaksmessig og visuelt perfekt
+E5	Polar_expression:T44 Target:T43
+A20	Polarity E5 Positive
+A21	Source_is_author E5
+A22	Intensity E5 Strong
+A23	Type E5 E
+T45	Entity 715 728	ingrediensene
+T46	Polar_expression 704 714	eksklusive
+E6	Polar_expression:T46 Target:T45
+A24	Polarity E6 Positive
+A25	Source_is_author E6
+A26	Intensity E6 Standard
+A27	Type E6 E
+T47	Entity 742 749	forrett
+T48	Polar_expression 754 768	ikke dårligere
+E7	Polar_expression:T48 Target:T47
+A28	Polarity E7 Positive
+A29	Source_is_author E7
+A30	Intensity E7 Standard
+A31	Type E7 E
+T49	Entity 771 779	Sjøkreps
+T50	Polar_expression 840 855	perfekt grillet
+E8	Polar_expression:T50 Target:T49
+A32	Polarity E8 Positive
+A33	Source_is_author E8
+A34	Intensity E8 Strong
+A35	Type E8 E
+T51	Polar_expression 858 865	søtlige
+E9	Polar_expression:T51 Target:T49
+A36	Polarity E9 Positive
+A37	Source_is_author E9
+A38	Intensity E9 Standard
+A39	Type E9 E
+T52	Polar_expression 869 876	saftige
+E10	Polar_expression:T52 Target:T49
+A40	Polarity E10 Positive
+A41	Source_is_author E10
+A42	Intensity E10 Standard
+A43	Type E10 E
+T53	Polar_expression 883 898	enkelt tilbehør
+E11	Polar_expression:T53 Target:T49
+A44	Polarity E11 Positive
+A45	Source_is_author E11
+A46	Intensity E11 Standard
+A47	Type E11 E
+T54	Polar_expression 771 802	Sjøkreps er nesten alltid bedre
+E12	Polar_expression:T54 Target:T55
+A48	Polarity E12 Negative
+A49	Source_is_author E12
+A50	Intensity E12 Standard
+A51	NOT E12
+A52	Type E12 E
+T55	Entity 818 824	hummer
+T56	Polar_expression 797 802	bedre
+E13	Polar_expression:T56 Target:T49
+A53	Polarity E13 Positive
+A54	Source_is_author E13
+A55	Intensity E13 Standard
+A56	Type E13 E
+T57	Polar_expression 807 817	overpriset
+E14	Polar_expression:T57 Target:T55
+A57	Polarity E14 Negative
+A58	Source_is_author E14
+A59	Intensity E14 Standard
+A60	NOT E14
+A61	Type E14 E
+T58	Polar_expression 958 973	perfekt balanse
+E15	Polar_expression:T58 Target:T59
+A62	Polarity E15 Positive
+A63	Source_is_author E15
+A64	Intensity E15 Strong
+A65	Type E15 E
+T59	Entity 935 955	Sødme , syre og fett
+T60	Polar_expression 1015 1027	fungerte bra
+E16	Polar_expression:T60 Target:T61
+A66	Polarity E16 Positive
+A67	Source_is_author E16
+A68	Intensity E16 Standard
+A69	Type E16 E
+T61	Entity 983 1014	Sancerre fra Paul Prieur & Fils
+T62	Polar_expression 1128 1133	feite
+E17	Polar_expression:T62 Target:T63
+A70	Polarity E17 Positive
+A71	Source_is_author E17
+A72	Intensity E17 Standard
+A73	Type E17 E
+T63	Entity 1144 1156	Gigas-østers
+T64	Polar_expression 1161 1178	29 kroner stykket
+E18	Polar_expression:T64 Target:T63
+A74	Polarity E18 Positive
+A75	Source_is_author E18
+A76	Intensity E18 Slight
+A77	Type E18 EFINP
+T65	Entity 1303 1306	Den
+T66	Polar_expression 1321 1331	dekorative
+E19	Polar_expression:T66 Target:T65
+A78	Polarity E19 Positive
+A79	Source_is_author E19
+A80	Intensity E19 Standard
+A81	Type E19 E
+T67	Entity 1500 1517	Brasserie Blanche
+T68	Polar_expression 1525 1546	ikke duker på bordene
+E20	Polar_expression:T68 Target:T67
+A82	Polarity E20 Negative
+A83	Source_is_author E20
+A84	Intensity E20 Standard
+A85	Target_is_general E20
+A86	Type E20 EFINP
+T69	Polar_expression 1559 1597	ingen som tørker opp vannsøl på bordet
+E21	Polar_expression:T69 Target:T67
+A87	Polarity E21 Negative
+A88	Source_is_author E21
+A89	Intensity E21 Standard
+A90	Target_is_general E21
+A91	Type E21 E
+T70	Entity 1600 1608	Kelneren
+T71	Polar_expression 1609 1640	tilbød smaking av flere vinvalg
+E22	Polar_expression:T71 Target:T70
+A92	Polarity E22 Positive
+A93	Source_is_author E22
+A94	Intensity E22 Standard
+A95	Type E22 E
+T72	Polar_expression 1657 1691	raskt på pletten med påfyll av vin
+E23	Polar_expression:T72 Target:T70
+A96	Polarity E23 Positive
+A97	Source_is_author E23
+A98	Intensity E23 Standard
+A99	Type E23 E
+T73	Polar_expression 1697 1744	tok en litt sen endring i menyvalg på strak arm
+E24	Polar_expression:T73 Target:T70
+A100	Polarity E24 Positive
+A101	Source_is_author E24
+A102	Intensity E24 Standard
+A103	Type E24 E
+T74	Entity 1896 1905	kjøkkenet
+T75	Polar_expression 1913 1967	folk med fartstid fra noen av byens beste restauranter
+E25	Polar_expression:T75 Target:T74
+A104	Polarity E25 Positive
+A105	Source_is_author E25
+A106	Intensity E25 Standard
+A107	Type E25 E
+T76	Polar_expression 1996 2027	kan man sine franske klassikere
+E26	Polar_expression:T76 
+A108	Polarity E26 Positive
+A109	Source_is_author E26
+A110	Intensity E26 Standard
+A111	Target_is_general E26
+A112	Type E26 E
+T77	Polar_expression 2068 2078	uspennende
+E27	Polar_expression:T77 Target:T78
+A113	Polarity E27 Negative
+A114	Source_is_author E27
+A115	Intensity E27 Standard
+A116	Type E27 E
+T78	Entity 2149 2158	hovedrett
+T79	Polar_expression 2206 2210;2270 2277	ikke fristet
+E28	Polar_expression:T79 Target:T80 Source:T81
+A117	Polarity E28 Negative
+A118	Source_is_author E28
+A119	Intensity E28 Standard
+A120	Type E28 E
+T80	Entity 2211 2267	femretterens blåskjell gratinert med skinke og roquefort
+T81	Entity 2278 2296	Robinson og Fredag
+T82	Polar_expression 2325 2335	rikholdige
+E29	Polar_expression:T82 Target:T83 Source:T81
+A121	Polarity E29 Positive
+A122	Source_is_author E29
+A123	Intensity E29 Standard
+A124	Type E29 E
+T83	Entity 2336 2353	à la carte-menyen
+T84	Polar_expression 2561 2586	Det kan de , langt på vei
+E30	Polar_expression:T84 
+A125	Polarity E30 Positive
+A126	Source_is_author E30
+A127	Intensity E30 Strong
+A128	Type E30 E
+T85	Entity 2589 2599	Entrecôten
+T86	Polar_expression 2604 2607	mør
+E31	Polar_expression:T86 Target:T85
+A129	Polarity E31 Positive
+A130	Source_is_author E31
+A131	Intensity E31 Standard
+A132	Type E31 E
+T87	Polar_expression 2611 2618	perfekt
+E32	Polar_expression:T87 Target:T85
+A133	Polarity E32 Positive
+A134	Source_is_author E32
+A135	Intensity E32 Strong
+A136	Type E32 E
+T88	Polar_expression 2649 2692	burde hatt en mer karamellisert stekeskorpe
+E33	Polar_expression:T88 Target:T85
+A137	Polarity E33 Negative
+A138	Source_is_author E33
+A139	Intensity E33 Standard
+A140	Type E33 E
+T89	Entity 2696 2706	Bearnaisen
+T90	Polar_expression 2764 2786	der den gjerne er best
+E34	Polar_expression:T90 Target:T89
+A141	Polarity E34 Positive
+A142	Source_is_author E34
+A143	Intensity E34 Standard
+A144	Type E34 E
+T92	Entity 2818 2825	torsken
+T91	Polar_expression 2812 2817	beste
+E35	Polar_expression:T91 Target:T92 Source:T93
+A145	Polarity E35 Positive
+A146	Source_is_author E35
+A147	Intensity E35 Strong
+A148	Type E35 E
+T93	Entity 2849 2855	Fredag
+T94	Entity 2878 2890	skreistykket
+T95	Polar_expression 2863 2877	perfekt stekte
+E36	Polar_expression:T95 Target:T94
+A149	Polarity E36 Positive
+A150	Source_is_author E36
+A151	Intensity E36 Strong
+A152	Type E36 E
+T96	Entity 2990 2994	rett
+T97	Polar_expression 2974 2983	innertier
+E37	Polar_expression:T97 Target:T96
+A153	Polarity E37 Positive
+A154	Source_is_author E37
+A155	Intensity E37 Strong
+A156	Type E37 E
+T98	Entity 2999 3008	Matmessig
+T99	Polar_expression 3016 3039	ikke så mye å plukke på
+E38	Polar_expression:T99 Target:T98
+A157	Polarity E38 Positive
+A158	Source_is_author E38
+A159	Intensity E38 Standard
+A160	Type E38 E
+T100	Entity 3053 3070	butterdeigsbunnen
+T101	Polar_expression 3053 3070;3089 3105	butterdeigsbunnen for tynn og bløt
+E39	Polar_expression:T101 Source:T102 Target:T100
+A161	Polarity E39 Negative
+A162	Source_is_author E39
+A163	Intensity E39 Standard
+A164	Type E39 E
+T102	Entity 3120 3128	Robinson
+T103	Entity 3191 3202	Tarte Tatin
+T104	Polar_expression 3156 3166	ellers god
+E40	Polar_expression:T104 Target:T103 Source:T102
+A165	Polarity E40 Positive
+A166	Source_is_author E40
+A167	Intensity E40 Slight
+A168	Type E40 E
+E41	Polar_expression:T101 Source:T102 Target:T103
+A169	Polarity E41 Negative
+A170	Source_is_author E41
+A171	Intensity E41 Standard
+A172	Type E41 E
+T105	Entity 3225 3231	Fredag
+T106	Polar_expression 3254 3272	ingen innvendinger
+E42	Polar_expression:T106 Target:T107 Source:T105
+A173	Polarity E42 Positive
+A174	Source_is_author E42
+A175	Intensity E42 Standard
+A176	Type E42 E
+T107	Entity 3277 3295	sjokoladefondanten
+T108	Polar_expression 3337 3345;3350 3379;3386 3402;3441 3452	får ikke litt falmede Paris-stemningen herlige kelnerne rocka suset
+E43	Polar_expression:T108 Target:T111
+A177	Polarity E43 Negative
+A178	Source_is_author E43
+A179	Intensity E43 Standard
+A180	Target_is_general E43
+A181	Type E43 E
+T109	Polar_expression 3386 3393	herlige
+E44	Polar_expression:T109 Target:T110
+A182	Polarity E44 Positive
+A183	Source_is_author E44
+A184	Intensity E44 Standard
+A185	NOT E44
+A186	Type E44 E
+T110	Entity 3394 3402	kelnerne
+T111	Entity 3407 3423	Brasserie France
+T112	Polar_expression 3488 3496	hyggelig
+E45	Polar_expression:T112 Source:T115
+A187	Polarity E45 Positive
+A188	Source_is_author E45
+A189	Intensity E45 Standard
+A190	Target_is_general E45
+A191	Type E45 E
+T113	Entity 3506 3511	maten
+T114	Polar_expression 3519 3535	ganske høyt nivå
+E46	Polar_expression:T114 Target:T113 Source:T115
+A192	Polarity E46 Positive
+A193	Source_is_author E46
+A194	Intensity E46 Standard
+A195	Type E46 E
+T115	Entity 3579 3585	Fredag
+T116	Polar_expression 3637 3651	helt grei deal
+E47	Polar_expression:T116 Target:T117
+A196	Polarity E47 Positive
+A197	Source_is_author E47
+A198	Intensity E47 Slight
+A199	Type E47 E
+T117	Entity 3588 3597	Regningen
