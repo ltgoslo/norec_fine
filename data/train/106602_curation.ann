@@ -1,0 +1,73 @@
+T1	E 1015 1015	
+T2	E 1064 1064	
+T3	E 1811 1811	
+T4	E 2207 2207	
+T5	E 2392 2392	
+T6	E 2620 2620	
+T7	E 2640 2640	
+T8	Entity 1064 1082	Fortellerteknikken
+T9	Polar_expression 1086 1095	rendyrket
+E20	Polar_expression:T9 Target:T8
+A90	Polarity E20 Positive
+A91	Intensity E20 Standard
+A92	Type E20 E
+A93	Source_is_author E20
+T10	Entity 1015 1021	Filmen
+T11	Polar_expression 1025 1039	dypt berørende
+E1	Polar_expression:T11 Target:T10
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Strong
+A4	Target_is_general E1
+A5	Type E1 E
+T12	Polar_expression 1043 1061	ytterst skremmende
+E2	Polar_expression:T12 Target:T10
+A6	Polarity E2 Positive
+A7	Source_is_author E2
+A8	Intensity E2 Strong
+A9	Target_is_general E2
+A10	Type E2 E
+T13	Polar_expression 1878 1899	ubegripelig djevelske
+E3	Polar_expression:T13 Target:T14
+A11	Polarity E3 Negative
+A12	Source_is_author E3
+A13	Intensity E3 Strong
+A14	NOT E3
+A15	Type E3 E
+T14	Entity 1900 1906	agenda
+T15	Entity 2210 2224	symbolhandling
+T16	Polar_expression 2225 2239	kan kritiseres
+E4	Polar_expression:T16 Target:T15
+A16	Polarity E4 Negative
+A17	Source_is_author E4
+A18	Intensity E4 Standard
+A19	Type E4 E
+T17	Entity 2429 2437	paradoks
+T18	Polar_expression 2403 2428	grusomme og altomfattende
+E5	Polar_expression:T18 Target:T17
+A20	Polarity E5 Negative
+A21	Source_is_author E5
+A22	Intensity E5 Strong
+A23	NOT E5
+A24	Type E5 E
+T19	Polar_expression 2624 2636	barmhjertige
+E6	Polar_expression:T19 
+A25	Polarity E6 Positive
+A26	Source_is_author E6
+A27	Intensity E6 Standard
+A28	Type E6 E
+T20	Entity 2640 2653	« United 93 »
+T21	Polar_expression 2672 2683	intelligent
+E7	Polar_expression:T21 Target:T20
+A29	Polarity E7 Positive
+A30	Source_is_author E7
+A31	Intensity E7 Standard
+A32	Target_is_general E7
+A33	Type E7 E
+T22	Polar_expression 2702 2768	forferdelig belysning av viktige sider ved selve terrorens anatomi
+E8	Polar_expression:T22 Target:T20
+A34	Polarity E8 Positive
+A35	Source_is_author E8
+A36	Intensity E8 Standard
+A37	Target_is_general E8
+A38	Type E8 E

@@ -1,0 +1,274 @@
+T1	E 0 0	
+T2	E 23 23	
+T3	E 131 131	
+T4	E 193 193	
+T5	E 309 309	
+T6	E 408 408	
+T7	E 450 450	
+T8	E 526 526	
+T9	EFINP 1182 1182	
+T10	E 1228 1228	
+T11	E 1280 1280	
+T12	E 1354 1354	
+T13	E 1420 1420	
+T14	E 1560 1560	
+T15	E 1586 1586	
+T16	E 1819 1819	
+T17	E 1928 1928	
+T18	E 2073 2073	
+T19	E 2237 2237	
+T20	E 2331 2331	
+T21	E 2534 2534	
+T22	E 2634 2634	
+T23	Polar_expression 0 21	Enestående spill-magi
+E1	Polar_expression:T23 
+A1	Polarity E1 Negative
+A2	Source_is_author E1
+A3	Intensity E1 Strong
+A4	Target_is_general E1
+A5	Type E1 E
+T24	Polar_expression 65 71	magisk
+E2	Polar_expression:T24 Target:T69
+A6	Polarity E2 Positive
+A7	Source_is_author E2
+A8	Intensity E2 Standard
+A9	Target_is_general E2
+A10	Type E2 E
+T25	Polar_expression 74 80	enormt
+E3	Polar_expression:T25 Target:T69
+A11	Polarity E3 Positive
+A12	Source_is_author E3
+A13	Intensity E3 Strong
+A14	Target_is_general E3
+A15	Type E3 E
+T26	Polar_expression 83 93	fantastisk
+E4	Polar_expression:T26 Target:T69
+A16	Polarity E4 Positive
+A17	Source_is_author E4
+A18	Intensity E4 Strong
+A19	Target_is_general E4
+A20	Type E4 E
+T27	Polar_expression 97 108	oppslukende
+E5	Polar_expression:T27 Target:T69
+A21	Polarity E5 Positive
+A22	Source_is_author E5
+A23	Intensity E5 Standard
+A24	Type E5 E
+T28	Entity 181 190	« Zelda »
+T29	Polar_expression 135 164	finnes neppe noen mer elskede
+E6	Polar_expression:T29 Target:T28
+A25	Polarity E6 Positive
+A26	Source_is_author E6
+A27	Intensity E6 Strong
+A28	Type E6 E
+T30	Entity 231 249	« Zelda » -spillet
+T31	Polar_expression 193 211;266 305	Helt siden starten bergtatt eventyrlystne over hele verden
+E7	Polar_expression:T31 Target:T30
+A29	Polarity E7 Positive
+A30	Source_is_author E7
+A31	Intensity E7 Standard
+A32	Type E7 E
+T32	Entity 362 365	jeg
+T33	Polar_expression 323 333	stor glede
+E8	Polar_expression:T33 Target:T34 Source:T32
+A33	Polarity E8 Positive
+A34	Source_is_author E8
+A35	Intensity E8 Standard
+A36	Target_is_general E8
+A37	Type E8 E
+T34	Entity 384 407	« The Legend of Zelda :
+T35	Entity 500 507	spillet
+T36	Entity 470 474	mine
+T37	Polar_expression 486 499;508 523	kanskje beste i serien til nå
+E9	Polar_expression:T37 Target:T35 Source:T36
+A38	Polarity E9 Positive
+A39	Source_is_author E9
+A40	Intensity E9 Strong
+A41	Target_is_general E9
+A42	Type E9 E
+T38	Entity 613 617	mitt
+T39	Entity 549 556	eventyr
+T40	Polar_expression 529 539	fantastisk
+E10	Polar_expression:T40 Target:T39 Source:T38
+A43	Polarity E10 Positive
+A44	Source_is_author E10
+A45	Intensity E10 Strong
+A46	Type E10 E
+T41	Polar_expression 543 548	episk
+E11	Polar_expression:T41 Target:T39 Source:T38
+A47	Polarity E11 Positive
+A48	Source_is_author E11
+A49	Intensity E11 Standard
+A50	Type E11 E
+T42	Polar_expression 605 612;618 653	hjertet holder på å eksplodere av pur lykke
+E12	Polar_expression:T42 Source:T38 Target:T39
+A51	Polarity E12 Positive
+A52	Source_is_author E12
+A53	Intensity E12 Strong
+A54	Type E12 E
+#1	AnnotatorNotes E12	Metaphor
+T43	Polar_expression 1182 1225	Stadig nye områder å utforske åpner seg opp
+E13	Polar_expression:T43 
+A55	Polarity E13 Positive
+A56	Source_is_author E13
+A57	Intensity E13 Standard
+A58	Target_is_general E13
+A59	Type E13 EFINP
+T44	Polar_expression 1315 1351	fullstendig oppslukt i det som skjer
+E14	Polar_expression:T44 
+A60	Polarity E14 Positive
+A61	Source_is_author E14
+A62	Intensity E14 Strong
+A63	Type E14 E
+T45	Entity 1364 1371	eventyr
+T46	Polar_expression 1357 1363	magisk
+E15	Polar_expression:T46 Target:T45
+A64	Polarity E15 Positive
+A65	Source_is_author E15
+A66	Intensity E15 Standard
+A67	Type E15 E
+T47	Entity 1480 1501	« Twilight Princess »
+T48	Polar_expression 1427 1470	bare å rydde plass i kalenderen med en gang
+E16	Polar_expression:T48 Target:T47
+A68	Polarity E16 Positive
+A69	Source_is_author E16
+A70	Intensity E16 Standard
+A71	Target_is_general E16
+A72	Type E16 E
+#2	AnnotatorNotes E16	Metaphor
+T49	Polar_expression 1473 1479;1505 1556	inntil fullført vil du neppe ha lyst til å gjøre noe annet
+E17	Polar_expression:T49 Target:T47
+A73	Polarity E17 Positive
+A74	Source_is_author E17
+A75	Intensity E17 Standard
+A76	Target_is_general E17
+A77	Type E17 E
+T50	Polar_expression 1560 1583	Alt sitter som et skudd
+E18	Polar_expression:T50 
+A78	Polarity E18 Positive
+A79	Source_is_author E18
+A80	Intensity E18 Strong
+A81	Target_is_general E18
+A82	Type E18 E
+T51	Entity 1603 1611	visuelle
+T52	Polar_expression 1594 1602	nydelige
+E19	Polar_expression:T52 Target:T51
+A83	Polarity E19 Positive
+A84	Source_is_author E19
+A85	Intensity E19 Standard
+A86	Type E19 E
+T53	Entity 1635 1644	lydbildet
+T54	Polar_expression 1627 1634	herlige
+E20	Polar_expression:T54 Target:T53
+A87	Polarity E20 Positive
+A88	Intensity E20 Standard
+A89	Type E20 E
+A90	Source_is_author E20
+T55	Polar_expression 1651 1662	nostalgiske
+E21	Polar_expression:T55 Target:T56
+A91	Polarity E21 Positive
+A92	Source_is_author E21
+A93	Intensity E21 Standard
+A95	Type E21 E
+T56	Entity 1663 1671	musikken
+T57	Entity 1887 1894	spillet
+T58	Polar_expression 1826 1878	i det hele tatt ikke langt mellom gåsehudøyeblikkene
+E22	Polar_expression:T58 Target:T57
+A94	Polarity E22 Positive
+A96	Source_is_author E22
+A97	Intensity E22 Standard
+A98	Target_is_general E22
+A99	Type E22 E
+T59	Entity 1928 1949	« Twilight Princess »
+T60	Entity 1963 1966	jeg
+T61	Polar_expression 1953 1959;1967 1994	så bra får gåsehud bare av å tenke
+E23	Polar_expression:T61 Source:T60 Target:T59
+A100	Polarity E23 Positive
+A101	Source_is_author E23
+A102	Intensity E23 Strong
+A103	Target_is_general E23
+A104	Type E23 E
+T62	Polar_expression 2007 2031	svært sjelden begivenhet
+E24	Polar_expression:T62 Target:T59 Source:T60
+A105	Polarity E24 Positive
+A106	Source_is_author E24
+A107	Intensity E24 Standard
+A108	Target_is_general E24
+A109	Type E24 E
+T63	Entity 2073 2093	Wii-håndkontrolleren
+T64	Polar_expression 2106 2133	utnyttet på en eksemplarisk
+E25	Polar_expression:T64 Target:T63
+A110	Polarity E25 Positive
+A111	Source_is_author E25
+A112	Intensity E25 Strong
+A113	Type E25 E
+T65	Polar_expression 2288 2327	føles det både selvfølgelig og naturlig
+E26	Polar_expression:T65 
+A114	Polarity E26 Positive
+A115	Source_is_author E26
+A116	Intensity E26 Standard
+A117	Type E26 E
+T66	Polar_expression 2358 2405	kunne i det hele tatt ikke ha bedt om noe bedre
+E27	Polar_expression:T66 Target:T76
+A118	Polarity E27 Positive
+A119	Source_is_author E27
+A120	Intensity E27 Strong
+A121	Target_is_general E27
+A122	Type E27 E
+T67	Entity 2634 2653	Twilight Princess »
+T68	Polar_expression 2658 2677	et av tidenes beste
+E28	Polar_expression:T68 Target:T67
+A123	Polarity E28 Positive
+A124	Source_is_author E28
+A125	Intensity E28 Strong
+A126	Target_is_general E28
+A127	Type E28 E
+T69	Entity 109 127	« Zelda » -eventyr
+A128	Target_is_general E5
+T70	Polar_expression 45 53	gled deg
+E29	Polar_expression:T70 Target:T69
+A129	Polarity E29 Positive
+A130	Source_is_author E29
+A131	Intensity E29 Standard
+A132	Target_is_general E29
+A133	Type E29 E
+T71	Polar_expression 23 41	Avlys alle avtaler
+E30	Polar_expression:T71 Target:T69
+A134	Polarity E30 Positive
+A135	Source_is_author E30
+A136	Intensity E30 Strong
+A137	Type E30 E
+#3	AnnotatorNotes E6	negation
+T72	Polar_expression 340 361	fårete glis om munnen
+E31	Polar_expression:T72 Source:T32 Target:T34
+A138	Polarity E31 Positive
+A139	Source_is_author E31
+A140	Intensity E31 Standard
+A141	Type E31 E
+T73	Polar_expression 1742 1778	kreativ bruk av diverse hjelpemidler
+E32	Polar_expression:T73 
+A142	Polarity E32 Positive
+A143	Source_is_author E32
+A144	Intensity E32 Standard
+A145	Type E32 E
+T74	Polar_expression 1674 1697	slåssingen mot monstere
+E33	Polar_expression:T74 
+A146	Polarity E33 Positive
+A147	Source_is_author E33
+A148	Intensity E33 Standard
+A149	Type E33 EFINP
+T75	Polar_expression 1700 1738	utforsking av grotter og andre områder
+E34	Polar_expression:T75 
+A150	Polarity E34 Positive
+A151	Source_is_author E34
+A152	Intensity E34 Standard
+A153	Type E34 EFINP
+T76	Entity 2406 2421	lanseringsspill
+T77	Polar_expression 2358 2421	kunne i det hele tatt ikke ha bedt om noe bedre lanseringsspill
+E35	Polar_expression:T77 Target:T78
+A154	Polarity E35 Positive
+A155	Source_is_author E35
+A156	Intensity E35 Strong
+A157	NOT E35
+A158	Type E35 E
+T78	Entity 2331 2357	Nintendos nye spillkonsoll

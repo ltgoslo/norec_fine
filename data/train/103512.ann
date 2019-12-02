@@ -1,0 +1,82 @@
+T1	E 161 161	
+T2	E 302 302	
+T3	E 399 399	
+T4	E 642 642	
+T6	Entity 280 298	« Pop på svenska »
+T7	Polar_expression 195 258	beholder nok sine mange norske fans og skaffer seg nok noen nye
+E1	Polar_expression:T7 Target:T20
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A5	Type E1 E
+T5	Polar_expression 314 317	god
+E2	Polar_expression:T5 Target:T8
+A6	Polarity E2 Positive
+A7	Source_is_author E2
+A8	Intensity E2 Standard
+A9	Target_is_general E2
+A10	Type E2 E
+T8	Entity 318 326	popplate
+T10	Polar_expression 329 395	mer bandpreget og mindre rølpete enn vi har hør fra Rosenström før
+E4	Polar_expression:T10 Target:T8
+A16	Polarity E4 Positive
+A17	Source_is_author E4
+A18	Intensity E4 Strong
+A19	Type E4 E
+T11	Entity 381 395	Rosenström før
+T12	Polar_expression 318 361	popplate , mer bandpreget og mindre rølpete
+E5	Polar_expression:T12 Target:T11
+A20	Polarity E5 Negative
+A21	Source_is_author E5
+A22	Intensity E5 Standard
+A23	NOT E5
+A24	Type E5 E
+T13	Entity 491 498	tekster
+T14	Polar_expression 480 490	humorfylte
+E6	Polar_expression:T14 Target:T13
+A26	Polarity E6 Positive
+A27	Source_is_author E6
+A28	Intensity E6 Standard
+A29	Type E6 E
+T15	Polar_expression 468 476	ironiske
+E7	Polar_expression:T15 Target:T13
+A30	Polarity E7 Positive
+A31	Source_is_author E7
+A32	Intensity E7 Standard
+A33	Type E7 E
+T16	Polar_expression 437 463	variert syng-med-popmusikk
+E8	Polar_expression:T16 
+A34	Polarity E8 Positive
+A35	Source_is_author E8
+A36	Intensity E8 Standard
+A37	Target_is_general E8
+A38	Type E8 E
+T17	Entity 676 681	plate
+T18	Polar_expression 666 675	jevnt god
+E9	Polar_expression:T18 Target:T17
+A39	Polarity E9 Positive
+A40	Source_is_author E9
+A41	Intensity E9 Standard
+A42	Target_is_general E9
+A43	Type E9 E
+T19	Polar_expression 686 713	lever opp til platetittelen
+E10	Polar_expression:T19 Target:T17
+A44	Polarity E10 Positive
+A45	Source_is_author E10
+A46	Intensity E10 Standard
+A47	Target_is_general E10
+A48	Type E10 E
+T20	Entity 178 194	Björn Rosenström
+T21	Polar_expression 178 258	Björn Rosenström beholder nok sine mange norske fans og skaffer seg nok noen nye
+E11	Polar_expression:T21 Target:T6
+A49	Polarity E11 Positive
+A50	Source_is_author E11
+A51	Intensity E11 Standard
+A52	Type E11 E
+A53	Target_is_general E11
+T22	Polar_expression 161 177	Vorspielartisten
+E12	Polar_expression:T22 Target:T20
+A54	Polarity E12 Negative
+A55	Source_is_author E12
+A56	Intensity E12 Slight
+A57	Type E12 E

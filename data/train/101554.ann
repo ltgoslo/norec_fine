@@ -1,0 +1,441 @@
+T1	E 232 232	
+A1	NFP T1
+T2	EFINP 288 288	
+A2	NFP T2
+T3	E 656 656	
+T4	E 745 745	
+T5	E 1047 1047	
+A3	NFP T5
+T6	E 1126 1126	
+A4	NOT T6
+A5	NFP T6
+T7	E 1230 1230	
+A6	NFP T7
+T8	E 1307 1307	
+A7	NOT T8
+A8	NFP T8
+T9	E 1448 1448	
+A9	NFP T9
+T10	E 1496 1496	
+A10	NFP T10
+T11	E 1578 1578	
+A11	NFP T11
+T12	E 1781 1781	
+A12	NFP T12
+T13	E 1962 1962	
+A13	NFP T13
+T14	E 2024 2024	
+A14	NFP T14
+T15	E 2057 2057	
+A15	NFP T15
+T16	E 2107 2107	
+A16	NFP T16
+T17	E 2710 2710	
+A17	NFP T17
+T18	E 3075 3075	
+A18	NFP T18
+T19	E 3144 3144	
+A19	NFP T19
+T20	E 3175 3175	
+A20	NFP T20
+T21	E 3225 3225	
+A21	NFP T21
+T22	E 3839 3839	
+T23	E 4020 4020	
+T24	E 4379 4379	
+T25	E 4485 4485	
+A22	NFP T25
+T26	E 4514 4514	
+A23	NFP T26
+T27	E 4772 4772	
+A24	NFP T27
+T28	E 4806 4806	
+A25	NFP T28
+T29	EFINP 5452 5452	
+A26	NFP T29
+T30	EFINP 5665 5665	
+A27	NFP T30
+T31	E 6071 6071	
+T32	E 6732 6732	
+T33	E 7140 7140	
+A28	NFP T33
+T34	E 7435 7435	
+T35	E 7596 7596	
+T36	E 8040 8040	
+T37	E 8468 8468	
+T38	E 8561 8561	
+T39	Polar_expression 2719 2766	trist for at vi ikke klarte å vinne turneringen
+E1	Polar_expression:T39 Source:T97
+A29	Polarity E1 Negative
+A30	Intensity E1 Standard
+A31	NFP E1
+A32	Type E1 E
+T40	Entity 325 345	kaptein Philipp Lahm
+T41	Polar_expression 318 324	jublet
+E2	Polar_expression:T41 Source:T40
+A33	Polarity E2 Positive
+A34	Intensity E2 Strong
+A35	NFP E2
+A36	Target_is_general E2
+A37	Type E2 E
+T42	Polar_expression 300 315	utrolig følelse
+E3	Polar_expression:T42 Source:T40
+A38	Polarity E3 Positive
+A39	Intensity E3 Strong
+A40	NFP E3
+A41	Target_is_general E3
+A42	Type E3 E
+T43	Entity 680 704	Bayern München-spilleren
+T44	Polar_expression 673 741	svarte Bayern München-spilleren med en scoring på ekte goalgettervis
+E4	Polar_expression:T44 Target:T43
+A43	Polarity E4 Positive
+A44	Source_is_author E4
+A45	Intensity E4 Standard
+A46	Type E4 E
+T45	Polar_expression 756 788	dempet ballen fantastisk elegant
+E5	Polar_expression:T45 Target:T46
+A47	Polarity E5 Positive
+A48	Source_is_author E5
+A49	Intensity E5 Strong
+A50	Type E5 E
+T46	Entity 745 755	22-åringen
+T47	Entity 878 908	Argentina-keeper Sergio Romero
+T48	Polar_expression 808 860	sendte av gårde en liggende volley i lengste hjørnet
+E6	Polar_expression:T48 Target:T46
+A51	Polarity E6 Positive
+A52	Source_is_author E6
+A53	Intensity E6 Standard
+A54	Type E6 EFINP
+T49	Polar_expression 868 877	fortumlet
+E7	Polar_expression:T49 Target:T47
+A55	Polarity E7 Negative
+A56	Source_is_author E7
+A57	Intensity E7 Standard
+A58	Type E7 E
+T50	Polar_expression 1275 1292	helt sensasjonelt
+E8	Polar_expression:T50 Source:T51
+A59	Polarity E8 Positive
+A60	Intensity E8 Strong
+A61	NFP E8
+A62	Type E8 E
+T51	Entity 1298 1303	Götze
+A63	Target_is_general E8
+T52	Polar_expression 1201 1227	drøm som går i oppfyllelse
+E9	Polar_expression:T52 
+A64	Polarity E9 Positive
+A65	Intensity E9 Strong
+A66	NFP E9
+A67	Target_is_general E9
+A68	Type E9 E
+T53	Polar_expression 1060 1075	utrolig følelse
+E10	Polar_expression:T53 
+A69	Polarity E10 Positive
+A70	Intensity E10 Standard
+A71	NFP E10
+A73	Type E10 E
+T54	Entity 1365 1374	turnering
+T55	Polar_expression 1351 1364	ikke en enkel
+E11	Polar_expression:T55 Target:T54 Source:T56
+A74	Polarity E11 Negative
+A75	Intensity E11 Standard
+A76	NFP E11
+A77	Type E11 E
+T56	Entity 1344 1347	meg
+T58	Polar_expression 1317 1339	ikke vært et enkelt år
+E12	Polar_expression:T58 Source:T56
+A78	Polarity E12 Negative
+A79	Intensity E12 Standard
+A80	NFP E12
+A81	NOT E12
+A82	Type E12 E
+T59	Entity 8584 8607	Tysklands pasningskonge
+T60	Polar_expression 8651 8692	skuddet var unormalt svakt til han å være
+E13	Polar_expression:T60 Target:T59
+A83	Polarity E13 Negative
+A84	Source_is_author E13
+A85	Intensity E13 Standard
+A86	Type E13 E
+T61	Entity 8468 8476	Tyskland
+T62	Polar_expression 8477 8500	fikk to gode muligheter
+E14	Polar_expression:T62 Target:T61
+A87	Polarity E14 Positive
+A88	Source_is_author E14
+A89	Intensity E14 Standard
+A90	Type E14 E
+T63	Entity 8059 8071	Lionel Messi
+T64	Polar_expression 8072 8112	flikket ballen elegant ut på høyrekanten
+E15	Polar_expression:T64 Target:T63
+A91	Polarity E15 Positive
+A92	Source_is_author E15
+A93	Intensity E15 Standard
+A94	Type E15 E
+T65	Polar_expression 8040 8058	Argentina-stjernen
+E16	Polar_expression:T65 Target:T63
+A95	Polarity E16 Positive
+A96	Source_is_author E16
+A97	Intensity E16 Standard
+A98	Type E16 E
+T66	Entity 8126 8141	Ezekiel Lavezzi
+T67	Polar_expression 8120 8125	ledig
+E17	Polar_expression:T67 Target:T66
+A99	Polarity E17 Positive
+A100	Source_is_author E17
+A101	Intensity E17 Standard
+A102	Type E17 E
+T68	Polar_expression 7596 7638	Argentina fikk en vanvittig gratismulighet
+E18	Polar_expression:T68 
+A103	Polarity E18 Positive
+A104	Source_is_author E18
+A105	Intensity E18 Strong
+A106	Target_is_general E18
+A107	Type E18 E
+T69	Entity 7169 7174	Neuer
+T70	Polar_expression 7149 7165	livsfarlig spill
+E19	Polar_expression:T70 Target:T69 Source:T71
+A108	Polarity E19 Negative
+A109	Intensity E19 Strong
+A110	NFP E19
+A111	Type E19 E
+T71	Entity 7180 7208	fotballekspert Bernt Hulsker
+T72	Entity 6732 6750	Den andre omgangen
+T73	Polar_expression 6751 6805	bød ikke på fantastisk angrepsspill fra noen av lagene
+E20	Polar_expression:T73 Target:T72
+A112	Polarity E20 Negative
+A113	Source_is_author E20
+A114	Intensity E20 Standard
+A115	Type E20 E
+T74	Polar_expression 6811 6906	det som satte mest støkk i publikum var en stygg episode mellom Gonzalo Higuaín og Manuel Neuer
+E21	Polar_expression:T74 Target:T72
+A116	Polarity E21 Negative
+A117	Source_is_author E21
+A118	Intensity E21 Standard
+A119	Type E21 E
+T75	Polar_expression 7435 7457	Enorm Argentina-sjanse
+E22	Polar_expression:T75 
+A120	Polarity E22 Positive
+A121	Source_is_author E22
+A122	Intensity E22 Standard
+A123	Target_is_general E22
+A124	Type E22 E
+T76	Polar_expression 234 285	Det er utrolig hvordan vi alle har jobbet for dette
+E23	Polar_expression:T76 
+A125	Polarity E23 Positive
+A126	Intensity E23 Strong
+A127	NFP E23
+A128	Type E23 E
+T57	Entity 1448 1451	Jeg
+T77	Polar_expression 1455 1493	veldig glad for at vi har vunnet dette
+E24	Polar_expression:T77 Source:T57
+A72	Polarity E24 Positive
+A129	Intensity E24 Standard
+A130	NFP E24
+A131	Target_is_general E24
+A132	Type E24 E
+T78	Entity 1496 1499	Jeg
+T79	Entity 1523 1528	laget
+T80	Polar_expression 1534 1575	hver eneste spiller fortjener å bli nevnt
+E25	Polar_expression:T80 Target:T79 Source:T78
+A133	Polarity E25 Positive
+A134	Intensity E25 Standard
+A135	NFP E25
+A136	Type E25 E
+T81	Entity 1578 1580	Vi
+T82	Polar_expression 1585 1607	fortjent dette trofeet
+E26	Polar_expression:T82 Source:T81 Target:T81
+A137	Polarity E26 Positive
+A138	Intensity E26 Standard
+A139	NFP E26
+A140	Type E26 E
+T83	Entity 1837 1850	Thomas Müller
+T84	Polar_expression 1853 1888	Tysklands toppscorer i mesterskapet
+E27	Polar_expression:T84 Target:T83
+A141	Polarity E27 Positive
+A142	Intensity E27 Standard
+A144	Type E27 E
+T85	Entity 1824 1829	laget
+T86	Polar_expression 1783 1829	Måten vi scorer målet på beskriver dette laget
+E28	Polar_expression:T86 Target:T85 Source:T83
+A143	Polarity E28 Positive
+A145	Intensity E28 Standard
+A146	NFP E28
+A147	Type E28 E
+T87	Polar_expression 2029 2045	sensasjonelt mål
+E29	Polar_expression:T87 Target:T88
+A148	Polarity E29 Positive
+A149	Intensity E29 Strong
+A150	NFP E29
+A151	Type E29 E
+T88	Entity 2049 2054	Götze
+T89	Polar_expression 2074 2104	fortjente å bli verdensmestere
+E30	Polar_expression:T89 Target:T90
+A152	Polarity E30 Positive
+A153	Intensity E30 Standard
+A154	NFP E30
+A155	Type E30 E
+T90	Entity 2057 2073	Disse ungdommene
+T91	Entity 2146 2160	Andreas Brehme
+T92	Polar_expression 2118 2138	verdige etterfølgere
+E31	Polar_expression:T92 Source:T91 Target:T93
+A156	Polarity E31 Positive
+A157	Intensity E31 Standard
+A158	NFP E31
+A159	Type E31 E
+T93	Entity 2107 2109	De
+T94	Entity 1972 1994	de nybakte VM-vinnerne
+T95	Entity 1998 2020	tidligere tyske helter
+T96	Polar_expression 1965 1971	hylles
+E32	Polar_expression:T96 Source:T95 Target:T94
+A160	Polarity E32 Positive
+A161	Intensity E32 Strong
+A162	NFP E32
+A163	Type E32 E
+T97	Entity 2712 2715	Jeg
+T98	Entity 2798 2803	laget
+T99	Polar_expression 2810 2835	utførte en strålende kamp
+E33	Polar_expression:T99 Target:T98 Source:T101
+A164	Polarity E33 Positive
+A165	Intensity E33 Strong
+A166	NFP E33
+A167	Type E33 E
+T100	Polar_expression 2780 2797	veldig stolt over
+E34	Polar_expression:T100 Target:T98 Source:T101
+A168	Polarity E34 Positive
+A169	Intensity E34 Standard
+A170	NFP E34
+A171	Type E34 E
+T101	Entity 2773 2776	jeg
+T102	Entity 3156 3159	jeg
+T103	Polar_expression 3160 3172	veldig stolt
+E35	Polar_expression:T103 Source:T102
+A172	Polarity E35 Positive
+A173	Intensity E35 Standard
+A174	NFP E35
+A175	Type E35 E
+T104	Entity 3175 3182	Guttene
+T105	Polar_expression 3187 3222	spilt en ekstraordinær VM-turnering
+E36	Polar_expression:T105 Target:T104
+A176	Polarity E36 Positive
+A177	Intensity E36 Standard
+A178	NFP E36
+A179	Type E36 E
+T106	Entity 3225 3227	De
+T107	Polar_expression 3232 3262	lagt igjen alt de har på banen
+E37	Polar_expression:T107 Target:T106
+A180	Polarity E37 Positive
+A181	Intensity E37 Standard
+A182	NFP E37
+A183	Type E37 E
+T108	Entity 3077 3079	Vi
+T109	Polar_expression 3086 3141	spilt to ekstraomganger og vi hadde en dag mindre hvile
+E38	Polar_expression:T109 Target:T108 Source:T108
+A184	Polarity E38 Positive
+A185	Intensity E38 Slight
+A186	NFP E38
+A187	Type E38 EFINP
+T110	Polar_expression 4024 4057	spådommen ble ikke gjort til skam
+E39	Polar_expression:T110 
+A188	Polarity E39 Positive
+A189	Source_is_author E39
+A190	Intensity E39 Standard
+A191	Type E39 E
+T111	Entity 3839 3847	Tyskland
+T112	Polar_expression 3852 3881	hatt et fantastisk mesterskap
+E40	Polar_expression:T112 Target:T111
+A192	Polarity E40 Positive
+A193	Source_is_author E40
+A194	Intensity E40 Strong
+A195	Type E40 E
+T114	Polar_expression 3969 4003	vanvittige 7-1-seieren over Brasil
+E41	Polar_expression:T114 Target2:T133
+A196	Polarity E41 Positive
+A197	Source_is_author E41
+A198	Intensity E41 Strong
+A199	Type E41 E
+T113	Polar_expression 3924 3958	den store favoritten til VM-gullet
+E42	Polar_expression:T113 Target2:T133 Source:T134
+A200	Polarity E42 Positive
+A201	Intensity E42 Standard
+A202	NFP E42
+A203	Type E42 E
+T115	Entity 4379 4405	Ekspertene i VGs VM-studio
+T116	Polar_expression 4412 4481	perlemålet var en av tidenes vakreste scoringer som har avgjort et VM
+E43	Polar_expression:T116 Source:T115
+A204	Polarity E43 Positive
+A205	Intensity E43 Strong
+A206	Target_is_general E43
+A207	Type E43 E
+A208	Source_is_author E43
+T117	Polar_expression 4497 4511	perfekt utført
+E44	Polar_expression:T117 
+A209	Polarity E44 Positive
+A210	Source_is_author E44
+A211	Intensity E44 Standard
+A212	Type E44 E
+T118	Entity 4612 4629	Stig Thorbjørnsen
+T119	Entity 4514 4517	Han
+T120	Polar_expression 4518 4546	legger den perfekt til rette
+E45	Polar_expression:T120 Target:T119 Source:T118
+A213	Polarity E45 Positive
+A214	Source_is_author E45
+A215	Intensity E45 Strong
+A216	Type E45 E
+T121	Polar_expression 4562 4590	smeller den i lengste hjørne
+E46	Polar_expression:T121 Target:T119 Source:T118
+A217	Polarity E46 Positive
+A218	Source_is_author E46
+A219	Intensity E46 Standard
+A220	Type E46 E
+T122	Polar_expression 4782 4803	tøffere enn forventet
+E47	Polar_expression:T122 
+A221	Polarity E47 Positive
+A222	Source_is_author E47
+A223	Intensity E47 Standard
+A224	Target_is_general E47
+A225	Type E47 E
+T123	Polar_expression 4821 4869	sånn man ønsker at en slik stor finale skal være
+E48	Polar_expression:T123 Target:T124
+A226	Polarity E48 Positive
+A227	Source_is_author E48
+A228	Intensity E48 Standard
+A229	Type E48 E
+T124	Entity 4814 4818	kamp
+T125	Polar_expression 4809 4813	åpen
+E49	Polar_expression:T125 Target:T124
+A230	Polarity E49 Positive
+A231	Source_is_author E49
+A232	Intensity E49 Standard
+A233	Target_is_general E49
+A234	Type E49 E
+A235	Target_is_general E48
+T126	Entity 5452 5464	Lionel Messi
+T127	Polar_expression 5465 5513	mottok Gullballen , prisen for VMs beste spiller
+E50	Polar_expression:T127 Target:T126
+A236	Polarity E50 Positive
+A237	Intensity E50 Standard
+A238	NFP E50
+A239	Type E50 EFINP
+T128	Entity 5709 5737	Tyskland-keeper Manuel Neuer
+T129	Polar_expression 5755 5775	innkassere VM-gullet
+E51	Polar_expression:T129 Target:T128
+A240	Polarity E51 Positive
+A241	Intensity E51 Standard
+A242	NFP E51
+A243	Type E51 EFINP
+T130	Polar_expression 5755 5765;5779 5830	innkassere Gullhansken , prisen for mesterskapets beste keeper
+E52	Polar_expression:T130 Target:T128
+A244	Polarity E52 Positive
+A245	Intensity E52 Standard
+A246	NFP E52
+A247	Type E52 EFINP
+T131	Entity 6085 6105	keeper Sergio Romero
+T132	Polar_expression 6077 6084;6106 6165	stoppet et André Schürrle-skudd på mesterlig vis fra fem-seks meter
+E53	Polar_expression:T132 Target:T131
+A248	Polarity E53 Positive
+A249	Source_is_author E53
+A250	Intensity E53 Standard
+A251	Type E53 E
+#1	AnnotatorNotes E28	uenig - bør være efinp
+#2	AnnotatorNotes E27	uenig - bør være efinp
+T133	Entity 3901 3919	« Die Mannschaft »
+T134	Entity 3885 3894	de fleste
+#3	AnnotatorNotes E41	mulig nøsting

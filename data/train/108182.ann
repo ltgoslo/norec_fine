@@ -1,0 +1,151 @@
+T1	E 68 68	
+T2	E 240 240	
+T3	E 457 457	
+T4	E 512 512	
+T5	E 570 570	
+T6	EFINP 707 707	
+T7	E 1184 1184	
+T8	E 1392 1392	
+T9	E 1492 1492	
+T10	E 1650 1650	
+T11	E 1723 1723	
+T12	E 1736 1736	
+T13	E 1762 1762	
+T14	Polar_expression 189 214	på alle måter unike paret
+E1	Polar_expression:T14 Target:T15
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Type E1 E
+T15	Entity 148 160;164 180	Fredric Drum Skarphedin Olsen
+T16	Polar_expression 68 93	Nytelse blandet med vemod
+E2	Polar_expression:T16 
+A5	Polarity E2 Positive
+A6	Source_is_author E2
+A7	Intensity E2 Standard
+A8	Target_is_general E2
+A9	Type E2 E
+T17	Polar_expression 277 306	10 bøker lang suksesshistorie
+E3	Polar_expression:T17 
+A10	Polarity E3 Positive
+A11	Source_is_author E3
+A12	Intensity E3 Standard
+A13	NOT E3
+A14	Type E3 E
+T18	Polar_expression 493 509	verdig svanesang
+E4	Polar_expression:T18 
+A15	Polarity E4 Positive
+A16	Source_is_author E4
+A17	Intensity E4 Standard
+A18	Target_is_general E4
+A19	Type E4 E
+T19	Polar_expression 528 566	utvilsomt et av høydepunktene i serien
+E5	Polar_expression:T19 Target:T20
+A20	Polarity E5 Positive
+A21	Source_is_author E5
+A22	Intensity E5 Strong
+A23	Type E5 E
+T20	Entity 512 524	« Rødsonen »
+T21	Polar_expression 570 587;590 602;606 622	Mindre klovnerier burleskerier ironisk distanse
+E6	Polar_expression:T21 
+A24	Polarity E6 Positive
+A25	Source_is_author E6
+A26	Intensity E6 Standard
+A27	Target_is_general E6
+A28	Type E6 E
+T22	Polar_expression 636 645	mer alvor
+E7	Polar_expression:T22 
+A29	Polarity E7 Positive
+A30	Source_is_author E7
+A31	Intensity E7 Standard
+A32	Target_is_general E7
+A33	Type E7 E
+T23	Polar_expression 648 664	tett krimintrige
+E8	Polar_expression:T23 Target:T24
+A34	Polarity E8 Positive
+A35	Source_is_author E8
+A36	Intensity E8 Standard
+A37	Type E8 E
+T24	Entity 653 664	krimintrige
+T25	Polar_expression 668 673;676 704	lødig dristig vitenskapsformidling
+E9	Polar_expression:T25 Target:T26
+A38	Polarity E9 Positive
+A39	Source_is_author E9
+A40	Intensity E9 Standard
+A41	Type E9 E
+T26	Entity 684 704	vitenskapsformidling
+T27	Polar_expression 712 731	politisk brennstoff
+E10	Polar_expression:T27 
+A42	Polarity E10 Positive
+A43	Source_is_author E10
+A44	Intensity E10 Standard
+A45	Type E10 E
+T28	Polar_expression 1279 1286;1307 1389	sjelden vært mer opplagt enn i scenene mellom Olsen og den pompøse , korrupte politisjefen
+E11	Polar_expression:T28 Target:T29
+A46	Polarity E11 Positive
+A47	Source_is_author E11
+A48	Intensity E11 Standard
+A49	NOT E11
+A50	Type E11 E
+T29	Entity 1295 1306	Nygårdshaug
+T30	Polar_expression 1736 1745	Vel blåst
+E12	Polar_expression:T30 Target:T31
+A51	Polarity E12 Positive
+A52	Source_is_author E12
+A53	Intensity E12 Standard
+A54	Type E12 E
+T31	Entity 1748 1759	Nygårdshaug
+T32	Polar_expression 1723 1733	Godt gjort
+E13	Polar_expression:T32 
+A55	Polarity E13 Positive
+A56	Source_is_author E13
+A57	Intensity E13 Standard
+A58	Target_is_general E13
+A59	Type E13 E
+T33	Polar_expression 1765 1769	takk
+E14	Polar_expression:T33 
+A60	Polarity E14 Positive
+A61	Source_is_author E14
+A62	Intensity E14 Standard
+A63	Type E14 E
+T34	Polar_expression 1184 1198	Humorinnslaget
+E15	Polar_expression:T34 Target:T35
+A64	Polarity E15 Positive
+A65	Source_is_author E15
+A66	Intensity E15 Standard
+A67	Type E15 E
+T35	Entity 1229 1245	lokal politisjef
+T36	Polar_expression 1402 1429	holdes karikeringen i tømme
+E16	Polar_expression:T36 
+A68	Polarity E16 Positive
+A69	Source_is_author E16
+A70	Intensity E16 Standard
+A71	Type E16 E
+T37	Polar_expression 1454 1488	får endog forsonende trekk ved seg
+E17	Polar_expression:T37 Target:T38
+A72	Polarity E17 Positive
+A73	Source_is_author E17
+A74	Intensity E17 Standard
+A75	Type E17 E
+T38	Entity 1446 1453	klovnen
+T39	Polar_expression 1574 1582;1585 1592;1596 1616	ambisiøs mystisk grufull på samme tid
+E18	Polar_expression:T39 Target:T40
+A76	Polarity E18 Positive
+A77	Source_is_author E18
+A78	Intensity E18 Standard
+A79	Type E18 E
+T40	Entity 1507 1517	postludium
+T41	Polar_expression 1619 1647	svøpt i filosofiske gevanter
+E19	Polar_expression:T41 Target:T40
+A80	Polarity E19 Positive
+A81	Source_is_author E19
+A82	Intensity E19 Standard
+A83	Type E19 E
+T42	Polar_expression 1680 1704	Nygårdshaug pulls it off
+E20	Polar_expression:T42 Target:T43
+A84	Polarity E20 Positive
+A85	Source_is_author E20
+A86	Intensity E20 Strong
+A87	Target_is_general E20
+A88	Type E20 E
+T43	Entity 1680 1691	Nygårdshaug

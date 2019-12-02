@@ -1,0 +1,565 @@
+T1	E 0 0	
+T2	E 182 182	
+T3	E 432 432	
+T4	E 508 508	
+T5	E 621 621	
+T6	E 1169 1169	
+T7	E 1304 1304	
+T8	E 1590 1590	
+T9	E 1616 1616	
+T10	EFINP 1744 1744	
+T11	E 1861 1861	
+T12	E 2080 2080	
+T13	E 2189 2189	
+T14	E 2346 2346	
+T15	E 2592 2592	
+T16	E 2741 2741	
+T17	E 2821 2821	
+T18	E 2937 2937	
+A1	NOT T18
+T19	E 3351 3351	
+T20	E 3442 3442	
+T21	E 3784 3784	
+T22	E 3908 3908	
+T23	E 4026 4026	
+T24	E 4139 4139	
+T25	E 4170 4170	
+T26	Polar_expression 0 11	Storslagent
+E1	Polar_expression:T26 
+A2	Polarity E1 Positive
+A3	Source_is_author E1
+A4	Intensity E1 Standard
+A5	Target_is_general E1
+A6	Type E1 E
+T27	Polar_expression 15 27	frustrerende
+E2	Polar_expression:T27 
+A7	Polarity E2 Negative
+A8	Source_is_author E2
+A9	Intensity E2 Standard
+A10	Target_is_general E2
+A11	Type E2 E
+T29	Entity 349 355	action
+T30	Entity 358 368	utforsking
+T31	Entity 371 389	plattformelementer
+T32	Entity 393 406	oppgaveløsing
+T33	Entity 423 428	pakke
+T34	Polar_expression 412 422	tiltalende
+E4	Polar_expression:T34 Target:T33
+A17	Polarity E4 Positive
+A18	Source_is_author E4
+A19	Intensity E4 Standard
+A20	Target_is_general E4
+A21	Type E4 E
+T35	Polar_expression 336 343	leverer
+E5	Polar_expression:T35 Target:T29
+A22	Polarity E5 Positive
+A23	Source_is_author E5
+A24	Intensity E5 Standard
+A25	Target_is_general E5
+A26	Type E5 E
+E6	Polar_expression:T35 Target:T30
+E7	Polar_expression:T35 Target:T31
+E8	Polar_expression:T35 Target:T32
+A27	Polarity E6 Positive
+A28	Polarity E7 Positive
+A29	Polarity E8 Positive
+A30	Source_is_author E6
+A31	Source_is_author E7
+A32	Source_is_author E8
+A33	Intensity E6 Standard
+A34	Intensity E7 Standard
+A35	Intensity E8 Standard
+A36	Target_is_general E6
+A37	Target_is_general E7
+A38	Target_is_general E8
+A39	Type E6 E
+A40	Type E7 E
+A41	Type E8 E
+T28	Polar_expression 479 486	peneste
+E3	Polar_expression:T28 Target:T36
+A12	Polarity E3 Positive
+A13	Source_is_author E3
+A14	Intensity E3 Standard
+A15	Target_is_general E3
+A16	Type E3 E
+T36	Entity 487 492	spill
+T37	Polar_expression 519 566	finner mange av de ekle , skinnende overflatene
+E9	Polar_expression:T37 
+A42	Polarity E9 Negative
+A43	Source_is_author E9
+A44	Intensity E9 Standard
+A45	Target_is_general E9
+A46	Type E9 E
+T38	Polar_expression 538 542	ekle
+E10	Polar_expression:T38 Target:T40
+A47	Polarity E10 Negative
+A48	Source_is_author E10
+A49	Intensity E10 Standard
+A50	Target_is_general E10
+A51	Type E10 E
+T39	Polar_expression 545 554	skinnende
+E11	Polar_expression:T39 Target:T40
+A52	Polarity E11 Negative
+A53	Source_is_author E11
+A54	Intensity E11 Slight
+A55	Target_is_general E11
+A56	Type E11 E
+T40	Entity 555 566	overflatene
+T41	Polar_expression 636 645;654 682	briljerer med slående vakre omgivelser
+E12	Polar_expression:T41 Target:T42
+A57	Polarity E12 Positive
+A58	Source_is_author E12
+A59	Intensity E12 Strong
+A60	Target_is_general E12
+A61	Type E12 E
+T42	Entity 646 653	spillet
+T43	Polar_expression 658 671	slående vakre
+E13	Polar_expression:T43 Target:T44
+A62	Polarity E13 Positive
+A63	Source_is_author E13
+A64	Intensity E13 Strong
+A65	Target_is_general E13
+A66	Type E13 E
+T44	Entity 672 682	omgivelser
+T45	Polar_expression 688 757	demonstrerer med det overgangen fra en konsollgenerasjon til en annen
+E14	Polar_expression:T45 Target:T42
+A67	Polarity E14 Positive
+A68	Source_is_author E14
+A69	Intensity E14 Standard
+A70	Target_is_general E14
+A71	Type E14 E
+T46	Polar_expression 1177 1185;1204 1214	fungerer stort sett
+E15	Polar_expression:T46 
+A72	Polarity E15 Positive
+A73	Source_is_author E15
+A74	Intensity E15 Standard
+A75	Target_is_general E15
+A76	Type E15 E
+T47	Polar_expression 1224 1248	herlig tilfredsstillende
+E16	Polar_expression:T47 Target:T48
+A77	Polarity E16 Positive
+A78	Source_is_author E16
+A79	Intensity E16 Standard
+A80	Target_is_general E16
+A81	Type E16 E
+T48	Entity 1251 1300	deise over orker og annet rask med disse krigerne
+T49	Polar_expression 1312 1325	ikke fungerer
+E17	Polar_expression:T49 
+A82	Polarity E17 Negative
+A83	Source_is_author E17
+A84	Intensity E17 Standard
+A85	Target_is_general E17
+A86	Type E17 E
+T50	Polar_expression 1335 1377	spille det samme området om og og om igjen
+E18	Polar_expression:T50 
+A87	Polarity E18 Negative
+A88	Source_is_author E18
+A89	Intensity E18 Standard
+A90	Target_is_general E18
+A91	Type E18 E
+T51	Polar_expression 1590 1600	Forbaskede
+E19	Polar_expression:T51 Target:T52
+A92	Polarity E19 Negative
+A93	Source_is_author E19
+A94	Intensity E19 Standard
+A95	Target_is_general E19
+A96	Type E19 E
+T52	Entity 1601 1612	dustekriger
+T53	Entity 1616 1625	« Kameo »
+T54	Polar_expression 1642 1664	lang tid å gjennomføre
+E20	Polar_expression:T54 Target:T53
+A97	Polarity E20 Negative
+A98	Source_is_author E20
+A99	Intensity E20 Slight
+A100	Target_is_general E20
+A101	Type E20 E
+T55	Polar_expression 1642 1650	lang tid
+E21	Polar_expression:T55 Target:T56
+A102	Polarity E21 Negative
+A103	Source_is_author E21
+A104	Intensity E21 Standard
+A105	Target_is_general E21
+A106	Type E21 E
+T56	Entity 1651 1664	å gjennomføre
+T57	Polar_expression 1697 1719	bergene av frustrasjon
+E22	Polar_expression:T57 
+A107	Polarity E22 Negative
+A108	Source_is_author E22
+A109	Intensity E22 Standard
+A110	Target_is_general E22
+A111	Type E22 E
+T58	Entity 1801 1858	originalt skulle ha kommet ut på den første Xbox-maskinen
+T59	Polar_expression 1744 1788	Flere steder finner du også tydelige beviser
+E23	Polar_expression:T59 
+A112	Polarity E23 Negative
+A113	Source_is_author E23
+A114	Intensity E23 Standard
+A115	Target_is_general E23
+A116	Type E23 EFINP
+T60	Polar_expression 1772 1788	tydelige beviser
+E24	Polar_expression:T60 Target:T58
+A117	Polarity E24 Negative
+A118	Source_is_author E24
+A119	Intensity E24 Standard
+A120	Target_is_general E24
+A121	Type E24 EFINP
+T61	Polar_expression 1744 1756	Flere steder
+E25	Polar_expression:T61 Target:T62
+A122	Polarity E25 Negative
+A123	Source_is_author E25
+A124	Intensity E25 Standard
+A125	Target_is_general E25
+A126	Type E25 EFINP
+T62	Entity 1772 1788	tydelige beviser
+T63	Polar_expression 1801 1858	originalt skulle ha kommet ut på den første Xbox-maskinen
+E26	Polar_expression:T63 
+A127	Polarity E26 Negative
+A128	Source_is_author E26
+A129	Intensity E26 Standard
+A130	Target_is_general E26
+A131	Type E26 EFINP
+T64	Polar_expression 1951 1981	ingen funksjon i det hele tatt
+E27	Polar_expression:T64 Target:T65
+A132	Polarity E27 Negative
+A133	Source_is_author E27
+A134	Intensity E27 Standard
+A135	Target_is_general E27
+A136	Type E27 E
+T65	Entity 1861 1938	Det digre , sentrale området som binder alle verdenene du skal gjennom sammen
+T66	Polar_expression 1988 2023	bare er der for å se imponerende ut
+E28	Polar_expression:T66 Target:T65
+A137	Polarity E28 Negative
+A138	Source_is_author E28
+A139	Intensity E28 Standard
+A140	Target_is_general E28
+A141	Type E28 E
+T67	Entity 2104 2113	fyllstoff
+T68	Polar_expression 2080 2088	Kjedelig
+E29	Polar_expression:T68 Target:T67
+A142	Polarity E29 Negative
+A143	Source_is_author E29
+A144	Intensity E29 Standard
+A145	Target_is_general E29
+A146	Type E29 E
+T69	Polar_expression 2092 2103	meningsløst
+E30	Polar_expression:T69 Target:T67
+A147	Polarity E30 Negative
+A148	Source_is_author E30
+A149	Intensity E30 Standard
+A150	Target_is_general E30
+A151	Type E30 E
+T70	Polar_expression 2104 2113	fyllstoff
+E31	Polar_expression:T70 
+A152	Polarity E31 Negative
+A153	Source_is_author E31
+A154	Intensity E31 Standard
+A155	Target_is_general E31
+A156	Type E31 E
+T71	Polar_expression 2136 2146	unødvendig
+E32	Polar_expression:T71 Target:T72
+A157	Polarity E32 Negative
+A158	Source_is_author E32
+A159	Intensity E32 Standard
+A160	Target_is_general E32
+A161	Type E32 E
+T72	Entity 2147 2164	uthaling av tiden
+T74	Polar_expression 2288 2342	skarp kontrast til mangelen på en interessant historie
+E33	Polar_expression:T74 Target:T80
+A162	Polarity E33 Negative
+A163	Source_is_author E33
+A164	Intensity E33 Standard
+A165	Target_is_general E33
+A166	Type E33 E
+T75	Polar_expression 2307 2315	mangelen
+E34	Polar_expression:T75 Target:T76
+A167	Polarity E34 Negative
+A168	Source_is_author E34
+A169	Intensity E34 Standard
+A170	Target_is_general E34
+A171	Type E34 E
+T76	Entity 2322 2342	interessant historie
+T77	Polar_expression 2193 2200	pompøse
+E35	Polar_expression:T77 
+A172	Polarity E35 Positive
+A173	Source_is_author E35
+A174	Intensity E35 Standard
+A175	Target_is_general E35
+A176	Type E35 E
+T78	Polar_expression 2204 2217	høydramatiske
+E36	Polar_expression:T78 
+A177	Polarity E36 Positive
+A178	Source_is_author E36
+A179	Intensity E36 Standard
+A180	Target_is_general E36
+A181	Type E36 E
+T81	Polar_expression 2189 2273	Den pompøse og høydramatiske innpakningen , med orkestermusikk og slående omgivelser
+E39	Polar_expression:T81 
+A192	Polarity E39 Positive
+A193	Source_is_author E39
+A194	Intensity E39 Standard
+A195	Target_is_general E39
+A196	Type E39 E
+T73	Polar_expression 2255 2273	slående omgivelser
+E37	Polar_expression:T73 
+A182	Polarity E37 Positive
+A183	Source_is_author E37
+A184	Intensity E37 Standard
+A185	Target_is_general E37
+A186	Type E37 E
+T79	Polar_expression 2237 2251	orkestermusikk
+E38	Polar_expression:T79 
+A187	Polarity E38 Positive
+A188	Source_is_author E38
+A189	Intensity E38 Standard
+A190	Target_is_general E38
+A191	Type E38 E
+T80	Entity 2189 2273	Den pompøse og høydramatiske innpakningen , med orkestermusikk og slående omgivelser
+T82	Polar_expression 2377 2379	OK
+E40	Polar_expression:T82 
+A197	Polarity E40 Positive
+A198	Source_is_author E40
+A199	Intensity E40 Slight
+A200	Target_is_general E40
+A201	Type E40 E
+T83	Entity 2380 2388	historie
+T84	Polar_expression 2414 2428	dårlig fortalt
+E41	Polar_expression:T84 Target:T83
+A202	Polarity E41 Negative
+A203	Source_is_author E41
+A204	Intensity E41 Standard
+A205	Target_is_general E41
+A206	Type E41 E
+T85	Entity 2443 2448	Kameo
+T86	Entity 2452 2464	andre roller
+T87	Polar_expression 2470 2529	statister i et spill som handler mer om stil enn om innhold
+E42	Polar_expression:T87 Target:T85
+A207	Polarity E42 Negative
+A208	Source_is_author E42
+A209	Intensity E42 Standard
+A210	Target_is_general E42
+A211	Type E42 E
+T88	Polar_expression 2495 2529	handler mer om stil enn om innhold
+E43	Polar_expression:T88 Target:T89
+A212	Polarity E43 Negative
+A213	Source_is_author E43
+A214	Intensity E43 Standard
+A215	Target_is_general E43
+A216	Type E43 E
+T89	Entity 2485 2490	spill
+E44	Polar_expression:T87 Target:T86
+E45	Polar_expression:T87 Target:T83
+A217	Polarity E44 Negative
+A218	Polarity E45 Negative
+A219	Source_is_author E44
+A220	Source_is_author E45
+A221	Intensity E44 Standard
+A222	Intensity E45 Standard
+A223	Target_is_general E44
+A224	Target_is_general E45
+A225	Type E44 E
+A226	Type E45 E
+T90	Polar_expression 2599 2617	nedlagt mye arbeid
+E46	Polar_expression:T90 Target:T91
+A227	Polarity E46 Positive
+A228	Source_is_author E46
+A229	Intensity E46 Standard
+A230	Target_is_general E46
+A231	Type E46 E
+T91	Entity 2620 2672	de forskjellige krigerne og hvilke egenskaper de har
+T92	Polar_expression 2693 2738	spillets største og mest underholdende styrke
+E47	Polar_expression:T92 Target:T91
+A232	Polarity E47 Positive
+A233	Source_is_author E47
+A234	Intensity E47 Standard
+A235	Target_is_general E47
+A236	Type E47 E
+T93	Entity 2732 2738	styrke
+T94	Polar_expression 2713 2731	mest underholdende
+E48	Polar_expression:T94 Target:T93
+A237	Polarity E48 Positive
+A238	Source_is_author E48
+A239	Intensity E48 Standard
+A240	Target_is_general E48
+A241	Type E48 E
+T95	Polar_expression 2702 2709	største
+E49	Polar_expression:T95 Target:T93
+A242	Polarity E49 Positive
+A243	Source_is_author E49
+A244	Intensity E49 Standard
+A245	Target_is_general E49
+A246	Type E49 E
+T96	Polar_expression 2745 2819	kanskje krigerne burde ha blitt satt til å løse mer spektakulære oppdrag ?
+E50	Polar_expression:T96 
+A247	Polarity E50 Negative
+A248	Source_is_author E50
+A249	Intensity E50 Slight
+A250	Target_is_general E50
+A251	Type E50 E
+T97	Entity 2821 2830	« Kameo »
+T98	Polar_expression 2831 2934	mangler på flere områder den altomfattende finpussen Rare var så kjente for da de herjet på Nintendo 64
+E51	Polar_expression:T98 Target:T97
+A252	Polarity E51 Negative
+A253	Source_is_author E51
+A254	Intensity E51 Standard
+A255	Target_is_general E51
+A256	Type E51 E
+T99	Polar_expression 2831 2855	mangler på flere områder
+E52	Polar_expression:T99 Target:T100
+A257	Polarity E52 Negative
+A258	Source_is_author E52
+A259	Intensity E52 Standard
+A260	Target_is_general E52
+A261	Type E52 E
+T100	Entity 2856 2934	den altomfattende finpussen Rare var så kjente for da de herjet på Nintendo 64
+T101	Entity 3019 3022	alt
+T102	Polar_expression 3028 3098	FØLTES riktig fra det øyeblikket man satt seg ned med håndkontrolleren
+E53	Polar_expression:T102 Target:T101
+A262	Polarity E53 Positive
+A263	Source_is_author E53
+A264	Intensity E53 Strong
+A265	NOT E53
+A266	Type E53 E
+T103	Entity 2955 2963	spillene
+T104	Polar_expression 2973 3013	gjennomtenkte ned til hver minste detalj
+E54	Polar_expression:T104 Target:T103
+A267	Polarity E54 Positive
+A268	Source_is_author E54
+A269	Intensity E54 Standard
+A271	Type E54 E
+A270	NOT E54
+T105	Entity 3393 3402	« Kameo »
+T106	Polar_expression 3403 3438	noe ved seg som bidrar til spillkos
+E55	Polar_expression:T106 Target:T105
+A272	Polarity E55 Positive
+A273	Source_is_author E55
+A274	Intensity E55 Standard
+A275	Target_is_general E55
+A276	Type E55 E
+T107	Polar_expression 3419 3438	bidrar til spillkos
+E56	Polar_expression:T107 Target:T108
+A277	Polarity E56 Positive
+A278	Source_is_author E56
+A279	Intensity E56 Standard
+A280	Target_is_general E56
+A281	Type E56 E
+T108	Entity 3403 3406	noe
+T109	Entity 3737 3780	den generelle sammensettingen av oppdragene
+T110	Polar_expression 3720 3725	kosen
+E57	Polar_expression:T110 Target:T109
+A282	Polarity E57 Positive
+A283	Source_is_author E57
+A284	Intensity E57 Standard
+A285	Target_is_general E57
+A286	Type E57 E
+T111	Polar_expression 3454 3465	variasjonen
+E58	Polar_expression:T111 Target:T112
+A287	Polarity E58 Positive
+A288	Source_is_author E58
+A289	Intensity E58 Standard
+A290	Target_is_general E58
+A291	Type E58 E
+T112	Entity 3468 3508	de forskjellige egenskapene til krigerne
+T113	Polar_expression 3533 3586	muligheten til å begi seg ut på en mengde sideoppdrag
+E59	Polar_expression:T113 
+A292	Polarity E59 Positive
+A293	Source_is_author E59
+A294	Intensity E59 Standard
+A295	Target_is_general E59
+A296	Type E59 E
+T114	Polar_expression 3665 3701	muligheten til å oppgradere krigerne
+E60	Polar_expression:T114 
+A297	Polarity E60 Positive
+A298	Source_is_author E60
+A299	Intensity E60 Standard
+A300	Target_is_general E60
+A301	Type E60 E
+T115	Polar_expression 3791 3815	veldig tilfredsstillende
+E61	Polar_expression:T115 Target:T116
+A302	Polarity E61 Positive
+A303	Source_is_author E61
+A304	Intensity E61 Standard
+A305	Target_is_general E61
+A306	Type E61 E
+T116	Entity 3818 3855	få tilgang til hver eneste nye kriger
+T117	Entity 3863 3905	prøve ut egenskapene deres for første gang
+E62	Polar_expression:T115 Target:T117
+A307	Polarity E62 Positive
+A308	Source_is_author E62
+A309	Intensity E62 Standard
+A310	Target_is_general E62
+A311	Type E62 E
+T118	Polar_expression 3917 3975	sammenlignbart med å kjøpe nye våpen i « Ratchet & Clank »
+E63	Polar_expression:T118 Target:T119
+A312	Polarity E63 Positive
+A313	Source_is_author E63
+A314	Intensity E63 Standard
+A315	Target_is_general E63
+A316	Type E63 E
+T119	Entity 3908 3911	Det
+T120	Polar_expression 4000 4022	skal man ikke fnyse av
+E64	Polar_expression:T120 Target:T121
+A317	Polarity E64 Positive
+A318	Source_is_author E64
+A319	Intensity E64 Standard
+A320	Target_is_general E64
+A321	Type E64 E
+T121	Entity 3917 3975	sammenlignbart med å kjøpe nye våpen i « Ratchet & Clank »
+T122	Entity 4026 4035	« Kameo »
+T123	Polar_expression 4039 4055	mer frustrerende
+E65	Polar_expression:T123 
+A322	Polarity E65 Negative
+A323	Source_is_author E65
+A324	Intensity E65 Standard
+A325	Target_is_general E65
+A326	Type E65 E
+T124	Polar_expression 4059 4078	mindre engasjerende
+E66	Polar_expression:T124 
+A327	Polarity E66 Negative
+A328	Source_is_author E66
+A329	Intensity E66 Standard
+A330	Target_is_general E66
+A331	Type E66 E
+T125	Polar_expression 4039 4100	mer frustrerende og mindre engasjerende enn det burde ha vært
+E67	Polar_expression:T125 Target:T122
+A332	Polarity E67 Negative
+A333	Source_is_author E67
+A334	Intensity E67 Standard
+A335	Target_is_general E67
+A336	Type E67 E
+T126	Entity 4103 4114	potensialet
+T127	Polar_expression 4118 4136	absolutt til stede
+E68	Polar_expression:T127 Target:T126
+A337	Polarity E68 Positive
+A338	Source_is_author E68
+A339	Intensity E68 Standard
+A340	Target_is_general E68
+A341	Type E68 E
+T128	Polar_expression 4103 4136	potensialet er absolutt til stede
+E69	Polar_expression:T128 Target:T122
+A342	Polarity E69 Positive
+A343	Source_is_author E69
+A344	Intensity E69 Standard
+A345	Target_is_general E69
+A346	Type E69 E
+T129	Polar_expression 4139 4166	Men jeg koste meg allikevel
+E70	Polar_expression:T129 
+A347	Polarity E70 Positive
+A348	Source_is_author E70
+A349	Intensity E70 Standard
+A350	Target_is_general E70
+A351	Type E70 E
+T130	Polar_expression 4147 4156	koste meg
+E71	Polar_expression:T130 Source:T131
+A352	Polarity E71 Positive
+A353	Source_is_author E71
+A354	Intensity E71 Standard
+A355	Target_is_general E71
+A356	Type E71 E
+T131	Entity 4143 4146	jeg
+T132	Polar_expression 4170 4215	Fullt så gæli kan det med andre ord ikke være
+E72	Polar_expression:T132 
+A357	Polarity E72 Positive
+A358	Source_is_author E72
+A359	Intensity E72 Slight
+A360	Target_is_general E72
+A361	Type E72 E

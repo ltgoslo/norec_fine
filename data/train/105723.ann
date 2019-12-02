@@ -1,0 +1,48 @@
+T1	E 512 512	
+T2	E 549 549	
+T3	E 646 646	
+T4	E 738 738	
+T5	E 750 750	
+T6	Polar_expression 512 519	Bra fyr
+E1	Polar_expression:T6 
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Target_is_general E1
+A5	Type E1 E
+T7	Polar_expression 528 546	strålende gitarist
+E2	Polar_expression:T7 
+A6	Polarity E2 Positive
+A7	Source_is_author E2
+A8	Intensity E2 Strong
+A9	Target_is_general E2
+A10	Type E2 E
+T8	Polar_expression 549 563	Tradisjonalist
+E3	Polar_expression:T8 
+A11	Polarity E3 Positive
+A12	Source_is_author E3
+A13	Intensity E3 Standard
+A14	Target_is_general E3
+A15	Type E3 E
+T9	Polar_expression 570 589	ingen museumsvokter
+E4	Polar_expression:T9 
+A16	Polarity E4 Positive
+A17	Source_is_author E4
+A18	Intensity E4 Standard
+A19	Target_is_general E4
+A20	Type E4 E
+T10	Polar_expression 698 734	« vår » kontemporære countryfavoritt
+E5	Polar_expression:T10 Target:T11
+A21	Polarity E5 Positive
+A22	Source_is_author E5
+A23	Intensity E5 Strong
+A24	Type E5 E
+T11	Entity 646 653	Paisley
+T12	Polar_expression 654 665;679 734	kan godt gi litt avløsning som « vår » kontemporære countryfavoritt
+E6	Polar_expression:T12 Target:T13
+A25	Polarity E6 Negative
+A26	Source_is_author E6
+A27	Intensity E6 Slight
+A28	NOT E6
+A29	Type E6 E
+T13	Entity 666 678	Alan Jackson

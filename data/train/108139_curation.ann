@@ -1,0 +1,14 @@
+T1	E 1039 1039	
+T2	Entity 1044 1051	språket
+T3	Polar_expression 1060 1091	hardhet man kan kalle metallisk
+E1	Polar_expression:T3 Target:T2
+A1	Polarity E1 Negative
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Type E1 E
+T4	Polar_expression 1100 1121	ikke uten pinligheter
+E2	Polar_expression:T4 Target:T2
+A5	Polarity E2 Negative
+A6	Source_is_author E2
+A7	Intensity E2 Standard
+A8	Type E2 E

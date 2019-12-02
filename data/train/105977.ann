@@ -1,0 +1,107 @@
+T1	E 15 15	
+A1	NOT T1
+T2	EFINP 242 242	
+T3	E 258 258	
+T4	EFINP 345 345	
+T5	E 380 380	
+T6	E 447 447	
+T7	E 677 677	
+T8	E 980 980	
+T9	EFINP 1129 1129	
+T10	E 1158 1158	
+T11	E 1169 1169	
+T12	Polar_expression 290 302	gode stunder
+E1	Polar_expression:T12 Target:T14
+A2	Polarity E1 Positive
+A3	Source_is_author E1
+A4	Intensity E1 Standard
+A5	Target_is_general E1
+A6	Type E1 E
+T13	Polar_expression 310 329	romantiske øyeblikk
+E2	Polar_expression:T13 Target:T14
+A7	Polarity E2 Positive
+A8	Source_is_author E2
+A9	Intensity E2 Standard
+A10	Target_is_general E2
+A11	Type E2 E
+T14	Entity 278 284	filmen
+T15	Polar_expression 350 368	liten overraskelse
+E3	Polar_expression:T15 
+A12	Polarity E3 Positive
+A13	Source_is_author E3
+A14	Intensity E3 Standard
+A15	Target_is_general E3
+A16	Type E3 E
+T16	Polar_expression 242 254	Ikke aldeles
+E4	Polar_expression:T16 
+A17	Polarity E4 Negative
+A18	Source_is_author E4
+A19	Intensity E4 Standard
+A20	Target_is_general E4
+A21	Type E4 EFINP
+T17	Polar_expression 53 72	forførende stjerner
+E5	Polar_expression:T17 
+A22	Polarity E5 Positive
+A23	Source_is_author E5
+A24	Intensity E5 Standard
+A26	Type E5 E
+A25	NOT E5
+T18	Polar_expression 90 149	filmatisk sukkerspinn omkring kjærlighetens lykke & ulykker
+E6	Polar_expression:T18 
+A27	Polarity E6 Positive
+A28	Source_is_author E6
+A29	Intensity E6 Slight
+A30	NOT E6
+A31	Type E6 E
+A32	NFP E6
+A33	NFP E5
+T19	Polar_expression 424 428;434 443	ikke helt galt
+E7	Polar_expression:T19 Target:T22
+A34	Polarity E7 Positive
+A35	Source_is_author E7
+A36	Intensity E7 Slight
+A37	Type E7 E
+T20	Polar_expression 517 673	sammenrasket unnskyldning for fremføring av kjente fjes og -kropper , som ikke behøver å anstrenge seg noe særlig for å levere de åpenbart forventede varene
+E8	Polar_expression:T20 Target:T21
+A38	Polarity E8 Negative
+A39	Source_is_author E8
+A40	Intensity E8 Standard
+A41	Target_is_general E8
+A42	Type E8 E
+T21	Entity 501 507	filmen
+T22	Entity 412 417	dette
+T23	Polar_expression 748 771	beveger seg skisseaktig
+E9	Polar_expression:T23 Target:T24
+A43	Polarity E9 Negative
+A44	Source_is_author E9
+A45	Intensity E9 Slight
+A46	Target_is_general E9
+A47	Type E9 E
+T24	Entity 697 700	par
+T25	Polar_expression 995 1018	ikke som man drømmer om
+E10	Polar_expression:T25 
+A48	Polarity E10 Negative
+A49	Source_is_author E10
+A50	Intensity E10 Standard
+A51	Type E10 E
+T26	Polar_expression 1158 1166	Oversøtt
+E11	Polar_expression:T26 
+A52	Polarity E11 Negative
+A53	Source_is_author E11
+A54	Intensity E11 Standard
+A55	Target_is_general E11
+A56	Type E11 E
+T27	Polar_expression 1172 1192	stort sett ingenting
+E12	Polar_expression:T27 
+A57	Polarity E12 Negative
+A58	Source_is_author E12
+A59	Intensity E12 Standard
+A60	Target_is_general E12
+A61	Type E12 E
+T28	Polar_expression 1129 1155	Sukkerspinn-bildet gjelder
+E13	Polar_expression:T28 
+A62	Polarity E13 Negative
+A63	Source_is_author E13
+A64	Intensity E13 Standard
+A65	Target_is_general E13
+A66	Type E13 EFINP

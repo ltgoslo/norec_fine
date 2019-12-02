@@ -1,0 +1,16 @@
+T1	E 134 134	
+T2	Polar_expression 173 219	dansbart , orientalsk-inspirert og refrenglett
+E1	Polar_expression:T2 Target:T3
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Target_is_general E1
+A5	Type E1 E
+T3	Entity 220 226	bidrag
+T4	Polar_expression 152 165	forsøker godt
+E2	Polar_expression:T4 
+A6	Polarity E2 Positive
+A7	Source_is_author E2
+A8	Intensity E2 Standard
+A9	Target_is_general E2
+A10	Type E2 E

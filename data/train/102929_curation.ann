@@ -1,0 +1,359 @@
+T1	E 27 27	
+T2	E 49 49	
+T3	E 150 150	
+T4	E 215 215	
+T5	E 353 353	
+T6	E 512 512	
+T7	E 612 612	
+T8	E 697 697	
+T9	E 762 762	
+T10	E 832 832	
+T11	E 940 940	
+T12	E 991 991	
+T13	E 1062 1062	
+T14	E 1116 1116	
+T15	EFINP 1208 1208	
+T16	E 1463 1463	
+T17	E 1565 1565	
+T18	E 2059 2059	
+T19	E 2160 2160	
+T20	E 2228 2228	
+T21	E 2294 2294	
+T22	E 2366 2366	
+T23	E 2469 2469	
+T24	E 2572 2572	
+T25	E 2605 2605	
+T26	EFINP 2656 2656	
+T27	E 2752 2752	
+T28	E 2826 2826	
+T29	E 2918 2918	
+T30	Entity 2375 2383	baksetet
+T31	Polar_expression 2366 2372	Mindre
+E98	Polar_expression:T31 Target:T30
+A432	Polarity E98 Negative
+A433	Intensity E98 Standard
+A434	Type E98 E
+A435	Source_is_author E98
+T32	Entity 2393 2403	sittehøyde
+T33	Polar_expression 2386 2392	lavere
+E99	Polar_expression:T33 Target:T32
+A436	Polarity E99 Negative
+A437	Intensity E99 Standard
+A438	Type E99 E
+A439	Source_is_author E99
+T34	Polar_expression 2406 2440	ikke fullt så bra som konkurrenten
+E100	Polar_expression:T34 
+A440	Polarity E100 Negative
+A441	Intensity E100 Standard
+A442	Type E100 E
+A443	Source_is_author E100
+T35	Polar_expression 27 47	Sportslig kjøreglede
+E1	Polar_expression:T35 
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Target_is_general E1
+A5	Type E1 E
+T36	Entity 95 103	BMW 520d
+T37	Polar_expression 114 147	virkelig setter føreren i sentrum
+E2	Polar_expression:T37 
+A6	Polarity E2 Positive
+A7	Source_is_author E2
+A8	Intensity E2 Standard
+A9	Target_is_general E2
+A10	Type E2 E
+T38	Polar_expression 150 211	Maken til kjøreglede finner du ikke hos noen av konkurrentene
+E3	Polar_expression:T38 
+A11	Polarity E3 Positive
+A12	Source_is_author E3
+A13	Intensity E3 Standard
+A14	Target_is_general E3
+A15	Type E3 E
+T40	Entity 219 236	direkte styringen
+T41	Entity 243 268	litt lave sitteposisjonen
+T42	Entity 272 297	fart og akselerasjonsdata
+T39	Polar_expression 340 349	imponerer
+E4	Polar_expression:T39 Target:T42
+A16	Polarity E4 Positive
+A17	Source_is_author E4
+A18	Intensity E4 Standard
+A19	Type E4 E
+T43	Polar_expression 307 337	slår Audis splitter nye modell
+E5	Polar_expression:T43 Target:T42
+A20	Polarity E5 Positive
+A21	Source_is_author E5
+A22	Intensity E5 Standard
+A23	Type E5 E
+E6	Polar_expression:T39 Target:T41
+E7	Polar_expression:T39 Target:T40
+A24	Polarity E6 Positive
+A25	Polarity E7 Positive
+A26	Source_is_author E6
+A27	Source_is_author E7
+A28	Intensity E6 Standard
+A29	Intensity E7 Standard
+A30	Type E6 E
+A31	Type E7 E
+T44	Polar_expression 353 381	0 - 100 km/t på 8,9 sekunder
+E8	Polar_expression:T44 
+A32	Polarity E8 Positive
+A33	Source_is_author E8
+A34	Intensity E8 Standard
+A35	Target_is_general E8
+A36	Type E8 E
+T45	Polar_expression 428 471	et halvt sekund raskere enn A6 stasjonsvogn
+E9	Polar_expression:T45 
+A37	Polarity E9 Positive
+A38	Source_is_author E9
+A39	Intensity E9 Standard
+A40	Target_is_general E9
+A41	Type E9 E
+T46	Polar_expression 525 560	Norges mest sportslige stasjonsvogn
+E10	Polar_expression:T46 
+A42	Polarity E10 Positive
+A43	Source_is_author E10
+A44	Intensity E10 Strong
+A45	Target_is_general E10
+A46	Type E10 E
+T47	Polar_expression 612 694	For dem som ikke spretter ut og inn av en så vidt lav bil , scorer BMW litt lavere
+E11	Polar_expression:T47 Target:T48
+A47	Polarity E11 Negative
+A48	Source_is_author E11
+A49	Intensity E11 Slight
+A50	Target_is_general E11
+A51	Type E11 E
+T48	Entity 679 682	BMW
+T49	Entity 697 704	Audi A6
+T50	Polar_expression 726 758	enklere å komme seg inn og ut av
+E12	Polar_expression:T50 
+A52	Polarity E12 Negative
+A53	Source_is_author E12
+A54	Intensity E12 Standard
+A55	Target_is_general E12
+A56	Type E12 E
+E13	Polar_expression:T50 Target:T49
+A57	Polarity E13 Positive
+A58	Source_is_author E13
+A59	Intensity E13 Standard
+A60	NOT E13
+A61	Type E13 E
+T51	Entity 788 794	sikten
+T52	Polar_expression 807 820	noe dårligere
+E14	Polar_expression:T52 Target:T51
+A62	Polarity E14 Negative
+A63	Source_is_author E14
+A64	Intensity E14 Slight
+A65	Type E14 E
+T53	Entity 832 837	Bilen
+T54	Polar_expression 849 874	noe mindre letthåndterlig
+E15	Polar_expression:T54 Target:T53
+A66	Polarity E15 Negative
+A67	Source_is_author E15
+A68	Intensity E15 Slight
+A69	Target_is_general E15
+A70	Type E15 E
+T55	Entity 940 958	Plassen i baksetet
+T56	Polar_expression 962 975	noe dårligere
+E16	Polar_expression:T56 Target:T55
+A71	Polarity E16 Negative
+A72	Source_is_author E16
+A73	Intensity E16 Slight
+A74	Type E16 E
+T57	Polar_expression 1018 1047	stjeler også en del gulvplass
+E17	Polar_expression:T57 Target:T58
+A75	Polarity E17 Negative
+A76	Source_is_author E17
+A77	Intensity E17 Standard
+A78	Type E17 E
+T58	Entity 994 1017	stor mellomakselstunnel
+T59	Entity 1062 1076	Bagasjeplassen
+T60	Polar_expression 1085 1104	marginalt dårligere
+E18	Polar_expression:T60 Target:T59
+A79	Polarity E18 Negative
+A80	Source_is_author E18
+A81	Intensity E18 Standard
+A82	Type E18 E
+T61	Polar_expression 1116 1182	Støy ved kjøring er , som i konkurrenten , ikke noe stort spørsmål
+E19	Polar_expression:T61 Target:T62
+A83	Polarity E19 Positive
+A84	Source_is_author E19
+A85	Intensity E19 Standard
+A86	Type E19 E
+T62	Entity 1186 1204	denne klasse biler
+T63	Polar_expression 1215 1306	stort sett alt av sikkerhetsutstyr , underholdningssystemer og annen teknologi tilgjengelig
+E20	Polar_expression:T63 
+A87	Polarity E20 Positive
+A88	Source_is_author E20
+A89	Intensity E20 Standard
+A90	Target_is_general E20
+A91	Type E20 E
+T64	Entity 1467 1473	Audien
+T65	Polar_expression 1481 1512	ørlite bedre standardutrustning
+E21	Polar_expression:T65 Target:T64
+A92	Polarity E21 Positive
+A93	Source_is_author E21
+A94	Intensity E21 Slight
+A95	NOT E21
+A96	Type E21 E
+T66	Polar_expression 1467 1512	Audien har en ørlite bedre standardutrustning
+E22	Polar_expression:T66 
+A97	Polarity E22 Negative
+A98	Source_is_author E22
+A99	Intensity E22 Slight
+A100	Target_is_general E22
+A101	Type E22 E
+T67	Polar_expression 1604 1651	levert standard med luftfjæringer på bakakselen
+E23	Polar_expression:T67 Target:T68
+A102	Polarity E23 Positive
+A103	Source_is_author E23
+A104	Intensity E23 Standard
+A105	Target_is_general E23
+A106	Type E23 E
+T68	Entity 1584 1590	BMW-en
+T69	Polar_expression 2059 2083	Svært høyt kvalitetsnivå
+E24	Polar_expression:T69 
+A107	Polarity E24 Positive
+A108	Source_is_author E24
+A109	Intensity E24 Strong
+A110	Target_is_general E24
+A111	Type E24 E
+T70	Polar_expression 2086 2104	noe dårligere sikt
+E25	Polar_expression:T70 
+A112	Polarity E25 Negative
+A113	Source_is_author E25
+A114	Intensity E25 Standard
+A115	Target_is_general E25
+A116	Type E25 E
+T71	Polar_expression 2123 2157	kronglete å komme seg ut og inn av
+E26	Polar_expression:T71 
+A117	Polarity E26 Negative
+A118	Source_is_author E26
+A119	Intensity E26 Standard
+A120	Target_is_general E26
+A121	Type E26 E
+T72	Polar_expression 2160 2184	Bare en grunn koppholder
+E27	Polar_expression:T72 
+A122	Polarity E27 Negative
+A123	Source_is_author E27
+A124	Intensity E27 Standard
+A125	Target_is_general E27
+A126	Type E27 E
+T73	Entity 2243 2249	BMW-en
+T74	Polar_expression 2255 2269	klasse for seg
+E28	Polar_expression:T74 Target:T73
+A127	Polarity E28 Positive
+A128	Source_is_author E28
+A129	Intensity E28 Standard
+A130	Target_is_general E28
+A131	Type E28 E
+T75	Entity 2322 2326	Audi
+T76	Polar_expression 2294 2317	Ikke fullt så lettkjørt
+E29	Polar_expression:T76 Target:T75
+A132	Polarity E29 Positive
+A133	Source_is_author E29
+A134	Intensity E29 Standard
+A135	NOT E29
+A136	Type E29 E
+T77	Polar_expression 2294 2326	Ikke fullt så lettkjørt som Audi
+E30	Polar_expression:T77 
+A137	Polarity E30 Negative
+A138	Source_is_author E30
+A139	Intensity E30 Slight
+A140	Target_is_general E30
+A141	Type E30 E
+T78	Polar_expression 2547 2556	meget bra
+E31	Polar_expression:T78 Target:T79
+A142	Polarity E31 Positive
+A143	Source_is_author E31
+A144	Intensity E31 Strong
+A146	Type E31 E
+T79	Entity 2523 2530	forbruk
+T80	Polar_expression 2572 2581	Toppscore
+E32	Polar_expression:T80 Target:T81
+A145	Polarity E32 Positive
+A147	Source_is_author E32
+A148	Intensity E32 Strong
+A149	Type E32 E
+T81	Entity 2586 2591	sedan
+T82	Polar_expression 2605 2644	Alt mulig sikkerhetsutstyr tilgjengelig
+E33	Polar_expression:T82 
+A150	Polarity E33 Positive
+A151	Source_is_author E33
+A152	Intensity E33 Standard
+A153	Target_is_general E33
+A154	Type E33 E
+T83	Polar_expression 2656 2696	Norges mest fornøyde bileiere kjører BMW
+E34	Polar_expression:T83 Target:T84 Source:T85
+A155	Polarity E34 Positive
+A156	Intensity E34 Standard
+A157	Target_is_general E34
+A158	Type E34 EFINP
+T84	Entity 2693 2696	BMW
+T85	Entity 2704 2708	NAFs
+T86	Entity 2793 2796	bil
+T87	Polar_expression 2783 2792	lettsolgt
+E35	Polar_expression:T87 Target:T86
+A159	Polarity E35 Positive
+A160	Source_is_author E35
+A161	Intensity E35 Standard
+A162	Target_is_general E35
+A163	Type E35 E
+T88	Polar_expression 2770 2779	attraktiv
+E36	Polar_expression:T88 Target:T86
+A164	Polarity E36 Positive
+A165	Source_is_author E36
+A166	Intensity E36 Standard
+A167	Target_is_general E36
+A168	Type E36 E
+T89	Entity 2866 2871	bilen
+T90	Polar_expression 2883 2905	god standardutrustning
+E37	Polar_expression:T90 Target:T89
+A169	Polarity E37 Positive
+A170	Source_is_author E37
+A171	Intensity E37 Standard
+A172	Target_is_general E37
+A173	Type E37 E
+T91	Polar_expression 2826 2830	Dyrt
+E38	Polar_expression:T91 Target:T92
+A174	Polarity E38 Negative
+A175	Source_is_author E38
+A176	Intensity E38 Standard
+A177	Target_is_general E38
+A178	Type E38 E
+T92	Entity 2831 2843	ekstrautstyr
+T93	Polar_expression 2826 2843	Dyrt ekstrautstyr
+E39	Polar_expression:T93 Target:T89
+A179	Polarity E39 Negative
+A180	Source_is_author E39
+A181	Intensity E39 Standard
+A182	Target_is_general E39
+A183	Type E39 E
+T94	Entity 2887 2905	standardutrustning
+T95	Polar_expression 2883 2886	god
+E40	Polar_expression:T95 Target:T94
+A184	Polarity E40 Positive
+A185	Source_is_author E40
+A186	Intensity E40 Standard
+A187	Target_is_general E40
+A188	Type E40 E
+T96	Polar_expression 2918 2926	Stilfull
+E41	Polar_expression:T96 Target:T98
+A189	Polarity E41 Positive
+A190	Source_is_author E41
+A191	Intensity E41 Standard
+A192	Target_is_general E41
+A193	Type E41 E
+T97	Polar_expression 2930 2941	konservativ
+E42	Polar_expression:T97 Target:T98
+A194	Polarity E42 Positive
+A195	Source_is_author E42
+A196	Intensity E42 Standard
+A197	Target_is_general E42
+A198	Type E42 E
+T98	Entity 2999 3002	BMW
+T99	Polar_expression 3003 3044	skiller seg mindre fra Audis dempede ytre
+E43	Polar_expression:T99 Target:T98
+A199	Polarity E43 Negative
+A200	Source_is_author E43
+A201	Target_is_general E43
+A202	Type E43 E

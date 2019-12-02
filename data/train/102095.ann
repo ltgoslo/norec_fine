@@ -1,0 +1,200 @@
+T1	E 40 40	
+T2	E 80 80	
+T3	E 101 101	
+T4	E 174 174	
+T5	E 399 399	
+T6	E 542 542	
+T7	E 626 626	
+T8	E 916 916	
+T9	E 1057 1057	
+T10	E 1179 1179	
+T11	E 1231 1231	
+T12	E 1366 1366	
+T13	E 1376 1376	
+T14	E 1467 1467	
+T15	E 1571 1571	
+T16	E 1646 1646	
+T17	E 1727 1727	
+T18	E 1823 1823	
+T19	E 2096 2096	
+T20	E 2126 2126	
+T21	Polar_expression 2130 2172	burde hatt med seg en opplevelse i tillegg
+E1	Polar_expression:T21 Target:T22
+A1	Polarity E1 Negative
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Type E1 E
+T22	Entity 2126 2129	Hun
+T23	Polar_expression 2096 2123	Musikken hadde Mena med seg
+E2	Polar_expression:T23 Target:T24
+A5	Polarity E2 Positive
+A6	Source_is_author E2
+A7	Intensity E2 Standard
+A8	Type E2 E
+T24	Entity 2111 2115	Mena
+T25	Entity 40 50	Maria Mena
+T26	Polar_expression 51 77	synger bedre enn noen gang
+E3	Polar_expression:T26 Target:T25
+A9	Polarity E3 Positive
+A10	Source_is_author E3
+A11	Intensity E3 Standard
+A12	Type E3 E
+T27	Entity 92 98	sanger
+T28	Polar_expression 80 87	Lovende
+E4	Polar_expression:T28 Target:T27
+A13	Polarity E4 Positive
+A14	Source_is_author E4
+A15	Intensity E4 Standard
+A16	Type E4 E
+T29	Entity 105 112	visuelt
+T30	Polar_expression 113 123	helt flatt
+E5	Polar_expression:T30 Target:T29
+A17	Polarity E5 Negative
+A18	Source_is_author E5
+A19	Intensity E5 Standard
+A20	Type E5 E
+T31	Polar_expression 199 214	beste popslager
+E6	Polar_expression:T31 Target:T32
+A21	Polarity E6 Positive
+A22	Source_is_author E6
+A23	Intensity E6 Standard
+A24	Type E6 E
+T32	Entity 217 240	« You're The Only One »
+T33	Polar_expression 185 214	åpner med sin beste popslager
+E7	Polar_expression:T33 Target:T34
+A25	Polarity E7 Positive
+A26	Source_is_author E7
+A27	Intensity E7 Standard
+A28	Type E7 E
+T34	Entity 174 184	Maria Mena
+T35	Polar_expression 422 430	fengende
+E8	Polar_expression:T35 Target:T66
+A29	Polarity E8 Positive
+A30	Source_is_author E8
+A31	Intensity E8 Standard
+A32	Type E8 E
+T37	Polar_expression 587 614	lar seg som alltid opplsuke
+E9	Polar_expression:T37 Target:T38 Source:T36
+A33	Polarity E9 Positive
+A34	Source_is_author E9
+A35	Intensity E9 Standard
+A36	Type E9 E
+T38	Entity 618 623	henne
+T39	Polar_expression 626 638;724 754	Alle over 40 stiller seg noe mer avventende
+E10	Polar_expression:T39 
+A37	Polarity E10 Negative
+A38	Source_is_author E10
+A39	Intensity E10 Slight
+A40	Type E10 E
+T40	Entity 916 924	Tekstene
+T41	Polar_expression 928 946	imidlertid typiske
+E11	Polar_expression:T41 Target:T40
+A41	Polarity E11 Negative
+A42	Source_is_author E11
+A43	Intensity E11 Slight
+A44	Type E11 E
+T42	Polar_expression 1090 1108	litt snodig å høre
+E12	Polar_expression:T42 Target:T43
+A45	Polarity E12 Negative
+A46	Source_is_author E12
+A47	Intensity E12 Slight
+A48	Type E12 E
+T43	Entity 1063 1074	« Fragile »
+T44	Entity 1179 1182	Jeg
+T45	Polar_expression 1183 1215	har aldri hørt henne synge bedre
+E13	Polar_expression:T45 Target:T46 Source:T44
+A49	Polarity E13 Positive
+A50	Source_is_author E13
+A51	Intensity E13 Standard
+A52	Type E13 E
+T46	Entity 1198 1203	henne
+T47	Polar_expression 1302 1323	garantert fanfavoritt
+E14	Polar_expression:T47 Target:T49
+A53	Polarity E14 Positive
+A54	Source_is_author E14
+A55	Intensity E14 Standard
+A56	Type E14 E
+T48	Polar_expression 1330 1356	naturlig avslutningsnummer
+E15	Polar_expression:T48 Target:T49
+A57	Polarity E15 Positive
+A58	Source_is_author E15
+A59	Intensity E15 Standard
+A60	Type E15 E
+T49	Entity 1234 1264	« You Hurt The Ones You Love »
+T50	Polar_expression 1366 1375	Problem !
+E16	Polar_expression:T50 
+A61	Polarity E16 Negative
+A62	Source_is_author E16
+A63	Intensity E16 Standard
+A64	Type E16 E
+T51	Polar_expression 1383 1410	overhodet ingenting å se på
+E17	Polar_expression:T51 Target:T52
+A65	Polarity E17 Negative
+A66	Source_is_author E17
+A67	Intensity E17 Standard
+A68	Type E17 E
+T52	Entity 1420 1438	Maria Mena-konsert
+A69	Target_is_general E17
+T53	Polar_expression 1490 1510	absolutt sjarmerende
+E18	Polar_expression:T53 Target:T54
+A70	Polarity E18 Positive
+A71	Source_is_author E18
+A72	Intensity E18 Standard
+A73	Type E18 E
+T54	Entity 1467 1486	Artistens keitethet
+T55	Polar_expression 1521 1568	evner ikke å holde på øyets interesse i én time
+E19	Polar_expression:T55 Target:T54
+A74	Polarity E19 Negative
+A75	Source_is_author E19
+A76	Intensity E19 Standard
+A77	Type E19 E
+T56	Entity 1638 1642	band
+T57	Polar_expression 1607 1613	dyktig
+E20	Polar_expression:T57 Target:T56
+A78	Polarity E20 Positive
+A79	Source_is_author E20
+A80	Intensity E20 Standard
+A81	Type E20 E
+T58	Polar_expression 1620 1637	helt ukarismatisk
+E21	Polar_expression:T58 Target:T56
+A82	Polarity E21 Negative
+A83	Source_is_author E21
+A84	Intensity E21 Standard
+A85	Type E21 E
+T59	Polar_expression 1586 1600	ingen drahjelp
+E22	Polar_expression:T59 Target:T56
+A86	Polarity E22 Negative
+A87	Source_is_author E22
+A88	Intensity E22 Standard
+A89	Type E22 E
+T60	Entity 1646 1660	Menas dramapop
+T61	Polar_expression 1678 1724	krever - en tilsvarende dramatisk presentasjon
+E23	Polar_expression:T61 Target:T60
+A90	Polarity E23 Negative
+A91	Source_is_author E23
+A92	Intensity E23 Slight
+A93	Type E23 E
+T62	Entity 1727 1742	De lilla lysene
+T63	Polar_expression 1761 1777	forsvant i solen
+E24	Polar_expression:T63 Target:T62
+A94	Polarity E24 Negative
+A95	Source_is_author E24
+A96	Intensity E24 Standard
+A97	Type E24 E
+T64	Polar_expression 1781 1819	var under alle omstendigheter ikke nok
+E25	Polar_expression:T64 Target:T62
+A98	Polarity E25 Negative
+A99	Source_is_author E25
+A100	Intensity E25 Standard
+A101	Type E25 E
+T65	Polar_expression 1918 1969	bør hun støttes opp av en skikkelig sceneproduksjon
+E26	Polar_expression:T65 
+A102	Polarity E26 Negative
+A103	Source_is_author E26
+A104	Intensity E26 Slight
+A105	Target_is_general E26
+A106	Type E26 E
+T66	Entity 431 451	« Caught Off Guard »
+T36	Entity 542 586	Jentene og de yngre kvinnene i Frognerbladet
+A107	NFP E9
+#1	AnnotatorNotes E9	uenig - bør være nfp

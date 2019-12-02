@@ -1,0 +1,97 @@
+T1	EFINP 248 248	
+T2	E 382 382	
+T3	E 628 628	
+T4	E 786 786	
+T5	E 1013 1013	
+T6	E 1132 1132	
+T7	E 1278 1278	
+T8	Polar_expression 404 498	viktigere å flette inn flest mulig effekter fra tidligere suksesser enn å lage en god historie
+E24	Polar_expression:T8 
+A101	Polarity E24 Negative
+A102	Intensity E24 Standard
+A103	Type E24 E
+A104	Source_is_author E24
+A105	Target_is_general E24
+T9	Polar_expression 275 379	en eneste lang henvisning til gamle og nyere tegnefilmhelter , animasjonsfigurer - og levende filmhelter
+E1	Polar_expression:T9 
+A1	Polarity E1 Negative
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Target_is_general E1
+A5	Type E1 E
+#1	AnnotatorNotes E1	c - ikke EFINP pga. "eneste" 
+T10	Entity 716 730	hovedpersonene
+T11	Polar_expression 731 783	enda mer stive og keitete enn de i utgangspunktet er
+E2	Polar_expression:T11 Target:T10
+A6	Polarity E2 Negative
+A7	Source_is_author E2
+A8	Intensity E2 Standard
+A9	Type E2 E
+T12	Entity 786 824	Snurre og Daffy , med animasjonsvenner
+T13	Polar_expression 847 871	formidabel aksjonsradius
+E3	Polar_expression:T13 Target:T12
+A10	Polarity E3 Positive
+A11	Source_is_author E3
+A12	Intensity E3 Strong
+A13	Type E3 E
+T14	Polar_expression 878 1010	eventyrlig evne til å gjenoppstå etter å ha blitt overkjørt , beskutt , pepret ut i verdensrommet - eller utsatt for andre små uhell
+E4	Polar_expression:T14 Target:T12
+A14	Polarity E4 Positive
+A15	Source_is_author E4
+A16	Intensity E4 Strong
+A17	Type E4 E
+T15	Entity 1035 1037	de
+T16	Polar_expression 1053 1073	ganske underholdende
+E5	Polar_expression:T16 Target:T15
+A18	Polarity E5 Positive
+A19	Source_is_author E5
+A20	Intensity E5 Standard
+A21	Type E5 E
+T17	Polar_expression 1079 1128	samspillet med vanlige dødelige behersker de godt
+E6	Polar_expression:T17 Target:T18
+A22	Polarity E6 Positive
+A23	Source_is_author E6
+A24	Intensity E6 Standard
+A25	Type E6 E
+T18	Entity 1121 1123	de
+T19	Entity 1132 1144	Steve Martin
+T20	Polar_expression 1153 1175	fornøyelig skurkerolle
+E7	Polar_expression:T20 Target:T19
+A26	Polarity E7 Positive
+A27	Source_is_author E7
+A28	Intensity E7 Standard
+A29	Type E7 E
+T21	Entity 1181 1195	Timothy Dalton
+T22	Polar_expression 1196 1210	greier seg bra
+E8	Polar_expression:T22 Target:T21
+A30	Polarity E8 Positive
+A31	Source_is_author E8
+A32	Intensity E8 Standard
+A33	Type E8 E
+T23	Polar_expression 1298 1335	ellevill action med en del kvaliteter
+E9	Polar_expression:T23 
+A34	Polarity E9 Positive
+A35	Source_is_author E9
+A36	Intensity E9 Standard
+A37	Target_is_general E9
+A38	Type E9 E
+T24	Entity 1307 1313	action
+T25	Polar_expression 1298 1306	ellevill
+E10	Polar_expression:T25 Target:T24
+A39	Polarity E10 Positive
+A40	Source_is_author E10
+A41	Intensity E10 Strong
+A42	Type E10 E
+T26	Polar_expression 1318 1335	en del kvaliteter
+E11	Polar_expression:T26 Target:T24
+A43	Polarity E11 Positive
+A44	Source_is_author E11
+A45	Intensity E11 Standard
+A46	Type E11 E
+T27	Polar_expression 1342 1381	etter hvert maser den mer enn den morer
+E12	Polar_expression:T27 
+A47	Polarity E12 Negative
+A48	Source_is_author E12
+A49	Intensity E12 Standard
+A50	Target_is_general E12
+A51	Type E12 E

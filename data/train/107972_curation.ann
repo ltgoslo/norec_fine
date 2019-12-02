@@ -1,0 +1,80 @@
+T1	E 98 98	
+T2	EFINP 245 245	
+T3	E 630 630	
+T4	EFINP 745 745	
+T5	Entity 245 259	Alice Coltrane
+T6	Polar_expression 326 346	begått en slik plate
+E16	Polar_expression:T6 Target:T5
+A72	Polarity E16 Positive
+A73	Intensity E16 Standard
+A74	Type E16 E
+A75	Source_is_author E16
+A76	Target_is_general E16
+T7	Polar_expression 352 422	svært uvanlig blanding av jazz og hinduistisk inspirert åndelig musikk
+E17	Polar_expression:T7 Target:T5
+A77	Polarity E17 Positive
+A78	Intensity E17 Standard
+A79	Type E17 E
+A80	Source_is_author E17
+A81	Target_is_general E17
+T8	Polar_expression 108 129	fantastisk opplevelse
+E1	Polar_expression:T8 
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Strong
+A4	Target_is_general E1
+A5	Type E1 E
+T9	Polar_expression 155 182	musikk du ikke hadde ventet
+E2	Polar_expression:T9 
+A6	Polarity E2 Positive
+A7	Source_is_author E2
+A8	Intensity E2 Standard
+A9	Target_is_general E2
+A10	Type E2 E
+T10	Polar_expression 185 242	noe du ikke har hørt før , i hvert fall ikke akkurat sånn
+E3	Polar_expression:T10 
+A11	Polarity E3 Positive
+A12	Source_is_author E3
+A13	Intensity E3 Standard
+A14	Target_is_general E3
+A15	Type E3 E
+T11	Entity 691 700	uttrykket
+T12	Polar_expression 704 711	enklere
+E4	Polar_expression:T12 Target:T11
+A16	Polarity E4 Positive
+A17	Source_is_author E4
+A18	Intensity E4 Standard
+A19	Type E4 E
+T13	Polar_expression 714 727	mer forklaret
+E5	Polar_expression:T13 Target:T11
+A20	Polarity E5 Positive
+A21	Source_is_author E5
+A22	Intensity E5 Standard
+A23	Type E5 E
+T14	Polar_expression 730 742	mer jordnært
+E6	Polar_expression:T14 Target:T11
+A24	Polarity E6 Positive
+A25	Source_is_author E6
+A26	Intensity E6 Standard
+A27	Type E6 E
+T15	Polar_expression 641 667	oppleves så nytt og friskt
+E7	Polar_expression:T15 
+A28	Polarity E7 Positive
+A29	Source_is_author E7
+A30	Intensity E7 Standard
+A31	Target_is_general E7
+A32	Type E7 E
+T16	Entity 745 748	Hun
+T17	Polar_expression 808 865	blandingen av blues , gospel og hindu chants er helt unik
+E8	Polar_expression:T17 Target:T16
+A33	Polarity E8 Positive
+A34	Source_is_author E8
+A35	Intensity E8 Standard
+A36	Target_is_general E8
+A37	Type E8 E
+T18	Polar_expression 756 802	helt spesiell måte å spille Wurlitzer-orgel på
+E9	Polar_expression:T18 Target:T16
+A38	Polarity E9 Positive
+A39	Source_is_author E9
+A40	Intensity E9 Standard
+A41	Type E9 E

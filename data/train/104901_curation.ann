@@ -1,0 +1,45 @@
+T1	EFINP 26 26	
+T2	EFINP 478 478	
+T3	E 619 619	
+T4	Entity 631 641	« Løgnen »
+T5	Polar_expression 646 664	spenningen i orden
+E1	Polar_expression:T5 Target:T4
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Target_is_general E1
+A5	Type E1 E
+T6	Polar_expression 667 689	mangler den flere ting
+E2	Polar_expression:T6 Target:T4
+A6	Polarity E2 Negative
+A7	Source_is_author E2
+A8	Intensity E2 Standard
+A9	Target_is_general E2
+A10	Type E2 E
+T7	Entity 704 716	troverdighet
+T8	Entity 723 738	god hovedperson
+T9	Polar_expression 667 674	mangler
+E3	Polar_expression:T9 Target:T7
+A11	Polarity E3 Negative
+A12	Source_is_author E3
+A13	Intensity E3 Standard
+A14	Type E3 E
+E4	Polar_expression:T9 Target:T8
+A15	Polarity E4 Negative
+A16	Source_is_author E4
+A17	Intensity E4 Standard
+A18	Type E4 E
+T10	Polar_expression 591 616	der stopper også likheten
+E5	Polar_expression:T10 
+A19	Polarity E5 Negative
+A20	Source_is_author E5
+A21	Intensity E5 Standard
+A22	Target_is_general E5
+A23	Type E5 E
+T11	Polar_expression 510 559	latt seg inspirere av Alex Garlands « The Beach »
+E6	Polar_expression:T11 Target:T12
+A24	Polarity E6 Positive
+A25	Source_is_author E6
+A26	Intensity E6 Standard
+A27	Type E6 EFINP
+T12	Entity 562 584	utviklingen av plottet

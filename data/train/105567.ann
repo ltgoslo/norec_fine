@@ -1,0 +1,95 @@
+T1	E 71 71	
+T2	E 349 349	
+T3	E 882 882	
+T4	E 962 962	
+T5	E 1096 1096	
+T6	E 1199 1199	
+T7	Polar_expression 111 164	etterlot seg mange fine fortellinger for barn og unge
+E1	Polar_expression:T7 Target:T8
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	NOT E1
+A5	Type E1 E
+T8	Entity 71 83	Trond Brænne
+T9	Polar_expression 449 464	karakteristiske
+E2	Polar_expression:T9 Target:T10
+A6	Polarity E2 Positive
+A7	Source_is_author E2
+A8	Intensity E2 Standard
+A9	NOT E2
+A10	Type E2 E
+T10	Entity 476 490	illustrasjoner
+T11	Polar_expression 468 475	bustete
+E3	Polar_expression:T11 Target:T10
+A11	Polarity E3 Positive
+A12	Source_is_author E3
+A13	Intensity E3 Standard
+A14	NOT E3
+A15	Type E3 E
+T12	Polar_expression 404 423	lett gjenkjennelige
+E4	Polar_expression:T12 Target:T13
+A16	Polarity E4 Positive
+A17	Source_is_author E4
+A18	Intensity E4 Standard
+A19	NOT E4
+A20	Type E4 E
+T13	Entity 424 432	følelser
+T14	Polar_expression 349 366	Gode fortellinger
+E5	Polar_expression:T14 
+A21	Polarity E5 Positive
+A22	Source_is_author E5
+A23	Intensity E5 Strong
+A24	NOT E5
+A25	Type E5 E
+T15	Polar_expression 882 903	Testet med stort hell
+E6	Polar_expression:T15 
+A26	Polarity E6 Positive
+A27	Source_is_author E6
+A28	Intensity E6 Standard
+A29	Target_is_general E6
+A30	Type E6 E
+T16	Polar_expression 969 995	punktet som gjør boken god
+E7	Polar_expression:T16 Target:T17
+A31	Polarity E7 Positive
+A32	Source_is_author E7
+A33	Intensity E7 Strong
+A34	Type E7 E
+T17	Entity 962 965	Her
+T18	Polar_expression 1112 1144	følger teksten forbilledlig godt
+E8	Polar_expression:T18 Target:T19
+A35	Polarity E8 Positive
+A36	Source_is_author E8
+A37	Intensity E8 Standard
+A38	Type E8 E
+T19	Entity 1096 1111	Illustrasjonene
+T20	Entity 1155 1170	tekststørrelsen
+T21	Polar_expression 1171 1196	kan være litt forvirrende
+E9	Polar_expression:T21 Target:T20
+A39	Polarity E9 Negative
+A40	Source_is_author E9
+A41	Intensity E9 Slight
+A42	NOT E9
+A43	Type E9 E
+T22	Entity 1199 1211;1232 1250	Fortellingen testet på tre barn
+T23	Polar_expression 1253 1267	med stort hell
+E10	Polar_expression:T23 Target:T22
+A44	Polarity E10 Positive
+A45	Source_is_author E10
+A46	Intensity E10 Standard
+A47	NOT E10
+A48	Type E10 E
+T24	Polar_expression 1270 1283	nysgjerrighet
+E11	Polar_expression:T24 Target:T22
+A49	Polarity E11 Positive
+A50	Source_is_author E11
+A51	Intensity E11 Standard
+A52	NOT E11
+A53	Type E11 E
+T25	Polar_expression 1287 1296	diskusjon
+E12	Polar_expression:T25 Target:T22
+A54	Polarity E12 Positive
+A55	Source_is_author E12
+A56	Intensity E12 Standard
+A57	NOT E12
+A58	Type E12 E

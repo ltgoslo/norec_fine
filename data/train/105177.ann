@@ -1,0 +1,158 @@
+T1	E 35 35	
+A1	NOT T1
+T2	E 155 155	
+T3	E 1009 1009	
+T4	E 1058 1058	
+T5	E 1190 1190	
+T6	E 1338 1338	
+T7	E 2080 2080	
+T8	E 2129 2129	
+T9	E 2383 2383	
+T10	Polar_expression 47 59	farlig greie
+E1	Polar_expression:T10 Target:T11
+A2	Polarity E1 Negative
+A3	Source_is_author E1
+A4	Intensity E1 Standard
+A5	NOT E1
+A6	Type E1 E
+T11	Entity 35 40	Fylla
+T12	Polar_expression 179 197	robust realistiske
+E2	Polar_expression:T12 Target:T13
+A7	Polarity E2 Positive
+A8	Source_is_author E2
+A9	Intensity E2 Standard
+A10	Type E2 E
+T13	Entity 231 245	forestillingen
+T14	Polar_expression 200 213	velregisserte
+E3	Polar_expression:T14 Target:T13
+A11	Polarity E3 Positive
+A12	Source_is_author E3
+A13	Intensity E3 Standard
+A14	Type E3 E
+T15	Polar_expression 217 230	underholdende
+E4	Polar_expression:T15 Target:T13
+A15	Polarity E4 Positive
+A16	Source_is_author E4
+A17	Intensity E4 Standard
+A18	Type E4 E
+T16	Polar_expression 332 362	inneholder små poetiske perler
+E5	Polar_expression:T16 
+A19	Polarity E5 Positive
+A20	Source_is_author E5
+A21	Intensity E5 Standard
+A22	Target_is_general E5
+A23	Type E5 E
+T17	Polar_expression 277 324	raljerer med urban europeisk selvopptatt syting
+E6	Polar_expression:T17 
+A24	Polarity E6 Positive
+A25	Source_is_author E6
+A26	Intensity E6 Slight
+A27	Target_is_general E6
+A28	Type E6 E
+T18	Polar_expression 1025 1042	alldeles utmerket
+E7	Polar_expression:T18 Target:T19
+A29	Polarity E7 Positive
+A30	Source_is_author E7
+A31	Intensity E7 Strong
+A32	Type E7 E
+T19	Entity 1046 1055	ensemblet
+A33	Target_is_general E2
+A34	Target_is_general E3
+A35	Target_is_general E4
+T20	Polar_expression 2416 2433	effektiv bakgrunn
+E8	Polar_expression:T20 Target:T21
+A36	Polarity E8 Positive
+A37	Source_is_author E8
+A38	Intensity E8 Standard
+A39	Type E8 E
+T21	Entity 2393 2408	fylle-metaforen
+T22	Polar_expression 2450 2457	rastløs
+E9	Polar_expression:T22 Target:T23
+A40	Polarity E9 Negative
+A41	Source_is_author E9
+A42	Intensity E9 Standard
+A43	NOT E9
+A44	Type E9 E
+T23	Entity 2488 2494	samtid
+T24	Polar_expression 2469 2487	ikke helt lykkelig
+E10	Polar_expression:T24 Target:T23
+A45	Polarity E10 Negative
+A46	Source_is_author E10
+A47	Intensity E10 Standard
+A48	NOT E10
+A49	Type E10 E
+T25	Polar_expression 1194 1204;1229 1237	balanseres nennsomt
+E11	Polar_expression:T25 
+A50	Polarity E11 Positive
+A51	Source_is_author E11
+A52	Intensity E11 Standard
+A53	Target_is_general E11
+A54	Type E11 E
+T26	Polar_expression 1194 1204;1211 1226	balanseres med noen unntak
+E12	Polar_expression:T26 
+A55	Polarity E12 Negative
+A56	Source_is_author E12
+A57	Intensity E12 Slight
+A58	Target_is_general E12
+A59	Type E12 E
+T27	Polar_expression 1320 1334	vaklende grunn
+E13	Polar_expression:T27 Target:T28
+A60	Polarity E13 Negative
+A61	Source_is_author E13
+A62	Intensity E13 Slight
+A63	Type E13 E
+T28	Entity 1297 1313	kroppskontrollen
+T29	Polar_expression 1265 1279	rene balletten
+E14	Polar_expression:T29 Target:T30
+A64	Polarity E14 Negative
+A65	Source_is_author E14
+A66	Intensity E14 Slight
+A67	Type E14 E
+T30	Entity 1242 1261	fysiske slapsticken
+T31	Polar_expression 1354 1369;1381 1401	styres det unna uforståelig snøvling
+E15	Polar_expression:T31 
+A68	Polarity E15 Positive
+A69	Source_is_author E15
+A70	Intensity E15 Standard
+A71	Target_is_general E15
+A72	Type E15 E
+T32	Entity 1458 1471	betraktninger
+T33	Polar_expression 1414 1421	pompøse
+E16	Polar_expression:T33 Target:T32
+A73	Polarity E16 Positive
+A74	Source_is_author E16
+A75	Intensity E16 Slight
+A76	Type E16 E
+T34	Polar_expression 1424 1435	filosofiske
+E17	Polar_expression:T34 Target:T32
+A77	Polarity E17 Positive
+A78	Source_is_author E17
+A79	Intensity E17 Slight
+A80	Type E17 E
+T35	Polar_expression 1439 1457	ganske så morsomme
+E18	Polar_expression:T35 Target:T32
+A81	Polarity E18 Positive
+A82	Source_is_author E18
+A83	Intensity E18 Standard
+A84	Type E18 E
+T36	Polar_expression 2095 2126	lagt vekt på godt ensemblespill
+E19	Polar_expression:T36 Target:T37
+A85	Polarity E19 Positive
+A86	Source_is_author E19
+A87	Intensity E19 Standard
+A88	Type E19 E
+T37	Entity 2080 2090	Regissøren
+T38	Polar_expression 2136 2158	flust av fine detaljer
+E20	Polar_expression:T38 
+A89	Polarity E20 Positive
+A90	Source_is_author E20
+A91	Intensity E20 Strong
+A92	Target_is_general E20
+A93	Type E20 E
+T39	Polar_expression 2244 2272	herlige komikk fra sidelinja
+E21	Polar_expression:T39 
+A94	Polarity E21 Positive
+A95	Source_is_author E21
+A96	Intensity E21 Standard
+A97	Target_is_general E21
+A98	Type E21 E
