@@ -1,0 +1,233 @@
+T1	E 0 0	
+T2	E 39 39	
+T3	E 171 171	
+T4	E 369 369	
+A1	NOT T4
+A2	NFP T4
+T5	E 502 502	
+A3	NOT T5
+A4	NFP T5
+T6	E 597 597	
+A5	NOT T6
+T7	E 783 783	
+A6	NOT T7
+T8	E 1137 1137	
+T9	E 1214 1214	
+T10	EFINP 1852 1852	
+T11	E 1976 1976	
+T12	E 2045 2045	
+A7	NOT T12
+T13	E 2932 2932	
+A8	NOT T13
+T14	E 3528 3528	
+A9	NOT T14
+T15	E 3606 3606	
+T16	E 3739 3739	
+T17	E 3813 3813	
+T18	E 3897 3897	
+T19	Polar_expression 0 27	Større , villere og dummere
+E1	Polar_expression:T19 Target:T20
+A10	Polarity E1 Negative
+A11	Source_is_author E1
+A12	Intensity E1 Standard
+A13	Target_is_general E1
+A14	Type E1 E
+T20	Entity 28 37	Zoolander
+T21	Polar_expression 51 88	få øyeblikk av pur moro og satiregull
+E2	Polar_expression:T21 Target:T22
+A15	Polarity E2 Positive
+A16	Source_is_author E2
+A17	Intensity E2 Slight
+A18	Target_is_general E2
+A19	Type E2 E
+T22	Entity 94 109	" Zoolander 2 "
+T23	Polar_expression 121 168	fylt med bråkete , oppjazza og resirkulert tøys
+E3	Polar_expression:T23 Target:T22
+A20	Polarity E3 Negative
+A21	Source_is_author E3
+A22	Intensity E3 Strong
+A23	Target_is_general E3
+A24	Type E3 E
+T24	Polar_expression 177 223	lang , gøyal liste superkjendiser som seg selv
+E4	Polar_expression:T24 
+A25	Polarity E4 Positive
+A26	Source_is_author E4
+A27	Intensity E4 Strong
+A28	Target_is_general E4
+A29	Type E4 E
+T25	Entity 411 417	verden
+T26	Polar_expression 427 448	ikke klar for å flire
+E5	Polar_expression:T26 Source:T25
+A30	Polarity E5 Negative
+A31	Intensity E5 Standard
+A32	NFP E5
+A34	Type E5 E
+T27	Polar_expression 456 468	overfladiske
+E6	Polar_expression:T27 Target:T29
+A35	Polarity E6 Negative
+A36	Source_is_author E6
+A37	Intensity E6 Standard
+A39	Type E6 E
+T28	Polar_expression 471 486	selvhøytidelige
+E7	Polar_expression:T28 Target:T29
+A40	Polarity E7 Negative
+A41	Source_is_author E7
+A42	Intensity E7 Standard
+A43	NOT E7
+A44	Type E7 E
+T29	Entity 487 499	motebransjen
+T30	Entity 502 515	" Zoolander "
+T31	Polar_expression 571 595	riktig så gode kritikker
+E8	Polar_expression:T31 Target:T30
+A45	Polarity E8 Positive
+A46	Intensity E8 Strong
+A47	NFP E8
+A49	Type E8 E
+A33	NOT E5
+A38	Target_is_general E6
+A48	NOT E8
+T32	Polar_expression 677 721	helt fortjent , både er blitt sett og elsket
+E9	Polar_expression:T32 Target:T33
+A50	Polarity E9 Positive
+A51	Source_is_author E9
+A52	Intensity E9 Strong
+A53	NOT E9
+A54	Type E9 E
+T33	Entity 661 674	" Zoolander "
+T34	Polar_expression 978 997	reinspikka kultfilm
+E10	Polar_expression:T34 Target:T35
+A55	Polarity E10 Positive
+A56	Source_is_author E10
+A57	Intensity E10 Strong
+A58	NOT E10
+A59	Type E10 E
+T35	Entity 804 810	filmen
+T36	Polar_expression 1144 1159;1196 1211	kunstnerisk art definitivt ikke
+E11	Polar_expression:T36 Target:T37
+A60	Polarity E11 Negative
+A61	Source_is_author E11
+A62	Intensity E11 Standard
+A63	Target_is_general E11
+A64	Type E11 E
+T37	Entity 1180 1195	" Zoolander 2 "
+T38	Entity 1360 1375	" Zoolander 2 "
+T39	Polar_expression 1377 1409	ite og ingenting nytt på hjertet
+E12	Polar_expression:T39 Target:T38
+A65	Polarity E12 Negative
+A66	Source_is_author E12
+A67	Intensity E12 Standard
+A68	Target_is_general E12
+A69	Type E12 E
+T40	Entity 1218 1224	eneren
+T41	Polar_expression 1225 1288	langt på vei lyktes i å lage en treffende og forutseende satire
+E13	Polar_expression:T41 Target:T40
+A70	Polarity E13 Positive
+A71	Source_is_author E13
+A72	Intensity E13 Standard
+A73	NOT E13
+A74	Type E13 E
+T42	Entity 1295 1302	bransje
+T43	Polar_expression 1323 1353	karikatur og satire i seg selv
+E14	Polar_expression:T43 Target:T42
+A75	Polarity E14 Negative
+A76	Source_is_author E14
+A77	Intensity E14 Standard
+A78	NOT E14
+A79	Type E14 E
+T44	Polar_expression 1888 1973	pøser på med mer av det som var moro i den første filmen : større , villere , dummere
+E15	Polar_expression:T44 
+A80	Polarity E15 Negative
+A81	Source_is_author E15
+A82	Intensity E15 Standard
+A83	Target_is_general E15
+A84	Type E15 E
+T45	Polar_expression 1979 2017	burde sparket mer , resirkulert mindre
+E16	Polar_expression:T45 
+A85	Polarity E16 Negative
+A86	Source_is_author E16
+A87	Intensity E16 Standard
+A88	Target_is_general E16
+A89	Type E16 E
+T46	Entity 2121 2141	supermodellkarrierer
+T47	Polar_expression 2099 2120	ekstremt suksessfulle
+E17	Polar_expression:T47 Target:T46
+A90	Polarity E17 Positive
+A91	Source_is_author E17
+A92	Intensity E17 Strong
+A93	NOT E17
+A94	Type E17 E
+T48	Entity 2212 2223	popstjerner
+T49	Polar_expression 2184 2211	verdens største og vakreste
+E18	Polar_expression:T49 Target:T48
+A95	Polarity E18 Positive
+A96	Source_is_author E18
+A97	Intensity E18 Strong
+A98	NOT E18
+A99	Type E18 E
+T50	Polar_expression 2936 2947	selvnytende
+E19	Polar_expression:T50 Target:T51
+A100	Polarity E19 Negative
+A101	Source_is_author E19
+A102	Intensity E19 Standard
+A103	NOT E19
+A104	Type E19 E
+T51	Entity 2948 2967	Kardashian-familien
+T52	Polar_expression 3528 3535	Skjønne
+E20	Polar_expression:T52 Target:T54
+A105	Polarity E20 Positive
+A106	Source_is_author E20
+A107	Intensity E20 Standard
+A108	NOT E20
+A109	Type E20 E
+T53	Polar_expression 3536 3545	tullinger
+E21	Polar_expression:T53 Target:T54
+A110	Polarity E21 Negative
+A111	Source_is_author E21
+A112	Intensity E21 Standard
+A113	NOT E21
+A114	Type E21 E
+T54	Entity 3536 3545	tullinger
+T55	Polar_expression 3619 3625;3633 3670	greier knapt å henge med på trendene i tiden
+E22	Polar_expression:T55 Target:T56
+A115	Polarity E22 Negative
+A116	Source_is_author E22
+A117	Intensity E22 Slight
+A118	Target_is_general E22
+A119	Type E22 E
+T56	Entity 3626 3632	filmen
+T57	Polar_expression 3746 3791	tidvis trøttandes , kjedelig og stillestående
+E23	Polar_expression:T57 
+A120	Polarity E23 Negative
+A121	Source_is_author E23
+A122	Intensity E23 Standard
+A123	Target_is_general E23
+A124	Type E23 E
+T58	Polar_expression 3825 3839	er det noe med
+E24	Polar_expression:T58 Target:T59
+A125	Polarity E24 Positive
+A126	Source_is_author E24
+A127	Intensity E24 Standard
+A128	Type E24 E
+T59	Entity 3872 3891	Zoolander og Hansel
+T60	Polar_expression 3849 3856	skjønne
+E25	Polar_expression:T60 Target:T59
+A129	Polarity E25 Positive
+A130	Source_is_author E25
+A131	Intensity E25 Standard
+A132	Type E25 E
+T61	Polar_expression 3857 3867	tullingene
+E26	Polar_expression:T61 Target:T59
+A133	Polarity E26 Negative
+A134	Source_is_author E26
+A135	Intensity E26 Standard
+A136	Type E26 E
+A137	NOT E26
+A138	NOT E25
+T62	Polar_expression 4071 4143	mer verd å bruke drøye halvannen time på enn treerterningen skulle tilsi
+E27	Polar_expression:T62 Target:T63
+A139	Polarity E27 Positive
+A140	Source_is_author E27
+A141	Intensity E27 Slight
+A142	Target_is_general E27
+A143	Type E27 E
+T63	Entity 4043 4058	" Zoolander 2 "

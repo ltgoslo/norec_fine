@@ -1,0 +1,98 @@
+T1	E 52 52	
+T2	E 156 156	
+T3	E 315 315	
+T4	E 489 489	
+T5	E 560 560	
+T6	E 662 662	
+T7	E 768 768	
+T8	E 837 837	
+T9	E 902 902	
+T10	E 992 992	
+T11	E 1213 1213	
+A1	NOT T11
+T12	E 3379 3379	
+T13	E 3621 3621	
+T14	E 3740 3740	
+T15	E 3887 3887	
+T16	E 4004 4004	
+T17	E 4096 4096	
+T18	Entity 62 74	oppsetningen
+T19	Polar_expression 101 153	bør elevene gis en innføring i hva den dreier seg om
+E1	Polar_expression:T19 Target:T18
+A2	Polarity E1 Negative
+A3	Source_is_author E1
+A4	Intensity E1 Slight
+A5	Target_is_general E1
+A6	Type E1 E
+T21	Polar_expression 187 205	hyppige tidssprang
+E3	Polar_expression:T21 Target:T25
+A12	Polarity E3 Negative
+A13	Source_is_author E3
+A14	Intensity E3 Standard
+A15	Target_is_general E3
+A16	Type E3 E
+T20	Entity 171 179	struktur
+T22	Polar_expression 164 170	uklare
+E2	Polar_expression:T22 Target:T20
+A7	Polarity E2 Negative
+A8	Source_is_author E2
+A9	Intensity E2 Standard
+A10	Type E2 E
+T24	Polar_expression 276 312	mer egnet til å forvirre enn opplyse
+E5	Polar_expression:T24 Target:T25
+A21	Polarity E5 Negative
+A22	Source_is_author E5
+A23	Intensity E5 Standard
+A24	Target_is_general E5
+A25	Type E5 E
+T25	Entity 261 275	forestillingen
+T23	Polar_expression 209 255	skuespillere som går inn og ut av flere roller
+E4	Polar_expression:T23 Target:T25
+A11	Polarity E4 Negative
+A17	Source_is_author E4
+A18	Intensity E4 Slight
+A19	Target_is_general E4
+A20	Type E4 E
+T26	Polar_expression 519 556	klarere og bedre med en annen balanse
+E6	Polar_expression:T26 
+A26	Polarity E6 Negative
+A27	Source_is_author E6
+A28	Intensity E6 Standard
+A29	Target_is_general E6
+A30	Type E6 E
+T27	Entity 585 638	teksten som ligger til grunn for denne forestillingen
+T28	Polar_expression 641 659	ikke er helt enkel
+E7	Polar_expression:T28 Target:T27
+A31	Polarity E7 Negative
+A32	Source_is_author E7
+A33	Intensity E7 Slight
+A34	NOT E7
+A35	Type E7 E
+T29	Polar_expression 662 687	Stemmer motsier hverandre
+E8	Polar_expression:T29 
+A36	Polarity E8 Negative
+A37	Source_is_author E8
+A38	Intensity E8 Slight
+A39	NOT E8
+A40	Type E8 E
+T30	Polar_expression 662 669;690 730	Stemmer glir inn og ut av første og tredjeperson
+E9	Polar_expression:T30 
+A41	Polarity E9 Negative
+A42	Source_is_author E9
+A43	Intensity E9 Slight
+A44	NOT E9
+A45	Type E9 E
+T31	Polar_expression 768 833	Skillet mellom fantasi og virkelighet er ikke alltid like tydelig
+E10	Polar_expression:T31 
+A46	Polarity E10 Negative
+A47	Source_is_author E10
+A48	Intensity E10 Slight
+A49	NOT E10
+A50	Type E10 E
+T32	Polar_expression 850 886	Stiansen klart å skape mye spennende
+E11	Polar_expression:T32 Target:T33
+A51	Polarity E11 Positive
+A52	Source_is_author E11
+A53	Intensity E11 Standard
+A54	Type E11 E
+T33	Entity 895 899	regi

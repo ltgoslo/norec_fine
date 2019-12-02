@@ -1,0 +1,59 @@
+T1	E 14 14	
+T2	E 69 69	
+T3	E 200 200	
+T4	Entity 14 17	Hun
+T5	Polar_expression 18 38	avslutter , lurt nok
+E1	Polar_expression:T5 Target:T4
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Type E1 E
+T6	Polar_expression 49 66	aller største hit
+E2	Polar_expression:T6 
+A5	Polarity E2 Positive
+A6	Source_is_author E2
+A7	Intensity E2 Strong
+A8	Target_is_general E2
+A9	Type E2 E
+T7	Polar_expression 95 120	episk oppbygget inspo-pop
+E3	Polar_expression:T7 
+A10	Polarity E3 Positive
+A11	Source_is_author E3
+A12	Intensity E3 Standard
+A13	Target_is_general E3
+A14	Type E3 E
+T8	Polar_expression 72 80	klassisk
+E4	Polar_expression:T8 
+A15	Polarity E4 Positive
+A16	Source_is_author E4
+A17	Intensity E4 Standard
+A18	Target_is_general E4
+A19	Type E4 E
+T9	Polar_expression 125 133	fengsler
+E5	Polar_expression:T9 Target:T10
+A20	Polarity E5 Positive
+A21	Source_is_author E5
+A22	Intensity E5 Standard
+A23	Type E5 E
+T10	Entity 136 145	refrenget
+T11	Entity 152 157	Perry
+T12	Polar_expression 158 197	sliter med den dypere vokalen i versene
+E6	Polar_expression:T12 Target:T11
+A24	Polarity E6 Negative
+A25	Source_is_author E6
+A26	Intensity E6 Standard
+A27	Type E6 E
+T13	Entity 200 203	Hun
+T14	Polar_expression 209 252	avhengig av publikums hjelp i andre refreng
+E7	Polar_expression:T14 Target:T13
+A28	Polarity E7 Negative
+A29	Source_is_author E7
+A30	Intensity E7 Standard
+A31	Type E7 E
+T16	Polar_expression 262 288	ikke er vanskelige å be om
+E8	Polar_expression:T16 Target:T17
+A32	Polarity E8 Positive
+A33	Source_is_author E8
+A34	Intensity E8 Standard
+A36	Type E8 E
+T17	Entity 259 261	de

@@ -1,0 +1,125 @@
+T1	E 35 35	
+T2	E 748 748	
+T3	E 1000 1000	
+T4	E 1258 1258	
+T5	E 1299 1299	
+T6	E 1627 1627	
+T7	E 1845 1845	
+T8	E 2001 2001	
+T9	E 2053 2053	
+T10	E 2231 2231	
+A1	NOT T10
+T11	Polar_expression 35 49	Trivelig kveld
+E1	Polar_expression:T11 Target:T12
+A2	Polarity E1 Positive
+A3	Source_is_author E1
+A4	Intensity E1 Standard
+A5	Target_is_general E1
+A6	Type E1 E
+T12	Entity 64 71	gjengen
+T13	Polar_expression 828 860	lite å utsette på det musikalske
+E2	Polar_expression:T13 
+A7	Polarity E2 Positive
+A8	Source_is_author E2
+A9	Intensity E2 Standard
+A10	Type E2 E
+T14	Polar_expression 754 779	borger for solid håndverk
+E3	Polar_expression:T14 
+A11	Polarity E3 Positive
+A12	Source_is_author E3
+A13	Intensity E3 Standard
+A14	Type E3 E
+T15	Polar_expression 1000 1011	Solide navn
+E4	Polar_expression:T15 
+A15	Polarity E4 Positive
+A16	Source_is_author E4
+A17	Intensity E4 Standard
+A18	Type E4 E
+T16	Polar_expression 1258 1296	Plagsomt støyende er det på ingen måte
+E5	Polar_expression:T16 
+A19	Polarity E5 Positive
+A20	Source_is_author E5
+A21	Intensity E5 Standard
+A22	Target_is_general E5
+A23	Type E5 E
+T17	Entity 1308 1311	pop
+T18	Polar_expression 1299 1307	Melodiøs
+E6	Polar_expression:T18 Target:T17
+A24	Polarity E6 Positive
+A25	Source_is_author E6
+A26	Intensity E6 Standard
+A27	Type E6 E
+T19	Polar_expression 1314 1329	behagelig tempo
+E7	Polar_expression:T19 Target:T17
+A28	Polarity E7 Positive
+A29	Source_is_author E7
+A30	Intensity E7 Standard
+A31	Type E7 E
+T20	Polar_expression 1409 1426	absolutt trivelig
+E8	Polar_expression:T20 
+A32	Polarity E8 Positive
+A33	Source_is_author E8
+A34	Intensity E8 Standard
+A35	Type E8 E
+A36	Target_is_general E8
+T21	Polar_expression 1766 1817	leverer solid og stødig uten å overdrevent briljere
+E9	Polar_expression:T21 Target:T25
+A37	Polarity E9 Positive
+A38	Source_is_author E9
+A39	Intensity E9 Standard
+A40	Type E9 E
+T22	Entity 1647 1659	Viggo Krüger
+T23	Entity 1669 1687	, Roar Ruus Finsås
+T24	Entity 1698 1716	Tor Harald Rødseth
+T25	Entity 1743 1765	Martin Smith-Sivertsen
+E10	Polar_expression:T21 Target:T24
+E11	Polar_expression:T21 Target:T23
+E12	Polar_expression:T21 Target:T22
+A41	Polarity E10 Positive
+A42	Polarity E11 Positive
+A43	Polarity E12 Positive
+A44	Source_is_author E10
+A45	Source_is_author E11
+A46	Source_is_author E12
+A47	Intensity E10 Standard
+A48	Intensity E11 Standard
+A49	Intensity E12 Standard
+A50	Type E10 E
+A51	Type E11 E
+A52	Type E12 E
+T26	Entity 1849 1872	tidligere byrådslederen
+T27	Polar_expression 1873 1911	holder så absolutt takten og styringen
+E13	Polar_expression:T27 Target:T26
+A53	Polarity E13 Positive
+A54	Source_is_author E13
+A55	Intensity E13 Standard
+A56	Type E13 E
+T28	Entity 2012 2018	sanger
+T29	Polar_expression 2001 2011	Helt greie
+E14	Polar_expression:T29 Target:T28
+A57	Polarity E14 Positive
+A58	Source_is_author E14
+A59	Intensity E14 Standard
+A60	Type E14 E
+T30	Polar_expression 2070 2110	vanskelig å oppdage noen spesiell hitlåt
+E15	Polar_expression:T30 
+A61	Polarity E15 Negative
+A62	Source_is_author E15
+A63	Intensity E15 Slight
+A64	Target_is_general E15
+A65	Type E15 E
+T31	Polar_expression 2124 2161	absolutt et par med allsangpotensiale
+E16	Polar_expression:T31 
+A66	Polarity E16 Positive
+A67	Source_is_author E16
+A68	Intensity E16 Standard
+A69	Target_is_general E16
+A70	Type E16 E
+T32	Entity 2254 2257	den
+T33	Polar_expression 2231 2253;2258 2272	Forhåpentligvis kommer ut senere i år
+E17	Polar_expression:T33 Target:T32
+A71	Polarity E17 Positive
+A72	Source_is_author E17
+A73	Intensity E17 Standard
+A74	NOT E17
+A75	Type E17 E
