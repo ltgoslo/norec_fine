@@ -1,0 +1,98 @@
+T1	E 55 55	
+T2	EFINP 92 92	
+T3	E 222 222	
+T4	E 501 501	
+T5	E 687 687	
+T6	EFINP 839 839	
+T7	E 929 929	
+T8	Entity 908 926	« The Evangelist »
+T9	Polar_expression 849 902	ikke ubetydelig « Automatic For The People » -følelse
+E26	Polar_expression:T9 Target:T8
+A120	Polarity E26 Positive
+A121	Intensity E26 Standard
+A122	Type E26 E
+A123	Source_is_author E26
+T10	Polar_expression 55 70	Rørende hyllest
+E1	Polar_expression:T10 
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Target_is_general E1
+A5	Type E1 E
+T11	Entity 110 125	The Go-Betweens
+T12	Polar_expression 126 165	Australias svar på The Smiths og R.E.M.
+E2	Polar_expression:T12 Target:T11
+A6	Polarity E2 Positive
+A7	Source_is_author E2
+A8	Intensity E2 Standard
+A9	NOT E2
+A10	Type E2 EFINP
+T13	Entity 311 319	comeback
+T14	Polar_expression 287 310	formidabelt kunstnerisk
+E3	Polar_expression:T14 Target:T13
+A11	Polarity E3 Positive
+A12	Source_is_author E3
+A13	Intensity E3 Standard
+A14	NOT E3
+A15	Type E3 E
+T15	Polar_expression 338 361	lagde sin kanskje beste
+E4	Polar_expression:T15 Target:T16
+A16	Polarity E4 Positive
+A17	Source_is_author E4
+A18	Intensity E4 Standard
+A19	NOT E4
+A20	Type E4 E
+T16	Entity 370 388	« Oceans Apart » ,
+T17	Entity 625 629	rock
+T18	Polar_expression 597 684	sørgmodig , akustisk drevet rock helt i tråd med det siste han og McLennan lagde sammen
+E5	Polar_expression:T18 
+A21	Polarity E5 Positive
+A22	Source_is_author E5
+A23	Intensity E5 Standard
+A24	Target_is_general E5
+A25	Type E5 E
+T19	Entity 804 812	melodier
+T20	Entity 828 835	tekster
+T21	Polar_expression 816 827	oppløftende
+E6	Polar_expression:T21 Target:T20
+A26	Polarity E6 Positive
+A27	Source_is_author E6
+A28	Intensity E6 Standard
+A29	Type E6 E
+T22	Polar_expression 793 803	praktfulle
+E7	Polar_expression:T22 Target:T19
+A30	Polarity E7 Positive
+A31	Source_is_author E7
+A32	Intensity E7 Standard
+A33	Type E7 E
+T23	Polar_expression 747 835	takler med verdighet og en rak rygg som bærer praktfulle melodier og oppløftende tekster
+E8	Polar_expression:T23 Target:T24
+A34	Polarity E8 Positive
+A35	Source_is_author E8
+A36	Intensity E8 Standard
+A37	Type E8 E
+T24	Entity 739 746	Forster
+T25	Entity 952 965	R.E.M.-platen
+T26	Entity 969 974	denne
+T27	Polar_expression 1002 1033	underholdende repetisjonsøvelse
+E9	Polar_expression:T27 Target:T25
+A38	Polarity E9 Negative
+A39	Source_is_author E9
+A40	Intensity E9 Slight
+A41	NOT E9
+A42	Type E9 E
+T28	Polar_expression 1046 1082	vital videreføring av ubesudlet magi
+E10	Polar_expression:T28 Target:T26
+A43	Polarity E10 Positive
+A44	Source_is_author E10
+A45	Intensity E10 Standard
+A46	Target_is_general E10
+A47	Type E10 E
+T29	Entity 1068 1082	ubesudlet magi
+T30	Polar_expression 1046 1064	vital videreføring
+E11	Polar_expression:T30 Target:T29
+A48	Polarity E11 Positive
+A49	Source_is_author E11
+A50	Intensity E11 Standard
+A51	NOT E11
+A52	Type E11 E

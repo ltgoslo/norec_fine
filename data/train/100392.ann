@@ -1,0 +1,115 @@
+T1	E 0 0	
+T2	E 15 15	
+T3	E 114 114	
+T4	E 422 422	
+T5	E 519 519	
+T6	E 661 661	
+T7	E 728 728	
+T8	E 774 774	
+T9	E 966 966	
+T10	Polar_expression 0 13	Lindgren-magi
+E1	Polar_expression:T10 
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	NFP E1
+A5	Target_is_general E1
+A6	Type E1 E
+T11	Polar_expression 40 53	gjør seg godt
+E2	Polar_expression:T11 Target:T12
+A7	Polarity E2 Positive
+A8	Source_is_author E2
+A9	Intensity E2 Standard
+A10	NFP E2
+A11	Target_is_general E2
+A12	Type E2 E
+T12	Entity 32 39	figurer
+T13	Entity 169 176	spillet
+T14	Polar_expression 183 229	inneholder hennes mest kjente og kjære figurer
+E3	Polar_expression:T14 Target:T13
+A13	Polarity E3 Positive
+A14	Source_is_author E3
+A15	Intensity E3 Standard
+A16	Target_is_general E3
+A17	Type E3 E
+T15	Entity 422 430	Spillene
+T16	Polar_expression 442 446;455 464	stor variasjon
+E4	Polar_expression:T16 Target:T15
+A18	Polarity E4 Positive
+A19	Source_is_author E4
+A20	Intensity E4 Standard
+A21	Target_is_general E4
+A22	Type E4 E
+T17	Polar_expression 470 515	utfordrer både hjernecellene og finmotorikken
+E5	Polar_expression:T17 Target:T15
+A23	Polarity E5 Positive
+A24	Source_is_author E5
+A25	Intensity E5 Standard
+A26	Target_is_general E5
+A27	Type E5 E
+T18	Polar_expression 539 559	litt for utfordrende
+E6	Polar_expression:T18 
+A28	Polarity E6 Negative
+A29	Source_is_author E6
+A30	Intensity E6 Slight
+A31	Target_is_general E6
+A32	Type E6 E
+T19	Polar_expression 606 658	vanskelig å styre og utføre oppgaver med museknappen
+E7	Polar_expression:T19 
+A33	Polarity E7 Negative
+A34	Source_is_author E7
+A35	Intensity E7 Slight
+A36	Target_is_general E7
+A37	Type E7 E
+T20	Polar_expression 690 712	ikke mestrer oppgavene
+E8	Polar_expression:T20 Source:T21
+A38	Polarity E8 Negative
+A39	Source_is_author E8
+A40	Intensity E8 Standard
+A41	Type E8 E
+A42	Target_is_general E8
+T21	Entity 668 673	barna
+T22	Polar_expression 742 760	ikke mye å utsette
+E9	Polar_expression:T22 Target:T23
+A43	Polarity E9 Positive
+A44	Source_is_author E9
+A45	Intensity E9 Slight
+A46	Target_is_general E9
+A47	Type E9 E
+T23	Entity 764 771	spillet
+T24	Polar_expression 783 814	oselig og stemningsfull grafikk
+E10	Polar_expression:T24 
+A48	Polarity E10 Positive
+A49	Source_is_author E10
+A50	Intensity E10 Standard
+A51	Target_is_general E10
+A52	Type E10 E
+T25	Polar_expression 824 841	passe utfordrende
+E11	Polar_expression:T25 
+A53	Polarity E11 Positive
+A54	Source_is_author E11
+A55	Intensity E11 Standard
+A56	Target_is_general E11
+A57	Type E11 E
+T26	Polar_expression 878 900	figurene snakker norsk
+E12	Polar_expression:T26 
+A58	Polarity E12 Positive
+A59	Source_is_author E12
+A60	Intensity E12 Standard
+A61	NOT E12
+A62	Target_is_general E12
+A63	Type E12 EFINP
+T27	Polar_expression 921 963	god tone , uten at det blir for sukkersøtt
+E13	Polar_expression:T27 
+A64	Polarity E13 Positive
+A65	Source_is_author E13
+A66	Intensity E13 Standard
+A67	Target_is_general E13
+A68	Type E13 E
+T28	Polar_expression 999 1059	er akkurat så frekk i kjeften som han er « i virkeligheten »
+E14	Polar_expression:T28 Target:T29
+A69	Polarity E14 Positive
+A70	Source_is_author E14
+A71	Intensity E14 Standard
+A72	Type E14 E
+T29	Entity 966 983	Karlsson på taket

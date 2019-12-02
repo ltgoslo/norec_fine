@@ -1,0 +1,448 @@
+T1	E 207 207	
+T2	E 261 261	
+T3	E 413 413	
+T4	E 513 513	
+T5	E 672 672	
+T6	E 697 697	
+T7	E 760 760	
+T8	E 831 831	
+T9	E 852 852	
+T10	E 895 895	
+T11	E 966 966	
+T12	E 986 986	
+T13	E 1070 1070	
+T14	E 1114 1114	
+T15	E 1131 1131	
+T16	E 1181 1181	
+T17	E 1208 1208	
+T18	E 1268 1268	
+T19	E 1281 1281	
+T20	E 1315 1315	
+T21	E 1398 1398	
+T22	E 1422 1422	
+T23	E 1458 1458	
+T24	E 1486 1486	
+T25	E 1556 1556	
+T26	E 1576 1576	
+T27	E 1650 1650	
+T28	E 1727 1727	
+T29	E 1746 1746	
+T30	E 1822 1822	
+T31	E 1884 1884	
+T32	E 1895 1895	
+T33	E 1916 1916	
+T34	E 1942 1942	
+T35	E 1998 1998	
+T36	E 2053 2053	
+T37	E 2097 2097	
+T38	E 2127 2127	
+T39	E 2148 2148	
+T40	E 2198 2198	
+T41	E 2278 2278	
+T42	E 2296 2296	
+T43	E 2389 2389	
+T44	E 2434 2434	
+T45	E 2492 2492	
+T46	Polar_expression 211 220	skuffende
+E1	Polar_expression:T46 Target:T47
+A1	Polarity E1 Negative
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Type E1 E
+T47	Entity 221 242	0-1-tapet mot Estland
+T48	Polar_expression 221 258	0-1-tapet mot Estland onsdag er glemt
+E2	Polar_expression:T48 
+A5	Polarity E2 Positive
+A6	Source_is_author E2
+A7	Intensity E2 Standard
+A8	Type E2 E
+A9	Target_is_general E2
+T49	Entity 342 350	ni poeng
+T50	Polar_expression 337 341	pene
+E3	Polar_expression:T50 Target:T49
+A10	Polarity E3 Positive
+A11	Source_is_author E3
+A12	Intensity E3 Standard
+A13	Type E3 E
+T51	Entity 261 286	Per-Mathias Høgmos gutter
+T52	Polar_expression 287 291;303 317	vant tøff bortekamp
+E4	Polar_expression:T52 Target:T51
+A14	Polarity E4 Positive
+A15	Source_is_author E4
+A16	Intensity E4 Standard
+A17	Type E4 E
+A18	Target_is_general E4
+T53	Polar_expression 457 470	beste spiller
+E5	Polar_expression:T53 Target:T54 Source:T55
+A19	Polarity E5 Positive
+A20	Source_is_author E5
+A21	Intensity E5 Strong
+A22	Type E5 E
+T54	Entity 413 430	Mats Møller Dæhli
+T55	Entity 439 441	VG
+T56	Polar_expression 450 470;473 510	banens beste spiller ble byttet ut 12 minutter etter pause
+E6	Polar_expression:T56 
+A23	Polarity E6 Negative
+A24	Source_is_author E6
+A25	Intensity E6 Standard
+A26	Type E6 E
+A27	Target_is_general E6
+T57	Entity 516 536	påfølgende minuttene
+T58	Polar_expression 548 556	svakeste
+E7	Polar_expression:T58 Target:T57
+A28	Polarity E7 Negative
+A29	Source_is_author E7
+A30	Intensity E7 Standard
+A31	Type E7 E
+T59	Polar_expression 584 614	maktet aldri å skape noe trøkk
+E8	Polar_expression:T59 Target:T60
+A32	Polarity E8 Negative
+A33	Source_is_author E8
+A34	Intensity E8 Standard
+A35	Type E8 E
+T60	Entity 572 583	hjemmelaget
+T62	Entity 621 642	Ørjan Håskjold Nyland
+E9	Polar_expression:T59 Target:T62
+A36	Polarity E9 Positive
+A37	Source_is_author E9
+A38	Intensity E9 Standard
+A39	Type E9 E
+T61	Entity 672 693	Ørjan Håskjold Nyland
+T63	Polar_expression 694 695	5
+E10	Polar_expression:T63 Target:T61
+A40	Polarity E10 Positive
+A41	Source_is_author E10
+A42	Intensity E10 Standard
+A43	Type E10 E
+T64	Polar_expression 703 724	merkelig lite å gjøre
+E11	Polar_expression:T64 
+A44	Polarity E11 Negative
+A45	Source_is_author E11
+A46	Intensity E11 Standard
+A47	Type E11 E
+T65	Polar_expression 760 786	Holdt konsentrasjonen oppe
+E12	Polar_expression:T65 
+A48	Polarity E12 Positive
+A49	Source_is_author E12
+A50	Intensity E12 Standard
+A51	Type E12 E
+T66	Polar_expression 790 827	maste hele tiden på fireren foran seg
+E13	Polar_expression:T66 
+A52	Polarity E13 Positive
+A53	Source_is_author E13
+A54	Intensity E13 Standard
+A55	Type E13 E
+T67	Polar_expression 849 850	5
+E14	Polar_expression:T67 Target:T68
+A56	Polarity E14 Positive
+A57	Source_is_author E14
+A58	Intensity E14 Standard
+A59	Type E14 E
+T68	Entity 831 848	Omar Elabdellaoui
+T69	Polar_expression 853 867	vrig offensivt
+E15	Polar_expression:T69 
+A60	Polarity E15 Positive
+A61	Source_is_author E15
+A62	Intensity E15 Standard
+A63	Type E15 E
+T70	Polar_expression 871 892	grei kontroll bakover
+E16	Polar_expression:T70 
+A64	Polarity E16 Positive
+A65	Source_is_author E16
+A66	Intensity E16 Standard
+A67	Type E16 E
+T71	Entity 925 928	han
+T72	Polar_expression 907 913	kvikke
+E17	Polar_expression:T72 Target:T73
+A68	Polarity E17 Positive
+A69	Source_is_author E17
+A70	Intensity E17 Standard
+A71	Type E17 E
+T73	Entity 914 917	ben
+T74	Polar_expression 899 903	fart
+E18	Polar_expression:T74 Target:T71
+A72	Polarity E18 Positive
+A73	Source_is_author E18
+A74	Intensity E18 Standard
+A75	Type E18 E
+T75	Polar_expression 918 924;929 962	rydder opp i mange potensielle problemer
+E19	Polar_expression:T75 Target:T71
+A76	Polarity E19 Positive
+A77	Source_is_author E19
+A78	Intensity E19 Standard
+A79	Type E19 E
+T76	Polar_expression 983 984	6
+E20	Polar_expression:T76 Target:T77
+A80	Polarity E20 Positive
+A81	Source_is_author E20
+A82	Intensity E20 Strong
+A83	Type E20 E
+T77	Entity 966 982	Håvard Nordtveit
+T78	Polar_expression 986 991	Solid
+E21	Polar_expression:T78 
+A84	Polarity E21 Positive
+A85	Source_is_author E21
+A86	Intensity E21 Standard
+A87	Type E21 E
+T79	Polar_expression 1018 1028	avgjørende
+E22	Polar_expression:T79 
+A88	Polarity E22 Positive
+A89	Source_is_author E22
+A90	Intensity E22 Standard
+A91	Type E22 E
+T80	Polar_expression 1070 1085;1095 1098	Langt mer trygg enn
+E23	Polar_expression:T80 
+A92	Polarity E23 Positive
+A93	Source_is_author E23
+A94	Intensity E23 Standard
+A95	Type E23 E
+T81	Polar_expression 1070 1079;1089 1094	Langt mer solid
+E24	Polar_expression:T81 
+A96	Polarity E24 Positive
+A97	Source_is_author E24
+A98	Intensity E24 Standard
+A99	Type E24 E
+E25	Polar_expression:T80 Target:T94
+A100	Polarity E25 Negative
+A101	Source_is_author E25
+A102	Intensity E25 Standard
+A103	Type E25 E
+T82	Polar_expression 1128 1129	5
+E26	Polar_expression:T82 Target:T83
+A104	Polarity E26 Positive
+A105	Source_is_author E26
+A106	Intensity E26 Standard
+A107	Type E26 E
+T83	Entity 1114 1127	Vegard Forren
+T84	Polar_expression 1278 1279	6
+E27	Polar_expression:T84 Target:T85
+A108	Polarity E27 Positive
+A109	Source_is_author E27
+A110	Intensity E27 Strong
+A111	Type E27 E
+T85	Entity 1268 1277	Tom Høgli
+T86	Polar_expression 1281 1292	Konsentrert
+E28	Polar_expression:T86 
+A112	Polarity E28 Positive
+A113	Source_is_author E28
+A114	Intensity E28 Standard
+A115	Type E28 E
+T87	Polar_expression 1296 1301	trygg
+E29	Polar_expression:T87 
+A116	Polarity E29 Positive
+A117	Source_is_author E29
+A118	Intensity E29 Standard
+A119	Type E29 E
+T88	Entity 1369 1372	han
+T89	Polar_expression 1385 1394	bunnsolid
+E30	Polar_expression:T89 Target:T88
+A120	Polarity E30 Positive
+A121	Source_is_author E30
+A122	Intensity E30 Strong
+A123	Type E30 E
+T90	Polar_expression 1419 1420	4
+E31	Polar_expression:T90 Target:T91
+A124	Polarity E31 Positive
+A125	Source_is_author E31
+A126	Intensity E31 Slight
+A127	Type E31 E
+T91	Entity 1398 1418	Per Ciljan Skjelbred
+T92	Polar_expression 1422 1445	For mange feilpasninger
+E32	Polar_expression:T92 
+A128	Polarity E32 Negative
+A129	Source_is_author E32
+A130	Intensity E32 Standard
+A131	Type E32 E
+T93	Polar_expression 1465 1483	til tider stresset
+E33	Polar_expression:T93 
+A132	Polarity E33 Negative
+A133	Source_is_author E33
+A134	Intensity E33 Standard
+A135	Type E33 E
+T94	Entity 1099 1110	mot Estland
+T95	Polar_expression 1486 1505	Ingen god landskamp
+E34	Polar_expression:T95 Target:T96
+A136	Polarity E34 Negative
+A137	Source_is_author E34
+A138	Intensity E34 Standard
+A139	Type E34 E
+T96	Entity 1509 1518	kapteinen
+T97	Polar_expression 1573 1574	5
+E35	Polar_expression:T97 Target:T98
+A140	Polarity E35 Positive
+A141	Source_is_author E35
+A142	Intensity E35 Standard
+A143	Type E35 E
+T98	Entity 1556 1572	Alexander Tettey
+T99	Polar_expression 1608 1634	fanget opp en rekke baller
+E36	Polar_expression:T99 
+A144	Polarity E36 Positive
+A145	Source_is_author E36
+A146	Intensity E36 Standard
+A147	Type E36 E
+T100	Polar_expression 1576 1604	Posisjonerte seg ofte riktig
+E37	Polar_expression:T100 
+A148	Polarity E37 Positive
+A149	Source_is_author E37
+A150	Intensity E37 Standard
+A151	Type E37 E
+T101	Polar_expression 1650 1684	Løste oppgaven som ryddegutt greit
+E38	Polar_expression:T101 
+A152	Polarity E38 Positive
+A153	Source_is_author E38
+A154	Intensity E38 Standard
+A155	Type E38 E
+T102	Polar_expression 1698 1723	én stygg tversoverpasning
+E39	Polar_expression:T102 
+A156	Polarity E39 Negative
+A157	Source_is_author E39
+A158	Intensity E39 Standard
+A159	Type E39 E
+T103	Polar_expression 1743 1744	6
+E40	Polar_expression:T103 Target:T104
+A160	Polarity E40 Positive
+A161	Source_is_author E40
+A162	Intensity E40 Strong
+A163	Type E40 E
+T104	Entity 1727 1742	Stefan Johansen
+T105	Polar_expression 1746 1756	Arkitekten
+E41	Polar_expression:T105 
+A164	Polarity E41 Positive
+A165	Source_is_author E41
+A166	Intensity E41 Standard
+A167	Type E41 E
+T106	Polar_expression 1822 1842	Spilte seg stort opp
+E42	Polar_expression:T106 
+A168	Polarity E42 Positive
+A169	Source_is_author E42
+A170	Intensity E42 Strong
+A171	Type E42 E
+T107	Polar_expression 1851 1869	svake prestasjonen
+E43	Polar_expression:T107 Target:T108
+A172	Polarity E43 Negative
+A173	Source_is_author E43
+A174	Intensity E43 Standard
+A175	NOT E43
+A176	Type E43 E
+T108	Entity 1874 1881	Estland
+T109	Polar_expression 1884 1891	Løp mye
+E44	Polar_expression:T109 
+A177	Polarity E44 Positive
+A178	Source_is_author E44
+A179	Intensity E44 Standard
+A180	Type E44 E
+T110	Polar_expression 1913 1914	6
+E45	Polar_expression:T110 Target:T111
+A181	Polarity E45 Positive
+A182	Source_is_author E45
+A183	Intensity E45 Strong
+A184	Type E45 E
+T111	Entity 1895 1912	Mats Møller Dæhli
+T112	Polar_expression 1916 1928	Norges beste
+E46	Polar_expression:T112 
+A185	Polarity E46 Positive
+A186	Source_is_author E46
+A187	Intensity E46 Strong
+A188	Type E46 E
+T113	Polar_expression 1931 1939	som sist
+E47	Polar_expression:T113 
+A189	Polarity E47 Positive
+A190	Source_is_author E47
+A191	Intensity E47 Strong
+A192	NOT E47
+A193	Type E47 E
+T114	Polar_expression 1942 1947	Flink
+E48	Polar_expression:T114 
+A194	Polarity E48 Positive
+A195	Source_is_author E48
+A196	Intensity E48 Standard
+A197	Type E48 E
+T115	Polar_expression 2023 2038	fantastisk raid
+E49	Polar_expression:T115 
+A198	Polarity E49 Positive
+A199	Source_is_author E49
+A200	Intensity E49 Standard
+A201	Type E49 E
+T116	Polar_expression 1998 2015	Viste kapasiteten
+E50	Polar_expression:T116 
+A202	Polarity E50 Positive
+A203	Source_is_author E50
+A204	Intensity E50 Standard
+A205	Type E50 E
+T117	Polar_expression 2053 2075	Overraskende byttet ut
+E51	Polar_expression:T117 
+A206	Polarity E51 Negative
+A207	Source_is_author E51
+A208	Intensity E51 Standard
+A209	Target_is_general E51
+A210	Type E51 E
+T118	Polar_expression 2110 2123	klart svakere
+E52	Polar_expression:T118 Target:T119
+A211	Polarity E52 Negative
+A212	Source_is_author E52
+A213	Intensity E52 Standard
+A215	Type E52 E
+T119	Entity 2104 2109	Norge
+T120	Polar_expression 2145 2146	4
+E53	Polar_expression:T120 Target:T121
+A214	Polarity E53 Positive
+A216	Source_is_author E53
+A217	Intensity E53 Slight
+A218	Type E53 E
+T121	Entity 2127 2144	Tarik Elyounoussi
+T123	Polar_expression 2198 2225	Burde sentret og ikke skutt
+E55	Polar_expression:T123 
+A223	Polarity E55 Negative
+A224	Source_is_author E55
+A225	Intensity E55 Standard
+A226	Type E55 E
+T124	Polar_expression 2293 2294	5
+E56	Polar_expression:T124 Target:T125
+A227	Polarity E56 Positive
+A228	Source_is_author E56
+A229	Intensity E56 Strong
+A230	Type E56 E
+T125	Entity 2278 2292	Håvard Nielsen
+T126	Polar_expression 2339 2376	slo også keeperen i en duell i boksen
+E57	Polar_expression:T126 
+A231	Polarity E57 Positive
+A232	Source_is_author E57
+A233	Intensity E57 Standard
+A234	Type E57 E
+T127	Polar_expression 2296 2335	Sterk i lufta selv mot robuste stoppere
+E58	Polar_expression:T127 
+A235	Polarity E58 Positive
+A236	Source_is_author E58
+A237	Intensity E58 Standard
+A238	Type E58 E
+T128	Polar_expression 2389 2417	Mindre involvert etter pause
+E59	Polar_expression:T128 
+A239	Polarity E59 Negative
+A240	Source_is_author E59
+A241	Intensity E59 Standard
+A242	Type E59 E
+T129	Entity 2434 2448	Jone Samuelsen
+T130	Polar_expression 2449 2450	3
+E60	Polar_expression:T130 
+A243	Polarity E60 Negative
+A244	Source_is_author E60
+A245	Intensity E60 Slight
+A246	Type E60 E
+T131	Polar_expression 2538 2559	ingen stor prestasjon
+E61	Polar_expression:T131 
+A247	Polarity E61 Negative
+A248	Source_is_author E61
+A249	Intensity E61 Standard
+A250	Type E61 E
+T132	Polar_expression 2492 2506	Fikk gult kort
+E62	Polar_expression:T132 
+A251	Polarity E62 Negative
+A252	Source_is_author E62
+A253	Intensity E62 Standard
+A254	Type E62 E
+T133	Polar_expression 2148 2195	Gult kort for filming allerede etter et kvarter
+E63	Polar_expression:T133 
+A255	Polarity E63 Negative
+A256	Source_is_author E63
+A257	Intensity E63 Standard
+A258	Type E63 E

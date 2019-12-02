@@ -1,0 +1,408 @@
+T1	E 0 0	
+T2	E 84 84	
+T3	E 142 142	
+A1	NOT T3
+T4	E 762 762	
+A2	NOT T4
+T5	E 949 949	
+T6	E 1093 1093	
+T7	E 1623 1623	
+T8	E 1724 1724	
+A3	NOT T8
+T9	E 1999 1999	
+A4	NOT T9
+T10	E 2024 2024	
+T11	E 2085 2085	
+T12	E 2212 2212	
+T13	E 2570 2570	
+T14	E 2854 2854	
+T15	E 2917 2917	
+T16	E 3018 3018	
+T17	Polar_expression 0 5	Kaldt
+E1	Polar_expression:T17 
+A5	Polarity E1 Negative
+A6	Source_is_author E1
+A7	Intensity E1 Standard
+A8	Target_is_general E1
+A9	Type E1 E
+T18	Polar_expression 8 12	sårt
+E2	Polar_expression:T18 
+A10	Polarity E2 Negative
+A11	Source_is_author E2
+A12	Intensity E2 Standard
+A13	Target_is_general E2
+A14	Type E2 E
+T19	Polar_expression 16 31	passe vellykket
+E3	Polar_expression:T19 
+A15	Polarity E3 Negative
+A16	Source_is_author E3
+A17	Intensity E3 Slight
+A18	Target_is_general E3
+A19	Type E3 E
+T20	Polar_expression 16 21	passe
+E4	Polar_expression:T20 Target:T21
+A20	Polarity E4 Negative
+A21	Source_is_author E4
+A22	Intensity E4 Slight
+A23	Target_is_general E4
+A24	Type E4 E
+T21	Entity 22 31	vellykket
+T22	Polar_expression 84 121	Chris Martin er bare halvveis tilbake
+E5	Polar_expression:T22 Target:T23
+A25	Polarity E5 Negative
+A26	Source_is_author E5
+A27	Intensity E5 Slight
+A28	Target_is_general E5
+A29	Type E5 E
+T23	Entity 125 138	Ghost Stories
+T24	Polar_expression 100 121	bare halvveis tilbake
+E6	Polar_expression:T24 Target:T25
+A30	Polarity E6 Negative
+A31	Source_is_author E6
+A32	Intensity E6 Standard
+A33	Target_is_general E6
+A34	Type E6 E
+T25	Entity 84 96	Chris Martin
+T26	Entity 175 189	Here , My Dear
+T27	Polar_expression 195 201	bitter
+E7	Polar_expression:T27 Target:T26
+A35	Polarity E7 Positive
+A36	Source_is_author E7
+A37	Intensity E7 Standard
+A38	NOT E7
+A39	Type E7 E
+T28	Polar_expression 204 213	personlig
+E8	Polar_expression:T28 Target:T26
+A40	Polarity E8 Positive
+A41	Source_is_author E8
+A42	Intensity E8 Standard
+A43	NOT E8
+A44	Type E8 E
+T29	Polar_expression 217 225	briljant
+E9	Polar_expression:T29 Target:T26
+A45	Polarity E9 Positive
+A46	Source_is_author E9
+A47	Intensity E9 Standard
+A48	NOT E9
+A49	Type E9 E
+T30	Entity 887 895	Coldplay
+T31	Polar_expression 896 946	prøver å revitalisere seg etter slappe Mylo Xyloto
+E10	Polar_expression:T31 Target:T30
+A50	Polarity E10 Negative
+A51	Source_is_author E10
+A52	Intensity E10 Standard
+A53	NOT E10
+A54	Type E10 E
+T32	Polar_expression 928 934	slappe
+E11	Polar_expression:T32 Target:T33
+A55	Polarity E11 Negative
+A56	Source_is_author E11
+A57	Intensity E11 Standard
+A58	NOT E11
+A59	Type E11 E
+T33	Entity 935 946	Mylo Xyloto
+T34	Entity 776 788	Chris Martin
+T35	Polar_expression 791 871	bruke Ghost Stories til å drive ut demoner etter skilsmissen fra Gwyneth Paltrow
+E12	Polar_expression:T35 Target:T34
+A60	Polarity E12 Negative
+A61	Source_is_author E12
+A62	Intensity E12 Standard
+A63	NOT E12
+A64	Type E12 E
+T36	Polar_expression 953 985	låter definitivt vakkert og sårt
+E13	Polar_expression:T36 
+A65	Polarity E13 Positive
+A66	Source_is_author E13
+A67	Intensity E13 Standard
+A68	Target_is_general E13
+A69	Type E13 E
+T37	Polar_expression 970 977	vakkert
+E14	Polar_expression:T37 
+A70	Polarity E14 Positive
+A71	Source_is_author E14
+A72	Intensity E14 Standard
+A73	Target_is_general E14
+A74	Type E14 E
+T38	Polar_expression 981 985	sårt
+E15	Polar_expression:T38 
+A75	Polarity E15 Positive
+A76	Source_is_author E15
+A77	Intensity E15 Standard
+A78	Target_is_general E15
+A79	Type E15 E
+T39	Polar_expression 1078 1089;988 1011	er det ikke men noen Here , My Dear
+E16	Polar_expression:T39 
+A80	Polarity E16 Negative
+A81	Source_is_author E16
+A82	Intensity E16 Standard
+A83	Target_is_general E16
+A84	Type E16 E
+T40	Polar_expression 1113 1122	silkemykt
+E17	Polar_expression:T40 Target:T41
+A85	Polarity E17 Positive
+A86	Source_is_author E17
+A87	Intensity E17 Standard
+A88	Target_is_general E17
+A89	Type E17 E
+T41	Entity 1093 1104	Tekstmessig
+T42	Entity 1623 1629	Lyrisk
+T43	Polar_expression 1637 1656	beint frem kjedelig
+E18	Polar_expression:T43 Target:T42
+A90	Polarity E18 Negative
+A91	Source_is_author E18
+A92	Intensity E18 Standard
+A93	Type E18 E
+T44	Polar_expression 1660 1672	uinteressant
+E19	Polar_expression:T44 Target:T42
+A94	Polarity E19 Negative
+A95	Source_is_author E19
+A96	Intensity E19 Standard
+A97	Target_is_general E19
+A98	Type E19 E
+T45	Polar_expression 1676 1690	endimensjonalt
+E20	Polar_expression:T45 Target:T42
+A99	Polarity E20 Negative
+A100	Source_is_author E20
+A101	Intensity E20 Standard
+A102	Target_is_general E20
+A103	Type E20 E
+T46	Entity 1742 1745	han
+T47	Polar_expression 1738 1741;1746 1786	kan være en konge av sødmefylt allsanglyrikk
+E21	Polar_expression:T47 Target:T46
+A104	Polarity E21 Positive
+A105	Source_is_author E21
+A106	Intensity E21 Strong
+A107	NOT E21
+A108	Type E21 E
+T49	Entity 1773 1786	allsanglyrikk
+T50	Polar_expression 1763 1772	sødmefylt
+E23	Polar_expression:T50 Target:T49
+A114	Polarity E23 Positive
+A115	Source_is_author E23
+A116	Intensity E23 Standard
+A117	NOT E23
+A118	Type E23 E
+T48	Polar_expression 1806 1842	entusiastiske kjærlighetserklæringen
+E22	Polar_expression:T48 Target:T51
+A109	Polarity E22 Positive
+A110	Source_is_author E22
+A111	Intensity E22 Standard
+A112	NOT E22
+A113	Type E22 E
+T51	Entity 1845 1855	" Yellow "
+T52	Polar_expression 1868 1887	gåsehudfremkallende
+E24	Polar_expression:T52 Target:T53
+A119	Polarity E24 Positive
+A120	Source_is_author E24
+A121	Intensity E24 Standard
+A122	NOT E24
+A123	Type E24 E
+T53	Entity 1888 1897	refrenget
+T54	Polar_expression 1868 1897	gåsehudfremkallende refrenget
+E25	Polar_expression:T54 Target:T55
+A124	Polarity E25 Positive
+A125	Source_is_author E25
+A126	Intensity E25 Standard
+A127	NOT E25
+A128	Type E25 E
+T55	Entity 1900 1911	" Fix You "
+T56	Entity 1999 2002	Pop
+T57	Polar_expression 2003 2020	på sitt flotteste
+E26	Polar_expression:T57 Target:T56
+A129	Polarity E26 Positive
+A130	Source_is_author E26
+A131	Intensity E26 Standard
+A132	NOT E26
+A133	Type E26 E
+T58	Polar_expression 2035 2065	noen tilløp til store øyeblikk
+E27	Polar_expression:T58 Target:T59
+A134	Polarity E27 Positive
+A135	Source_is_author E27
+A136	Intensity E27 Standard
+A137	Target_is_general E27
+A138	Type E27 E
+T59	Entity 2069 2082	Ghost Stories
+T60	Polar_expression 2051 2065	store øyeblikk
+E28	Polar_expression:T60 Target:T61
+A139	Polarity E28 Positive
+A140	Source_is_author E28
+A141	Intensity E28 Standard
+A142	Target_is_general E28
+A143	Type E28 E
+T61	Entity 2035 2046	noen tilløp
+T62	Entity 2085 2105	" Another ’ s Arms "
+T63	Polar_expression 2109 2128	mystisk liten perle
+E29	Polar_expression:T63 Target:T62
+A144	Polarity E29 Positive
+A145	Source_is_author E29
+A146	Intensity E29 Standard
+A147	Target_is_general E29
+A148	Type E29 E
+T64	Polar_expression 2137 2156	nydelige samplingen
+E30	Polar_expression:T64 Target:T62
+A149	Polarity E30 Positive
+A150	Source_is_author E30
+A151	Intensity E30 Standard
+A152	Target_is_general E30
+A153	Type E30 E
+T65	Entity 2137 2156	nydelige samplingen
+T66	Polar_expression 2172 2209	som en signatur som går gjennom låten
+E31	Polar_expression:T66 Target:T65
+A154	Polarity E31 Positive
+A155	Source_is_author E31
+A156	Intensity E31 Standard
+A157	Target_is_general E31
+A158	Type E31 E
+T67	Polar_expression 2123 2128	perle
+E32	Polar_expression:T67 
+A159	Polarity E32 Positive
+A160	Source_is_author E32
+A161	Intensity E32 Standard
+A162	Target_is_general E32
+A163	Type E32 E
+T68	Entity 2123 2128	perle
+T69	Polar_expression 2109 2116	mystisk
+E33	Polar_expression:T69 Target:T68
+A164	Polarity E33 Positive
+A165	Source_is_author E33
+A166	Intensity E33 Standard
+A167	Target_is_general E33
+A168	Type E33 E
+T70	Entity 2212 2261	Samarbeidet med Avicii på " A Sky Full of Stars "
+T71	Polar_expression 2280 2305	en ny æra for popmusikken
+E34	Polar_expression:T71 Target:T70
+A169	Polarity E34 Positive
+A170	Source_is_author E34
+A171	Intensity E34 Strong
+A172	Target_is_general E34
+A173	Type E34 E
+T72	Polar_expression 2333 2381	mest publikumsvennlige av 2000-tallets popmusikk
+E35	Polar_expression:T72 Target:T70
+A174	Polarity E35 Positive
+A175	Source_is_author E35
+A176	Intensity E35 Standard
+A177	Target_is_general E35
+A178	Type E35 E
+T73	Polar_expression 2384 2392	Coldplay
+E36	Polar_expression:T73 Target:T70
+A179	Polarity E36 Positive
+A180	Source_is_author E36
+A181	Intensity E36 Standard
+A182	Target_is_general E36
+A183	Type E36 E
+T74	Polar_expression 2441 2453	Tim Bergling
+E37	Polar_expression:T74 Target:T70
+A184	Polarity E37 Positive
+A185	Source_is_author E37
+A186	Intensity E37 Standard
+A187	Target_is_general E37
+A188	Type E37 E
+T75	Entity 2441 2453	Tim Bergling
+T76	Polar_expression 2398 2438	2010-tallets så langt største popsnekker
+E38	Polar_expression:T76 Target:T75
+A189	Polarity E38 Positive
+A190	Source_is_author E38
+A191	Intensity E38 Standard
+A192	Target_is_general E38
+A193	Type E38 E
+T77	Entity 2465 2474	" Magic "
+T78	Polar_expression 2482 2567	produksjon og et hook som går utenom det meste i profesjonalitet og headsetvennlighet
+E39	Polar_expression:T78 Target:T77
+A194	Polarity E39 Positive
+A195	Source_is_author E39
+A196	Intensity E39 Standard
+A197	Target_is_general E39
+A198	Type E39 E
+T79	Entity 2482 2492	produksjon
+T80	Entity 2499 2503	hook
+T81	Polar_expression 2508 2567	går utenom det meste i profesjonalitet og headsetvennlighet
+E40	Polar_expression:T81 Target:T79
+A199	Polarity E40 Positive
+A200	Source_is_author E40
+A201	Intensity E40 Standard
+A202	Target_is_general E40
+A203	Type E40 E
+E41	Polar_expression:T81 Target:T80
+A204	Polarity E41 Positive
+A205	Source_is_author E41
+A206	Intensity E41 Standard
+A207	Target_is_general E41
+A208	Type E41 E
+T82	Polar_expression 2531 2546	profesjonalitet
+E42	Polar_expression:T82 Target:T79
+A209	Polarity E42 Positive
+A210	Source_is_author E42
+A211	Target_is_general E42
+A212	Type E42 E
+A213	Intensity E42 Standard
+T83	Polar_expression 2550 2567	headsetvennlighet
+E43	Polar_expression:T83 Target:T80
+A214	Polarity E43 Positive
+A215	Source_is_author E43
+A216	Intensity E43 Standard
+A217	Target_is_general E43
+A218	Type E43 E
+E44	Polar_expression:T82 Target:T80
+A219	Polarity E44 Positive
+A220	Source_is_author E44
+A221	Target_is_general E44
+A222	Type E44 E
+A223	Intensity E44 Standard
+E45	Polar_expression:T83 Target:T79
+A224	Polarity E45 Positive
+A225	Source_is_author E45
+A226	Intensity E45 Standard
+A227	Target_is_general E45
+A228	Type E45 E
+T84	Entity 2573 2585	" Midnight "
+T85	Polar_expression 2607 2614	mumlete
+E46	Polar_expression:T85 Target:T84
+A229	Polarity E46 Negative
+A230	Source_is_author E46
+A231	Intensity E46 Standard
+A232	Target_is_general E46
+A233	Type E46 E
+T86	Polar_expression 2904 2914	lettvekter
+E47	Polar_expression:T86 Target:T87
+A234	Polarity E47 Negative
+A235	Source_is_author E47
+A236	Intensity E47 Standard
+A237	Target_is_general E47
+A238	Type E47 E
+T87	Entity 2884 2897	Ghost Stories
+T88	Polar_expression 2857 2871	fine tilløpene
+E48	Polar_expression:T88 Target:T87
+A239	Polarity E48 Positive
+A240	Source_is_author E48
+A241	Intensity E48 Slight
+A242	Target_is_general E48
+A243	Type E48 E
+T89	Polar_expression 2924 2972	ikke visjonært , storslagent , eller mystisk nok
+E49	Polar_expression:T89 
+A244	Polarity E49 Negative
+A245	Source_is_author E49
+A246	Intensity E49 Standard
+A247	Target_is_general E49
+A248	Type E49 E
+T90	Polar_expression 3058 3085	flere steg i riktig retning
+E50	Polar_expression:T90 
+A249	Polarity E50 Positive
+A250	Source_is_author E50
+A251	Intensity E50 Standard
+A252	Target_is_general E50
+A253	Type E50 E
+T91	Polar_expression 3149 3156;3166 3208	kanskje blir det interessante og eksperimenterende
+E51	Polar_expression:T91 Target:T92
+A254	Polarity E51 Positive
+A255	Source_is_author E51
+A256	Intensity E51 Slight
+A257	Target_is_general E51
+A258	Type E51 E
+T92	Entity 3157 3165	Coldplay
+T93	Polar_expression 3219 3245	aldri har truet med å være
+E52	Polar_expression:T93 Target:T92
+A259	Polarity E52 Negative
+A260	Source_is_author E52
+A261	Intensity E52 Slight
+A262	Target_is_general E52
+A263	Type E52 E

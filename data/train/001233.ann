@@ -1,0 +1,126 @@
+T1	E 96 96	
+T2	E 113 113	
+A1	NOT T2
+T3	E 962 962	
+T4	E 1083 1083	
+T5	E 1288 1288	
+T6	E 1580 1580	
+T7	E 1740 1740	
+T8	E 1898 1898	
+T9	Polar_expression 293 312	gigantiske øyeblikk
+E1	Polar_expression:T9 
+A2	Polarity E1 Positive
+A3	Source_is_author E1
+A4	Intensity E1 Strong
+A5	Target_is_general E1
+A6	Type E1 E
+T10	Polar_expression 101 109	for frie
+E2	Polar_expression:T10 
+A7	Polarity E2 Negative
+A8	Source_is_author E2
+A9	Intensity E2 Standard
+A10	Target_is_general E2
+A11	Type E2 E
+T11	Polar_expression 342 385	patos-bevrer om kapp med egen høytidelighet
+E3	Polar_expression:T11 Target:T12
+A12	Polarity E3 Positive
+A13	Source_is_author E3
+A14	Intensity E3 Standard
+A15	Type E3 E
+T12	Entity 317 341	vokalist Matthew Bellamy
+T13	Polar_expression 406 417	rette siden
+E4	Polar_expression:T13 
+A16	Polarity E4 Positive
+A17	Source_is_author E4
+A18	Intensity E4 Standard
+A19	Target_is_general E4
+A20	Type E4 E
+T14	Polar_expression 995 1008	underholdende
+E5	Polar_expression:T14 Target:T15
+A21	Polarity E5 Positive
+A22	Source_is_author E5
+A23	Intensity E5 Standard
+A24	Target_is_general E5
+A25	Type E5 E
+T15	Entity 989 994	dette
+T16	Polar_expression 1044 1046;1051 1080	på rette siden av det latterlige
+E6	Polar_expression:T16 
+A26	Polarity E6 Positive
+A27	Source_is_author E6
+A28	Intensity E6 Standard
+A29	Target_is_general E6
+A30	Type E6 E
+T17	Polar_expression 1149 1179	lokker frem de gode gysningene
+E7	Polar_expression:T17 
+A31	Polarity E7 Positive
+A32	Source_is_author E7
+A33	Intensity E7 Strong
+A34	Type E7 E
+T18	Polar_expression 1182 1196	hovedproblemet
+E8	Polar_expression:T18 Target:T19
+A35	Polarity E8 Negative
+A36	Source_is_author E8
+A37	Intensity E8 Standard
+A38	Target_is_general E8
+A39	Type E8 E
+T19	Entity 1208 1244	albumets triumvirat av en avslutning
+T20	Polar_expression 1388 1406	slitsomme øyeblikk
+E9	Polar_expression:T20 
+A40	Polarity E9 Negative
+A41	Source_is_author E9
+A42	Intensity E9 Standard
+A43	Target_is_general E9
+A44	Type E9 E
+T21	Polar_expression 1515 1532	mindre behagelige
+E10	Polar_expression:T21 
+A45	Polarity E10 Negative
+A46	Source_is_author E10
+A47	Intensity E10 Standard
+A48	Target_is_general E10
+A49	Type E10 E
+T22	Polar_expression 1611 1620	parodiske
+E11	Polar_expression:T22 Target:T23
+A50	Polarity E11 Negative
+A51	Source_is_author E11
+A52	Intensity E11 Standard
+A53	Target_is_general E11
+A54	Type E11 E
+T23	Entity 1591 1595	Muse
+T24	Polar_expression 1774 1786;1805 1822	mer utydelig enn noen gang før
+E12	Polar_expression:T24 Target:T25
+A55	Polarity E12 Negative
+A56	Source_is_author E12
+A57	Intensity E12 Standard
+A58	Target_is_general E12
+A59	Type E12 E
+T25	Entity 1740 1770	Grensen mellom parodi og patos
+T26	Polar_expression 1834 1846	tar luven av
+E13	Polar_expression:T26 Target:T28
+A60	Polarity E13 Negative
+A61	Source_is_author E13
+A62	Intensity E13 Standard
+A63	Target_is_general E13
+A64	Type E13 E
+T27	Polar_expression 1883 1895	er til stede
+E14	Polar_expression:T27 Target:T28
+A65	Polarity E14 Positive
+A66	Source_is_author E14
+A67	Intensity E14 Standard
+A68	Target_is_general E14
+A69	Type E14 E
+T28	Entity 1847 1861	de gode låtene
+T29	Polar_expression 1912 1916;1945 1956	hive til hundene
+E15	Polar_expression:T29 Target:T31
+A70	Polarity E15 Negative
+A71	Source_is_author E15
+A72	Intensity E15 Standard
+A73	Target_is_general E15
+A74	Type E15 E
+T30	Polar_expression 1920 1944	verste musikalelementene
+E16	Polar_expression:T30 
+A75	Polarity E16 Negative
+A76	Source_is_author E16
+A77	Intensity E16 Strong
+A78	Target_is_general E16
+A79	Type E16 E
+T31	Entity 1920 1944	verste musikalelementene
