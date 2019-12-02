@@ -1,0 +1,58 @@
+T1	EFINP 1109 1109	
+T2	E 1251 1251	
+T3	E 1445 1445	
+T4	E 1496 1496	
+T5	E 1596 1596	
+T6	E 1695 1695	
+T7	E 1820 1820	
+T8	Entity 1445 1452	Språket
+T9	Polar_expression 1468 1475	vakkert
+E1	Polar_expression:T9 Target:T8
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Strong
+A4	Type E1 E
+T10	Polar_expression 1117 1183	forholder seg til den konkrete verdenen utenfor teksten eksplisitt
+E2	Polar_expression:T10 Target:T11
+A5	Polarity E2 Positive
+A6	Source_is_author E2
+A7	Intensity E2 Standard
+A8	Target_is_general E2
+A9	Type E2 EFINP
+T11	Entity 1109 1116	Romanen
+T12	Polar_expression 1496 1504;1585 1593	Sårheten er sterk
+E3	Polar_expression:T12 
+A10	Polarity E3 Positive
+A11	Source_is_author E3
+A12	Intensity E3 Standard
+A13	Type E3 E
+T13	Entity 1649 1661	avslutningen
+T14	Polar_expression 1662 1691	kunne likevel vært tydeligere
+E4	Polar_expression:T14 Target:T13
+A14	Polarity E4 Negative
+A15	Source_is_author E4
+A16	Intensity E4 Standard
+A17	Type E4 E
+T15	Polar_expression 1702 1723	fin dynamisk kontrast
+E5	Polar_expression:T15 Target:T16
+A18	Polarity E5 Positive
+A19	Source_is_author E5
+A20	Intensity E5 Standard
+A21	Type E5 E
+T16	Entity 1733 1760	det unge paret Lily og Ralf
+T17	Entity 1820 1823	Jeg
+T18	Polar_expression 1838 1859	interessant og større
+E6	Polar_expression:T18 Source:T17 Target:T19
+A22	Polarity E6 Positive
+A23	Source_is_author E6
+A24	Intensity E6 Standard
+A25	Type E6 E
+T19	Entity 1940 1948	Ørstavik
+T20	Entity 1276 1293	Ørstaviks univers
+T21	Polar_expression 1302 1328	tett , antydende og intimt
+E7	Polar_expression:T21 Target:T20
+A26	Polarity E7 Positive
+A27	Source_is_author E7
+A28	Intensity E7 Standard
+A29	NOT E7
+A30	Type E7 E

@@ -1,0 +1,161 @@
+T1	E 27 27	
+T2	E 464 464	
+T3	EFINP 544 544	
+T4	E 972 972	
+A1	NOT T4
+T5	E 1242 1242	
+T6	E 1265 1265	
+T7	E 2151 2151	
+T8	E 2301 2301	
+T9	E 2447 2447	
+T10	EFINP 2603 2603	
+T11	E 2660 2660	
+T12	E 2790 2790	
+T13	E 2893 2893	
+T14	Polar_expression 30 70;74 83	komplett sett for oppgradering av ytelse kapasitet
+E1	Polar_expression:T14 
+A2	Polarity E1 Positive
+A3	Source_is_author E1
+A4	Intensity E1 Standard
+A5	Target_is_general E1
+A6	Type E1 E
+T15	Polar_expression 605 611	128 GB
+E2	Polar_expression:T15 Target:T16
+A7	Polarity E2 Positive
+A8	Source_is_author E2
+A9	Intensity E2 Standard
+A10	Type E2 EFINP
+T16	Entity 564 570	SSD-en
+T17	Polar_expression 544 553;615 801	I tillegg ølger det med kabler , skruer , monteringsbraketter for montering i stasjonær PC , et enkelt kabinett med intern SATA og ekstern USB-tilkobling og en CD med dokumentasjon og kloneprogram
+E3	Polar_expression:T17 
+A11	Polarity E3 Positive
+A12	Source_is_author E3
+A13	Intensity E3 Standard
+A14	Type E3 EFINP
+T18	Polar_expression 972 1018	Så kommer det alltid tilbakevendende problemet
+E4	Polar_expression:T18 
+A15	Polarity E4 Negative
+A16	Source_is_author E4
+A17	Intensity E4 Slight
+A18	Target_is_general E4
+A19	Type E4 E
+T20	Polar_expression 2173 2200	mer varierende enn de andre
+E6	Polar_expression:T20 Target:T21
+A25	Polarity E6 Negative
+A26	Source_is_author E6
+A27	Intensity E6 Slight
+A28	Type E6 E
+T21	Entity 2153 2165	skriveytelse
+T22	Polar_expression 2234 2251	jobber mer aktivt
+E7	Polar_expression:T22 Target:T23
+A29	Polarity E7 Positive
+A30	Source_is_author E7
+A31	Intensity E7 Standard
+A32	Type E7 E
+T23	Entity 2217 2229	kontrolleren
+T24	Polar_expression 2383 2422	langt fra på høyde med de beste SSD-ene
+E8	Polar_expression:T24 Target:T25
+A33	Polarity E8 Negative
+A34	Source_is_author E8
+A35	Intensity E8 Slight
+A36	Type E8 EFINP
+T25	Entity 2345 2370	skrive og lesehastigheten
+T26	Polar_expression 2425 2444	faktisk langt under
+E9	Polar_expression:T26 Target:T25
+A37	Polarity E9 Negative
+A38	Source_is_author E9
+A39	Intensity E9 Standard
+A40	Type E9 EFINP
+T19	Polar_expression 1265 1290	Paragon Migrate OS to SSD
+E5	Polar_expression:T19 
+A20	Polarity E5 Positive
+A21	Source_is_author E5
+A22	Intensity E5 Standard
+A23	NOT E5
+A24	Type E5 E
+T27	Polar_expression 2460 2523	klarer 43,90 MB / sek mot Kingstons 8,89 MB / sek på 4k blokker
+E10	Polar_expression:T27 Target:T28
+A41	Polarity E10 Positive
+A42	Source_is_author E10
+A43	Intensity E10 Standard
+A44	NOT E10
+A45	Type E10 EFINP
+T28	Entity 2447 2459	OCZ Vertex 2
+T29	Entity 2486 2495	Kingstons
+T30	Polar_expression 2496 2523	8,89 MB / sek på 4k blokker
+E11	Polar_expression:T30 Target:T29
+A46	Polarity E11 Negative
+A47	Source_is_author E11
+A48	Intensity E11 Slight
+A50	Type E11 EFINP
+T31	Polar_expression 2807 2848	klarer ikke å hamle opp med nyere utgaver
+E12	Polar_expression:T31 Target:T32
+A51	Polarity E12 Negative
+A52	Source_is_author E12
+A53	Intensity E12 Standard
+A54	Target_is_general E12
+A55	Type E12 E
+T32	Entity 2794 2806	denne disken
+T33	Polar_expression 2567 2573;2578 2600	ligger veldig langt under OCZ
+E13	Polar_expression:T33 Target:T34
+A56	Polarity E13 Negative
+A57	Source_is_author E13
+A58	Intensity E13 Strong
+A59	Type E13 E
+T34	Entity 2574 2577	den
+T35	Polar_expression 2682 2690	praktisk
+E14	Polar_expression:T35 Target:T36
+A60	Polarity E14 Positive
+A61	Source_is_author E14
+A62	Intensity E14 Standard
+A63	Target_is_general E14
+A64	Type E14 E
+T36	Entity 2660 2678	Kingston sitt sett
+T37	Polar_expression 2718 2786	langt raskere maskin enn med en typisk harddisk på 5400 omdreininger
+E15	Polar_expression:T37 Target:T40
+A65	Polarity E15 Positive
+A66	Source_is_author E15
+A67	Intensity E15 Strong
+A68	Target_is_general E15
+A69	Type E15 E
+#1	AnnotatorNotes E8	Sammenlikning
+#2	AnnotatorNotes E10	Sammenlikning
+T38	Entity 2747 2786	en typisk harddisk på 5400 omdreininger
+T39	Polar_expression 2718 2742	langt raskere maskin enn
+E16	Polar_expression:T39 Target:T38
+A70	Polarity E16 Negative
+A71	Source_is_author E16
+A72	Intensity E16 Slight
+A73	NOT E16
+A74	Type E16 E
+T40	Entity 2696 2703	ytelsen
+T41	Polar_expression 2938 2941;2954 2971	kan være et godt kjøp
+E17	Polar_expression:T41 
+A75	Polarity E17 Positive
+A76	Source_is_author E17
+A77	Intensity E17 Standard
+A78	Target_is_general E17
+A79	Type E17 E
+T42	Polar_expression 2893 2971	Kommer du over den til en svært gunstig pris kan det likevel være et godt kjøp
+E18	Polar_expression:T42 
+A80	Polarity E18 Positive
+A81	Source_is_author E18
+A82	Intensity E18 Slight
+A83	Target_is_general E18
+A84	Type E18 E
+T43	Polar_expression 2603 2618	2327 mot 11 054
+E19	Polar_expression:T43 
+A85	Polarity E19 Negative
+A86	Source_is_author E19
+A87	Intensity E19 Standard
+A88	Target_is_general E19
+A89	Type E19 EFINP
+#3	AnnotatorNotes E19	comparative
+T44	Polar_expression 2622 2642	1892 mot 28 018 iops
+E20	Polar_expression:T44 
+A90	Polarity E20 Negative
+A91	Source_is_author E20
+A92	Intensity E20 Standard
+A93	Target_is_general E20
+A94	Type E20 EFINP
+#4	AnnotatorNotes E20	comparative

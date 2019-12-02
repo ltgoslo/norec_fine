@@ -1,0 +1,1033 @@
+T1	E 22 22	
+T2	EFINP 130 130	
+T3	E 667 667	
+T4	E 912 912	
+T5	E 1345 1345	
+T6	E 1359 1359	
+T7	E 1591 1591	
+T8	E 1745 1745	
+T9	E 1769 1769	
+T10	E 1792 1792	
+T11	E 1845 1845	
+T12	E 1921 1921	
+T13	E 1975 1975	
+T14	EFINP 2030 2030	
+T15	E 2155 2155	
+T16	E 2310 2310	
+T17	E 2323 2323	
+T18	E 2424 2424	
+T19	E 2587 2587	
+T20	E 2726 2726	
+T21	E 2737 2737	
+T22	E 2931 2931	
+T23	E 3141 3141	
+T24	E 3260 3260	
+T25	E 3360 3360	
+T26	E 3570 3570	
+T27	E 3651 3651	
+T28	EFINP 3830 3830	
+T29	E 3905 3905	
+T30	E 4023 4023	
+T31	EFINP 4122 4122	
+T32	E 4311 4311	
+T33	EFINP 4409 4409	
+T34	EFINP 4445 4445	
+T35	E 4561 4561	
+T36	E 4799 4799	
+T37	EFINP 4812 4812	
+T38	E 5123 5123	
+T39	E 5489 5489	
+T40	E 5559 5559	
+T41	E 5771 5771	
+T42	E 5949 5949	
+T43	E 5965 5965	
+T44	E 6028 6028	
+T45	E 6221 6221	
+T46	E 6485 6485	
+T47	E 6527 6527	
+T48	E 6614 6614	
+T49	E 6680 6680	
+T50	E 6899 6899	
+T51	E 7059 7059	
+T52	Entity 22 27	Lexus
+T53	Polar_expression 74 99	på fremmarsj også hos oss
+E1	Polar_expression:T53 Target:T52
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Target_is_general E1
+A5	Type E1 E
+T54	Entity 135 201	effekttallet fra Lexus GS 450h ligger svært nær BMW ActiveHybrid 5
+T55	Polar_expression 212 226	ikke tilfeldig
+E2	Polar_expression:T55 Target:T54
+A6	Polarity E2 Positive
+A7	Source_is_author E2
+A8	Intensity E2 Slight
+A9	Target_is_general E2
+A10	Type E2 EFINP
+T56	Polar_expression 135 201	effekttallet fra Lexus GS 450h ligger svært nær BMW ActiveHybrid 5
+E3	Polar_expression:T56 
+A11	Polarity E3 Positive
+A12	Source_is_author E3
+A13	Intensity E3 Slight
+A14	Target_is_general E3
+A15	Type E3 EFINP
+T57	Entity 667 672	Bilen
+T58	Polar_expression 696 804	tåler imidlertid sammenligningen med BMW når det gjelder sistnevnte merkes kjennemerke nummer 1 : Kjøreglede
+E4	Polar_expression:T58 
+A16	Polarity E4 Positive
+A17	Source_is_author E4
+A18	Intensity E4 Standard
+A19	Target_is_general E4
+A20	Type E4 E
+T59	Polar_expression 794 804	Kjøreglede
+E5	Polar_expression:T59 Target:T60
+A21	Polarity E5 Positive
+A22	Source_is_author E5
+A23	Intensity E5 Standard
+A24	Target_is_general E5
+A25	Type E5 E
+T60	Entity 753 791	sistnevnte merkes kjennemerke nummer 1
+E6	Polar_expression:T59 Target:T57
+A26	Polarity E6 Positive
+A27	Source_is_author E6
+A28	Intensity E6 Standard
+A29	Target_is_general E6
+A30	Type E6 E
+T61	Entity 1003 1009	nye GS
+T62	Polar_expression 1100 1121	sportslige ambisjoner
+E7	Polar_expression:T62 Target:T61
+A31	Polarity E7 Positive
+A32	Source_is_author E7
+A33	Intensity E7 Standard
+A34	Target_is_general E7
+A35	Type E7 E
+T63	Polar_expression 1100 1110	sportslige
+E8	Polar_expression:T63 Target:T64
+A36	Polarity E8 Positive
+A37	Source_is_author E8
+A38	Intensity E8 Standard
+A39	Target_is_general E8
+A40	Type E8 E
+T64	Entity 1111 1121	ambisjoner
+T65	Polar_expression 1020 1039	markant linjeføring
+E9	Polar_expression:T65 Target:T61
+A41	Polarity E9 Positive
+A42	Source_is_author E9
+A43	Intensity E9 Standard
+A44	Target_is_general E9
+A45	Type E9 E
+T66	Polar_expression 1020 1027	markant
+E10	Polar_expression:T66 Target:T67
+A46	Polarity E10 Positive
+A47	Source_is_author E10
+A48	Intensity E10 Standard
+A49	Target_is_general E10
+A50	Type E10 E
+T67	Entity 1028 1039	linjeføring
+T68	Polar_expression 1047 1075	nesten aggressivt frontparti
+E11	Polar_expression:T68 Target:T61
+A51	Polarity E11 Positive
+A52	Source_is_author E11
+A53	Intensity E11 Standard
+A54	Target_is_general E11
+A55	Type E11 E
+T69	Polar_expression 1047 1064	nesten aggressivt
+E12	Polar_expression:T69 Target:T70
+A56	Polarity E12 Positive
+A57	Source_is_author E12
+A58	Intensity E12 Standard
+A59	Target_is_general E12
+A60	Type E12 E
+T70	Entity 1065 1075	frontparti
+T71	Polar_expression 1345 1353	Slappere
+E13	Polar_expression:T71 Target:T72
+A61	Polarity E13 Negative
+A62	Source_is_author E13
+A63	Intensity E13 Standard
+A64	Target_is_general E13
+A65	Type E13 E
+T72	Entity 1354 1357	bak
+T73	Entity 1359 1361	Vi
+T74	Polar_expression 1417 1499	litt skuffet over at designerne ser ut som om de hadde mistet noe av inspirasjonen
+E14	Polar_expression:T74 Source:T73
+A66	Polarity E14 Negative
+A67	Source_is_author E14
+A68	Intensity E14 Slight
+A69	Target_is_general E14
+A70	Type E14 E
+T75	Entity 1523 1528	denne
+T76	Polar_expression 1557 1576	anonymt Toyota-preg
+E15	Polar_expression:T76 Target:T75 Source:T73
+A71	Polarity E15 Negative
+A72	Source_is_author E15
+A73	Intensity E15 Standard
+A74	Target_is_general E15
+A75	Type E15 E
+T77	Entity 1438 1448	designerne
+T78	Polar_expression 1472 1499	mistet noe av inspirasjonen
+E16	Polar_expression:T78 Target:T77
+A76	Polarity E16 Negative
+A77	Source_is_author E16
+A78	Intensity E16 Standard
+A79	Target_is_general E16
+A80	Type E16 E
+T79	Polar_expression 1472 1485	mistet noe av
+E17	Polar_expression:T79 Target:T80
+A81	Polarity E17 Negative
+A82	Source_is_author E17
+A83	Intensity E17 Standard
+A84	Target_is_general E17
+A85	Type E17 E
+T80	Entity 1486 1499	inspirasjonen
+T81	Entity 1591 1593	Vi
+T82	Entity 1600 1620	dagens generasjon GS
+T83	Polar_expression 1714 1723	harmonisk
+E18	Polar_expression:T83 Target:T82 Source:T81
+A86	Polarity E18 Positive
+A87	Source_is_author E18
+A88	Intensity E18 Standard
+A89	Target_is_general E18
+A90	Type E18 E
+T84	Polar_expression 1727 1742	sporty i stilen
+E19	Polar_expression:T84 Target:T82 Source:T81
+A91	Polarity E19 Positive
+A92	Source_is_author E19
+A93	Intensity E19 Standard
+A94	Target_is_general E19
+A95	Type E19 E
+T85	Polar_expression 1748 1752	godt
+E20	Polar_expression:T85 Target:T86
+A96	Polarity E20 Positive
+A97	Source_is_author E20
+A98	Intensity E20 Standard
+A99	Target_is_general E20
+A100	Type E20 E
+T86	Entity 1753 1765	utgangspunkt
+T87	Polar_expression 1769 1781	Standsmessig
+E21	Polar_expression:T87 Target:T88
+A101	Polarity E21 Positive
+A102	Source_is_author E21
+A103	Intensity E21 Standard
+A104	Target_is_general E21
+A105	Type E21 E
+T88	Entity 1782 1790	interiør
+T89	Polar_expression 1792 1802	Enda bedre
+E22	Polar_expression:T89 Target:T90
+A106	Polarity E22 Positive
+A107	Source_is_author E22
+A108	Intensity E22 Standard
+A109	Target_is_general E22
+A110	Type E22 E
+T90	Entity 1812 1842	når man setter seg inn i bilen
+T91	Polar_expression 1845 1872	Luksusfølelsen er påtagelig
+E23	Polar_expression:T91 Target:T92
+A111	Polarity E23 Positive
+A112	Source_is_author E23
+A113	Intensity E23 Standard
+A114	Target_is_general E23
+A115	Type E23 E
+T92	Entity 1892 1918	i en bil med et slikt navn
+T93	Entity 1921 1929	Helheten
+T94	Polar_expression 1933 1940	elegant
+E24	Polar_expression:T94 Target:T93
+A116	Polarity E24 Positive
+A117	Source_is_author E24
+A118	Intensity E24 Standard
+A119	Target_is_general E24
+A120	Type E24 E
+T95	Polar_expression 1952 1958	ryddig
+E25	Polar_expression:T95 Target:T93
+A121	Polarity E25 Positive
+A122	Source_is_author E25
+A123	Intensity E25 Standard
+A124	Target_is_general E25
+A125	Type E25 E
+T96	Polar_expression 1962 1972	ergonomisk
+E26	Polar_expression:T96 Target:T93
+A126	Polarity E26 Positive
+A127	Source_is_author E26
+A128	Intensity E26 Standard
+A129	Target_is_general E26
+A130	Type E26 E
+T97	Entity 1975 1992	Kvalitetsfølelsen
+T98	Polar_expression 1996 1999	høy
+E27	Polar_expression:T98 Target:T97
+A131	Polarity E27 Positive
+A132	Source_is_author E27
+A133	Intensity E27 Standard
+A134	Target_is_general E27
+A135	Type E27 E
+T99	Polar_expression 2006 2027	forseggjorte detaljer
+E28	Polar_expression:T99 Target:T97
+A136	Polarity E28 Positive
+A137	Source_is_author E28
+A138	Intensity E28 Standard
+A139	Target_is_general E28
+A140	Type E28 E
+T100	Polar_expression 2006 2018	forseggjorte
+E29	Polar_expression:T100 Target:T101
+A141	Polarity E29 Positive
+A142	Source_is_author E29
+A143	Intensity E29 Standard
+A144	Target_is_general E29
+A145	Type E29 E
+T101	Entity 2019 2027	detaljer
+T102	Polar_expression 2098 2116	kan selvsagt velge
+E30	Polar_expression:T102 Target:T103
+A146	Polarity E30 Positive
+A147	Source_is_author E30
+A148	Intensity E30 Standard
+A149	Target_is_general E30
+A150	Type E30 E
+T103	Entity 2117 2134	mer diskret dekor
+T104	Entity 2177 2180	det
+T105	Polar_expression 2181 2198	kledde bilen godt
+E31	Polar_expression:T105 Target:T104 Source:T118
+A151	Polarity E31 Positive
+A152	Source_is_author E31
+A153	Intensity E31 Standard
+A154	Target_is_general E31
+A155	Type E31 E
+T106	Polar_expression 2181 2187;2194 2198	kledde godt
+E32	Polar_expression:T106 Target:T107
+A156	Polarity E32 Positive
+A157	Source_is_author E32
+A158	Intensity E32 Standard
+A159	Target_is_general E32
+A160	Type E32 E
+T107	Entity 2188 2193	bilen
+T108	Polar_expression 2310 2314	Stor
+E33	Polar_expression:T108 Target:T109
+A161	Polarity E33 Positive
+A162	Source_is_author E33
+A163	Intensity E33 Standard
+A164	Target_is_general E33
+A165	Type E33 E
+T109	Entity 2315 2321	skjerm
+T110	Entity 2337 2343	utstyr
+T111	Polar_expression 2327 2336	bugner av
+E34	Polar_expression:T111 Target:T110
+A166	Polarity E34 Positive
+A167	Source_is_author E34
+A168	Intensity E34 Standard
+A169	Target_is_general E34
+A170	Type E34 E
+T112	Polar_expression 2348 2374	gjør livet om bord lettere
+E35	Polar_expression:T112 Target:T110
+A171	Polarity E35 Positive
+A172	Source_is_author E35
+A173	Intensity E35 Standard
+A174	Target_is_general E35
+A175	Type E35 E
+T113	Polar_expression 2367 2374	lettere
+E36	Polar_expression:T113 Target:T114
+A176	Polarity E36 Positive
+A177	Source_is_author E36
+A178	Intensity E36 Standard
+A179	Target_is_general E36
+A180	Type E36 E
+T114	Entity 2353 2358	livet
+T115	Entity 2481 2487	skjerm
+T116	Polar_expression 2462 2466	stor
+E37	Polar_expression:T116 Target:T115
+A181	Polarity E37 Positive
+A182	Source_is_author E37
+A183	Intensity E37 Standard
+A184	Target_is_general E37
+A185	Type E37 E
+T117	Polar_expression 2470 2480	informativ
+E38	Polar_expression:T117 Target:T115
+A186	Polarity E38 Positive
+A187	Source_is_author E38
+A188	Intensity E38 Standard
+A189	Target_is_general E38
+A190	Type E38 E
+T118	Entity 2174 2176	vi
+T120	Polar_expression 2515 2569	ikke finner grafikken like tidsriktig som i en Audi A6
+E39	Polar_expression:T120 
+A191	Polarity E39 Negative
+A192	Source_is_author E39
+A193	Intensity E39 Slight
+A194	Target_is_general E39
+A195	Type E39 E
+T121	Polar_expression 2515 2519;2537 2552	ikke like tidsriktig
+E40	Polar_expression:T121 Target:T122
+A196	Polarity E40 Negative
+A197	Source_is_author E40
+A198	Intensity E40 Standard
+A199	Target_is_general E40
+A200	Type E40 E
+T122	Entity 2527 2536	grafikken
+T123	Entity 2587 2621	Betjeningen via en slags musepeker
+T124	Polar_expression 2622 2642	kan være irriterende
+E41	Polar_expression:T124 Target:T123
+A201	Polarity E41 Negative
+A202	Source_is_author E41
+A203	Intensity E41 Slight
+A204	Target_is_general E41
+A205	Type E41 E
+T125	Polar_expression 2669 2677	praktisk
+E42	Polar_expression:T125 Target:T123
+A206	Polarity E42 Positive
+A207	Source_is_author E42
+A208	Intensity E42 Standard
+A209	Target_is_general E42
+A210	Type E42 E
+T126	Polar_expression 2681 2722	gir rask tilgang til relevant informasjon
+E43	Polar_expression:T126 Target:T123
+A211	Polarity E43 Positive
+A212	Source_is_author E43
+A213	Intensity E43 Standard
+A214	Target_is_general E43
+A215	Type E43 E
+T127	Polar_expression 2685 2697	rask tilgang
+E44	Polar_expression:T127 Target:T129
+A216	Polarity E44 Positive
+A217	Source_is_author E44
+A218	Intensity E44 Standard
+A219	Target_is_general E44
+A220	Type E44 E
+T128	Polar_expression 2702 2722	relevant informasjon
+E45	Polar_expression:T128 
+A221	Polarity E45 Positive
+A222	Source_is_author E45
+A223	Intensity E45 Standard
+A224	Target_is_general E45
+A225	Type E45 E
+T129	Entity 2702 2722	relevant informasjon
+T130	Polar_expression 2726 2729	Nok
+E46	Polar_expression:T130 Target:T131
+A226	Polarity E46 Positive
+A227	Source_is_author E46
+A228	Intensity E46 Standard
+A229	Target_is_general E46
+A230	Type E46 E
+T131	Entity 2730 2735	plass
+T132	Polar_expression 2767 2786	merkbart romsligere
+E47	Polar_expression:T132 Target:T133
+A231	Polarity E47 Positive
+A232	Source_is_author E47
+A233	Intensity E47 Standard
+A234	Target_is_general E47
+A235	Type E47 E
+T133	Entity 2755 2760	bilen
+E48	Polar_expression:T132 Target:T134
+A236	Polarity E48 Negative
+A238	Intensity E48 Standard
+A239	Target_is_general E48
+A240	Type E48 E
+T134	Entity 2791 2803	forgjengeren
+T135	Entity 2806 2822	plassutnyttelsen
+T136	Polar_expression 2823 2849	har kommet seg betraktelig
+E49	Polar_expression:T136 Target:T135
+A241	Polarity E49 Positive
+A242	Source_is_author E49
+A243	Intensity E49 Standard
+A244	Target_is_general E49
+A245	Type E49 E
+T137	Polar_expression 3002 3006;3027 3036	ikke overdådig
+E50	Polar_expression:T137 Target:T138
+A246	Polarity E50 Positive
+A247	Source_is_author E50
+A248	Intensity E50 Slight
+A249	Target_is_general E50
+A250	Type E50 E
+T138	Entity 3007 3026	romslighetsfølelsen
+T139	Polar_expression 3049 3058;3070 3085	føler seg i ett med bilen
+E51	Polar_expression:T139 
+A251	Polarity E51 Positive
+A252	Source_is_author E51
+A253	Intensity E51 Standard
+A254	Target_is_general E51
+A255	Type E51 E
+T140	Entity 3049 3058;3070 3085	føler seg i ett med bilen
+T141	Polar_expression 3096 3138	ikke alltid er lett å få til i store biler
+E52	Polar_expression:T141 Target:T140
+A256	Polarity E52 Positive
+A257	Source_is_author E52
+A258	Intensity E52 Standard
+A259	Target_is_general E52
+A260	Type E52 E
+T142	Polar_expression 3141 3177	En viss følelse av intimitet hersker
+E53	Polar_expression:T142 Target:T143
+A261	Polarity E53 Negative
+A262	Source_is_author E53
+A263	Intensity E53 Slight
+A264	Target_is_general E53
+A265	Type E53 E
+T143	Entity 3188 3194	fremme
+T144	Polar_expression 3240 3256	ikke noe å si på
+E54	Polar_expression:T144 Target:T146
+A266	Polarity E54 Positive
+A267	Source_is_author E54
+A268	Intensity E54 Standard
+A269	Target_is_general E54
+A270	Type E54 E
+T145	Entity 3201 3210	armslaget
+T146	Entity 3214 3232	klaring over hodet
+E55	Polar_expression:T144 Target:T145
+A271	Polarity E55 Positive
+A272	Source_is_author E55
+A273	Intensity E55 Standard
+A274	Target_is_general E55
+A275	Type E55 E
+T147	Polar_expression 3292 3308	ikke noe problem
+E56	Polar_expression:T147 Target:T148
+A276	Polarity E56 Positive
+A277	Source_is_author E56
+A278	Intensity E56 Standard
+A279	Target_is_general E56
+A280	Type E56 E
+T148	Entity 3262 3288	finne riktig sittestilling
+T149	Polar_expression 3310 3320	akket være
+E57	Polar_expression:T149 Target:T150
+A281	Polarity E57 Positive
+A282	Source_is_author E57
+A283	Target_is_general E57
+A284	Type E57 E
+T150	Entity 3321 3356	18-veis elektrisk regulerbare seter
+T151	Polar_expression 3321 3356	18-veis elektrisk regulerbare seter
+E58	Polar_expression:T151 
+A285	Polarity E58 Positive
+A286	Source_is_author E58
+A287	Intensity E58 Standard
+A288	Target_is_general E58
+A289	Type E58 EFINP
+T152	Entity 3360 3374	Bakseteplassen
+T153	Polar_expression 3384 3397	bedre enn før
+E59	Polar_expression:T153 Target:T152
+A290	Polarity E59 Positive
+A291	Source_is_author E59
+A292	Intensity E59 Standard
+A293	Target_is_general E59
+A294	Type E59 E
+T154	Entity 3401 3414	bagasjerommet
+T155	Polar_expression 3418 3450	heldigvis også en god del større
+E60	Polar_expression:T155 Target:T154
+A295	Polarity E60 Positive
+A296	Source_is_author E60
+A297	Intensity E60 Standard
+A298	Target_is_general E60
+A299	Type E60 E
+T156	Entity 3570 3577	Volumet
+T157	Polar_expression 3582 3608	faktisk økt med 40 prosent
+E61	Polar_expression:T157 Target:T156
+A300	Polarity E61 Positive
+A301	Source_is_author E61
+A302	Intensity E61 Standard
+A303	Target_is_general E61
+A304	Type E61 E
+T158	Entity 3598 3608	40 prosent
+T159	Polar_expression 3582 3593	faktisk økt
+E62	Polar_expression:T159 Target:T158
+A305	Polarity E62 Positive
+A306	Source_is_author E62
+A307	Intensity E62 Standard
+A308	Target_is_general E62
+A309	Type E62 E
+T160	Polar_expression 3618 3648	helt akseptabelt med 459 liter
+E63	Polar_expression:T160 Target:T156
+A310	Polarity E63 Positive
+A311	Source_is_author E63
+A312	Intensity E63 Standard
+A313	Target_is_general E63
+A314	Type E63 E
+T161	Polar_expression 3618 3634	helt akseptabelt
+E64	Polar_expression:T161 Target:T162
+A315	Polarity E64 Positive
+A316	Source_is_author E64
+A317	Intensity E64 Standard
+A318	Target_is_general E64
+A319	Type E64 E
+T162	Entity 3639 3648	459 liter
+T163	Entity 3681 3686	Lexus
+T164	Polar_expression 3691 3730	plassert batteriene på en smartere måte
+E65	Polar_expression:T164 Target:T163
+A320	Polarity E65 Positive
+A321	Source_is_author E65
+A322	Intensity E65 Standard
+A323	Target_is_general E65
+A324	Type E65 E
+T165	Polar_expression 3691 3699;3711 3730	plassert på en smartere måte
+E66	Polar_expression:T165 Target:T166
+A325	Polarity E66 Positive
+A326	Source_is_author E66
+A327	Intensity E66 Standard
+A328	Target_is_general E66
+A329	Type E66 E
+T166	Entity 3700 3710	batteriene
+T167	Polar_expression 3717 3725	smartere
+E67	Polar_expression:T167 Target:T168
+A330	Polarity E67 Positive
+A331	Source_is_author E67
+A332	Intensity E67 Standard
+A333	Target_is_general E67
+A334	Type E67 E
+T168	Entity 3726 3730	måte
+T169	Polar_expression 3739 3742;3761 3770	tar noe plass
+E68	Polar_expression:T169 Target:T166
+A335	Polarity E68 Negative
+A336	Source_is_author E68
+A337	Intensity E68 Slight
+A338	Target_is_general E68
+A339	Type E68 E
+T170	Entity 3836 3844	hybriden
+T171	Polar_expression 3845 3873	kan faktisk trekke tilhenger
+E69	Polar_expression:T171 Target:T170
+A340	Polarity E69 Positive
+A341	Source_is_author E69
+A342	Intensity E69 Standard
+A343	Target_is_general E69
+A344	Type E69 E
+T172	Entity 3845 3873	kan faktisk trekke tilhenger
+T173	Polar_expression 3883 3901	opp til 1.500 kilo
+E70	Polar_expression:T173 Target:T172
+A345	Polarity E70 Positive
+A346	Source_is_author E70
+A347	Intensity E70 Standard
+A348	Target_is_general E70
+A349	Type E70 E
+T174	Polar_expression 3905 3915	Oppgradert
+E71	Polar_expression:T174 Target:T175
+A350	Polarity E71 Positive
+A351	Source_is_author E71
+A352	Intensity E71 Standard
+A353	Target_is_general E71
+A354	Type E71 E
+T175	Entity 3916 3922	hybrid
+T176	Entity 4027 4030	den
+T177	Polar_expression 4034 4043	oppdatert
+E72	Polar_expression:T177 Target:T176
+A355	Polarity E72 Positive
+A356	Source_is_author E72
+A357	Intensity E72 Standard
+A358	Target_is_general E72
+A359	Type E72 E
+T178	Polar_expression 4049 4088	kan kalles annen generasjon av systemet
+E73	Polar_expression:T178 Target:T176
+A360	Polarity E73 Positive
+A361	Source_is_author E73
+A362	Intensity E73 Standard
+A363	Target_is_general E73
+A364	Type E73 E
+T179	Entity 4122 4141	Forbrenningsmotoren
+T180	Polar_expression 4184 4226	fungerer nå i henhold til Atkinsons syklus
+E74	Polar_expression:T180 Target:T179
+A365	Polarity E74 Positive
+A366	Source_is_author E74
+A367	Intensity E74 Standard
+A368	Target_is_general E74
+A369	Type E74 EFINP
+T181	Polar_expression 4409 4421	Toppeffekten
+E75	Polar_expression:T181 Target:T182
+A370	Polarity E75 Positive
+A371	Source_is_author E75
+A372	Target_is_general E75
+A373	Type E75 EFINP
+T182	Entity 4425 4441	343 hestekrefter
+T183	Entity 4376 4383	forbruk
+T184	Entity 4387 4394	utslipp
+T185	Polar_expression 4398 4406	gått ned
+E76	Polar_expression:T185 Target:T184
+A374	Polarity E76 Positive
+A375	Source_is_author E76
+A376	Intensity E76 Standard
+A377	Target_is_general E76
+A378	Type E76 E
+E77	Polar_expression:T185 Target:T183
+A379	Polarity E77 Positive
+A380	Source_is_author E77
+A381	Intensity E77 Standard
+A382	Target_is_general E77
+A383	Type E77 E
+T186	Entity 4445 4458	Lexus GS 450h
+T187	Polar_expression 4459 4558	kan skilte med et forbruk på 0,59 liter per mil og CO2-utslipp begrenset til 137 gram per kilometer
+E78	Polar_expression:T187 Target:T186
+A384	Polarity E78 Positive
+A385	Source_is_author E78
+A386	Intensity E78 Standard
+A387	Target_is_general E78
+A388	Type E78 EFINP
+T188	Polar_expression 4459 4469	kan skilte
+E79	Polar_expression:T188 Target:T189
+A389	Polarity E79 Positive
+A390	Source_is_author E79
+A391	Intensity E79 Standard
+A392	Target_is_general E79
+A393	Type E79 EFINP
+T189	Entity 4477 4506	forbruk på 0,59 liter per mil
+T190	Entity 4510 4558	CO2-utslipp begrenset til 137 gram per kilometer
+T191	Polar_expression 4510 4558	CO2-utslipp begrenset til 137 gram per kilometer
+E80	Polar_expression:T191 
+A394	Polarity E80 Positive
+A395	Source_is_author E80
+A396	Intensity E80 Standard
+A397	Target_is_general E80
+A398	Type E80 EFINP
+T192	Polar_expression 4477 4506	forbruk på 0,59 liter per mil
+E81	Polar_expression:T192 
+A399	Polarity E81 Positive
+A400	Source_is_author E81
+A401	Intensity E81 Standard
+A402	Target_is_general E81
+A403	Type E81 EFINP
+E82	Polar_expression:T188 Target:T190
+A404	Polarity E82 Positive
+A405	Source_is_author E82
+A406	Intensity E82 Standard
+A407	Target_is_general E82
+A408	Type E82 EFINP
+T193	Entity 4573 4634	lå vi under " alminnelig " kjøring på rundt 0,7 liter per mil
+T194	Polar_expression 4638 4722	heller ikke det er dårlig i en stor , tung bil med 343 hestekrefter under panseret !
+E83	Polar_expression:T194 
+A409	Polarity E83 Positive
+A410	Source_is_author E83
+A411	Intensity E83 Standard
+A412	Target_is_general E83
+A413	Type E83 E
+T195	Polar_expression 4689 4722	343 hestekrefter under panseret !
+E84	Polar_expression:T195 Target:T196
+A414	Polarity E84 Positive
+A415	Source_is_author E84
+A416	Intensity E84 Standard
+A417	Target_is_general E84
+A418	Type E84 E
+T196	Entity 4681 4684	bil
+T197	Polar_expression 4645 4649;4657 4663	ikke dårlig
+E85	Polar_expression:T197 Target:T193
+A419	Polarity E85 Positive
+A420	Source_is_author E85
+A421	Intensity E85 Standard
+A422	Target_is_general E85
+A423	Type E85 E
+T198	Polar_expression 4799 4802	Nok
+E86	Polar_expression:T198 Target:T199
+A424	Polarity E86 Positive
+A425	Source_is_author E86
+A426	Intensity E86 Standard
+A427	Target_is_general E86
+A428	Type E86 E
+T199	Entity 4803 4810	krefter
+T200	Entity 4812 4821	Elmotoren
+T201	Polar_expression 4822 4872	kan yte opptil 200 hestekrefter og 275 newtonmeter
+E87	Polar_expression:T201 Target:T200
+A429	Polarity E87 Positive
+A430	Source_is_author E87
+A431	Intensity E87 Standard
+A432	Target_is_general E87
+A433	Type E87 EFINP
+T119	Polar_expression 5237 5262	mer enn tilfredsstillende
+E88	Polar_expression:T119 Target:T204
+A434	Polarity E88 Positive
+A435	Source_is_author E88
+A436	Intensity E88 Strong
+A437	Target_is_general E88
+A438	Type E88 E
+T202	Entity 5237 5262	mer enn tilfredsstillende
+T203	Polar_expression 5272 5289	fra stående start
+E89	Polar_expression:T203 Target:T202
+A439	Polarity E89 Positive
+A440	Source_is_author E89
+A441	Intensity E89 Standard
+A442	Target_is_general E89
+A443	Type E89 E
+T204	Entity 5123 5166	Kombinert system-effekt er 345 hestekrefter
+T205	Entity 5493 5496	det
+T206	Polar_expression 5500 5505	kjapt
+E90	Polar_expression:T206 Target:T205
+A444	Polarity E90 Positive
+A445	Source_is_author E90
+A446	Intensity E90 Standard
+A447	Target_is_general E90
+A448	Type E90 E
+T207	Entity 5520 5533	fartsøkningen
+T208	Polar_expression 5537 5543	lineær
+E91	Polar_expression:T208 Target:T207
+A449	Polarity E91 Positive
+A450	Source_is_author E91
+A451	Intensity E91 Standard
+A452	Target_is_general E91
+A453	Type E91 E
+T209	Polar_expression 5547 5556	kraftfull
+E92	Polar_expression:T209 Target:T207
+A454	Polarity E92 Positive
+A455	Source_is_author E92
+A456	Intensity E92 Standard
+A457	Target_is_general E92
+A458	Type E92 E
+T210	Polar_expression 5559 5581	Dessverre får man ikke
+E93	Polar_expression:T210 Target:T211
+A459	Polarity E93 Negative
+A460	Source_is_author E93
+A461	Intensity E93 Standard
+A462	Target_is_general E93
+A463	Type E93 E
+T211	Entity 5582 5599	sportsbilfølelsen
+T212	Entity 5777 5790	CVT-løsningen
+T213	Polar_expression 5804 5813	smidigere
+E94	Polar_expression:T213 Target:T212
+A464	Polarity E94 Positive
+A465	Source_is_author E94
+A466	Intensity E94 Standard
+A467	Target_is_general E94
+A468	Type E94 E
+T214	Polar_expression 5817 5849	gir mindre " symaskin " -følelse
+E95	Polar_expression:T214 Target:T212
+A469	Polarity E95 Positive
+A470	Source_is_author E95
+A471	Intensity E95 Standard
+A472	Target_is_general E95
+A473	Type E95 E
+T215	Entity 5856 5872	Toyota-hybridene
+E96	Polar_expression:T213 Target:T215
+A474	Polarity E96 Negative
+A475	Source_is_author E96
+A476	Intensity E96 Standard
+A477	NOT E96
+A478	Type E96 E
+E97	Polar_expression:T214 Target:T215
+A479	Polarity E97 Negative
+A480	Source_is_author E97
+A481	Intensity E97 Standard
+A482	NOT E97
+A483	Type E97 E
+T216	Polar_expression 5882 5916	foretrekker ubetinget BMWs løsning
+E98	Polar_expression:T216 Target:T212
+A484	Polarity E98 Negative
+A485	Source_is_author E98
+A486	Intensity E98 Standard
+A487	Target_is_general E98
+A488	Type E98 E
+T217	Polar_expression 5949 5955	Sporty
+E99	Polar_expression:T217 
+A489	Polarity E99 Positive
+A490	Source_is_author E99
+A491	Intensity E99 Standard
+A492	Target_is_general E99
+A493	Type E99 E
+T218	Entity 5956 5963	komfort
+T219	Entity 5965 5981	Kjøreegenskapene
+T220	Polar_expression 5985 5995	i fremgang
+E100	Polar_expression:T220 Target:T219
+A494	Polarity E100 Positive
+A495	Source_is_author E100
+A496	Intensity E100 Standard
+A497	Target_is_general E100
+A498	Type E100 E
+T221	Entity 6046 6048	de
+T222	Polar_expression 6038 6042;6052 6070	ikke direkte sportslige
+E101	Polar_expression:T222 Target:T221
+A499	Polarity E101 Negative
+A500	Source_is_author E101
+A501	Intensity E101 Slight
+A502	Target_is_general E101
+A503	Type E101 E
+T223	Polar_expression 6083 6096	mer dynamiske
+E102	Polar_expression:T223 Target:T221
+A504	Polarity E102 Positive
+A505	Source_is_author E102
+A506	Intensity E102 Standard
+A507	Target_is_general E102
+A508	Type E102 E
+T224	Polar_expression 6100 6107	presise
+E103	Polar_expression:T224 Target:T221
+A509	Polarity E103 Positive
+A510	Source_is_author E103
+A511	Intensity E103 Standard
+A512	Target_is_general E103
+A513	Type E103 E
+T225	Entity 6111 6134	sammenligningen med BMW
+T226	Polar_expression 6155 6183	i større grad blitt relevant
+E104	Polar_expression:T226 Target:T225
+A514	Polarity E104 Positive
+A515	Source_is_author E104
+A516	Intensity E104 Standard
+A517	Target_is_general E104
+A518	Type E104 E
+T227	Entity 6349 6364	kjøredynamikken
+T228	Polar_expression 6375 6392	tilfredsstillende
+E105	Polar_expression:T228 Target:T227
+A519	Polarity E105 Positive
+A520	Source_is_author E105
+A521	Intensity E105 Standard
+A522	Target_is_general E105
+A523	Type E105 E
+T229	Polar_expression 6485 6496	Komfortabel
+E106	Polar_expression:T229 Target:T230
+A524	Polarity E106 Positive
+A525	Source_is_author E106
+A526	Intensity E106 Standard
+A527	Target_is_general E106
+A528	Type E106 E
+T230	Entity 6506 6511	bilen
+T231	Polar_expression 6527 6530	God
+E107	Polar_expression:T231 Target:T232
+A529	Polarity E107 Positive
+A530	Source_is_author E107
+A531	Intensity E107 Standard
+A532	Target_is_general E107
+A533	Type E107 E
+T232	Entity 6531 6543	luksus-pakke
+T233	Polar_expression 6527 6543	God luksus-pakke
+E108	Polar_expression:T233 
+A534	Polarity E108 Positive
+A535	Source_is_author E108
+A536	Intensity E108 Standard
+A537	Target_is_general E108
+A538	Type E108 E
+T234	Polar_expression 6638 6646;6659 6677	fremstår som teknologileder
+E109	Polar_expression:T234 Target:T235
+A539	Polarity E109 Positive
+A540	Source_is_author E109
+A541	Intensity E109 Standard
+A542	Target_is_general E109
+A543	Type E109 E
+T235	Entity 6653 6658	Lexus
+T236	Polar_expression 6690 6718	tilbyr de en meget god pakke
+E110	Polar_expression:T236 
+A544	Polarity E110 Positive
+A545	Source_is_author E110
+A546	Intensity E110 Strong
+A547	Target_is_general E110
+A548	Type E110 E
+T237	Polar_expression 6703 6712	meget god
+E111	Polar_expression:T237 Target:T238
+A549	Polarity E111 Positive
+A550	Source_is_author E111
+A551	Intensity E111 Strong
+A552	Target_is_general E111
+A553	Type E111 E
+T238	Entity 6713 6718	pakke
+T239	Polar_expression 6737 6769	kraftfull , men nøysom drivlinje
+E112	Polar_expression:T239 Target:T238
+A554	Polarity E112 Positive
+A555	Source_is_author E112
+A556	Intensity E112 Standard
+A557	Target_is_general E112
+A558	Type E112 E
+T240	Polar_expression 6772 6789	god kjøredynamikk
+E113	Polar_expression:T240 Target:T238
+A559	Source_is_author E113
+A560	Intensity E113 Standard
+A561	Target_is_general E113
+A562	Type E113 E
+T241	Polar_expression 6792 6809	meget god komfort
+E114	Polar_expression:T241 Target:T238
+A563	Polarity E114 Positive
+A564	Source_is_author E114
+A565	Intensity E114 Strong
+A566	Target_is_general E114
+A567	Type E114 E
+T242	Polar_expression 6812 6818	luksus
+E115	Polar_expression:T242 Target:T238
+A568	Polarity E115 Positive
+A569	Source_is_author E115
+A570	Intensity E115 Standard
+A571	Target_is_general E115
+A572	Type E115 E
+T243	Polar_expression 6822 6832	mye utstyr
+E116	Polar_expression:T243 Target:T238
+A573	Polarity E116 Positive
+A574	Source_is_author E116
+A575	Intensity E116 Standard
+A576	Target_is_general E116
+A577	Type E116 E
+T244	Polar_expression 6737 6746	kraftfull
+E117	Polar_expression:T244 
+A578	Polarity E117 Positive
+A579	Source_is_author E117
+A580	Intensity E117 Standard
+A581	Target_is_general E117
+A582	Type E117 E
+T245	Polar_expression 6753 6759	nøysom
+E118	Polar_expression:T245 Target:T246
+A583	Polarity E118 Positive
+A584	Source_is_author E118
+A585	Intensity E118 Standard
+A586	Target_is_general E118
+A587	Type E118 E
+T246	Entity 6760 6769	drivlinje
+T247	Entity 6776 6789	kjøredynamikk
+T248	Polar_expression 6772 6775	god
+E119	Polar_expression:T248 Target:T247
+A588	Polarity E119 Positive
+A589	Source_is_author E119
+A590	Intensity E119 Standard
+A591	Type E119 E
+T249	Polar_expression 6792 6801	meget god
+E120	Polar_expression:T249 Target:T250
+A592	Polarity E120 Positive
+A593	Source_is_author E120
+A594	Intensity E120 Strong
+A595	Target_is_general E120
+A596	Type E120 E
+T250	Entity 6802 6809	komfort
+T251	Polar_expression 6822 6825	mye
+E121	Polar_expression:T251 Target:T252
+A597	Polarity E121 Positive
+A598	Source_is_author E121
+A599	Intensity E121 Standard
+A600	Target_is_general E121
+A601	Type E121 E
+T252	Entity 6826 6832	utstyr
+T253	Polar_expression 6863 6866	høy
+E122	Polar_expression:T253 Target:T255
+A602	Polarity E122 Negative
+A603	Source_is_author E122
+A604	Intensity E122 Slight
+A605	Target_is_general E122
+A606	Type E122 E
+T254	Polar_expression 6873 6890	konkurransedyktig
+E123	Polar_expression:T254 Target:T255
+A607	Polarity E123 Positive
+A608	Source_is_author E123
+A609	Intensity E123 Standard
+A610	Target_is_general E123
+A611	Type E123 E
+T255	Entity 6891 6895	pris
+T256	Polar_expression 6863 6895	høy - men konkurransedyktig pris
+E124	Polar_expression:T256 Target:T238
+A612	Polarity E124 Positive
+A613	Source_is_author E124
+A614	Intensity E124 Slight
+A615	Target_is_general E124
+A616	Type E124 E
+T257	Polar_expression 6990 6993;6998 7016	har en gylden mulighet
+E125	Polar_expression:T257 Target:T258
+A617	Polarity E125 Positive
+A618	Source_is_author E125
+A619	Intensity E125 Standard
+A620	Target_is_general E125
+A621	Type E125 E
+T258	Entity 6899 6989	Den som ønsker å velge noe annet enn det store flertallet i klassen for store premiumbiler
+T259	Polar_expression 7059 7083	Rimeligere blir det også
+E126	Polar_expression:T259 
+A622	Polarity E126 Positive
+A623	Source_is_author E126
+A624	Intensity E126 Standard
+A625	Target_is_general E126
+A626	Type E126 E
+T260	Entity 3466 3478	forgjengeren
+E127	Polar_expression:T155 Target:T260
+A627	Polarity E127 Negative
+A628	Source_is_author E127
+A629	Intensity E127 Standard
+A630	NOT E127
+A631	Type E127 E
+T261	Polar_expression 3485 3527	batteripakken spiste en god del av plassen
+E128	Polar_expression:T261 Target:T260
+A632	Polarity E128 Negative
+A633	Source_is_author E128
+A634	Intensity E128 Standard
+A635	Target_is_general E128
+A636	Type E128 E
+T262	Polar_expression 3499 3527	spiste en god del av plassen
+E129	Polar_expression:T262 Target:T263
+A637	Polarity E129 Negative
+A638	Source_is_author E129
+A639	Intensity E129 Standard
+A640	NOT E129
+A641	Type E129 E
+T263	Entity 3485 3498	batteripakken
+A237	NOT E48

@@ -1,0 +1,50 @@
+T1	E 133 133	
+T2	EFINP 193 193	
+T3	E 235 235	
+T4	E 604 604	
+T5	E 754 754	
+T6	E 769 769	
+T7	E 781 781	
+T8	Entity 165 182	Frank Hammersland
+T9	Polar_expression 133 164	Ingen kan sin pop-ABC bedre enn
+E1	Polar_expression:T9 Target:T8
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Type E1 E
+T10	Entity 267 283	1990-tallstrioen
+T11	Polar_expression 242 263;289 306	varmende å konstatere holder det gående
+E2	Polar_expression:T11 Target:T10
+A5	Polarity E2 Positive
+A6	Source_is_author E2
+A7	Intensity E2 Standard
+A8	Type E2 E
+T12	Entity 604 612	Tekstene
+T13	Polar_expression 619 666	rimer « tomorrow » med « sorrow » uten å blunke
+E3	Polar_expression:T13 Target:T14
+A9	Polarity E3 Positive
+A10	Source_is_author E3
+A11	Intensity E3 Standard
+A12	Target_is_general E3
+A13	Type E3 E
+T14	Entity 615 618	han
+T15	Polar_expression 692 709	dyktige pastisjer
+E4	Polar_expression:T15 Target:T12
+A14	Polarity E4 Positive
+A15	Source_is_author E4
+A16	Intensity E4 Standard
+A17	Type E4 E
+T16	Polar_expression 754 758	Fint
+E5	Polar_expression:T16 
+A18	Polarity E5 Positive
+A19	Source_is_author E5
+A20	Intensity E5 Standard
+A21	Type E5 E
+T17	Entity 193 196	Han
+T18	Polar_expression 204 214	Per Gessle
+E6	Polar_expression:T18 Target:T17 Source:T19
+A22	Polarity E6 Positive
+A23	Source_is_author E6
+A24	Intensity E6 Standard
+A25	Type E6 EFINP
+T19	Entity 200 203	vår

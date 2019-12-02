@@ -1,0 +1,42 @@
+T1	E 129 129	
+A1	NOT T1
+T2	E 623 623	
+T3	E 881 881	
+T4	Polar_expression 269 277	ikoniske
+E1	Polar_expression:T4 Target:T5
+A2	Polarity E1 Positive
+A3	Source_is_author E1
+A4	Intensity E1 Standard
+A5	NOT E1
+A6	Type E1 E
+T5	Entity 302 311	« Toxic »
+T6	Polar_expression 650 877	kysser deg i nakken , en butterdeigmør og elektropopete liten sak som tester ut grenselandet mellom Junior Boys' myke melankoli , The Notwists rytmenaivisme , Ne- Yos glætte genialitet og Mark Ronsons utstuderte popsensibilitet
+E2	Polar_expression:T6 Target:T7
+A7	Polarity E2 Positive
+A8	Source_is_author E2
+A9	Intensity E2 Standard
+A10	Target_is_general E2
+A11	Type E2 EFINP
+T7	Entity 640 645	plate
+T8	Polar_expression 927 941	en smule banal
+E3	Polar_expression:T8 Target:T9
+A12	Polarity E3 Negative
+A13	Source_is_author E3
+A14	Intensity E3 Standard
+A15	Target_is_general E3
+A16	Type E3 E
+T9	Entity 913 918	plata
+T10	Polar_expression 966 981	litt for enkelt
+E4	Polar_expression:T10 Target:T9
+A17	Polarity E4 Negative
+A18	Source_is_author E4
+A19	Intensity E4 Standard
+A20	Target_is_general E4
+A21	Type E4 E
+T11	Polar_expression 988 1034	etter hvert åpner det nye rom og krinkelkroker
+E5	Polar_expression:T11 Target:T9
+A22	Polarity E5 Positive
+A23	Source_is_author E5
+A24	Intensity E5 Standard
+A25	Target_is_general E5
+A26	Type E5 E

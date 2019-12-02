@@ -1,0 +1,412 @@
+T1	E 152 152	
+T2	EFINP 571 571	
+T3	E 747 747	
+T4	E 899 899	
+T5	E 914 914	
+T6	E 1508 1508	
+T7	EFINP 1814 1814	
+T8	E 1892 1892	
+T9	E 1942 1942	
+T10	EFINP 1999 1999	
+T11	E 2115 2115	
+T12	E 2218 2218	
+T13	E 2371 2371	
+T14	E 2459 2459	
+T15	E 2520 2520	
+T16	E 2702 2702	
+T17	E 3093 3093	
+T18	E 3132 3132	
+T19	E 3251 3251	
+T20	E 3468 3468	
+T21	E 3605 3605	
+T22	E 3687 3687	
+T23	E 3785 3785	
+T24	Polar_expression 158 174	bedrar skinnet ?
+E1	Polar_expression:T24 
+A1	Polarity E1 Negative
+A2	Source_is_author E1
+A3	Intensity E1 Slight
+A4	Target_is_general E1
+A5	Type E1 E
+T25	Entity 571 579	Baksiden
+T26	Polar_expression 583 587	sort
+E2	Polar_expression:T26 Target:T25
+A6	Polarity E2 Positive
+A7	Source_is_author E2
+A8	Intensity E2 Slight
+A9	Target_is_general E2
+A10	Type E2 EFINP
+T27	Polar_expression 590 595	blank
+E3	Polar_expression:T27 Target:T25
+A11	Polarity E3 Positive
+A12	Source_is_author E3
+A13	Intensity E3 Slight
+A14	Target_is_general E3
+A15	Type E3 EFINP
+T28	Polar_expression 599 608	skinnende
+E4	Polar_expression:T28 Target:T25
+A16	Polarity E4 Positive
+A17	Source_is_author E4
+A18	Intensity E4 Slight
+A19	Target_is_general E4
+A20	Type E4 EFINP
+T29	Entity 618 624	deksel
+T30	Polar_expression 629 656	skjuler kontakter og kabler
+E5	Polar_expression:T30 Target:T29
+A21	Polarity E5 Positive
+A22	Source_is_author E5
+A23	Intensity E5 Standard
+A24	Target_is_general E5
+A25	Type E5 E
+T31	Entity 792 796	noen
+T32	Entity 826 831	andre
+T33	Polar_expression 814 823	overharry
+E6	Polar_expression:T33 Target:T34 Source:T31
+A26	Polarity E6 Negative
+A27	Intensity E6 Standard
+A28	NFP E6
+A29	Target_is_general E6
+A30	Type E6 E
+T34	Entity 747 789	Skjermen er helt klart visuelt utfordrende
+T35	Polar_expression 840 850	begeistret
+E7	Polar_expression:T35 Target:T34 Source:T32
+A31	Polarity E7 Positive
+A32	Intensity E7 Standard
+A33	NFP E7
+A34	Target_is_general E7
+A35	Type E7 E
+T36	Polar_expression 899 902	God
+E8	Polar_expression:T36 Target:T37
+A36	Polarity E8 Positive
+A37	Source_is_author E8
+A38	Intensity E8 Standard
+A39	Target_is_general E8
+A40	Type E8 E
+T37	Entity 903 912	betjening
+T38	Entity 962 970	knappene
+T39	Polar_expression 971 999	plassert på en utmerket måte
+E9	Polar_expression:T39 Target:T38
+A41	Polarity E9 Positive
+A42	Source_is_author E9
+A43	Intensity E9 Strong
+A44	Target_is_general E9
+A45	Type E9 E
+T40	Entity 971 979	plassert
+T41	Polar_expression 986 994	utmerket
+E10	Polar_expression:T41 Target:T40
+A46	Polarity E10 Positive
+A47	Source_is_author E10
+A48	Intensity E10 Strong
+A49	Target_is_general E10
+A50	Type E10 E
+T42	Entity 1010 1019	oppsettet
+T43	Polar_expression 1020 1036	gir god kontroll
+E11	Polar_expression:T43 Target:T42
+A51	Polarity E11 Positive
+A52	Source_is_author E11
+A53	Intensity E11 Standard
+A54	Target_is_general E11
+A55	Type E11 E
+T44	Polar_expression 1039 1065	langt mer behagelig i bruk
+E12	Polar_expression:T44 Target:T42
+A56	Polarity E12 Positive
+A57	Source_is_author E12
+A58	Intensity E12 Standard
+A59	Target_is_general E12
+A60	Type E12 E
+T45	Entity 1081 1134	tryknappene som vi finner på de aller fleste skjermer
+E13	Polar_expression:T44 Target:T45
+A61	Polarity E13 Negative
+A62	Source_is_author E13
+A63	Intensity E13 Standard
+A64	NOT E13
+A65	Type E13 E
+T46	Polar_expression 1508 1570	En mer allsidig og tilkoblingsvennlig skjerm har vi knapt sett
+E14	Polar_expression:T46 
+A66	Polarity E14 Positive
+A67	Source_is_author E14
+A68	Intensity E14 Strong
+A69	Target_is_general E14
+A70	Type E14 E
+T47	Entity 1546 1552	skjerm
+T48	Polar_expression 1527 1545	tilkoblingsvennlig
+E15	Polar_expression:T48 Target:T47
+A71	Polarity E15 Positive
+A72	Source_is_author E15
+A73	Intensity E15 Standard
+A74	Target_is_general E15
+A75	Type E15 E
+T49	Polar_expression 1515 1523	allsidig
+E16	Polar_expression:T49 Target:T47
+A76	Polarity E16 Positive
+A77	Source_is_author E16
+A78	Intensity E16 Standard
+A79	Target_is_general E16
+A80	Type E16 E
+T50	Entity 1814 1822	Skjermen
+T51	Polar_expression 1823 1838	kan bare vippes
+E17	Polar_expression:T51 Target:T50
+A81	Polarity E17 Negative
+A82	Source_is_author E17
+A83	Intensity E17 Standard
+A84	Target_is_general E17
+A85	Type E17 EFINP
+T52	Polar_expression 1823 1831	kan bare
+E18	Polar_expression:T52 Target:T53
+A86	Polarity E18 Negative
+A87	Source_is_author E18
+A88	Intensity E18 Standard
+A89	Target_is_general E18
+A90	Type E18 EFINP
+T53	Entity 1832 1838	vippes
+T54	Polar_expression 1841 1873	ikke heves / senkes eller dreies
+E19	Polar_expression:T54 Target:T50
+A91	Polarity E19 Negative
+A92	Source_is_author E19
+A93	Intensity E19 Standard
+A94	Target_is_general E19
+A95	Type E19 EFINP
+T55	Polar_expression 1899 1918	positivt overrasket
+E20	Polar_expression:T55 Target:T56
+A96	Polarity E20 Positive
+A97	Source_is_author E20
+A98	Intensity E20 Standard
+A99	Target_is_general E20
+A100	Type E20 E
+T56	Entity 1924 1939	bildekvaliteten
+T57	Entity 1951 1966	fargedynamikken
+T58	Polar_expression 1971 1996	klart over gjennomsnittet
+E21	Polar_expression:T58 Target:T57
+A101	Polarity E21 Positive
+A102	Source_is_author E21
+A103	Intensity E21 Standard
+A104	Target_is_general E21
+A105	Type E21 E
+T59	Entity 2012 2031	faste fargeprofiler
+T60	Polar_expression 2006 2011	flere
+E22	Polar_expression:T60 Target:T59
+A106	Polarity E22 Positive
+A107	Source_is_author E22
+A108	Intensity E22 Standard
+A109	Target_is_general E22
+A110	Type E22 E
+T61	Polar_expression 2036 2076	forskjellige temperaturer å velge mellom
+E23	Polar_expression:T61 Target:T59
+A111	Polarity E23 Positive
+A112	Source_is_author E23
+A113	Intensity E23 Standard
+A114	Target_is_general E23
+A115	Type E23 E
+T62	Polar_expression 2079 2112	i tillegg til manuell innstilling
+E24	Polar_expression:T62 Target:T59
+A116	Polarity E24 Positive
+A117	Source_is_author E24
+A118	Intensity E24 Standard
+A119	Target_is_general E24
+A120	Type E24 E
+T63	Entity 2115 2132	Justeringsområdet
+T64	Polar_expression 2136 2141	stort
+E25	Polar_expression:T64 Target:T63
+A121	Polarity E25 Positive
+A122	Source_is_author E25
+A123	Intensity E25 Standard
+A124	Target_is_general E25
+A125	Type E25 E
+T65	Polar_expression 2154 2164	svært gode
+E26	Polar_expression:T65 Target:T66
+A126	Polarity E26 Positive
+A127	Source_is_author E26
+A128	Intensity E26 Standard
+A129	Target_is_general E26
+A130	Type E26 E
+T66	Entity 2165 2186	tilpasningsmuligheter
+T67	Polar_expression 2191 2214	forskjellige omgivelser
+E27	Polar_expression:T67 Target:T66
+A131	Polarity E27 Positive
+A132	Source_is_author E27
+A133	Intensity E27 Standard
+A134	Target_is_general E27
+A135	Type E27 E
+T68	Entity 2222 2239	blanke overflaten
+T69	Polar_expression 2243 2260	ikke vår favoritt
+E28	Polar_expression:T69 Target:T68
+A136	Polarity E28 Negative
+A137	Source_is_author E28
+A138	Intensity E28 Standard
+A139	Target_is_general E28
+A140	Type E28 E
+T70	Entity 2267 2277	refleksene
+T71	Polar_expression 2282 2319	sannsynligvis ikke være så sjenerende
+E29	Polar_expression:T71 Target:T70
+A141	Polarity E29 Positive
+A142	Source_is_author E29
+A143	Intensity E29 Slight
+A144	Target_is_general E29
+A145	Type E29 E
+T72	Entity 2371 2383	Responstiden
+T73	Polar_expression 2388 2413	ikke av de aller raskeste
+E30	Polar_expression:T73 Target:T72
+A146	Polarity E30 Negative
+A147	Source_is_author E30
+A148	Intensity E30 Standard
+A149	Target_is_general E30
+A150	Type E30 E
+T74	Polar_expression 2424 2433	etterslep
+E31	Polar_expression:T74 Target:T72
+A151	Polarity E31 Negative
+A152	Source_is_author E31
+A153	Intensity E31 Standard
+A154	Target_is_general E31
+A155	Type E31 E
+T75	Polar_expression 2498 2516	helt uproblematisk
+E32	Polar_expression:T75 Target:T76
+A156	Polarity E32 Positive
+A157	Source_is_author E32
+A158	Intensity E32 Standard
+A159	Target_is_general E32
+A160	Type E32 E
+T76	Entity 2494 2497	det
+T77	Entity 2520 2551	Betraktningsvinkelen fra sidene
+T78	Polar_expression 2556 2565	meget bra
+E33	Polar_expression:T78 Target:T77
+A161	Polarity E33 Positive
+A162	Source_is_author E33
+A163	Intensity E33 Standard
+A164	Target_is_general E33
+A165	Type E33 E
+T79	Polar_expression 2571 2698	kan godt invitere 4 venn( inn ) er til å sitte ved siden av deg og se på skjermen uten at noen på sidene vil få dårligere bilde
+E34	Polar_expression:T79 Target:T77
+A166	Polarity E34 Positive
+A167	Source_is_author E34
+A168	Intensity E34 Standard
+A169	Target_is_general E34
+A170	Type E34 E
+T80	Entity 2702 2711	Vertikalt
+T81	Polar_expression 2727 2752	ikke spesielt imponerende
+E35	Polar_expression:T81 Target:T80
+A171	Polarity E35 Negative
+A172	Source_is_author E35
+A173	Intensity E35 Standard
+A174	Target_is_general E35
+A175	Type E35 E
+T82	Polar_expression 2759 2826	forsvant rødt med det samme vi reiste oss opp og så ned på skjermen
+E36	Polar_expression:T82 Target:T80
+A176	Polarity E36 Negative
+A177	Source_is_author E36
+A178	Intensity E36 Standard
+A179	Target_is_general E36
+A180	Type E36 E
+T83	Polar_expression 3100 3113	ikke imponert
+E37	Polar_expression:T83 Target:T84
+A181	Polarity E37 Negative
+A182	Source_is_author E37
+A183	Intensity E37 Standard
+A184	Target_is_general E37
+A185	Type E37 E
+T84	Entity 3119 3129	lydstyrken
+T85	Entity 3139 3164	størrelsen på subwooferen
+T86	Entity 3171 3199	fire høyttalerene i skjermen
+T87	Polar_expression 3209 3247	ventet oss en noe kraftigere lydstyrke
+E38	Polar_expression:T87 Target:T86
+A186	Polarity E38 Negative
+A187	Source_is_author E38
+A188	Intensity E38 Standard
+A189	Target_is_general E38
+A190	Type E38 E
+E39	Polar_expression:T87 Target:T85
+A191	Polarity E39 Negative
+A192	Source_is_author E39
+A193	Intensity E39 Standard
+A194	Target_is_general E39
+A195	Type E39 E
+T88	Polar_expression 3209 3237	ventet oss en noe kraftigere
+E40	Polar_expression:T88 Target:T89
+A196	Polarity E40 Negative
+A197	Source_is_author E40
+A198	Intensity E40 Standard
+A199	Target_is_general E40
+A200	Type E40 E
+T89	Entity 3238 3247	lydstyrke
+T90	Polar_expression 3264 3266	ok
+E41	Polar_expression:T90 Target:T91
+A201	Polarity E41 Negative
+A202	Source_is_author E41
+A203	Intensity E41 Slight
+A204	Target_is_general E41
+A205	Type E41 E
+T91	Entity 3251 3260	Lydbildet
+T92	Polar_expression 3277 3289	vrenger fort
+E42	Polar_expression:T92 Target:T91
+A206	Polarity E42 Negative
+A207	Source_is_author E42
+A208	Intensity E42 Standard
+A209	Target_is_general E42
+A210	Type E42 E
+T93	Entity 3500 3505	lyden
+T94	Polar_expression 3506 3508	ok
+E43	Polar_expression:T94 Target:T93
+A211	Polarity E43 Negative
+A212	Source_is_author E43
+A213	Intensity E43 Slight
+A214	Target_is_general E43
+A215	Type E43 E
+T95	Polar_expression 3518 3552;3565 3602	hadde ønsket at den var kraftigere jobbet lettere på moderat høye nivåer
+E44	Polar_expression:T95 Target:T93
+A216	Polarity E44 Negative
+A217	Source_is_author E44
+A218	Intensity E44 Standard
+A219	Target_is_general E44
+A220	Type E44 E
+T96	Polar_expression 3609 3670	sliter litt også før den kommer opp i nærheten av maksområdet
+E45	Polar_expression:T96 Target:T97
+A221	Polarity E45 Negative
+A222	Source_is_author E45
+A223	Intensity E45 Standard
+A224	Target_is_general E45
+A225	Type E45 E
+T97	Entity 3605 3608	Den
+T98	Polar_expression 3699 3707	spesiell
+E46	Polar_expression:T98 Target:T99
+A226	Polarity E46 Negative
+A227	Source_is_author E46
+A228	Intensity E46 Slight
+A229	Target_is_general E46
+A230	Type E46 E
+T99	Entity 3687 3695	Skjermen
+T100	Polar_expression 3710 3713;3721 3734	men god å betjene
+E47	Polar_expression:T100 Target:T99
+A231	Polarity E47 Positive
+A232	Source_is_author E47
+A233	Intensity E47 Standard
+A234	Target_is_general E47
+A235	Type E47 E
+T101	Polar_expression 3738 3781	har bildekvalitet godt over gjennommsnittet
+E48	Polar_expression:T101 Target:T99
+A236	Polarity E48 Positive
+A237	Source_is_author E48
+A238	Intensity E48 Standard
+A239	Target_is_general E48
+A240	Type E48 E
+T102	Polar_expression 3756 3781	godt over gjennommsnittet
+E49	Polar_expression:T102 Target:T103
+A241	Polarity E49 Positive
+A242	Source_is_author E49
+A243	Intensity E49 Standard
+A244	Target_is_general E49
+A245	Type E49 E
+T103	Entity 3742 3755	bildekvalitet
+T104	Entity 3785 3790	Lyden
+T105	Polar_expression 3794 3815	ikke like imponerende
+E50	Polar_expression:T105 Target:T104
+A246	Polarity E50 Negative
+A247	Source_is_author E50
+A248	Intensity E50 Standard
+A249	Target_is_general E50
+A250	Type E50 E
+T106	Polar_expression 3818 3821;3826 3849	men holder på gutteværelset
+E51	Polar_expression:T106 Target:T104
+A251	Polarity E51 Positive
+A252	Source_is_author E51
+A253	Intensity E51 Slight
+A254	Target_is_general E51
+A255	Type E51 E

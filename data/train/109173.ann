@@ -1,0 +1,103 @@
+T1	E 0 0	
+A1	NOT T1
+T2	E 75 75	
+T3	E 1251 1251	
+T4	E 1299 1299	
+T5	E 1359 1359	
+T6	E 1429 1429	
+T7	E 1529 1529	
+T8	E 1655 1655	
+T9	E 1729 1729	
+T10	Polar_expression 0 7	Velment
+E1	Polar_expression:T10 
+A2	Polarity E1 Positive
+A3	Source_is_author E1
+A4	Intensity E1 Standard
+A5	Target_is_general E1
+A6	Type E1 E
+T11	Polar_expression 109 116	velment
+E2	Polar_expression:T11 Target:T12
+A7	Polarity E2 Positive
+A8	Source_is_author E2
+A9	Intensity E2 Standard
+A10	Target_is_general E2
+A11	Type E2 E
+T12	Entity 75 97	« Thanks for Sharing »
+T13	Polar_expression 120 136	nesten vellykket
+E3	Polar_expression:T13 Target:T12
+A12	Polarity E3 Negative
+A13	Source_is_author E3
+A14	Intensity E3 Slight
+A15	Type E3 E
+T14	Polar_expression 1258 1266	mye fint
+E4	Polar_expression:T14 Target:T15
+A16	Polarity E4 Positive
+A17	Source_is_author E4
+A18	Intensity E4 Standard
+A19	Target_is_general E4
+A20	Type E4 E
+T15	Entity 1290 1296	filmen
+T16	Polar_expression 1270 1281	dyktig folk
+E5	Polar_expression:T16 Target:T15
+A21	Polarity E5 Positive
+A22	Source_is_author E5
+A23	Intensity E5 Standard
+A24	Target_is_general E5
+A25	Type E5 E
+T17	Entity 1392 1398	scener
+T18	Polar_expression 1411 1425	virkelig river
+E6	Polar_expression:T18 Target:T17
+A26	Polarity E6 Positive
+A27	Source_is_author E6
+A28	Intensity E6 Standard
+A29	Type E6 E
+T19	Polar_expression 1363 1369	lykkes
+E7	Polar_expression:T19 
+A30	Polarity E7 Positive
+A31	Source_is_author E7
+A32	Intensity E7 Standard
+A33	Target_is_general E7
+A34	Type E7 E
+T20	Entity 1464 1513	å lage film om ideelle , prisverdige målsettinger
+T21	Polar_expression 1517 1526	vanskelig
+E8	Polar_expression:T21 Target:T20
+A35	Polarity E8 Negative
+A36	Source_is_author E8
+A37	Intensity E8 Standard
+A38	Type E8 E
+T22	Polar_expression 1305 1340	forsøker helhjertet å lage gangbart
+E9	Polar_expression:T22 Target:T23
+A39	Polarity E9 Negative
+A40	Source_is_author E9
+A41	Intensity E9 Slight
+A42	Type E9 E
+T23	Entity 1341 1346	drama
+T24	Polar_expression 1640 1652	forenklinger
+E10	Polar_expression:T24 
+A43	Polarity E10 Negative
+A44	Source_is_author E10
+A45	Intensity E10 Standard
+A46	Target_is_general E10
+A47	Type E10 E
+T25	Polar_expression 1628 1636	klisjeer
+E11	Polar_expression:T25 
+A48	Polarity E11 Negative
+A49	Source_is_author E11
+A50	Intensity E11 Standard
+A51	Target_is_general E11
+A52	Type E11 E
+T26	Polar_expression 1610 1625	sentimentalitet
+E12	Polar_expression:T26 
+A53	Polarity E12 Negative
+A54	Source_is_author E12
+A55	Intensity E12 Standard
+A56	Target_is_general E12
+A57	Type E12 E
+T27	Polar_expression 1758 1791;1807 1808	mer enn overfladiske utfordringer !
+E13	Polar_expression:T27 Target:T28
+A58	Polarity E13 Negative
+A59	Source_is_author E13
+A60	Intensity E13 Standard
+A61	Target_is_general E13
+A62	Type E13 E
+T28	Entity 1800 1806	filmen

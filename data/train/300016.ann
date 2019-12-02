@@ -1,0 +1,271 @@
+T1	E 295 295	
+T2	E 464 464	
+T3	E 634 634	
+T4	E 877 877	
+T5	E 915 915	
+T6	E 1002 1002	
+A1	NOT T6
+T7	E 1109 1109	
+T8	E 1302 1302	
+T9	E 1375 1375	
+T10	E 1421 1421	
+T11	E 1554 1554	
+T12	E 1648 1648	
+T13	E 1711 1711	
+T14	E 1748 1748	
+T15	E 1886 1886	
+T16	E 1979 1979	
+T17	E 2074 2074	
+T18	E 2358 2358	
+T19	E 2546 2546	
+T20	E 2640 2640	
+T21	E 2724 2724	
+T22	E 2793 2793	
+T23	E 2895 2895	
+T24	E 3084 3084	
+T25	Polar_expression 369 373	lyst
+E1	Polar_expression:T25 
+A2	Polarity E1 Positive
+A3	Source_is_author E1
+A4	Intensity E1 Standard
+A5	Target_is_general E1
+A6	Type E1 E
+T26	Polar_expression 377 384	nordisk
+E2	Polar_expression:T26 
+A7	Polarity E2 Positive
+A8	Source_is_author E2
+A9	Intensity E2 Standard
+A10	Target_is_general E2
+A11	Type E2 E
+T27	Polar_expression 394 414	naturlig forlengelse
+E3	Polar_expression:T27 
+A12	Polarity E3 Positive
+A13	Source_is_author E3
+A14	Intensity E3 Standard
+A15	Target_is_general E3
+A16	Type E3 E
+T28	Polar_expression 318 356	litt halvhjertet forsøk på noe arabisk
+E4	Polar_expression:T28 
+A17	Polarity E4 Positive
+A18	Source_is_author E4
+A19	Intensity E4 Standard
+A20	NOT E4
+A21	Type E4 E
+T29	Polar_expression 471 526	stilbrudd med Norsk Design og Arkitektursenter ( DogA )
+E5	Polar_expression:T29 Target:T30
+A22	Polarity E5 Negative
+A23	Source_is_author E5
+A24	Intensity E5 Standard
+A25	NOT E5
+A26	Type E5 E
+T30	Entity 464 470	Meccas
+T31	Polar_expression 544 585	en matbar som åpner seg opp for Akerselva
+E6	Polar_expression:T31 
+A27	Polarity E6 Positive
+A28	Source_is_author E6
+A29	Intensity E6 Standard
+A30	Target_is_general E6
+A31	Type E6 E
+T32	Polar_expression 593 631	stenger for en av byens beste utsikter
+E7	Polar_expression:T32 
+A32	Polarity E7 Negative
+A33	Source_is_author E7
+A34	Intensity E7 Standard
+A35	NOT E7
+A36	Type E7 E
+T33	Polar_expression 671 699	det uferdige kommer til syne
+E8	Polar_expression:T33 
+A37	Polarity E8 Negative
+A38	Source_is_author E8
+A39	Intensity E8 Standard
+A40	Target_is_general E8
+A41	Type E8 E
+T34	Polar_expression 877 886	Problemet
+E9	Polar_expression:T34 
+A42	Polarity E9 Negative
+A43	Source_is_author E9
+A44	Intensity E9 Standard
+A45	Target_is_general E9
+A46	Type E9 E
+T35	Polar_expression 896 912	bare er til pynt
+E10	Polar_expression:T35 Target:T36
+A47	Polarity E10 Negative
+A48	Source_is_author E10
+A49	Intensity E10 Standard
+A50	Type E10 E
+T36	Entity 893 895	de
+T37	Polar_expression 969 999	harry framvisning av brennevin
+E11	Polar_expression:T37 Target:T38
+A51	Polarity E11 Negative
+A52	Source_is_author E11
+A53	Intensity E11 Standard
+A54	Type E11 E
+T38	Entity 919 925	disken
+T39	Polar_expression 933 958	bare til å slenge menyene
+E12	Polar_expression:T39 Target:T38
+A55	Polarity E12 Negative
+A56	Source_is_author E12
+A57	Intensity E12 Slight
+A58	Type E12 E
+T40	Entity 1013 1032	Oslos restaurantliv
+T41	Polar_expression 1033 1040;1048 1106	mangler muligheten til å spise i baren for enslige sosiale gjester
+E13	Polar_expression:T41 Target:T40
+A59	Polarity E13 Negative
+A60	Source_is_author E13
+A61	Intensity E13 Standard
+A62	Type E13 E
+A63	NOT E13
+T42	Polar_expression 1113 1200	burde være et av Elvebreddens største pre , særlig når de til overmål kaller seg matbar
+E14	Polar_expression:T42 
+A64	Polarity E14 Negative
+A65	Source_is_author E14
+A66	Intensity E14 Standard
+A67	Target_is_general E14
+A68	Type E14 E
+T43	Polar_expression 1329 1358	bare en av to kelnere på jobb
+E15	Polar_expression:T43 
+A69	Polarity E15 Negative
+A70	Source_is_author E15
+A71	Intensity E15 Standard
+A72	Target_is_general E15
+A73	Type E15 E
+T44	Polar_expression 1379 1390	holder ikke
+E16	Polar_expression:T44 
+A74	Polarity E16 Negative
+A75	Source_is_author E16
+A76	Intensity E16 Standard
+A77	Target_is_general E16
+A78	Type E16 E
+T45	Polar_expression 1466 1533	tre måneder etter åpningen ikke har klart å skaffe nok arbeidskraft
+E17	Polar_expression:T45 Target:T46 Source:T47
+A79	Polarity E17 Negative
+A80	Source_is_author E17
+A81	Intensity E17 Standard
+A82	Target_is_general E17
+A83	Type E17 E
+T46	Entity 1463 1465	de
+T47	Entity 1542 1550	Robinson
+T48	Entity 1558 1575	de som er på jobb
+T49	Polar_expression 1576 1645	bør kunne legge veskene sine et annet sted enn godt synlig ved disken
+E18	Polar_expression:T49 Target:T48
+A84	Polarity E18 Negative
+A85	Source_is_author E18
+A86	Intensity E18 Standard
+A87	Type E18 E
+T50	Polar_expression 1648 1683	Et så åpent lokale krever ryddighet
+E19	Polar_expression:T50 Source:T51
+A88	Polarity E19 Negative
+A89	Source_is_author E19
+A90	Intensity E19 Standard
+A91	Target_is_general E19
+A92	Type E19 E
+T51	Entity 1701 1707	Fredag
+T52	Polar_expression 1711 1745	Matmessig har Elvebredden kontroll
+E20	Polar_expression:T52 Target:T53
+A93	Polarity E20 Positive
+A94	Source_is_author E20
+A95	Intensity E20 Standard
+A96	Target_is_general E20
+A97	Type E20 E
+T53	Entity 1725 1736	Elvebredden
+T55	Polar_expression 1946 1976	intens smakfull appetittvekker
+E21	Polar_expression:T55 Target:T54
+A98	Polarity E21 Positive
+A99	Source_is_author E21
+A100	Intensity E21 Strong
+A101	Type E21 E
+T54	Entity 1906 1940	espressokopp med strandkrabbesuppe
+T56	Polar_expression 1997 2004	fornøyd
+E22	Polar_expression:T56 Target:T57 Source:T58
+A102	Polarity E22 Positive
+A103	Source_is_author E22
+A104	Intensity E22 Standard
+A105	Type E22 E
+T57	Entity 2009 2070	bitene av and servert med pære , valnøtter og västerbottenost
+T58	Entity 1979 1987	Robinson
+T59	Polar_expression 2075 2097	Se så lekre rødbeter !
+E23	Polar_expression:T59 
+A106	Polarity E23 Positive
+A107	Source_is_author E23
+A108	Intensity E23 Strong
+A109	Target_is_general E23
+A110	Type E23 E
+T60	Polar_expression 2358 2390	Det løftet ser de ut til å holde
+E24	Polar_expression:T60 
+A111	Polarity E24 Positive
+A112	Source_is_author E24
+A113	Intensity E24 Standard
+A114	Target_is_general E24
+A115	Type E24 E
+T61	Entity 2447 2458	servitørene
+T62	Polar_expression 2441 2446;2459 2542	burde stolt opplyse om hvor rødbetene og de andre godsakene er dyrket , alt opp og fanget
+E25	Polar_expression:T62 
+A116	Polarity E25 Negative
+A117	Source_is_author E25
+A118	Intensity E25 Standard
+A119	Type E25 E
+T63	Polar_expression 2546 2636	En grillet piggvar ble servert med det deilige sidefettet som nærmest er verd retten alene
+E26	Polar_expression:T63 
+A120	Polarity E26 Positive
+A121	Source_is_author E26
+A122	Intensity E26 Standard
+A123	Target_is_general E26
+A124	Type E26 E
+T64	Entity 2687 2695	kelneren
+T65	Polar_expression 2696 2721	sparsom med informasjonen
+E27	Polar_expression:T65 Target:T64
+A125	Polarity E27 Negative
+A126	Source_is_author E27
+A127	Intensity E27 Standard
+A128	Type E27 E
+T66	Polar_expression 2748 2790	måtte smugle den første biten ut av munnen
+E28	Polar_expression:T66 
+A129	Polarity E28 Negative
+A130	Source_is_author E28
+A131	Intensity E28 Standard
+A132	Target_is_general E28
+A133	Type E28 E
+T67	Entity 2797 2807	servitøren
+T68	Polar_expression 2808 2891	hadde ikke opplyst om at sena som holdt kjøttet sammen så saftig ikke lot seg tygge
+E29	Polar_expression:T68 Target:T67
+A134	Polarity E29 Negative
+A135	Source_is_author E29
+A136	Intensity E29 Standard
+A137	Type E29 E
+T69	Polar_expression 2895 3080	Desserten av blåbær og lavendelyoghurt var igjen nordisk høyverdig , med bær av riktig naturell størrelse , som om de var plukket vilt samme ettermiddag , ikke av den tørre store sorten
+E30	Polar_expression:T69 
+A138	Polarity E30 Positive
+A139	Source_is_author E30
+A140	Intensity E30 Standard
+A141	Target_is_general E30
+A142	Type E30 E
+T70	Entity 3089 3100	Elvebredden
+T71	Entity 3159 3176	Robinson & Fredag
+T72	Polar_expression 3101 3121	får nok arbeidskraft
+E31	Polar_expression:T72 Target:T70 Source:T71
+A143	Polarity E31 Negative
+A144	Source_is_author E31
+A145	Intensity E31 Standard
+A146	Target_is_general E31
+A147	Type E31 E
+T73	Polar_expression 3125 3151	virkelig kan åpne matbaren
+E32	Polar_expression:T73 Target:T70 Source:T71
+A148	Polarity E32 Negative
+A149	Source_is_author E32
+A150	Intensity E32 Standard
+A151	Target_is_general E32
+A152	Type E32 E
+T74	Polar_expression 3152 3158	gleder
+E33	Polar_expression:T74 Source:T71 Target:T70
+A153	Polarity E33 Positive
+A154	Source_is_author E33
+A155	Intensity E33 Standard
+A156	Target_is_general E33
+A157	Type E33 E
+T75	Polar_expression 3177 3200	seg til å komme tilbake
+E34	Polar_expression:T75 Source:T71 Target:T70
+A158	Polarity E34 Positive
+A159	Source_is_author E34
+A160	Intensity E34 Standard
+A161	Target_is_general E34
+A162	Type E34 E

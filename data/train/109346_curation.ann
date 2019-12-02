@@ -1,0 +1,71 @@
+T1	EFINP 191 191	
+T2	E 395 395	
+T3	E 497 497	
+T4	E 624 624	
+T5	E 769 769	
+T6	E 809 809	
+T7	Entity 191 226	Støyrockens svar på George Harrison
+T8	Polar_expression 231 273	fremdeles med seg Steve Shelley på trommer
+E1	Polar_expression:T8 Target:T7
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Slight
+A4	Type E1 E
+A5	Target_is_general E1
+T9	Entity 395 435	Jazzmaster-entusiastens tiende soloalbum
+T10	Polar_expression 439 493	fylt av grom småglatt grumserock med middels bra vokal
+E2	Polar_expression:T10 Target:T9
+A6	Polarity E2 Negative
+A7	Source_is_author E2
+A8	Intensity E2 Standard
+A9	Target_is_general E2
+A10	Type E2 E
+T11	Polar_expression 447 451	grom
+E3	Polar_expression:T11 Target:T12
+A11	Polarity E3 Positive
+A12	Source_is_author E3
+A13	Intensity E3 Standard
+A14	Type E3 E
+T12	Entity 461 471	grumserock
+T13	Polar_expression 452 460	småglatt
+E4	Polar_expression:T13 Target:T12
+A15	Polarity E4 Negative
+A16	Source_is_author E4
+A17	Intensity E4 Slight
+A18	Type E4 E
+T14	Entity 488 493	vokal
+T15	Polar_expression 476 487	middels bra
+E5	Polar_expression:T15 Target:T14
+A19	Polarity E5 Negative
+A20	Source_is_author E5
+A21	Intensity E5 Slight
+A22	Type E5 E
+T16	Polar_expression 461 471	grumserock
+E6	Polar_expression:T16 Target:T9
+A23	Polarity E6 Negative
+A24	Source_is_author E6
+A25	Intensity E6 Standard
+A26	Target_is_general E6
+A27	Type E6 E
+T17	Entity 516 555	versjon av Neil Youngs viderverdigheter
+T18	Polar_expression 497 503;507 515	Tidvis velspilt
+E7	Polar_expression:T18 Target:T17
+A28	Polarity E7 Positive
+A29	Source_is_author E7
+A30	Intensity E7 Standard
+A31	Type E7 E
+A32	Target_is_general E7
+T19	Entity 668 674	titler
+T20	Polar_expression 656 667	fantasiløse
+E8	Polar_expression:T20 Target:T19
+A33	Polarity E8 Negative
+A34	Source_is_author E8
+A35	Intensity E8 Standard
+A36	Type E8 E
+T21	Polar_expression 744 766	spetakulære tryllerier
+E9	Polar_expression:T21 
+A37	Polarity E9 Positive
+A38	Source_is_author E9
+A39	Intensity E9 Strong
+A41	Type E9 E
+A40	Target_is_general E9

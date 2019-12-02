@@ -1,0 +1,164 @@
+T1	E 26 26	
+T2	E 116 116	
+T3	E 141 141	
+T4	E 206 206	
+T5	E 295 295	
+T6	E 534 534	
+T7	E 638 638	
+T8	E 664 664	
+T9	E 936 936	
+A1	NOT T9
+T10	E 1234 1234	
+A2	NOT T10
+T11	E 1458 1458	
+T12	E 1626 1626	
+T13	E 1817 1817	
+T14	E 1969 1969	
+T15	Polar_expression 82 92	litt støle
+E1	Polar_expression:T15 Target:T16
+A3	Polarity E1 Negative
+A4	Source_is_author E1
+A5	Intensity E1 Slight
+A6	Type E1 E
+T16	Entity 31 38;42 78	leddene replikkene til Arnold Schwarzenegger
+T17	Polar_expression 163 203	så bredbent at hoftene neste går av ledd
+E2	Polar_expression:T17 Target:T49
+A7	Polarity E2 Positive
+A8	Intensity E2 Slight
+T18	Polar_expression 206 213	Ujålete
+E3	Polar_expression:T18 Target:T19
+A9	Polarity E3 Positive
+A10	Source_is_author E3
+A11	Intensity E3 Standard
+A12	Type E3 E
+T19	Entity 214 225	bruksaction
+A13	Source_is_author E2
+A14	Target_is_general E2
+A15	Type E2 E
+T20	Polar_expression 259 279	innbitt urokkelighet
+E4	Polar_expression:T20 Target:T21
+A16	Polarity E4 Positive
+A17	Source_is_author E4
+A18	Intensity E4 Slight
+A20	Type E4 E
+T21	Entity 230 251	Arnold Schwarzenegger
+T22	Polar_expression 311 362	støl både i kroppen og onelinerne siden glansdagene
+E5	Polar_expression:T22 Target:T23
+A19	Polarity E5 Negative
+A21	Source_is_author E5
+A22	Intensity E5 Slight
+A23	NOT E5
+A24	Type E5 E
+T23	Entity 295 301	Arnold
+T24	Polar_expression 562 635	for mange av konfrontasjonene løses ved å gripe til en enda større skyter
+E6	Polar_expression:T24 
+A25	Polarity E6 Negative
+A26	Source_is_author E6
+A27	Intensity E6 Standard
+A28	Target_is_general E6
+A29	Type E6 E
+T25	Polar_expression 649 661	uoppfinnsomt
+E7	Polar_expression:T25 Target:T26
+A30	Polarity E7 Negative
+A31	Source_is_author E7
+A32	Intensity E7 Standard
+A33	Type E7 E
+T26	Entity 638 641	Det
+T27	Polar_expression 698 735	ikke det viktigste kvalitetskriteriet
+E8	Polar_expression:T27 Target:T28
+A34	Polarity E8 Negative
+A35	Source_is_author E8
+A36	Intensity E8 Slight
+A37	Type E8 E
+T28	Entity 673 686	oppfinnsomhet
+T29	Polar_expression 1361 1402	lett epileptisk koreansk spaghettiwestern
+E9	Polar_expression:T29 Target:T30
+A38	Polarity E9 Negative
+A39	Source_is_author E9
+A40	Intensity E9 Slight
+A41	NOT E9
+A42	Type E9 E
+T30	Entity 1319 1355	« The Good , The Bad and the Weird »
+T31	Polar_expression 1591 1622	bedre impulskontroll siden sist
+E10	Polar_expression:T31 Target:T32
+A43	Polarity E10 Positive
+A44	Source_is_author E10
+A45	Intensity E10 Standard
+A47	Type E10 E
+T32	Entity 1582 1585	han
+T33	Polar_expression 1554 1566	høyst synlig
+E11	Polar_expression:T33 Target:T34
+A46	Polarity E11 Positive
+A48	Source_is_author E11
+A49	Intensity E11 Slight
+A50	Type E11 E
+T34	Entity 1475 1550	Jee-woons inspirasjonskilder og forkjærlighet for sprutende skuddvekslinger
+T35	Polar_expression 1626 1642	Klisjeene regner
+E12	Polar_expression:T35 
+A51	Polarity E12 Negative
+A52	Source_is_author E12
+A53	Intensity E12 Slight
+A54	Target_is_general E12
+A55	Type E12 E
+T36	Polar_expression 1691 1813	burde tatt seg bryet med å gjøre skurken han spiller til noe mer enn en doven kombinasjon av tics og truende uttrykksløshe
+E13	Polar_expression:T36 Target:T37
+A56	Polarity E13 Negative
+A57	Source_is_author E13
+A58	Intensity E13 Standard
+A59	Type E13 E
+T37	Entity 1676 1690	Peter Stormare
+A60	NOT E13
+T38	Polar_expression 1839 1860	vippes opp på fireren
+E14	Polar_expression:T38 Target:T39
+A61	Polarity E14 Positive
+A62	Source_is_author E14
+A63	Intensity E14 Standard
+A64	Type E14 E
+T39	Entity 1821 1838	årets Arnold-epos
+T40	Polar_expression 1884 1894	gammeldags
+E15	Polar_expression:T40 Target:T41
+A65	Polarity E15 Positive
+A66	Source_is_author E15
+A67	Intensity E15 Standard
+A68	Type E15 E
+T41	Entity 1917 1930	underholdning
+T42	Polar_expression 1897 1903	jovial
+E16	Polar_expression:T42 Target:T41
+A69	Polarity E16 Positive
+A70	Source_is_author E16
+A71	Intensity E16 Standard
+A72	Type E16 E
+T43	Polar_expression 1907 1916	skikkelig
+E17	Polar_expression:T43 Target:T41
+A73	Polarity E17 Positive
+A74	Source_is_author E17
+A75	Intensity E17 Standard
+A76	Type E17 E
+T44	Polar_expression 1884 1930	gammeldags , jovial og skikkelig underholdning
+E18	Polar_expression:T44 Target:T39
+A77	Polarity E18 Positive
+A78	Source_is_author E18
+A79	Intensity E18 Standard
+A80	Type E18 E
+T45	Polar_expression 1937 1966	aldri tar seg selv høytidelig
+E19	Polar_expression:T45 Target:T41
+A81	Polarity E19 Positive
+A82	Source_is_author E19
+A83	Intensity E19 Standard
+A84	Type E19 E
+T46	Polar_expression 1969 2014	Begge de nevnte bena er godt plantet i bakken
+E20	Polar_expression:T46 
+A85	Polarity E20 Positive
+A86	Source_is_author E20
+A87	Intensity E20 Standard
+A88	Target_is_general E20
+A89	Type E20 E
+T47	Polar_expression 1993 2014	godt plantet i bakken
+E21	Polar_expression:T47 Target:T48
+A90	Polarity E21 Positive
+A91	Source_is_author E21
+A92	Intensity E21 Standard
+A93	NOT E21
+A94	Type E21 E
+T48	Entity 1969 1989	Begge de nevnte bena
+T49	Entity 141 159	« The Last Stand »

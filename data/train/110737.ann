@@ -1,0 +1,157 @@
+T1	E 25 25	
+T2	E 96 96	
+T3	E 401 401	
+A1	NOT T3
+T4	E 461 461	
+A2	NOT T4
+T5	E 1143 1143	
+T6	E 1249 1249	
+T7	E 1345 1345	
+T8	E 1423 1423	
+T9	E 1502 1502	
+T10	E 1532 1532	
+T11	E 1599 1599	
+T12	E 1763 1763	
+T13	Polar_expression 25 47	Usedvanlig frittalende
+E1	Polar_expression:T13 Target:T14
+A3	Polarity E1 Positive
+A4	Source_is_author E1
+A5	Intensity E1 Standard
+A6	Target_is_general E1
+A7	Type E1 E
+T14	Entity 48 52	film
+T15	Polar_expression 100 107	river !
+E2	Polar_expression:T15 
+A8	Polarity E2 Positive
+A9	Source_is_author E2
+A10	Intensity E2 Standard
+A11	Target_is_general E2
+A12	Type E2 E
+T16	Polar_expression 410 420	velmenende
+E3	Polar_expression:T16 Target:T17
+A13	Polarity E3 Positive
+A14	Source_is_author E3
+A15	Intensity E3 Slight
+A16	NOT E3
+A17	Type E3 E
+T17	Entity 401 406	Faren
+T18	Polar_expression 423 433	for streng
+E4	Polar_expression:T18 Target:T17
+A18	Polarity E4 Negative
+A19	Source_is_author E4
+A20	Intensity E4 Standard
+A21	Target_is_general E4
+A22	Type E4 E
+T19	Polar_expression 437 458	for lite innsiktsfull
+E5	Polar_expression:T19 Target:T17
+A23	Polarity E5 Negative
+A24	Source_is_author E5
+A25	Intensity E5 Standard
+A26	Type E5 E
+A27	NOT E5
+A28	NOT E4
+T20	Entity 471 476	piken
+T21	Polar_expression 465 470	vakre
+E6	Polar_expression:T21 Target:T20
+A29	Polarity E6 Positive
+A30	Source_is_author E6
+A31	Intensity E6 Standard
+A32	NOT E6
+A33	Type E6 E
+T22	Polar_expression 1164 1177	stor-talentet
+E7	Polar_expression:T22 Target:T23
+A34	Polarity E7 Positive
+A35	Source_is_author E7
+A36	Intensity E7 Standard
+A37	Type E7 E
+T23	Entity 1178 1191	Summer Bishil
+T24	Polar_expression 1164 1191	stor-talentet Summer Bishil
+E8	Polar_expression:T24 Target:T25
+A38	Polarity E8 Positive
+A39	Source_is_author E8
+A40	Intensity E8 Standard
+A41	Target_is_general E8
+A42	Type E8 E
+T25	Entity 1143 1150	Filmens
+T26	Entity 1249 1252	Hun
+T27	Polar_expression 1256 1261	sterk
+E9	Polar_expression:T27 Target:T26
+A43	Polarity E9 Positive
+A44	Source_is_author E9
+A45	Intensity E9 Standard
+A46	Type E9 E
+T28	Polar_expression 1265 1271	sårbar
+E10	Polar_expression:T28 Target:T26
+A47	Polarity E10 Positive
+A48	Source_is_author E10
+A49	Intensity E10 Standard
+A50	Type E10 E
+T29	Polar_expression 1275 1281	vakker
+E11	Polar_expression:T29 Target:T26
+A51	Polarity E11 Positive
+A52	Source_is_author E11
+A53	Intensity E11 Standard
+A54	Type E11 E
+T30	Polar_expression 1296 1304	sensuell
+E12	Polar_expression:T30 Target:T26
+A55	Polarity E12 Positive
+A56	Source_is_author E12
+A57	Intensity E12 Standard
+A58	Type E12 E
+T31	Polar_expression 1353 1385	rett i hjertet på en publikummer
+E13	Polar_expression:T31 Target:T32
+A59	Polarity E13 Positive
+A60	Source_is_author E13
+A61	Intensity E13 Standard
+A62	Type E13 E
+T32	Entity 1345 1348	Hun
+T33	Polar_expression 1388 1421	man føler så inderlig med henne !
+E14	Polar_expression:T33 Target:T32
+A63	Polarity E14 Positive
+A64	Source_is_author E14
+A65	Intensity E14 Strong
+A66	Type E14 E
+T34	Polar_expression 1445 1474	omfattende ufølsomme og dumme
+E15	Polar_expression:T34 Target:T35
+A67	Polarity E15 Negative
+A68	Source_is_author E15
+A69	Intensity E15 Standard
+A70	Type E15 E
+T35	Entity 1423 1441	Nesten alle voksne
+T36	Polar_expression 1522 1529	svakhet
+E16	Polar_expression:T36 Target:T37
+A71	Polarity E16 Negative
+A72	Source_is_author E16
+A73	Intensity E16 Standard
+A74	Target_is_general E16
+A75	Type E16 E
+T37	Entity 1514 1521	filmens
+T38	Polar_expression 1541 1570	for skjematisk og overfladisk
+E17	Polar_expression:T38 
+A76	Polarity E17 Negative
+A77	Source_is_author E17
+A78	Intensity E17 Standard
+A79	Target_is_general E17
+A80	Type E17 E
+T39	Polar_expression 1647 1670;1693 1750	denne typen provokasjon har jeg ikke blitt truffet av siden Larry Clarks « Kids »
+T40	Entity 1742 1750	« Kids »
+E19	Polar_expression:T39 
+A86	Polarity E19 Positive
+A87	Source_is_author E19
+A88	Intensity E19 Standard
+A89	Target_is_general E19
+A90	Type E19 E
+T41	Polar_expression 1647 1670	denne typen provokasjon
+E18	Polar_expression:T41 Target:T40
+A81	Polarity E18 Positive
+A82	Source_is_author E18
+A83	Intensity E18 Standard
+A84	NOT E18
+A85	Type E18 E
+T42	Polar_expression 1770 1812	mye å snakke om etter filmen , for mange !
+E20	Polar_expression:T42 
+A91	Polarity E20 Positive
+A92	Source_is_author E20
+A93	Intensity E20 Standard
+A94	Target_is_general E20
+A95	Type E20 E

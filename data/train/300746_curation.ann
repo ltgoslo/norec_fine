@@ -1,0 +1,86 @@
+T1	E 210 210	
+T2	E 531 531	
+T3	E 866 866	
+T4	E 949 949	
+T5	E 956 956	
+T6	E 1359 1359	
+T7	E 1515 1515	
+T8	Polar_expression 949 953	Enig
+E20	Polar_expression:T8 
+A90	Polarity E20 Positive
+A91	Intensity E20 Standard
+A92	Type E20 E
+A93	Source_is_author E20
+A94	NOT E20
+T9	Entity 210 215	Norge
+T10	Polar_expression 219 246	endelig med i et mesterskap
+E1	Polar_expression:T10 Target:T9
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	NOT E1
+A5	Type E1 E
+T11	Entity 550 557	fotball
+T12	Polar_expression 563 748	et av mange godt egnede steder å få ut frustrasjoner , aggresjon og samtidig være med i et kollektiv med helt klare ambisjoner som strekker seg langt utover det å se fram til neste kamp
+E2	Polar_expression:T12 Target:T11
+A6	Polarity E2 Positive
+A7	Source_is_author E2
+A8	Intensity E2 Standard
+A9	NOT E2
+A10	Type E2 E
+T13	Entity 870 885	en av spillerne
+T14	Entity 893 900	fotball
+T15	Polar_expression 930 946	god form for rus
+E3	Polar_expression:T15 Target:T14 Source:T13
+A11	Polarity E3 Positive
+A12	Intensity E3 Standard
+A13	NFP E3
+A14	NOT E3
+A15	Type E3 E
+T16	Entity 956 963	Fotball
+T17	Entity 967 974	trening
+T18	Polar_expression 975 1015	kan faktisk nesten redde verden , nesten
+E4	Polar_expression:T18 Target:T17
+A16	Polarity E4 Positive
+A17	Source_is_author E4
+A18	Intensity E4 Standard
+A19	NOT E4
+A20	Type E4 E
+E5	Polar_expression:T18 Target:T16
+A21	Polarity E5 Positive
+A22	Source_is_author E5
+A23	Intensity E5 Standard
+A24	NOT E5
+A25	Type E5 E
+T19	Polar_expression 1363 1373	sympatiske
+E6	Polar_expression:T19 Target:T20
+A26	Polarity E6 Positive
+A27	Source_is_author E6
+A28	Intensity E6 Standard
+A29	Type E6 E
+T20	Entity 1374 1381	gjengen
+T21	Polar_expression 1382 1409	forteller nøkternt og ærlig
+E7	Polar_expression:T21 Target:T20
+A30	Polarity E7 Positive
+A31	Source_is_author E7
+A32	Intensity E7 Standard
+A33	Type E7 E
+T22	Entity 1518 1540	de som står bak serien
+T23	Polar_expression 1541 1605	lar seg ikke friste til å overdramatisere med for mange effekter
+E8	Polar_expression:T23 Target:T22
+A34	Polarity E8 Positive
+A35	Source_is_author E8
+A36	Intensity E8 Standard
+A37	Type E8 E
+T24	Polar_expression 1608 1681	ei heller blir det sosialporno med for mye innsmett av regissert feelgood
+E9	Polar_expression:T24 Target:T22
+A38	Polarity E9 Positive
+A39	Source_is_author E9
+A40	Intensity E9 Standard
+A41	Type E9 E
+T25	Polar_expression 1688 1720	litt regi er det nok innsmett av
+E10	Polar_expression:T25 Target:T22
+A42	Polarity E10 Negative
+A43	Source_is_author E10
+A44	Intensity E10 Slight
+A45	Type E10 E

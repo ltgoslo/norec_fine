@@ -1,0 +1,806 @@
+T1	E 12 12	
+T2	E 80 80	
+T3	E 284 284	
+A1	NOT T3
+T4	E 596 596	
+T5	EFINP 637 637	
+T6	EFINP 833 833	
+T7	EFINP 1184 1184	
+T8	E 1258 1258	
+T9	E 1772 1772	
+T10	E 1931 1931	
+T11	E 2031 2031	
+T12	E 2215 2215	
+T13	E 2364 2364	
+T14	E 2926 2926	
+T15	E 3172 3172	
+T16	E 3230 3230	
+T17	E 3784 3784	
+T18	E 3905 3905	
+T19	E 4058 4058	
+T20	E 4275 4275	
+T21	EFINP 4304 4304	
+T22	E 4380 4380	
+T23	E 4728 4728	
+T24	E 4781 4781	
+T25	E 4950 4950	
+T26	E 5344 5344	
+T27	E 5396 5396	
+T28	EFINP 5500 5500	
+T29	EFINP 5770 5770	
+T30	EFINP 5826 5826	
+T31	E 6042 6042	
+T32	E 6202 6202	
+T33	E 6304 6304	
+T34	EFINP 6525 6525	
+T35	EFINP 6728 6728	
+T36	EFINP 6871 6871	
+T37	E 7012 7012	
+T38	E 7036 7036	
+T39	E 7088 7088	
+T40	E 7160 7160	
+T41	E 7379 7379	
+T42	E 7848 7848	
+A2	NFP T42
+T43	E 7971 7971	
+T44	E 8229 8229	
+T45	E 9557 9557	
+T46	E 9682 9682	
+T47	E 9839 9839	
+T48	Entity 21 37	kabel-TV-dekoder
+T49	Polar_expression 58 77	framtiden foran seg
+E1	Polar_expression:T49 Target:T48
+A3	Polarity E1 Positive
+A4	Source_is_author E1
+A5	Intensity E1 Standard
+A6	Target_is_general E1
+A7	Type E1 E
+T50	Polar_expression 94 127	ikke sikkert du trenger den i dag
+E2	Polar_expression:T50 
+A8	Polarity E2 Positive
+A9	Source_is_author E2
+A10	Intensity E2 Standard
+A11	Target_is_general E2
+A12	Type E2 E
+T51	Entity 284 290	Boksen
+T52	Polar_expression 291 320	har vært en ubetinget suksess
+E3	Polar_expression:T52 Target:T51
+A13	Polarity E3 Positive
+A14	Source_is_author E3
+A15	Intensity E3 Standard
+A16	NOT E3
+A18	Type E3 E
+T53	Polar_expression 370 395	utmerket brukervennlighet
+E4	Polar_expression:T53 Target:T51
+A19	Polarity E4 Positive
+A20	Source_is_author E4
+A21	NOT E4
+A22	Type E4 E
+T54	Polar_expression 354 366	menysystemet
+E5	Polar_expression:T54 Target:T51
+A17	Polarity E5 Positive
+A23	Source_is_author E5
+A24	NOT E5
+A25	Type E5 E
+T55	Entity 617 623	boksen
+T56	Polar_expression 627 633	råtass
+E6	Polar_expression:T56 Target:T55
+A26	Polarity E6 Positive
+A27	Source_is_author E6
+A28	Intensity E6 Standard
+A29	Target_is_general E6
+A30	Type E6 E
+T57	Polar_expression 657 666	16 tunere
+E7	Polar_expression:T57 Target:T62
+A31	Polarity E7 Positive
+A32	Source_is_author E7
+A33	Intensity E7 Standard
+A34	Target_is_general E7
+A35	Type E7 EFINP
+T58	Polar_expression 669 693	harddisk på 500 gigabyte
+E8	Polar_expression:T58 Target:T62
+A36	Polarity E8 Positive
+A37	Source_is_author E8
+A38	Target_is_general E8
+A39	Type E8 EFINP
+T59	Polar_expression 745 768	innebygget trådløsruter
+E9	Polar_expression:T59 Target:T62
+A40	Polarity E9 Positive
+A41	Source_is_author E9
+A42	Intensity E9 Standard
+A43	Target_is_general E9
+A44	Type E9 EFINP
+T60	Polar_expression 771 793	støtte for IP-telefoni
+E10	Polar_expression:T60 Target:T62
+A45	Polarity E10 Positive
+A46	Source_is_author E10
+A47	Intensity E10 Standard
+A48	Target_is_general E10
+A49	Type E10 EFINP
+T61	Polar_expression 797 830	støtte for Dolby Digital Plus-lyd
+E11	Polar_expression:T61 Target:T62
+A50	Polarity E11 Positive
+A51	Source_is_author E11
+A52	Intensity E11 Standard
+A53	Target_is_general E11
+A54	Type E11 EFINP
+T62	Entity 637 640	Den
+T63	Polar_expression 850 885	betydelig mindre enn sin forgjenger
+E12	Polar_expression:T63 Target:T64
+A55	Polarity E12 Positive
+A56	Source_is_author E12
+A57	Intensity E12 Standard
+A58	Target_is_general E12
+A59	Type E12 EFINP
+T64	Entity 846 849	den
+T65	Entity 875 885	forgjenger
+T66	Polar_expression 846 870	den betydelig mindre enn
+E13	Polar_expression:T66 Target:T65
+A60	Polarity E13 Negative
+A61	Source_is_author E13
+A62	Intensity E13 Standard
+A63	Target_is_general E13
+A64	Type E13 EFINP
+T67	Polar_expression 918 925	smalere
+E14	Polar_expression:T67 Target:T64
+A65	Polarity E14 Positive
+A66	Source_is_author E14
+A67	Intensity E14 Standard
+A68	Target_is_general E14
+A69	Type E14 EFINP
+T68	Polar_expression 936 945	firkantet
+E15	Polar_expression:T68 Target:T64
+A70	Polarity E15 Positive
+A71	Source_is_author E15
+A72	Intensity E15 Standard
+A73	Target_is_general E15
+A74	Type E15 EFINP
+T69	Polar_expression 1184 1224	Menysystemet er fullstendig likt som før
+E16	Polar_expression:T69 
+A75	Polarity E16 Positive
+A76	Source_is_author E16
+A77	Intensity E16 Standard
+A78	Target_is_general E16
+A79	Type E16 EFINP
+T70	Entity 1327 1337	Get box II
+T71	Polar_expression 1312 1326	riktig så pene
+E17	Polar_expression:T71 Target:T70
+A80	Polarity E17 Positive
+A81	Source_is_author E17
+A82	Intensity E17 Standard
+A83	Target_is_general E17
+A84	Type E17 E
+T72	Polar_expression 1258 1418	Avstanden estetisk sett mellom fjernkontrollen og den riktig så pene Get box II er nå like stor som avstanden mellom en supermodell og en kassebil fra 70-tallet
+E18	Polar_expression:T72 
+A85	Polarity E18 Negative
+A86	Source_is_author E18
+A87	Intensity E18 Standard
+A88	Target_is_general E18
+A89	Type E18 E
+T73	Polar_expression 1396 1418	kassebil fra 70-tallet
+E19	Polar_expression:T73 Target:T74
+A90	Polarity E19 Negative
+A91	Source_is_author E19
+A92	Intensity E19 Standard
+A93	Target_is_general E19
+A94	Type E19 E
+T74	Entity 1289 1304	fjernkontrollen
+T75	Polar_expression 1378 1389	supermodell
+E20	Polar_expression:T75 Target:T70
+A95	Polarity E20 Positive
+A96	Source_is_author E20
+A97	Intensity E20 Standard
+A98	Target_is_general E20
+A99	Type E20 E
+T76	Polar_expression 1499 1504	liker
+E21	Polar_expression:T76 Target:T74 Source:T78
+A100	Polarity E21 Positive
+A102	Intensity E21 Standard
+A103	NFP E21
+A104	Target_is_general E21
+A105	Type E21 E
+T77	Polar_expression 1464 1477	godt vant med
+E22	Polar_expression:T77 Target:T74 Source:T78
+A106	Polarity E22 Positive
+A107	NFP E22
+A108	Target_is_general E22
+A109	Type E22 E
+T78	Entity 1458 1460	vi
+T79	Polar_expression 1429 1455	gjør forsåvidt ikke så mye
+E23	Polar_expression:T79 Target:T80
+A101	Polarity E23 Positive
+A110	Source_is_author E23
+A111	Intensity E23 Standard
+A112	Target_is_general E23
+A113	Type E23 E
+T80	Entity 1425 1428	det
+T81	Polar_expression 1882 1902	aldri lagt merke til
+E24	Polar_expression:T81 Target:T82
+A114	Polarity E24 Positive
+A115	Source_is_author E24
+A116	Intensity E24 Standard
+A117	Target_is_general E24
+A118	Type E24 E
+T82	Entity 1903 1906	sus
+T83	Entity 1919 1928	viftestøy
+E25	Polar_expression:T81 Target:T83
+A119	Polarity E25 Positive
+A120	Source_is_author E25
+A121	Intensity E25 Standard
+A122	Target_is_general E25
+A123	Type E25 E
+T84	Entity 1949 1959	harddisken
+T85	Polar_expression 1968 1981	bedre isolert
+E26	Polar_expression:T85 Target:T84
+A124	Polarity E26 Positive
+A125	Source_is_author E26
+A126	Intensity E26 Standard
+A127	Target_is_general E26
+A128	Type E26 E
+T86	Entity 1974 1981	isolert
+T87	Polar_expression 1968 1973	bedre
+E27	Polar_expression:T87 Target:T86
+A129	Polarity E27 Positive
+A130	Source_is_author E27
+A131	Intensity E27 Standard
+A132	Target_is_general E27
+A133	Type E27 E
+T88	Polar_expression 2001 2028	usedvanlig vanskelig å høre
+E28	Polar_expression:T88 Target:T84
+A134	Polarity E28 Positive
+A135	Source_is_author E28
+A136	Intensity E28 Standard
+A137	Target_is_general E28
+A138	Type E28 E
+T89	Polar_expression 2040 2052	gode nyheter
+E29	Polar_expression:T89 Target:T90
+A139	Polarity E29 Positive
+A140	Source_is_author E29
+A141	Intensity E29 Standard
+A142	Target_is_general E29
+A143	Type E29 E
+T90	Entity 2031 2036	Dette
+T91	Entity 2215 2225	Get box II
+T92	Polar_expression 2244 2271	betydelig raskere prosessor
+E30	Polar_expression:T92 Target:T93
+A144	Polarity E30 Negative
+A145	Source_is_author E30
+A146	Intensity E30 Standard
+A147	NOT E30
+A148	Type E30 E
+T93	Entity 2276 2288	forgjengeren
+E31	Polar_expression:T92 Target:T91
+A149	Polarity E31 Positive
+A150	Source_is_author E31
+A151	Intensity E31 Standard
+A152	Target_is_general E31
+A153	Type E31 E
+T94	Entity 2302 2315	kanalveksling
+T95	Entity 2322 2341	bla gjennom menyene
+T96	Polar_expression 2345 2361	merkbart raskere
+E32	Polar_expression:T96 Target:T95
+A154	Polarity E32 Positive
+A155	Source_is_author E32
+A156	Intensity E32 Standard
+A157	Target_is_general E32
+A158	Type E32 E
+E33	Polar_expression:T96 Target:T94
+A159	Polarity E33 Positive
+A160	Source_is_author E33
+A161	Intensity E33 Standard
+A162	Target_is_general E33
+A163	Type E33 E
+T97	Polar_expression 2294 2361	alt fra kanalveksling til å bla gjennom menyene er merkbart raskere
+E34	Polar_expression:T97 Target:T91
+A164	Polarity E34 Positive
+A165	Source_is_author E34
+A166	Intensity E34 Standard
+A167	Target_is_general E34
+A168	Type E34 E
+T98	Polar_expression 2379 2390	kjærkomment
+E35	Polar_expression:T98 Target:T99
+A169	Polarity E35 Positive
+A170	Source_is_author E35
+A171	Intensity E35 Standard
+A172	Target_is_general E35
+A173	Type E35 E
+T99	Entity 2372 2375	det
+T100	Polar_expression 2926 2951	Skuffelsen er derfor stor
+E36	Polar_expression:T100 Target:T101
+A174	Polarity E36 Negative
+A175	Source_is_author E36
+A176	Intensity E36 Standard
+A177	Target_is_general E36
+A178	Type E36 E
+T101	Entity 3067 3113	" Get box II lanseres med 2 aktive tv-tunere "
+T102	Polar_expression 3175 3227	kan ta opp to programmer samtidig , men ikke noe mer
+E37	Polar_expression:T102 
+A179	Polarity E37 Negative
+A180	Source_is_author E37
+A181	Intensity E37 Standard
+A182	Target_is_general E37
+A183	Type E37 E
+T103	Polar_expression 3426 3440	stor skuffelse
+E38	Polar_expression:T103 Target:T104
+A184	Polarity E38 Negative
+A185	Source_is_author E38
+A186	Intensity E38 Standard
+A187	Target_is_general E38
+A188	Type E38 E
+T104	Entity 3238 3301	vi mer enn én gang har opplevd såkalt opptakskonflikt på HD PVR
+T105	Entity 3812 3823	mensystemet
+T106	Entity 3827 3843	funksjonaliteten
+T107	Polar_expression 3844 3861	fungerer utmerket
+E39	Polar_expression:T107 Target:T106
+A189	Polarity E39 Positive
+A190	Source_is_author E39
+A191	Intensity E39 Standard
+A192	Target_is_general E39
+A193	Type E39 E
+E40	Polar_expression:T107 Target:T105
+A194	Polarity E40 Positive
+A195	Source_is_author E40
+A196	Intensity E40 Standard
+A197	Target_is_general E40
+A198	Type E40 E
+T108	Polar_expression 3873 3902	oppvisning i brukervennlighet
+E41	Polar_expression:T108 Target:T106
+A199	Polarity E41 Positive
+A200	Source_is_author E41
+A201	Intensity E41 Standard
+A202	Target_is_general E41
+A203	Type E41 E
+E42	Polar_expression:T108 Target:T105
+A204	Polarity E42 Positive
+A205	Source_is_author E42
+A206	Intensity E42 Standard
+A207	Target_is_general E42
+A208	Type E42 E
+T109	Polar_expression 3986 3994;4026 4055	oppleves fortsatt som relativt moderne
+E43	Polar_expression:T109 Target:T111
+A209	Polarity E43 Positive
+A210	Source_is_author E43
+A211	Intensity E43 Standard
+A212	Target_is_general E43
+A213	Type E43 E
+T110	Entity 3995 4001	menyer
+T111	Entity 4004 4012	TV-guide
+E44	Polar_expression:T109 Target:T110
+A214	Polarity E44 Positive
+A215	Source_is_author E44
+A216	Intensity E44 Standard
+A217	Target_is_general E44
+A218	Type E44 E
+T112	Entity 4058 4073	Bildekvaliteten
+T113	Polar_expression 4086 4095	strålende
+E45	Polar_expression:T113 Target:T112
+A219	Polarity E45 Positive
+A220	Source_is_author E45
+A221	Intensity E45 Strong
+A222	Target_is_general E45
+A223	Type E45 E
+T114	Polar_expression 4112 4236	fortsatt savner muligheten til å velge bort kanaler fra " bla-lista2 som vi ikke vil se på eller som vi ikke har tilgang til
+E46	Polar_expression:T114 Source:T117
+A224	Polarity E46 Negative
+A225	Source_is_author E46
+A226	Intensity E46 Standard
+A227	Target_is_general E46
+A228	Type E46 E
+T115	Entity 4242 4259	helhetsinntrykket
+T116	Polar_expression 4260 4271	svært solid
+E47	Polar_expression:T116 Target:T115
+A229	Polarity E47 Negative
+A230	Source_is_author E47
+A231	Intensity E47 Standard
+A232	Target_is_general E47
+A233	Type E47 E
+T117	Entity 4109 4111	vi
+T118	Entity 4283 4288	ruter
+T119	Polar_expression 4278 4282;4289 4302	grei for de fleste
+E48	Polar_expression:T119 Target:T118
+A234	Polarity E48 Positive
+A235	Source_is_author E48
+A236	Intensity E48 Standard
+A237	Target_is_general E48
+A238	Type E48 E
+T120	Polar_expression 4349 4377	fungerer som en trådløsruter
+E49	Polar_expression:T120 Target:T121
+A239	Polarity E49 Positive
+A240	Source_is_author E49
+A241	Intensity E49 Standard
+A242	Target_is_general E49
+A243	Type E49 EFINP
+T121	Entity 4313 4323	Get box II
+T122	Entity 4380 4383	Den
+T123	Polar_expression 4384 4436	støtter både såkalt 2,4GHz og 5GHz trådløsoverføring
+E50	Polar_expression:T123 Target:T122
+A244	Polarity E50 Positive
+A245	Source_is_author E50
+A246	Intensity E50 Standard
+A247	Target_is_general E50
+A248	Type E50 E
+T124	Polar_expression 4384 4396	støtter både
+E51	Polar_expression:T124 Target:T125
+A249	Polarity E51 Positive
+A250	Source_is_author E51
+A251	Intensity E51 Standard
+A252	Target_is_general E51
+A253	Type E51 E
+T125	Entity 4404 4436	2,4GHz og 5GHz trådløsoverføring
+T126	Entity 4762 4767	dette
+T127	Polar_expression 4753 4761;4768 4778	fungerer helt greit
+E52	Polar_expression:T127 Target:T126
+A254	Polarity E52 Positive
+A255	Source_is_author E52
+A256	Intensity E52 Standard
+A257	Target_is_general E52
+A258	Type E52 E
+T128	Polar_expression 4788 4824	ikke opplevd ustabilitet av noe slag
+E53	Polar_expression:T128 Source:T129
+A259	Polarity E53 Positive
+A260	Intensity E53 Standard
+A261	NFP E53
+A262	Target_is_general E53
+A263	Type E53 E
+T129	Entity 4781 4783	Vi
+T130	Polar_expression 4885 4946	trivdes godt sammen med den innebygde trådløsfunksjonaliteten
+E54	Polar_expression:T130 Target:T133
+A264	Polarity E54 Positive
+A265	Source_is_author E54
+A266	Intensity E54 Standard
+A267	Target_is_general E54
+A268	Type E54 E
+T131	Entity 4845 4854	nettbrett
+T132	Entity 4857 4869	smartmobiler
+T133	Entity 4873 4880	bærbare
+E55	Polar_expression:T130 Target:T132
+E56	Polar_expression:T130 Target:T131
+A269	Polarity E55 Positive
+A270	Polarity E56 Positive
+A271	Source_is_author E55
+A272	Source_is_author E56
+A273	Intensity E55 Standard
+A274	Intensity E56 Standard
+A275	Target_is_general E55
+A276	Target_is_general E56
+A277	Type E55 E
+A278	Type E56 E
+T134	Polar_expression 4913 4946	innebygde trådløsfunksjonaliteten
+E57	Polar_expression:T134 
+A279	Polarity E57 Positive
+A280	Source_is_author E57
+A281	Intensity E57 Standard
+A282	Target_is_general E57
+A283	Type E57 EFINP
+T135	Entity 4913 4946	innebygde trådløsfunksjonaliteten
+T136	Polar_expression 4885 4897	trivdes godt
+E58	Polar_expression:T136 Target:T135
+A284	Polarity E58 Positive
+A285	Source_is_author E58
+A286	Intensity E58 Standard
+A287	Target_is_general E58
+A288	Type E58 E
+T137	Polar_expression 5052 5086	ikke kan fungere som et rent modem
+E59	Polar_expression:T137 Target:T138
+A289	Polarity E59 Negative
+A290	Source_is_author E59
+A291	Intensity E59 Standard
+A292	Target_is_general E59
+A293	Type E59 E
+T138	Entity 5041 5051	Get box II
+T139	Entity 5069 5086	som et rent modem
+T140	Polar_expression 5052 5068	ikke kan fungere
+E60	Polar_expression:T140 Target:T139
+A294	Polarity E60 Negative
+A295	Source_is_author E60
+A296	Intensity E60 Standard
+A297	Target_is_general E60
+A298	Type E60 E
+T141	Polar_expression 5344 5353	Ruter-rot
+E61	Polar_expression:T141 
+A299	Polarity E61 Negative
+A300	Source_is_author E61
+A301	Intensity E61 Standard
+A302	Target_is_general E61
+A303	Type E61 E
+T142	Polar_expression 5402 5434	mange rutere simpelthen er bedre
+E62	Polar_expression:T142 Target:T144
+A304	Polarity E62 Negative
+A305	Source_is_author E62
+A306	Intensity E62 Standard
+A307	Target_is_general E62
+A308	Type E62 E
+T143	Polar_expression 5440 5458	ikke minst raskere
+E63	Polar_expression:T143 Target:T144
+A309	Polarity E63 Negative
+A310	Source_is_author E63
+A311	Intensity E63 Standard
+A312	Target_is_general E63
+A313	Type E63 E
+T144	Entity 5465 5497	trådløsruteren inne i Get box II
+T145	Polar_expression 5525 5567	støtter blant annet såkalt retningsstyring
+E64	Polar_expression:T145 Target:T146
+A314	Polarity E64 Positive
+A315	Source_is_author E64
+A316	Intensity E64 Standard
+A317	Target_is_general E64
+A318	Type E64 EFINP
+T146	Entity 5514 5524	Get-boksen
+T147	Entity 5774 5777	den
+T148	Polar_expression 5778 5823	støtter derimot ikke den ferske AC-standarden
+E65	Polar_expression:T148 Target:T147
+A319	Polarity E65 Negative
+A320	Source_is_author E65
+A321	Intensity E65 Standard
+A322	Target_is_general E65
+A323	Type E65 EFINP
+T149	Polar_expression 6145 6198	en del av vitsen med å samle alt i én boks litt borte
+E66	Polar_expression:T149 
+A324	Polarity E66 Negative
+A325	Source_is_author E66
+A326	Intensity E66 Standard
+A327	Target_is_general E66
+A328	Type E66 E
+T150	Polar_expression 5946 6039	vil du med andre ord ikke kunne bruke denne sammen med Get box II for å få maksimal hastighet
+E67	Polar_expression:T150 
+A329	Polarity E67 Negative
+A330	Source_is_author E67
+A331	Intensity E67 Standard
+A332	Target_is_general E67
+A333	Type E67 E
+T151	Polar_expression 6211 6247	likevel til å leve med for de fleste
+E68	Polar_expression:T151 Target:T152
+A334	Polarity E68 Positive
+A335	Source_is_author E68
+A336	Intensity E68 Standard
+A337	Target_is_general E68
+A338	Type E68 E
+T152	Entity 6202 6207	Dette
+T153	Polar_expression 6434 6507	for nittifem prosent av Get-kundene vil ikke dette være noen ulempe i dag
+E69	Polar_expression:T153 Target:T155
+A339	Polarity E69 Positive
+A340	Intensity E69 Standard
+A341	Target_is_general E69
+A342	Type E69 E
+T155	Entity 6369 6403	en må legge listen et bestemt sted
+T156	Entity 6525 6537	Øyvind Husby
+T157	Polar_expression 6566 6615	mulig å koble til en trådløs ruter til Get box II
+E70	Polar_expression:T157 Target:T156
+A343	Polarity E70 Positive
+A344	Source_is_author E70
+A345	Intensity E70 Standard
+A346	Target_is_general E70
+A347	Type E70 E
+T158	Polar_expression 6566 6583	mulig å koble til
+E71	Polar_expression:T158 Target:T159
+A348	Polarity E71 Positive
+A349	Source_is_author E71
+A350	Intensity E71 Standard
+A351	Target_is_general E71
+A352	Type E71 E
+T159	Entity 6587 6615	trådløs ruter til Get box II
+T160	Entity 6728 6738	Get box II
+T162	Polar_expression 6808 6824;6835 6868	senere versjoner vil kunne inneholde ac-standarden
+E72	Polar_expression:T162 Target:T160
+A353	Polarity E72 Positive
+A354	Source_is_author E72
+A355	Intensity E72 Standard
+A356	Target_is_general E72
+A357	Type E72 EFINP
+T161	Entity 6902 6908	boksen
+T163	Polar_expression 6922 7009	utstyrt med såkalt " full bridge " -modus , og dermed også kunne fungere som rent modem
+E73	Polar_expression:T163 Target:T161
+A358	Polarity E73 Positive
+A359	Source_is_author E73
+A360	Intensity E73 Standard
+A361	Target_is_general E73
+A362	Type E73 EFINP
+T164	Polar_expression 7012 7024	Gode nyheter
+E74	Polar_expression:T164 
+A363	Polarity E74 Positive
+A364	Source_is_author E74
+A365	Intensity E74 Standard
+A366	Target_is_general E74
+A367	Type E74 E
+T165	Polar_expression 7036 7041	Verre
+E75	Polar_expression:T165 Target:T166
+A368	Polarity E75 Negative
+A369	Source_is_author E75
+A370	Intensity E75 Standard
+A371	Target_is_general E75
+A372	Type E75 E
+T166	Entity 7057 7085	ruterens brukergrensesnittet
+T167	Polar_expression 7148 7157	salig rot
+E76	Polar_expression:T167 Target:T168
+A373	Polarity E76 Negative
+A374	Source_is_author E76
+A375	Intensity E76 Strong
+A376	Target_is_general E76
+A377	Type E76 E
+T168	Entity 7093 7098	dette
+T169	Polar_expression 7099 7113	jobbes det med
+E77	Polar_expression:T169 Target:T168
+A378	Polarity E77 Positive
+A379	Source_is_author E77
+A380	Intensity E77 Slight
+A381	Target_is_general E77
+A382	Type E77 E
+T170	Entity 7160 7168	Layouten
+T171	Polar_expression 7172 7177	stygg
+E78	Polar_expression:T171 Target:T170
+A383	Polarity E78 Negative
+A384	Source_is_author E78
+A385	Intensity E78 Standard
+A386	Target_is_general E78
+A387	Type E78 E
+T172	Polar_expression 7197 7213	litt forvirrende
+E79	Polar_expression:T172 Target:T170
+A388	Polarity E79 Negative
+A389	Source_is_author E79
+A390	Intensity E79 Standard
+A391	Target_is_general E79
+A392	Type E79 E
+T173	Polar_expression 7219 7375	alle som har vært borti brukergrensesnittet på for eksempel en nyere Asus-ruter vil raskt se at Get har litt å jobbe med når det kommer til brukervennlighet
+E80	Polar_expression:T173 
+A393	Polarity E80 Negative
+A394	Source_is_author E80
+A395	Intensity E80 Standard
+A396	Target_is_general E80
+A397	Type E80 E
+T174	Polar_expression 7323 7375	litt å jobbe med når det kommer til brukervennlighet
+E81	Polar_expression:T174 Target:T175
+A398	Polarity E81 Negative
+A399	Source_is_author E81
+A400	Intensity E81 Standard
+A401	Target_is_general E81
+A402	Type E81 E
+T175	Entity 7315 7318	Get
+T176	Entity 7379 7386	Ruteren
+T177	Polar_expression 7387 7425	mangler også såkalt QoS-funksjonalitet
+E82	Polar_expression:T177 Target:T176
+A403	Polarity E82 Negative
+A404	Source_is_author E82
+A405	Intensity E82 Standard
+A406	Target_is_general E82
+A407	Type E82 E
+T178	Entity 7407 7425	QoS-funksjonalitet
+T179	Polar_expression 7387 7394	mangler
+E83	Polar_expression:T179 Target:T178
+A408	Polarity E83 Negative
+A409	Source_is_author E83
+A410	Intensity E83 Standard
+A411	Target_is_general E83
+A412	Type E83 E
+T180	Polar_expression 7440 7492	mistenker at en del Get-kunder ikke er så opptatt av
+E84	Polar_expression:T180 Target:T178
+A413	Polarity E84 Positive
+A414	Source_is_author E84
+A415	Intensity E84 Slight
+A416	Target_is_general E84
+A417	Type E84 E
+T181	Entity 7432 7434	vi
+A418	Source_is_author E69
+T154	Entity 7848 7851	Get
+T182	Entity 7866 7876	Get box II
+T183	Polar_expression 7887 7919	ikke utgjør noen stor revolusjon
+E85	Polar_expression:T183 Target:T182 Source:T154
+A419	Polarity E85 Negative
+A420	Intensity E85 Standard
+A421	NFP E85
+A422	Target_is_general E85
+A423	Type E85 E
+T184	Polar_expression 7988 8004	merkbart raskere
+E86	Polar_expression:T184 Target:T188
+A424	Polarity E86 Positive
+A425	Source_is_author E86
+A426	Intensity E86 Standard
+A427	Target_is_general E86
+A428	Type E86 E
+T185	Polar_expression 7988 7996	merkbart
+E87	Polar_expression:T185 Target:T187
+A429	Polarity E87 Positive
+A430	Source_is_author E87
+A431	Intensity E87 Standard
+A432	Target_is_general E87
+A433	Type E87 E
+T186	Polar_expression 7997 8004	raskere
+E88	Polar_expression:T186 
+A434	Polarity E88 Positive
+A435	Source_is_author E88
+A436	Intensity E88 Standard
+A437	Target_is_general E88
+A438	Type E88 E
+T187	Entity 7997 8004	raskere
+T188	Entity 7971 7974	Den
+T189	Polar_expression 8014 8020	mindre
+E89	Polar_expression:T189 Target:T188
+A439	Polarity E89 Positive
+A440	Source_is_author E89
+A441	Intensity E89 Standard
+A442	Target_is_general E89
+A443	Type E89 E
+T190	Polar_expression 8034 8089	utvidede opptaksmuligheter i form av en større harddisk
+E90	Polar_expression:T190 Target:T188
+A444	Polarity E90 Positive
+A445	Source_is_author E90
+A446	Intensity E90 Standard
+A447	Target_is_general E90
+A448	Type E90 E
+T192	Entity 8081 8089	harddisk
+T193	Polar_expression 8074 8080	større
+E92	Polar_expression:T193 Target:T192
+A454	Polarity E92 Positive
+A455	Source_is_author E92
+A456	Intensity E92 Standard
+A457	Target_is_general E92
+A458	Type E92 E
+T191	Polar_expression 8034 8042	utvidede
+E91	Polar_expression:T191 Target:T194
+A449	Polarity E91 Positive
+A450	Source_is_author E91
+A451	Intensity E91 Standard
+A452	Target_is_general E91
+A453	Type E91 E
+T194	Entity 8043 8060	opptaksmuligheter
+T196	Polar_expression 8239 8263	finnes strengt tatt ikke
+E94	Polar_expression:T196 Target:T197
+A464	Polarity E94 Negative
+A465	Source_is_author E94
+A466	Intensity E94 Standard
+A467	Target_is_general E94
+A468	Type E94 E
+T197	Entity 8264 8314	veldig gode grunner til at du skal gjøre det i dag
+T195	Entity 8399 8409	Get box II
+T198	Polar_expression 8331 8398;8410 8419	Get jobber med lanseringsplaner for neste år som virkelig kan gjøre spennende
+E93	Polar_expression:T198 Target:T195
+A459	Source_is_author E93
+A460	Intensity E93 Slight
+A461	Target_is_general E93
+A462	Type E93 E
+T200	Polar_expression 9561 9575	mest spennende
+E96	Polar_expression:T200 Target:T201
+A473	Polarity E96 Positive
+A474	Source_is_author E96
+A475	Intensity E96 Standard
+A476	Target_is_general E96
+A477	Type E96 E
+T201	Entity 9610 9640	hva den vil bringe i framtiden
+T199	Polar_expression 9610 9640	hva den vil bringe i framtiden
+E95	Polar_expression:T199 Target:T202
+A463	Polarity E95 Positive
+A469	Source_is_author E95
+A470	Intensity E95 Slight
+A471	Target_is_general E95
+A472	Type E95 E
+T202	Entity 9580 9596	Gets nye HD-boks
+T203	Polar_expression 9682 9704	Ikke bare må du betale
+E97	Polar_expression:T203 Target:T204
+A478	Polarity E97 Negative
+A479	Source_is_author E97
+A480	Intensity E97 Standard
+A481	Target_is_general E97
+A482	Type E97 E
+T204	Entity 9705 9750	499 kroner i et engangsgebyr for å bytte boks
+T205	Polar_expression 9759 9790	også legge ut 360 kroner ekstra
+E98	Polar_expression:T205 
+A483	Polarity E98 Negative
+A484	Source_is_author E98
+A485	Intensity E98 Standard
+A486	Target_is_general E98
+A487	Type E98 E
+T206	Entity 9839 9849	860 kroner
+T207	Polar_expression 9853 9891	for mange for småpenger å regne i 2013
+E99	Polar_expression:T207 Target:T206
+A488	Polarity E99 Negative
+A489	Source_is_author E99
+A490	Intensity E99 Standard
+A491	Target_is_general E99
+A492	Type E99 E
+T209	Polar_expression 10001 10003;9985 9996	gi klarer ikke
+E101	Polar_expression:T209 Target:T210
+A498	Polarity E101 Negative
+A499	Source_is_author E101
+A500	Intensity E101 Standard
+A501	Target_is_general E101
+A502	Type E101 E
+T210	Entity 10008 10049	noen suveren begrunnelse for å oppgradere

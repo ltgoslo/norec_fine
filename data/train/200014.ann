@@ -1,0 +1,202 @@
+T1	E 158 158	
+T2	E 216 216	
+T3	E 620 620	
+T4	E 758 758	
+T5	E 908 908	
+A1	NOT T5
+T6	E 1002 1002	
+A2	NOT T6
+T7	E 1372 1372	
+T8	E 1435 1435	
+T9	E 1542 1542	
+T10	E 1614 1614	
+T11	E 1651 1651	
+T12	E 1926 1926	
+T13	E 1998 1998	
+T14	E 2166 2166	
+T15	Polar_expression 46 50	stor
+E1	Polar_expression:T15 Target:T16
+A3	Polarity E1 Positive
+A4	Source_is_author E1
+A5	Intensity E1 Standard
+A6	Type E1 E
+T16	Entity 51 60	kapasitet
+T17	Polar_expression 64 67	god
+E2	Polar_expression:T17 Target:T18
+A7	Polarity E2 Positive
+A8	Source_is_author E2
+A9	Intensity E2 Standard
+A10	Type E2 E
+T18	Entity 68 74	ytelse
+T19	Polar_expression 130 149	svært overbevisende
+E3	Polar_expression:T19 Target:T20
+A11	Polarity E3 Positive
+A12	Source_is_author E3
+A13	Intensity E3 Strong
+A14	Type E3 E
+A15	Target_is_general E3
+T20	Entity 150 154	disk
+T21	Polar_expression 190 213	ikke lenger noe problem
+E4	Polar_expression:T21 Target:T22
+A16	Polarity E4 Positive
+A17	Source_is_author E4
+A18	Intensity E4 Standard
+A19	Type E4 E
+A20	Target_is_general E4
+T22	Entity 158 186	Lagringskapasitet på bærbare
+T25	Polar_expression 648 655	raskere
+E6	Polar_expression:T25 Target:T26
+A26	Polarity E6 Positive
+A27	Source_is_author E6
+A28	Intensity E6 Standard
+A29	Type E6 E
+T26	Entity 656 664	skriving
+T27	Entity 668 674	lesing
+E7	Polar_expression:T25 Target:T27
+A30	Polarity E7 Positive
+A31	Source_is_author E7
+A32	Intensity E7 Standard
+A33	Type E7 E
+T28	Polar_expression 701 705	lavt
+E8	Polar_expression:T28 Target:T29
+A34	Polarity E8 Positive
+A35	Source_is_author E8
+A36	Intensity E8 Standard
+A37	Type E8 E
+T29	Entity 680 690	støynivået
+T30	Entity 758 772	Strømforbruket
+T31	Polar_expression 783 787	lavt
+E9	Polar_expression:T31 Target:T30
+A38	Polarity E9 Positive
+A39	Source_is_author E9
+A40	Intensity E9 Standard
+A41	Type E9 E
+T32	Polar_expression 790 850	Seagate sammeligner strømforbruket med mange 4200 RPM disker
+E10	Polar_expression:T32 
+A42	Polarity E10 Positive
+A43	Source_is_author E10
+A44	Intensity E10 Standard
+A45	Type E10 EFINP
+A46	Target_is_general E10
+T24	Entity 220 261	Seagates største utgave i Momentus-serien
+T33	Polar_expression 265 276	hele 120 GB
+E11	Polar_expression:T33 Target:T24
+A47	Polarity E11 Positive
+A48	Source_is_author E11
+A49	Intensity E11 Standard
+A50	Type E11 E
+T36	Polar_expression 1422 1431	meget bra
+E13	Polar_expression:T36 Target:T37
+A55	Polarity E13 Positive
+A56	Source_is_author E13
+A57	Intensity E13 Strong
+A58	Type E13 E
+T37	Entity 1382 1414	et gjennomsnitt på 27,3 MB / sek
+T38	Polar_expression 1522 1531	meget bra
+E14	Polar_expression:T38 Target:T39
+A59	Polarity E14 Positive
+A60	Source_is_author E14
+A61	Intensity E14 Strong
+A62	Type E14 E
+T39	Entity 1435 1450	Lesehastigheten
+T42	Polar_expression 1630 1648	svært stillegående
+E16	Polar_expression:T42 Target:T43
+A67	Polarity E16 Positive
+A68	Source_is_author E16
+A69	Intensity E16 Standard
+A70	Type E16 E
+A71	Target_is_general E16
+T43	Entity 1620 1626	disken
+T44	Entity 1651 1661	Støynivået
+T45	Polar_expression 1665 1776	så lavt at det ikke var mulig å måle det i forhold til bakgrunnstøyen , selv ikke inne i vår isolerte støykasse
+E17	Polar_expression:T45 Target:T44
+A72	Polarity E17 Positive
+A73	Source_is_author E17
+A74	Intensity E17 Strong
+A75	Type E17 E
+T46	Polar_expression 1968 1982	nærmest lydløs
+E18	Polar_expression:T46 Target:T47
+A76	Polarity E18 Positive
+A77	Source_is_author E18
+A78	Intensity E18 Standard
+A79	Type E18 E
+T47	Entity 1961 1967	disken
+T48	Polar_expression 2028 2032	rask
+E19	Polar_expression:T48 Target:T49
+A80	Polarity E19 Positive
+A81	Source_is_author E19
+A82	Intensity E19 Standard
+A83	Type E19 E
+T49	Entity 2049 2053	disk
+T50	Polar_expression 2036 2048	stillegående
+E20	Polar_expression:T50 Target:T49
+A84	Polarity E20 Positive
+A85	Source_is_author E20
+A86	Intensity E20 Standard
+A87	Type E20 E
+A88	Target_is_general E20
+A89	Target_is_general E19
+T51	Polar_expression 2068 2075	romslig
+E21	Polar_expression:T51 Target:T52
+A90	Polarity E21 Positive
+A91	Source_is_author E21
+A92	Intensity E21 Standard
+A93	Type E21 E
+T52	Entity 2076 2085	kapasitet
+T53	Polar_expression 2108 2115	kompakt
+E22	Polar_expression:T53 Target:T55
+A94	Polarity E22 Positive
+A95	Source_is_author E22
+A96	Intensity E22 Standard
+A97	Type E22 E
+T54	Polar_expression 2119 2122	høy
+E23	Polar_expression:T54 Target:T55
+A98	Polarity E23 Positive
+A99	Source_is_author E23
+A100	Intensity E23 Standard
+A101	Type E23 E
+T55	Entity 2123 2132	kapasitet
+T56	Polar_expression 2187 2195	utmerket
+E24	Polar_expression:T56 Target:T57
+A102	Polarity E24 Positive
+A103	Source_is_author E24
+A104	Intensity E24 Strong
+A105	Type E24 E
+A106	Target_is_general E24
+T57	Entity 2166 2169	Den
+T23	Polar_expression 286 325	nok av plass nesten uansett bruksområde
+E5	Polar_expression:T23 Target:T24
+A21	Polarity E5 Positive
+A22	Source_is_author E5
+A23	Intensity E5 Standard
+A24	Target_is_general E5
+A25	Type E5 E
+T58	Polar_expression 953 986	ikke så mange bærbare som støtter
+E25	Polar_expression:T58 Target:T59
+A107	Polarity E25 Negative
+A108	Source_is_author E25
+A109	Intensity E25 Standard
+A110	NOT E25
+A111	Type E25 E
+T59	Entity 987 999	intern S-ATA
+T34	Polar_expression 1012 1090	høyere overføringshastighet fra bufferminnet på disken til kontrolleren i PCen
+E12	Polar_expression:T34 Target:T35
+A51	Polarity E12 Positive
+A52	Source_is_author E12
+A53	Intensity E12 Standard
+A54	NOT E12
+A112	Type E12 E
+T35	Entity 1002 1007	S-ATA
+T60	Polar_expression 1096 1143	støtter i tillegg NCQ ( Native Command Queing )
+E26	Polar_expression:T60 Target:T35
+A113	Polarity E26 Positive
+A114	Source_is_author E26
+A115	Intensity E26 Standard
+A116	NOT E26
+A117	Type E26 E
+T40	Polar_expression 1542 1600	Aksessiden på 16,8 ms , også en helt akseptabel prestasjon
+E15	Polar_expression:T40 
+A63	Polarity E15 Positive
+A64	Source_is_author E15
+A65	Intensity E15 Standard
+A66	Type E15 E

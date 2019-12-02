@@ -1,0 +1,637 @@
+T1	E 16 16	
+T2	EFINP 288 288	
+T3	E 388 388	
+T4	E 566 566	
+T5	E 770 770	
+T6	E 896 896	
+T7	E 953 953	
+T8	EFINP 1152 1152	
+T9	E 1236 1236	
+T10	E 1407 1407	
+T11	EFINP 1585 1585	
+T12	E 1745 1745	
+T13	EFINP 1791 1791	
+T14	E 2032 2032	
+T15	EFINP 2194 2194	
+T16	EFINP 2341 2341	
+T17	E 2458 2458	
+T18	E 2653 2653	
+T19	EFINP 2834 2834	
+T20	E 2979 2979	
+T21	E 2996 2996	
+T22	E 3127 3127	
+T23	E 3243 3243	
+T24	E 3323 3323	
+T25	E 3356 3356	
+T26	E 3472 3472	
+T27	E 3638 3638	
+T28	E 3842 3842	
+T29	E 3992 3992	
+T30	EFINP 4052 4052	
+T31	EFINP 4103 4103	
+T32	E 4179 4179	
+T33	EFINP 4222 4222	
+T34	E 4440 4440	
+T35	E 4528 4528	
+T36	E 4547 4547	
+T37	E 4650 4650	
+T38	E 4813 4813	
+T39	EFINP 4879 4879	
+T40	E 4996 4996	
+T41	E 5255 5255	
+T42	E 5294 5294	
+T43	E 5694 5694	
+T44	E 5854 5854	
+T45	E 6035 6035	
+T46	E 6127 6127	
+T47	E 6233 6233	
+T48	Polar_expression 2979 2994	YouTube-trøbbel
+E142	Polar_expression:T48 
+A622	Polarity E142 Negative
+A623	Intensity E142 Standard
+A624	Type E142 E
+A625	Source_is_author E142
+A626	Target_is_general E142
+T49	Entity 5919 5927	lyddelen
+T50	Entity 5936 5938	vi
+T51	Polar_expression 5860 5893	fortrinn og største salgsargument
+E143	Polar_expression:T51 Target:T49 Source:T50
+A627	Polarity E143 Positive
+A628	Intensity E143 Standard
+A629	Type E143 E
+A630	Source_is_author E143
+T52	Polar_expression 23 41	trykkfølsom skjerm
+E1	Polar_expression:T52 
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Slight
+A4	Target_is_general E1
+A5	Type E1 EFINP
+T53	Polar_expression 45 49	WLAN
+E2	Polar_expression:T53 
+A6	Polarity E2 Positive
+A7	Source_is_author E2
+A8	Intensity E2 Slight
+A9	Target_is_general E2
+A10	Type E2 EFINP
+T54	Polar_expression 52 75	men har den en sjanse ?
+E3	Polar_expression:T54 
+A11	Polarity E3 Negative
+A12	Source_is_author E3
+A13	Intensity E3 Slight
+A14	Target_is_general E3
+A15	Type E3 E
+#1	AnnotatorNotes E3	negation
+T55	Entity 334 342	skjermen
+T56	Polar_expression 349 357	3 tommer
+E4	Polar_expression:T56 Target:T55
+A16	Polarity E4 Positive
+A17	Source_is_author E4
+A18	Intensity E4 Standard
+A19	Type E4 EFINP
+T57	Polar_expression 371 385	OLED-teknologi
+E5	Polar_expression:T57 Target:T55
+A20	Polarity E5 Positive
+A21	Source_is_author E5
+A22	Intensity E5 Standard
+A23	Type E5 E
+T58	Entity 394 405	skjermtypen
+T60	Entity 476 479	LCD
+T61	Polar_expression 503 526	bedre innsyn fra sidene
+E8	Polar_expression:T61 Target:T60
+A32	Polarity E8 Negative
+A33	Source_is_author E8
+A34	Intensity E8 Standard
+A35	NOT E8
+A36	Type E8 E
+T63	Polar_expression 547 563	mindre strømbruk
+E10	Polar_expression:T63 Target:T58
+A41	Polarity E10 Positive
+A42	Source_is_author E10
+A43	Intensity E10 Standard
+A44	Type E10 E
+T62	Polar_expression 503 526	bedre innsyn fra sidene
+E7	Polar_expression:T62 Target:T58
+A28	Polarity E7 Positive
+A29	Source_is_author E7
+A30	Intensity E7 Standard
+A31	Type E7 E
+T64	Polar_expression 529 543	bedre kontrast
+E9	Polar_expression:T64 Target:T58
+A37	Polarity E9 Positive
+A38	Source_is_author E9
+A39	Intensity E9 Standard
+A40	Type E9 E
+E11	Polar_expression:T63 Target:T60
+A45	Polarity E11 Negative
+A46	Source_is_author E11
+A47	Intensity E11 Standard
+A48	NOT E11
+A49	Type E11 E
+E12	Polar_expression:T64 Target:T60
+A50	Polarity E12 Negative
+A51	Source_is_author E12
+A52	Intensity E12 Standard
+A53	NOT E12
+A54	Type E12 E
+T65	Polar_expression 570 581	merkes godt
+E13	Polar_expression:T65 
+A55	Polarity E13 Positive
+A56	Source_is_author E13
+A57	Intensity E13 Standard
+A58	Type E13 E
+T66	Polar_expression 773 794	foretrekker vi iPhone
+E14	Polar_expression:T66 Source:T69
+A59	Polarity E14 Negative
+A60	Source_is_author E14
+A61	Intensity E14 Standard
+A62	Type E14 E
+T67	Entity 788 794	iPhone
+T68	Polar_expression 773 784	foretrekker
+E15	Polar_expression:T68 Target:T67 Source:T69
+A63	Polarity E15 Positive
+A64	Source_is_author E15
+A65	Intensity E15 Standard
+A66	NOT E15
+A67	Type E15 E
+T69	Entity 785 787	vi
+T70	Polar_expression 797 825	takket være skjermstørrelsen
+E16	Polar_expression:T70 Target:T67
+A68	Polarity E16 Negative
+A69	Source_is_author E16
+A70	Intensity E16 Standard
+A71	NOT E16
+A72	Type E16 E
+T59	Polar_expression 835 848	en del større
+E6	Polar_expression:T59 Target:T67
+A24	Polarity E6 Positive
+A25	Source_is_author E6
+A26	Intensity E6 Standard
+A27	NOT E6
+A73	Type E6 E
+T71	Polar_expression 863 892	klarer seg svært bra i sollys
+E17	Polar_expression:T71 Target:T67
+A74	Polarity E17 Positive
+A75	Source_is_author E17
+A76	Intensity E17 Standard
+A77	NOT E17
+A78	Type E17 E
+T72	Entity 946 950	Sony
+T73	Polar_expression 900 950	når det gjelder innsyn fra alle kanter vinner Sony
+E18	Polar_expression:T73 Target:T72
+A79	Polarity E18 Positive
+A80	Source_is_author E18
+A81	Intensity E18 Standard
+A82	Target_is_general E18
+A83	Type E18 E
+T74	Polar_expression 964 999	bildet klart fra nærmest død vinkel
+E19	Polar_expression:T74 
+A84	Polarity E19 Positive
+A85	Source_is_author E19
+A86	Intensity E19 Standard
+A87	Type E19 E
+T75	Entity 1152 1160	Skjermen
+T76	Polar_expression 1164 1175	trykkfølsom
+E20	Polar_expression:T76 Target:T75
+A88	Polarity E20 Positive
+A89	Source_is_author E20
+A90	Intensity E20 Standard
+A91	Type E20 E
+T77	Polar_expression 1190 1214	knallhard glassoverflate
+E21	Polar_expression:T77 Target:T75
+A92	Polarity E21 Positive
+A93	Source_is_author E21
+A94	Intensity E21 Standard
+A95	Type E21 E
+T78	Polar_expression 1369 1403	kan kun én finger brukes om gangen
+E22	Polar_expression:T78 
+A96	Polarity E22 Negative
+A97	Source_is_author E22
+A98	Intensity E22 Standard
+A99	Type E22 E
+T79	Entity 1407 1416	Responsen
+T80	Polar_expression 1431 1444	overbevisende
+E23	Polar_expression:T80 Target:T79
+A100	Polarity E23 Positive
+A101	Source_is_author E23
+A102	Intensity E23 Standard
+A103	Type E23 E
+T81	Polar_expression 1447 1491	minst like bra som på konkurrenten fra Apple
+E24	Polar_expression:T81 Target:T79
+A104	Polarity E24 Positive
+A105	Source_is_author E24
+A106	Intensity E24 Standard
+A107	Type E24 E
+T82	Entity 1599 1608	spilleren
+T83	Polar_expression 1614 1674	knapper på toppen for Play , Pause og navigering mellom spor
+E25	Polar_expression:T83 Target:T82
+A108	Polarity E25 Positive
+A109	Source_is_author E25
+A110	Intensity E25 Standard
+A111	Type E25 E
+T84	Polar_expression 1688 1742	kan styre den uten nødvendigvis å måtte se på skjermen
+E26	Polar_expression:T84 Target:T82
+A112	Polarity E26 Positive
+A113	Source_is_author E26
+A114	Intensity E26 Standard
+A115	Type E26 E
+T85	Polar_expression 1748 1759	stor fordel
+E27	Polar_expression:T85 
+A116	Polarity E27 Positive
+A117	Source_is_author E27
+A118	Intensity E27 Standard
+A119	Type E27 E
+T86	Polar_expression 1748 1766	stor fordel kontra
+E28	Polar_expression:T86 Target:T87
+A120	Polarity E28 Negative
+A121	Source_is_author E28
+A122	Intensity E28 Standard
+A123	NOT E28
+T87	Entity 1767 1777	iPod Touch
+A124	Target_is_general E27
+T88	Polar_expression 1804 1834	knapper for justering av volum
+E29	Polar_expression:T88 Target:T177
+A125	Polarity E29 Positive
+A126	Source_is_author E29
+A127	Intensity E29 Standard
+A129	Type E29 EFINP
+T89	Entity 1854 1866	Home-knappen
+T90	Polar_expression 1882 1920	tar deg alltid tilbake til hovedmenyen
+E30	Polar_expression:T90 Target:T89
+A128	Polarity E30 Positive
+A130	Source_is_author E30
+A131	Intensity E30 Standard
+A132	Type E30 E
+T91	Polar_expression 2056 2080	tyngre enn man forventer
+E31	Polar_expression:T91 Target:T92
+A133	Polarity E31 Negative
+A134	Source_is_author E31
+A135	Intensity E31 Slight
+A136	Target_is_general E31
+A137	Type E31 E
+T92	Entity 2046 2055	spilleren
+T93	Polar_expression 2103 2171	materialvalget og tyngden bidrar også til et solid og støpt inntrykk
+E32	Polar_expression:T93 
+A138	Polarity E32 Positive
+A139	Source_is_author E32
+A140	Type E32 E
+T94	Entity 2103 2128	materialvalget og tyngden
+T95	Polar_expression 2148 2171	solid og støpt inntrykk
+E33	Polar_expression:T95 Target:T94
+A141	Polarity E33 Positive
+A142	Source_is_author E33
+A143	Intensity E33 Standard
+A144	Type E33 E
+T96	Entity 2222 2227	X1050
+T97	Polar_expression 2228 2246	innebygd nettleser
+E34	Polar_expression:T97 Target:T96
+A145	Polarity E34 Positive
+A146	Source_is_author E34
+A147	Intensity E34 Standard
+A148	Target_is_general E34
+A149	Type E34 E
+T98	Polar_expression 2252 2338	kan streame innhold fra YouTube samt laste ned podcaster direkte , uten å gå via PC-en
+E35	Polar_expression:T98 Target:T96
+A150	Polarity E35 Positive
+A151	Source_is_author E35
+A152	Intensity E35 Standard
+A153	Target_is_general E35
+A154	Type E35 E
+T99	Polar_expression 2341 2454	Når du spiller musikk finner du direktelenker til YouTube-videoer av artisten , samt et søk på artisten via Yahoo
+E36	Polar_expression:T99 
+A155	Polarity E36 Positive
+A156	Source_is_author E36
+A157	Intensity E36 Standard
+A158	Target_is_general E36
+A159	Type E36 EFINP
+T100	Polar_expression 2461 2495	setter imidlertid et lite spørsmål
+E37	Polar_expression:T100 Source:T102 Target:T101
+A160	Polarity E37 Negative
+A161	Source_is_author E37
+A162	Intensity E37 Slight
+A163	Type E37 E
+T101	Entity 2500 2511	nettleseren
+T102	Entity 2458 2460	Vi
+T103	Polar_expression 2534 2558	langt mindre velutviklet
+E38	Polar_expression:T103 Target:T101 Source:T102
+A164	Polarity E38 Negative
+A165	Source_is_author E38
+A166	Intensity E38 Standard
+A167	Type E38 E
+T104	Entity 2674 2700	inntasting av nettadresser
+T105	Entity 2653 2655	Vi
+T106	Polar_expression 2704 2723	i overkant tungvint
+E39	Polar_expression:T106 Target:T104 Source:T105
+A168	Polarity E39 Negative
+A169	Source_is_author E39
+A170	Intensity E39 Standard
+A172	Type E39 E
+T107	Polar_expression 2778 2811	ikke finner det fristende å surfe
+E40	Polar_expression:T107 Target:T108 Source:T109
+A171	Polarity E40 Negative
+A173	Source_is_author E40
+A174	Intensity E40 Standard
+A175	Target_is_general E40
+A176	Type E40 E
+T108	Entity 2821 2830	spilleren
+T109	Entity 2775 2777	vi
+T110	Entity 2996 3028	Direkteknapp til YouTube-videoer
+T111	Polar_expression 3032 3042	vel og bra
+E41	Polar_expression:T111 Target:T110
+A177	Polarity E41 Positive
+A178	Source_is_author E41
+A179	Intensity E41 Slight
+A180	Type E41 E
+T112	Polar_expression 3052 3084	fikk funksjonen ikke til å virke
+E42	Polar_expression:T112 Target:T110 Source:T113
+A181	Polarity E42 Negative
+A182	Source_is_author E42
+A183	Intensity E42 Standard
+A184	Type E42 E
+T113	Entity 3049 3051	vi
+T114	Polar_expression 3204 3239	feilmeldingen gav oss få ledetråder
+E43	Polar_expression:T114 
+A185	Polarity E43 Negative
+A186	Source_is_author E43
+A187	Intensity E43 Standard
+A188	Type E43 E
+T115	Entity 3257 3266	spilleren
+T116	Polar_expression 3272 3289	innebygd FM-radio
+E44	Polar_expression:T116 Target:T115
+A189	Polarity E44 Positive
+A190	Source_is_author E44
+A191	Intensity E44 Standard
+A192	Target_is_general E44
+A193	Type E44 E
+T117	Entity 3281 3289	FM-radio
+T118	Polar_expression 3305 3319	sterk mottaker
+E45	Polar_expression:T118 Target:T117
+A194	Polarity E45 Positive
+A195	Source_is_author E45
+A196	Intensity E45 Standard
+A197	Type E45 E
+T119	Polar_expression 3323 3330	Gromlyd
+E46	Polar_expression:T119 Target:T121
+A198	Polarity E46 Positive
+A199	Source_is_author E46
+A200	Intensity E46 Standard
+A201	Type E46 E
+T120	Polar_expression 3335 3354	medfølgende plugger
+E47	Polar_expression:T120 
+A202	Polarity E47 Positive
+A203	Source_is_author E47
+A204	Intensity E47 Standard
+A205	Target_is_general E47
+A206	Type E47 EFINP
+T121	Entity 3347 3354	plugger
+T122	Entity 3382 3396	Sonys spillere
+T124	Polar_expression 3363 3381;3401 3416	tidligere berømmet god lydkvalitet
+E49	Polar_expression:T124 Target:T122 Source:T123
+A212	Polarity E49 Positive
+A213	Source_is_author E49
+A214	Intensity E49 Standard
+A215	NOT E49
+A216	Type E49 E
+T123	Entity 3356 3358	Vi
+T125	Entity 3401 3416	god lydkvalitet
+T126	Polar_expression 3431 3452	videreført og utvidet
+E48	Polar_expression:T126 Target:T125
+A207	Polarity E48 Positive
+A208	Source_is_author E48
+A209	Intensity E48 Standard
+A211	Type E48 E
+T127	Polar_expression 3482 3530	hav av forskjellige innstillinger å velge mellom
+E50	Polar_expression:T127 
+A217	Polarity E50 Positive
+A218	Source_is_author E50
+A219	Intensity E50 Standard
+A220	Target_is_general E50
+A221	Type E50 E
+T128	Polar_expression 3551 3635	nye teknologier sørge for å fylle inn de tonene som forsvinner under filkomprimering
+E51	Polar_expression:T128 
+A210	Polarity E51 Positive
+A222	Source_is_author E51
+A223	Intensity E51 Standard
+A224	Type E51 E
+T129	Entity 3638 3640	Vi
+T130	Polar_expression 3641 3703	kan ikke med hånden på hjertet si at dette var veldig merkbart
+E52	Polar_expression:T130 Source:T129
+A225	Polarity E52 Negative
+A226	Source_is_author E52
+A227	Intensity E52 Slight
+A228	Type E52 E
+A229	Target_is_general E51
+T131	Entity 3785 3790	X1050
+T132	Polar_expression 3794 3838	lydopplevelser som ligger klart i øvre skikt
+E53	Polar_expression:T132 Target:T131
+A230	Polarity E53 Positive
+A231	Source_is_author E53
+A232	Intensity E53 Strong
+A233	Type E53 E
+A234	Target_is_general E53
+T133	Entity 3909 3911	vi
+T134	Polar_expression 3845 3868	medfølgende ørepluggene
+E54	Polar_expression:T134 
+A235	Polarity E54 Positive
+A236	Source_is_author E54
+A237	Intensity E54 Standard
+A238	Type E54 EFINP
+T135	Entity 3857 3868	ørepluggene
+T136	Polar_expression 3912 3946	ser ingen grunn til å bytte dem ut
+E55	Polar_expression:T136 Target:T135 Source:T133
+A239	Polarity E55 Positive
+A240	Source_is_author E55
+A241	Intensity E55 Standard
+A242	Type E55 E
+T137	Polar_expression 3992 4000	God bass
+E56	Polar_expression:T137 
+A243	Polarity E56 Positive
+A244	Source_is_author E56
+A245	Intensity E56 Standard
+A246	Type E56 E
+T138	Polar_expression 4003 4020	fyldig mellomtone
+E57	Polar_expression:T138 
+A247	Polarity E57 Positive
+A248	Source_is_author E57
+A249	Intensity E57 Standard
+A250	Type E57 E
+T139	Polar_expression 4024 4036	klar diskant
+E58	Polar_expression:T139 
+A251	Polarity E58 Positive
+A252	Source_is_author E58
+A253	Intensity E58 Standard
+A254	Type E58 E
+T140	Entity 4061 4069	pluggene
+T141	Polar_expression 4070 4100	har dessuten en annen funksjon
+E59	Polar_expression:T141 Target:T140
+A255	Polarity E59 Positive
+A256	Source_is_author E59
+A257	Intensity E59 Standard
+A258	Type E59 EFINP
+T142	Entity 4114 4123	spilleren
+T143	Entity 4131 4133	de
+T144	Polar_expression 4149 4176	digital , aktiv støydemping
+E60	Polar_expression:T144 Target:T143
+A259	Polarity E60 Positive
+A260	Source_is_author E60
+A261	Intensity E60 Standard
+A262	Type E60 EFINP
+E61	Polar_expression:T144 Target:T142
+A263	Polarity E61 Positive
+A264	Source_is_author E61
+A265	Intensity E61 Standard
+A266	Type E61 EFINP
+T145	Polar_expression 4194 4218	faktisk overraskende bra
+E62	Polar_expression:T145 Target:T146
+A267	Polarity E62 Positive
+A268	Source_is_author E62
+A269	Intensity E62 Standard
+A270	Type E62 E
+T146	Entity 4179 4184	Dette
+T148	Polar_expression 4386 4437	behøver av den grunn ikke skru musikken særlig høyt
+E63	Polar_expression:T148 
+A271	Polarity E63 Positive
+A272	Source_is_author E63
+A273	Intensity E63 Standard
+A274	Type E63 E
+T147	Polar_expression 4279 4377	dype frekvenser romler i bakgrunnen , kan du være sikker på at de blir mer eller mindre helt borte
+E64	Polar_expression:T147 
+A275	Polarity E64 Positive
+A276	Source_is_author E64
+A277	Intensity E64 Standard
+A278	Type E64 E
+T149	Polar_expression 4452 4476	faktisk forbløffende god
+E65	Polar_expression:T149 
+A279	Polarity E65 Positive
+A280	Source_is_author E65
+A281	Intensity E65 Strong
+A282	Type E65 E
+T150	Polar_expression 4479 4526	her har konkurrentene noe å strekke seg etter !
+E66	Polar_expression:T150 
+A283	Polarity E66 Positive
+A284	Intensity E66 Strong
+A285	Type E66 E
+T151	Polar_expression 4528 4545	Windows 7-vennlig
+E67	Polar_expression:T151 
+A286	Polarity E67 Positive
+A287	Source_is_author E67
+A288	Intensity E67 Standard
+A289	Target_is_general E67
+A290	Type E67 E
+T152	Entity 4557 4566	spilleren
+T153	Polar_expression 4611 4646	dukket straks opp som en egen enhet
+E68	Polar_expression:T153 Target:T152
+A291	Polarity E68 Positive
+A292	Source_is_author E68
+A293	Intensity E68 Standard
+A294	Target_is_general E68
+A295	Type E68 E
+T154	Polar_expression 4749 4810	for første gang slapp vi å tenke på kompatibilitet over hodet
+E69	Polar_expression:T154 
+A296	Polarity E69 Positive
+A297	Source_is_author E69
+A298	Intensity E69 Standard
+A299	Type E69 E
+A300	Target_is_general E69
+T155	Polar_expression 4828 4875	konverterte de klippene som ikke var kompatible
+E70	Polar_expression:T155 Target:T156
+A301	Polarity E70 Positive
+A302	Source_is_author E70
+A303	Intensity E70 Standard
+A304	Type E70 E
+T156	Entity 4813 4822	Windows 7
+T157	Entity 4910 4915	X1050
+T158	Polar_expression 4891 4898;4925 4956	støtter mest aktuelle formatene direkte
+E71	Polar_expression:T158 Target:T157
+A305	Polarity E71 Positive
+A306	Source_is_author E71
+A307	Intensity E71 Standard
+A308	Target_is_general E71
+A309	Type E71 E
+T159	Polar_expression 4996 5036	Windows Media Player 11 følger med på CD
+E72	Polar_expression:T159 
+A310	Polarity E72 Positive
+A311	Source_is_author E72
+A312	Intensity E72 Standard
+A313	Type E72 EFINP
+T160	Polar_expression 5085 5094	anbefales
+E73	Polar_expression:T160 Target:T161
+A314	Polarity E73 Positive
+A315	Source_is_author E73
+A316	Intensity E73 Standard
+A317	Type E73 E
+T161	Entity 4996 5019	Windows Media Player 11
+T162	Polar_expression 5255 5266	Full frihet
+E74	Polar_expression:T162 
+A318	Polarity E74 Positive
+A319	Source_is_author E74
+A320	Intensity E74 Standard
+A321	Target_is_general E74
+A322	Type E74 E
+T163	Polar_expression 5278 5291	veldig enkelt
+E75	Polar_expression:T163 
+A323	Polarity E75 Positive
+A324	Source_is_author E75
+A325	Intensity E75 Standard
+A326	Target_is_general E75
+A327	Type E75 E
+T164	Polar_expression 5298 5316	eneste ankepunktet
+E76	Polar_expression:T164 Target:T165
+A328	Polarity E76 Negative
+A329	Source_is_author E76
+A330	Intensity E76 Standard
+A331	Type E76 E
+T165	Entity 5324 5346	overføringshastigheten
+T166	Polar_expression 5358 5377	kunne vært kjappere
+E77	Polar_expression:T166 Target:T165
+A332	Polarity E77 Negative
+A333	Source_is_author E77
+A334	Intensity E77 Standard
+A335	Type E77 E
+T167	Polar_expression 5719 5725	dyrere
+E78	Polar_expression:T167 
+A336	Polarity E78 Negative
+A337	Source_is_author E78
+A338	Intensity E78 Standard
+A339	Target_is_general E78
+A340	Type E78 E
+E79	Polar_expression:T167 Target:T168
+A341	Polarity E79 Positive
+A342	Source_is_author E79
+A343	Intensity E79 Standard
+A344	NOT E79
+A345	Type E79 E
+T168	Entity 5742 5761	iPod Touch-modeller
+T169	Polar_expression 5771 5830	kan kanskje bli vanskelig for Sony å utfordre Apple direkte
+E80	Polar_expression:T169 Target:T170
+A346	Polarity E80 Negative
+A347	Source_is_author E80
+A348	Intensity E80 Standard
+A349	Type E80 E
+T170	Entity 5835 5850	disse modellene
+T171	Polar_expression 6095 6101	banalt
+E81	Polar_expression:T171 Target:T172
+A350	Polarity E81 Negative
+A351	Source_is_author E81
+A352	Intensity E81 Standard
+A353	Type E81 E
+T172	Entity 6106 6124	modellbetegnelsene
+T173	Polar_expression 6127 6232	Hvem er det som går rundt og husker at det er en NWZ-X1051 de ønsker å stifte nærmere bekjentskaper med ?
+E82	Polar_expression:T173 Target:T174
+A354	Polarity E82 Negative
+A355	Source_is_author E82
+A356	Intensity E82 Standard
+A357	Type E82 E
+T174	Entity 6176 6185	NWZ-X1051
+T175	Entity 6233 6235	Vi
+T176	Polar_expression 6241 6283	mange potensielle Sony-kunder går seg bort
+E83	Polar_expression:T176 Source:T175
+A358	Polarity E83 Negative
+A359	Source_is_author E83
+A360	Intensity E83 Standard
+A361	Type E83 E
+A362	Target_is_general E25
+A363	Target_is_general E26
+T177	Entity 1791 1794	Den
+A364	Target_is_general E29
+A365	Target_is_general E54
