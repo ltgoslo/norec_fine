@@ -5,13 +5,13 @@ April 2019
 
 1. [Introduction](#introduction)
 2. [Part 1: Terminology](#part-1-terminology)\
-2.1 [Terms](#terms)
-2.2 [Polar Expression](#polar-expression)
-2.3 [Target](#target)
-2.4 [Source](#source)
+2.1 [Terms](#terms)\
+2.2 [Polar Expression](#polar-expression)\
+2.3 [Target](#target)\
+2.4 [Source](#source)\
 2.5 [Type](#type)
-3. [Part 2: Brat](#part-2-brat)
-3.1 [Brat](#brat)
+3. [Part 2: Brat](#part-2-brat)\
+3.1 [Brat](#brat)\
 3.2 [Entities, Events and Attributes](#entities-events-and-attributes)
 
 ## Introduction
