@@ -27,7 +27,7 @@ T24	E 3350 3350
 T25	E 3439 3439	
 T26	E 3540 3540	
 T27	E 3688 3688	
-T28	Polar_expression 10 19	svingende
+T28	Polar_expression 0 19	Spansk og svingende
 E1	Polar_expression:T28 
 A3	Polarity E1 Positive
 A4	Source_is_author E1
@@ -55,7 +55,6 @@ A17	Source_is_author E4
 A18	Intensity E4 Standard
 A19	Type E4 E
 T34	Entity 598 604	kelner
-T35	Entity 142 150	Robinson
 T36	Entity 707 725	Robinson og Fredag
 T37	Entity 768 774	menyen
 T38	Polar_expression 757 767	rikholdige
@@ -132,19 +131,19 @@ A64	Intensity E15 Standard
 A65	Type E15 E
 T53	Entity 1915 1953	Kombinasjonen kamskjell-chorizo-rødbet
 T54	Polar_expression 2047 2072	harmonerte usedvanlig bra
-E16	Polar_expression:T54 
+E16	Polar_expression:T54 Target:T35
 A66	Polarity E16 Positive
 A67	Source_is_author E16
 A68	Intensity E16 Strong
 A69	Type E16 E
 T55	Polar_expression 2093 2111	lekkert presentert
-E17	Polar_expression:T55 
+E17	Polar_expression:T55 Target:T96
 A70	Polarity E17 Positive
 A71	Source_is_author E17
 A72	Intensity E17 Standard
 A73	Type E17 E
 T56	Polar_expression 2233 2269	kraftige saker som avstedkom applaus
-E18	Polar_expression:T56 
+E18	Polar_expression:T56 Target:T97
 A74	Polarity E18 Positive
 A75	Source_is_author E18
 A76	Intensity E18 Strong
@@ -315,3 +314,6 @@ A176	Polarity E43 Positive
 A177	Source_is_author E43
 A178	Intensity E43 Standard
 A179	Type E43 E
+T35	Entity 1975 2046	Den sterke pølsa , de søte rødbetene og de aromatiske kamskjellmusklene
+T96	Entity 2075 2078	Det
+T97	Entity 2114 2134	Stykkene av oksehale

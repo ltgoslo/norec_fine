@@ -1,0 +1,138 @@
+T1	E 13 13	
+T2	E 68 68	
+T3	E 128 128	
+T4	EFINP 428 428	
+T5	E 606 606	
+T6	E 652 652	
+T7	E 747 747	
+T8	E 808 808	
+T9	E 866 866	
+T10	E 1165 1165	
+T11	E 1217 1217	
+T12	Entity 1181 1189	musikere
+T13	Entity 1192 1198	poeter
+T14	Entity 1202 1213	komponister
+T15	Polar_expression 1165 1177;1214 1215	For en gjeng !
+E41	Polar_expression:T15 Target:T14
+A173	Polarity E41 Positive
+A174	Intensity E41 Strong
+A175	Type E41 E
+A176	Source_is_author E41
+E42	Polar_expression:T15 Target:T13
+A177	Polarity E42 Positive
+A178	Intensity E42 Strong
+A179	Type E42 E
+A180	Source_is_author E42
+E43	Polar_expression:T15 Target:T12
+A181	Polarity E43 Positive
+A182	Intensity E43 Strong
+A183	Type E43 E
+A184	Source_is_author E43
+T16	Polar_expression 33 66	ydmyk sanger under en stor himmel
+E1	Polar_expression:T16 Target:T17
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Strong
+A4	Type E1 E
+T17	Entity 13 26	Roy Lønhøiden
+T18	Polar_expression 68 72	Topp
+E2	Polar_expression:T18 Target:T19
+A5	Polarity E2 Positive
+A6	Source_is_author E2
+A7	Intensity E2 Strong
+A8	Type E2 E
+T19	Entity 73 81	musikere
+T20	Entity 111 116	plate
+T21	Polar_expression 103 110	suveren
+E3	Polar_expression:T21 Target:T20
+A9	Polarity E3 Positive
+A10	Source_is_author E3
+A11	Intensity E3 Strong
+A12	Type E3 E
+T22	Polar_expression 238 294	flott gjendiktning av Townes Van Zandts « Flying Shoes »
+E4	Polar_expression:T22 Target:T23
+A13	Polarity E4 Positive
+A14	Source_is_author E4
+A15	Intensity E4 Strong
+A16	Type E4 E
+T23	Entity 310 324	« Sjumilssko »
+T24	Polar_expression 466 560	noen av USAs fremste musikere innenfor den moderne folk-country-americana-trubadur-tradisjonen
+E5	Polar_expression:T24 Target:T25
+A17	Polarity E5 Positive
+A18	Source_is_author E5
+A19	Intensity E5 Strong
+A20	Type E5 EFINP
+T25	Entity 428 431	Den
+T26	Entity 606 623	Ellen Moen Rusten
+T27	Polar_expression 627 648	en fager duettpartner
+E6	Polar_expression:T27 Target:T26
+A21	Polarity E6 Positive
+A22	Source_is_author E6
+A23	Intensity E6 Strong
+A24	Type E6 E
+T28	Entity 652 659	Sangene
+T29	Polar_expression 663 668	enkle
+E7	Polar_expression:T29 Target:T28
+A25	Polarity E7 Positive
+A26	Source_is_author E7
+A27	Intensity E7 Standard
+A28	Type E7 E
+T30	Polar_expression 671 684	gjennomtenkte
+E8	Polar_expression:T30 Target:T28
+A29	Polarity E8 Positive
+A30	Source_is_author E8
+A31	Intensity E8 Strong
+A32	Type E8 E
+T31	Polar_expression 687 720	fylt av poetisk melankoli og lede
+E9	Polar_expression:T31 Target:T28
+A33	Polarity E9 Positive
+A34	Source_is_author E9
+A35	Intensity E9 Strong
+A36	Type E9 E
+T32	Polar_expression 754 783	få som lager plater som dette
+E10	Polar_expression:T32 
+A37	Polarity E10 Positive
+A38	Source_is_author E10
+A39	Intensity E10 Strong
+A40	Target_is_general E10
+A41	Type E10 E
+T33	Polar_expression 808 862	Lytt til « I øyet av stormen » og forstå hva jeg mener
+E11	Polar_expression:T33 Target:T34 Source:T35
+A42	Polarity E11 Positive
+A43	Source_is_author E11
+A44	Intensity E11 Strong
+A45	Type E11 E
+T34	Entity 817 838	« I øyet av stormen »
+T35	Entity 853 856	jeg
+T36	Polar_expression 869 881	velarrangert
+E12	Polar_expression:T36 
+A46	Polarity E12 Positive
+A47	Source_is_author E12
+A48	Intensity E12 Strong
+A49	Type E12 E
+T37	Polar_expression 884 891	følsomt
+E13	Polar_expression:T37 
+A50	Polarity E13 Positive
+A51	Source_is_author E13
+A52	Intensity E13 Strong
+A53	Type E13 E
+T38	Polar_expression 894 905	tilbakelent
+E14	Polar_expression:T38 
+A54	Polarity E14 Positive
+A55	Source_is_author E14
+A56	Intensity E14 Standard
+A57	Type E14 E
+T39	Polar_expression 908 992	som en godkjennelse av indre og ytre tilstander som egentlig ikke kjennes akseptable
+E15	Polar_expression:T39 
+A58	Polarity E15 Positive
+A59	Source_is_author E15
+A60	Intensity E15 Strong
+A61	Type E15 E
+#1	AnnotatorNotes E15	Comparison
+T40	Polar_expression 1217 1255	Blir ikke ferdig med denne på en stund
+E16	Polar_expression:T40 
+A62	Polarity E16 Positive
+A63	Source_is_author E16
+A64	Intensity E16 Strong
+A65	Target_is_general E16
+A66	Type E16 E

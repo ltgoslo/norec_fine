@@ -210,7 +210,7 @@ A68	Source_is_author E16
 A69	Intensity E16 Standard
 A70	Type E16 E
 T85	Polar_expression 2011 2052	ikke klarte å spise mer enn et par skjeer
-E17	Polar_expression:T85 Target2:T83 Source:T82
+E17	Polar_expression:T85 Source:T82 Target:T83
 A71	Polarity E17 Negative
 A72	Source_is_author E17
 A73	Intensity E17 Standard

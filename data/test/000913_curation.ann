@@ -1,0 +1,391 @@
+T1	E 14 14	
+T2	E 43 43	
+T3	E 165 165	
+T4	E 278 278	
+T5	E 515 515	
+T6	E 1013 1013	
+T7	E 1540 1540	
+T8	E 1759 1759	
+T9	E 2074 2074	
+T10	E 2502 2502	
+T11	E 2627 2627	
+T12	E 2665 2665	
+T13	E 2782 2782	
+T14	E 2860 2860	
+T15	E 3079 3079	
+T16	E 3468 3468	
+T17	E 3909 3909	
+T18	E 4191 4191	
+T19	E 4350 4350	
+T20	E 4544 4544	
+T21	Entity 2627 2641	Hovedhistorien
+T22	Polar_expression 2649 2662	lett å glemme
+E122	Polar_expression:T22 Target:T21
+A526	Polarity E122 Negative
+A527	Intensity E122 Standard
+A528	Type E122 E
+A529	Source_is_author E122
+T23	Polar_expression 17 39	seier for spillegleden
+E1	Polar_expression:T23 
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Strong
+A4	Target_is_general E1
+A5	Type E1 E
+T24	Entity 101 108	univers
+T25	Polar_expression 109 161	proppfullt av detaljer , valg og ekstrem spillbarhet
+E2	Polar_expression:T25 Target:T24
+A6	Polarity E2 Positive
+A7	Source_is_author E2
+A8	Intensity E2 Strong
+A9	Type E2 E
+T26	Polar_expression 90 100	fengslende
+E3	Polar_expression:T26 Target:T24
+A10	Polarity E3 Positive
+A11	Source_is_author E3
+A12	Intensity E3 Standard
+A13	Type E3 E
+T27	Polar_expression 62 74	triumferende
+E4	Polar_expression:T27 Target:T28
+A14	Polarity E4 Positive
+A15	Source_is_author E4
+A16	Intensity E4 Strong
+A17	Target_is_general E4
+A18	Type E4 E
+T28	Entity 43 55	Dishonored 2
+T29	Polar_expression 90 161	fengslende univers proppfullt av detaljer , valg og ekstrem spillbarhet
+E5	Polar_expression:T29 Target:T28
+A19	Polarity E5 Positive
+A20	Source_is_author E5
+A21	Intensity E5 Strong
+A22	Target_is_general E5
+A23	Type E5 E
+T30	Entity 201 211	Dishonored
+T31	Polar_expression 245 250	beste
+E6	Polar_expression:T31 Target:T30 Source:T32
+A24	Polarity E6 Positive
+A25	Source_is_author E6
+A26	Intensity E6 Strong
+A27	NOT E6
+A28	Type E6 E
+T32	Entity 222 225	meg
+T33	Entity 307 325	steampunk-verdenen
+T34	Polar_expression 282 297	estetisk sterke
+E7	Polar_expression:T34 Target:T33
+A29	Polarity E7 Positive
+A30	Source_is_author E7
+A31	Intensity E7 Strong
+A32	NOT E7
+A33	Type E7 E
+T35	Polar_expression 300 306	dystre
+E8	Polar_expression:T35 Target:T33
+A34	Polarity E8 Positive
+A35	Source_is_author E8
+A36	Intensity E8 Standard
+A37	NOT E8
+A38	Type E8 E
+T36	Entity 349 363	spilluniverset
+T37	Polar_expression 332 348	gjennomarbeidede
+E9	Polar_expression:T37 Target:T36
+A39	Polarity E9 Positive
+A40	Source_is_author E9
+A41	Intensity E9 Standard
+A42	NOT E9
+A43	Type E9 E
+T38	Entity 380 390	oppdragene
+T39	Polar_expression 370 379	intrikate
+E10	Polar_expression:T39 Target:T38
+A44	Polarity E10 Positive
+A45	Source_is_author E10
+A46	Intensity E10 Standard
+A47	NOT E10
+A48	Type E10 E
+T40	Entity 551 563	Dishonored 2
+T41	Polar_expression 570 634	satser for fullt på å forsterke spillbarheten og mangfoldigheten
+E11	Polar_expression:T41 Target:T40
+A49	Polarity E11 Positive
+A50	Source_is_author E11
+A51	Intensity E11 Strong
+A52	Target_is_general E11
+A53	Type E11 E
+T42	Entity 680 694	hovedhistorien
+T43	Polar_expression 652 675	vanskelig å føle så mye
+E12	Polar_expression:T43 Target:T42
+A54	Polarity E12 Negative
+A55	Source_is_author E12
+A56	Intensity E12 Standard
+A57	Type E12 E
+T44	Polar_expression 652 694	vanskelig å føle så mye for hovedhistorien
+E13	Polar_expression:T44 Target:T40
+A58	Polarity E13 Negative
+A59	Source_is_author E13
+A60	Intensity E13 Standard
+A61	Target_is_general E13
+A62	Type E13 E
+T45	Entity 1051 1060	operasjon
+T46	Polar_expression 1018 1029	sjokkerende
+E14	Polar_expression:T46 Target:T45
+A63	Polarity E14 Negative
+A64	Source_is_author E14
+A65	Intensity E14 Slight
+A66	NOT E14
+A67	Type E14 E
+T47	Polar_expression 1033 1050	imponerende kjapp
+E15	Polar_expression:T47 Target:T45
+A68	Polarity E15 Positive
+A69	Source_is_author E15
+A70	Intensity E15 Standard
+A71	NOT E15
+A72	Type E15 E
+T48	Entity 1219 1223	jakt
+T49	Polar_expression 1199 1218	meget underholdende
+E16	Polar_expression:T49 Target:T48
+A73	Polarity E16 Positive
+A74	Source_is_author E16
+A75	Intensity E16 Strong
+A76	Type E16 E
+T50	Polar_expression 1544 1557	skinner solen
+E17	Polar_expression:T50 
+A77	Polarity E17 Positive
+A78	Source_is_author E17
+A79	Intensity E17 Standard
+A80	NOT E17
+A81	Type E17 E
+T51	Polar_expression 1561 1585	folk flest hoster mindre
+E18	Polar_expression:T51 
+A82	Polarity E18 Positive
+A83	Source_is_author E18
+A84	Intensity E18 Standard
+A85	NOT E18
+A86	Type E18 E
+T52	Polar_expression 1612 1682	bankende kjør fra tronrøvervennlige militære , gjengmedlemmer , hekser
+E19	Polar_expression:T52 
+A87	Polarity E19 Negative
+A88	Source_is_author E19
+A89	Intensity E19 Standard
+A90	NOT E19
+A91	Type E19 E
+T53	Entity 1715 1738	kolibriaktige blodfluer
+T54	Polar_expression 1695 1712	høyst irriterende
+E20	Polar_expression:T54 Target:T53
+A92	Polarity E20 Negative
+A93	Source_is_author E20
+A94	Intensity E20 Standard
+A95	Type E20 E
+T55	Entity 1838 1855	stemmen til Corvo
+T56	Polar_expression 1859 1878	i overkant mismodig
+E21	Polar_expression:T56 Target:T55
+A96	Polarity E21 Negative
+A97	Source_is_author E21
+A98	Intensity E21 Standard
+A99	Type E21 E
+T57	Entity 2074 2077	Jeg
+T58	Entity 2095 2102	sniking
+T59	Polar_expression 2131 2156	mest morsomt i Dishonored
+E22	Polar_expression:T59 Target:T58 Source:T57
+A100	Polarity E22 Positive
+A101	Source_is_author E22
+A102	Intensity E22 Standard
+A103	NOT E22
+A104	Type E22 E
+T60	Polar_expression 2518 2544	generelt høyere oppvakthet
+E23	Polar_expression:T60 Target:T61
+A105	Polarity E23 Positive
+A106	Source_is_author E23
+A107	Intensity E23 Standard
+A108	Type E23 E
+T61	Entity 2549 2555	NPCene
+T62	Entity 2563 2571	brettene
+T63	Polar_expression 2572 2584	frustrerende
+E24	Polar_expression:T63 Target:T62
+A109	Polarity E24 Negative
+A110	Source_is_author E24
+A111	Intensity E24 Slight
+A112	Type E24 E
+T64	Polar_expression 2591 2623	føles alltid verdt det til slutt
+E25	Polar_expression:T64 Target:T62
+A113	Polarity E25 Positive
+A114	Source_is_author E25
+A115	Intensity E25 Standard
+A116	Type E25 E
+T65	Entity 2680 2687	plottet
+T66	Polar_expression 2694 2724	smule likt tidligere historier
+E26	Polar_expression:T66 Target:T65
+A117	Polarity E26 Negative
+A118	Source_is_author E26
+A119	Intensity E26 Slight
+A120	Type E26 E
+T67	Polar_expression 2749 2763	noe oppstyltet
+E27	Polar_expression:T67 Target:T65
+A121	Polarity E27 Negative
+A122	Source_is_author E27
+A123	Intensity E27 Standard
+A124	Type E27 E
+T68	Polar_expression 2767 2779	uinteressant
+E28	Polar_expression:T68 Target:T65
+A125	Polarity E28 Negative
+A126	Source_is_author E28
+A127	Intensity E28 Strong
+A128	Type E28 E
+T69	Entity 2812 2825	spillbarheten
+T70	Polar_expression 2832 2841	overlegen
+E29	Polar_expression:T70 Target:T69
+A129	Polarity E29 Positive
+A130	Source_is_author E29
+A131	Intensity E29 Strong
+A132	Type E29 E
+T71	Entity 2875 2878	det
+T72	Polar_expression 2867 2874;2879 2910	spiller fullstendig sømløst og bugfritt
+E30	Polar_expression:T72 Target:T71
+A133	Polarity E30 Positive
+A134	Source_is_author E30
+A135	Intensity E30 Strong
+A136	Target_is_general E30
+A137	Type E30 E
+T74	Entity 2983 2988	brett
+T75	Polar_expression 2953 2962	innfløkte
+E32	Polar_expression:T75 Target:T74
+A143	Polarity E32 Positive
+A144	Source_is_author E32
+A145	Intensity E32 Strong
+A146	Type E32 E
+T76	Polar_expression 2966 2982	delikat oppbygde
+E33	Polar_expression:T76 Target:T74
+A147	Polarity E33 Positive
+A148	Source_is_author E33
+A149	Intensity E33 Strong
+A150	Type E33 E
+T73	Polar_expression 2923 2945	nytelse å suse rundt i
+E31	Polar_expression:T73 Target:T74
+A138	Polarity E31 Positive
+A139	Source_is_author E31
+A140	Intensity E31 Strong
+A141	Type E31 E
+T77	Entity 3079 3092	Finalekampene
+T78	Polar_expression 3096 3112	passe vanskelige
+E34	Polar_expression:T78 Target:T77
+A142	Polarity E34 Positive
+A151	Source_is_author E34
+A152	Intensity E34 Standard
+A153	Type E34 E
+T79	Entity 3199 3213	sideoppdragene
+T80	Polar_expression 3217 3227	anstendige
+E35	Polar_expression:T80 Target:T79
+A154	Polarity E35 Positive
+A155	Source_is_author E35
+A156	Intensity E35 Standard
+A157	Type E35 E
+T81	Entity 3468 3471	Min
+T82	Polar_expression 3472 3480	favoritt
+E36	Polar_expression:T82 Target:T83 Source:T81
+A158	Polarity E36 Positive
+A159	Source_is_author E36
+A160	Intensity E36 Strong
+A161	Type E36 E
+T83	Entity 3484 3494	" domino "
+T84	Entity 4059 4066	miljøet
+T85	Polar_expression 4050 4058	sinnrike
+E37	Polar_expression:T85 Target:T84
+A162	Polarity E37 Positive
+A163	Source_is_author E37
+A164	Intensity E37 Standard
+A165	Type E37 E
+T86	Entity 4084 4107	estetikken og dystopien
+T87	Polar_expression 4073 4083	knallharde
+E38	Polar_expression:T87 Target:T86
+A166	Polarity E38 Positive
+A167	Source_is_author E38
+A168	Intensity E38 Strong
+A169	Type E38 E
+T88	Entity 3972 3984	Dishonored 2
+T89	Polar_expression 3992 4040	spill man har lyst til å begynne på flere ganger
+E39	Polar_expression:T89 Target:T88
+A170	Polarity E39 Positive
+A171	Source_is_author E39
+A172	Intensity E39 Standard
+A173	Target_is_general E39
+A174	Type E39 E
+T90	Polar_expression 4119 4187	appell og egenart som plasserer det helt i toppen av utgivelser i år
+E40	Polar_expression:T90 Target:T88
+A175	Polarity E40 Positive
+A176	Source_is_author E40
+A177	Intensity E40 Strong
+A178	Target_is_general E40
+A179	Type E40 E
+T91	Polar_expression 4073 4107	knallharde estetikken og dystopien
+E41	Polar_expression:T91 Target:T88
+A180	Polarity E41 Positive
+A181	Source_is_author E41
+A182	Intensity E41 Strong
+A183	Target_is_general E41
+A184	Type E41 E
+T92	Polar_expression 4050 4066	sinnrike miljøet
+E42	Polar_expression:T92 Target:T88
+A185	Polarity E42 Positive
+A186	Source_is_author E42
+A187	Intensity E42 Strong
+A188	Target_is_general E42
+A189	Type E42 E
+T93	Polar_expression 4313 4347	i starten tas det en del snarveier
+E43	Polar_expression:T93 
+A190	Polarity E43 Negative
+A191	Source_is_author E43
+A192	Intensity E43 Slight
+A193	Target_is_general E43
+A194	Type E43 E
+T94	Entity 4391 4409	Serkonos-universet
+T95	Polar_expression 4410 4431	usedvanlig tiltalende
+E44	Polar_expression:T95 Target:T94
+A195	Polarity E44 Positive
+A196	Source_is_author E44
+A197	Intensity E44 Strong
+A198	Type E44 E
+T96	Polar_expression 4434 4444	detaljrikt
+E45	Polar_expression:T96 Target:T94
+A199	Polarity E45 Positive
+A200	Source_is_author E45
+A201	Intensity E45 Standard
+A202	Type E45 E
+T97	Polar_expression 4448 4540	full av detaljer , hint og NPC-oppførsler som man må spille gjennom flere ganger for å finne
+E46	Polar_expression:T97 Target:T94
+A203	Polarity E46 Positive
+A204	Source_is_author E46
+A205	Intensity E46 Strong
+A206	Type E46 E
+T98	Entity 4557 4569	Dishonored 2
+T99	Polar_expression 4573 4611	usedvanlig oppslukende spillopplevelse
+E47	Polar_expression:T99 Target:T98
+A207	Polarity E47 Positive
+A208	Source_is_author E47
+A209	Intensity E47 Strong
+A210	Target_is_general E47
+A211	Type E47 E
+T100	Polar_expression 4616 4623	åndeløs
+E48	Polar_expression:T100 Target:T106
+A212	Polarity E48 Positive
+A213	Source_is_author E48
+A214	Intensity E48 Strong
+A215	Target_is_general E48
+A216	Type E48 E
+T101	Polar_expression 4635 4642	ekstrem
+E49	Polar_expression:T101 Target:T105
+A217	Polarity E49 Positive
+A218	Source_is_author E49
+A219	Intensity E49 Strong
+A220	Target_is_general E49
+A221	Type E49 E
+T102	Entity 4663 4673	puslespill
+T103	Polar_expression 4657 4662	vakre
+E50	Polar_expression:T103 Target:T102
+A222	Polarity E50 Positive
+A223	Source_is_author E50
+A224	Intensity E50 Standard
+A225	Type E50 E
+T104	Polar_expression 4616 4710	åndeløs spenning , ekstrem brutalitet og vakre puslespill utfoldes i mange titalls timer glede
+E51	Polar_expression:T104 Target:T98
+A226	Polarity E51 Positive
+A227	Source_is_author E51
+A228	Intensity E51 Strong
+A229	Type E51 E
+T105	Entity 4643 4653	brutalitet
+T106	Entity 4624 4632	spenning

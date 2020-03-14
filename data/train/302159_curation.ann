@@ -1,0 +1,178 @@
+T1	E 13 13	
+T2	E 80 80	
+T3	E 134 134	
+T4	E 285 285	
+T5	E 536 536	
+T6	E 922 922	
+T7	EFINP 1315 1315	
+T8	EFINP 1334 1334	
+T9	E 1741 1741	
+T10	E 1917 1917	
+T11	E 2039 2039	
+T12	E 2136 2136	
+T13	E 2219 2219	
+T14	E 2282 2282	
+T15	E 2478 2478	
+T16	E 2629 2629	
+T17	E 2781 2781	
+T18	Entity 13 25	« Gulosten »
+T19	Polar_expression 32 41	strålende
+E56	Polar_expression:T19 Target:T18
+A271	Polarity E56 Positive
+A272	Intensity E56 Strong
+A273	Type E56 E
+A274	Source_is_author E56
+A275	Target_is_general E56
+T20	Polar_expression 1315 1332	Førstehåndskilder
+E57	Polar_expression:T20 
+A276	Polarity E57 Positive
+A277	Intensity E57 Standard
+A278	Type E57 EFINP
+A279	Source_is_author E57
+A280	Target_is_general E57
+T21	Polar_expression 1334 1351	Førstehåndskilder
+E58	Polar_expression:T21 
+A281	Polarity E58 Positive
+A282	Intensity E58 Standard
+A283	Type E58 EFINP
+A284	Source_is_author E58
+A285	Target_is_general E58
+T22	Polar_expression 110 130	sjeldent sterk debut
+E1	Polar_expression:T22 Target:T23
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Strong
+A4	Type E1 E
+T23	Entity 80 91	Tegneserien
+T24	Entity 134 157	Kristian Krohg-Sørensen
+T25	Polar_expression 158 185	dukket opp fra intet i fjor
+E2	Polar_expression:T25 Target:T24
+A5	Polarity E2 Positive
+A6	Source_is_author E2
+A7	Intensity E2 Slight
+A8	Type E2 E
+T26	Polar_expression 253 259	talent
+E3	Polar_expression:T26 Target:T24 Source:T27
+A9	Polarity E3 Positive
+A10	Intensity E3 Standard
+A11	NFP E3
+A12	Type E3 E
+T27	Entity 195 227	Lars Fiske og Steffen Kverneland
+T28	Polar_expression 332 376	Fiske og Kverneland gjorde et strålende valg
+E4	Polar_expression:T28 Target:T29
+A13	Polarity E4 Positive
+A14	Source_is_author E4
+A15	Intensity E4 Strong
+A16	Type E4 E
+T29	Entity 383 398	Krohg-Sørensens
+T30	Polar_expression 462 498	pangdebut av det helt sjeldne slaget
+E5	Polar_expression:T30 Target:T31
+A17	Polarity E5 Positive
+A18	Source_is_author E5
+A19	Intensity E5 Strong
+A20	Type E5 E
+T31	Entity 399 455	tegneserie om krigshelten Johannes « Gulosten » Andersen
+T32	Polar_expression 608 666	så innholdsrik at det ikke engang holder med én tegneserie
+E6	Polar_expression:T32 Target:T33
+A21	Polarity E6 Positive
+A22	Source_is_author E6
+A23	Intensity E6 Strong
+A24	Type E6 E
+T33	Entity 586 604	Gulostens historie
+T34	Entity 952 971	sorthvitt-tegninger
+T35	Polar_expression 924 929	enkle
+E7	Polar_expression:T35 Target:T34
+A25	Polarity E7 Positive
+A26	Source_is_author E7
+A27	Intensity E7 Slight
+A28	Type E7 E
+T36	Polar_expression 936 949	uttrykksfulle
+E8	Polar_expression:T36 Target:T34
+A29	Polarity E8 Positive
+A30	Source_is_author E8
+A31	Intensity E8 Strong
+A32	Type E8 E
+T37	Entity 1760 1766	bøkene
+T38	Polar_expression 1830 1914	klarer å omforme historisk materiale til fullverdige , og rent briljante tegneserier
+E9	Polar_expression:T38 Target:T37
+A33	Polarity E9 Positive
+A34	Source_is_author E9
+A35	Intensity E9 Strong
+A36	Type E9 E
+T41	Entity 1903 1914	tegneserier
+T39	Polar_expression 1871 1882	fullverdige
+E10	Polar_expression:T39 Target:T41
+A37	Polarity E10 Positive
+A38	Source_is_author E10
+A39	Intensity E10 Strong
+A40	Type E10 E
+T40	Polar_expression 1888 1902	rent briljante
+E11	Polar_expression:T40 Target:T41
+A41	Polarity E11 Positive
+A42	Source_is_author E11
+A43	Intensity E11 Strong
+A44	Type E11 E
+T42	Polar_expression 1917 2005	At det er en gullalder for historisk baserte tegneserier i Norge nå er det ingen tvil om
+E12	Polar_expression:T42 Target:T43
+A45	Polarity E12 Positive
+A46	Source_is_author E12
+A47	Intensity E12 Strong
+A48	Type E12 E
+T43	Entity 1944 1973	historisk baserte tegneserier
+T44	Polar_expression 2087 2091;2110 2133	ikke like imponerende tegner
+E13	Polar_expression:T44 Target:T45
+A49	Polarity E13 Negative
+A50	Source_is_author E13
+A51	Intensity E13 Standard
+A52	Type E13 E
+T45	Entity 2092 2106	Krohg-Sørensen
+T46	Entity 2145 2151	rutene
+T47	Polar_expression 2136 2141;2167 2216	Mange skisseaktige med mye hvit bakgrunn og få detaljer
+E14	Polar_expression:T47 Target:T46
+A53	Polarity E14 Negative
+A54	Source_is_author E14
+A55	Intensity E14 Standard
+A56	Type E14 E
+T48	Entity 2219 2229	Menneskene
+T49	Polar_expression 2238 2256	enkelt portrettert
+E15	Polar_expression:T49 
+A57	Polarity E15 Negative
+A58	Source_is_author E15
+A59	Intensity E15 Slight
+A60	Type E15 E
+T50	Polar_expression 2266 2279	fungerer godt
+E16	Polar_expression:T50 Target:T48
+A61	Polarity E16 Positive
+A62	Source_is_author E16
+A63	Intensity E16 Standard
+A64	Type E16 E
+T51	Entity 2282 2291	Gulostens
+T52	Polar_expression 2405 2438	en person leseren får sympati for
+E17	Polar_expression:T52 Target:T51
+A65	Polarity E17 Positive
+A66	Source_is_author E17
+A67	Intensity E17 Standard
+A68	Type E17 E
+T53	Polar_expression 2501 2559	har all mulighet til å bli en virkelig tegneserieklassiker
+E18	Polar_expression:T53 Target:T54
+A69	Polarity E18 Positive
+A70	Source_is_author E18
+A71	Intensity E18 Strong
+A72	Type E18 E
+T54	Entity 2478 2500	Serien om « Gulosten »
+T55	Polar_expression 2641 2673	full tiltro til at han vil klare
+E19	Polar_expression:T55 Target:T56 Source:T57
+A73	Polarity E19 Positive
+A74	Source_is_author E19
+A75	Intensity E19 Standard
+A76	Type E19 E
+T56	Entity 2660 2663	han
+T57	Entity 2637 2640	jeg
+T58	Polar_expression 2815 2824;2835 2847	heldigvis knapt begynt
+E20	Polar_expression:T58 Target:T59
+A77	Polarity E20 Positive
+A78	Source_is_author E20
+A79	Intensity E20 Strong
+A80	Target_is_general E20
+A81	Type E20 E
+T59	Entity 2785 2808	Gulostens liv i helvete

@@ -1,0 +1,87 @@
+T1	EFINP 1109 1109	
+T2	E 1251 1251	
+T3	E 1445 1445	
+T4	E 1496 1496	
+T5	E 1596 1596	
+T6	E 1695 1695	
+T7	E 1820 1820	
+T8	Entity 1649 1661	avslutningen
+T9	Polar_expression 1662 1691	kunne likevel vært tydeligere
+E20	Polar_expression:T9 Target:T8 Source:T27
+A83	Polarity E20 Negative
+A84	Intensity E20 Standard
+A85	Type E20 E
+A86	Source_is_author E20
+T10	Entity 1109 1116	Romanen
+T11	Polar_expression 1117 1185	forholder seg til den konkrete verdenen utenfor teksten eksplisitt ,
+E1	Polar_expression:T11 Target:T10
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Target_is_general E1
+A5	Type E1 EFINP
+T12	Polar_expression 1195 1247	steder og henvisninger til annen litteratur og kunst
+E2	Polar_expression:T12 Target:T10
+A6	Polarity E2 Positive
+A7	Source_is_author E2
+A8	Intensity E2 Slight
+A9	Target_is_general E2
+A10	Type E2 EFINP
+T13	Entity 1262 1269	teksten
+T14	Polar_expression 1255 1261	gagner
+E3	Polar_expression:T14 Target:T13
+A11	Polarity E3 Positive
+A12	Source_is_author E3
+A13	Intensity E3 Standard
+A14	Type E3 E
+T15	Entity 1274 1293	r Ørstaviks univers
+T16	Polar_expression 1297 1306	ofte tett
+E4	Polar_expression:T16 Target:T15
+A15	Polarity E4 Positive
+A16	Source_is_author E4
+A17	Intensity E4 Standard
+A18	NOT E4
+A19	Type E4 E
+T17	Entity 1445 1452	Språket
+T18	Polar_expression 1468 1475	vakkert
+E5	Polar_expression:T18 Target:T17
+A20	Polarity E5 Positive
+A21	Source_is_author E5
+A22	Intensity E5 Strong
+A23	Type E5 E
+T19	Polar_expression 1496 1504;1585 1595	Sårheten er sterk .
+E6	Polar_expression:T19 
+A24	Polarity E6 Positive
+A25	Source_is_author E6
+A26	Intensity E6 Standard
+A27	Type E6 E
+T20	Entity 1748 1760	Lily og Ralf
+T21	Polar_expression 1702 1723	fin dynamisk kontrast
+E7	Polar_expression:T21 Target:T20
+A28	Polarity E7 Positive
+A29	Source_is_author E7
+A30	Intensity E7 Standard
+A31	Type E7 E
+T22	Entity 1820 1823	Jeg
+T23	Entity 1940 1948	Ørstavik
+T24	Polar_expression 1838 1880	interessant og større vilje til vekslinger
+E8	Polar_expression:T24 Target:T23 Source:T22
+A32	Polarity E8 Positive
+A33	Source_is_author E8
+A34	Intensity E8 Standard
+A35	Type E8 E
+T25	Polar_expression 1297 1301;1309 1318	ofte antydende
+E9	Polar_expression:T25 Target:T15
+A36	Polarity E9 Positive
+A37	Source_is_author E9
+A38	Intensity E9 Standard
+A39	NOT E9
+A40	Type E9 E
+T26	Polar_expression 1297 1301;1322 1328	ofte intimt
+E10	Polar_expression:T26 Target:T15
+A41	Polarity E10 Positive
+A42	Source_is_author E10
+A43	Intensity E10 Standard
+A44	NOT E10
+A45	Type E10 E
+T27	Entity 1610 1612	vi

@@ -1,0 +1,120 @@
+T1	E 57 57	
+T2	E 789 789	
+T3	E 1194 1194	
+T4	E 1375 1375	
+T5	E 1426 1426	
+T6	E 1533 1533	
+T7	E 1647 1647	
+T8	E 1685 1685	
+T9	E 1732 1732	
+T10	Entity 77 82	roman
+T11	Polar_expression 89 97	ambisiøs
+E33	Polar_expression:T11 Target:T10
+A149	Polarity E33 Positive
+A150	Intensity E33 Standard
+A151	Type E33 E
+A152	Source_is_author E33
+A153	Target_is_general E33
+T12	Polar_expression 101 114	tankevekkende
+E34	Polar_expression:T12 Target:T10
+A154	Polarity E34 Positive
+A155	Intensity E34 Standard
+A156	Type E34 E
+A157	Source_is_author E34
+A158	Target_is_general E34
+T13	Polar_expression 1647 1682	Flere andre steder kunne vært nevnt
+E35	Polar_expression:T13 
+A159	Polarity E35 Negative
+A160	Intensity E35 Standard
+A161	Type E35 E
+A162	Source_is_author E35
+T14	Polar_expression 789 795	Frodig
+E1	Polar_expression:T14 Target:T15
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Type E1 E
+T15	Entity 825 832	Midthun
+T16	Polar_expression 798 802	nært
+E2	Polar_expression:T16 Target:T15
+A5	Polarity E2 Positive
+A6	Source_is_author E2
+A7	Intensity E2 Standard
+A8	Type E2 E
+T17	Polar_expression 806 817	humoristisk
+E3	Polar_expression:T17 Target:T15
+A9	Polarity E3 Positive
+A10	Source_is_author E3
+A11	Intensity E3 Standard
+A12	Type E3 E
+T18	Polar_expression 1198 1226	fin psykologisk troverdighet
+E4	Polar_expression:T18 Target:T19
+A13	Polarity E4 Positive
+A14	Source_is_author E4
+A15	Intensity E4 Standard
+A16	Type E4 E
+T19	Entity 1233 1244	forfatteren
+T20	Polar_expression 1392 1396;1409 1423	ikke helt vellykket
+E5	Polar_expression:T20 Target:T21
+A17	Polarity E5 Negative
+A18	Source_is_author E5
+A19	Intensity E5 Standard
+A20	Type E5 E
+T21	Entity 1397 1404	romanen
+T22	Polar_expression 1435 1457	vel pratsomt til tider
+E6	Polar_expression:T22 
+A21	Polarity E6 Negative
+A22	Source_is_author E6
+A23	Intensity E6 Standard
+A24	Type E6 E
+T23	Polar_expression 1464 1482	flere gjentakelser
+E7	Polar_expression:T23 
+A25	Polarity E7 Negative
+A26	Source_is_author E7
+A27	Intensity E7 Standard
+A28	Type E7 E
+T24	Polar_expression 1486 1512	uttværinger av situasjoner
+E8	Polar_expression:T24 
+A29	Polarity E8 Negative
+A30	Source_is_author E8
+A31	Intensity E8 Standard
+A32	Target_is_general E8
+A33	Type E8 E
+A34	Target_is_general E7
+A35	Target_is_general E6
+T25	Entity 1533 1539	Del II
+T26	Polar_expression 1540 1569	kunne med fordel vært barbert
+E9	Polar_expression:T26 Target:T25
+A36	Polarity E9 Negative
+A37	Source_is_author E9
+A38	Intensity E9 Standard
+A39	Type E9 E
+T27	Entity 1721 1728	romanen
+T28	Polar_expression 1688 1720	strammere redigering ville hevet
+E10	Polar_expression:T28 Target:T27
+A40	Polarity E10 Negative
+A41	Source_is_author E10
+A42	Intensity E10 Standard
+A43	Target_is_general E10
+A44	Type E10 E
+T29	Entity 1767 1772	roman
+T30	Polar_expression 1751 1766	blitt en viktig
+E11	Polar_expression:T30 Target:T29
+A45	Polarity E11 Positive
+A46	Source_is_author E11
+A47	Intensity E11 Standard
+A48	Target_is_general E11
+A49	Type E11 E
+T31	Polar_expression 1751 1772	blitt en viktig roman
+E12	Polar_expression:T31 Target:T32
+A50	Polarity E12 Positive
+A51	Source_is_author E12
+A52	Intensity E12 Standard
+A54	Type E12 E
+T32	Entity 1795 1803	Midthuns
+T33	Polar_expression 1804 1827	frodige fortellertalent
+E13	Polar_expression:T33 Target:T32
+A53	Polarity E13 Positive
+A55	Source_is_author E13
+A56	Intensity E13 Standard
+A57	Type E13 E

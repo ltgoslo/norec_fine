@@ -1,0 +1,155 @@
+T1	E 0 0	
+T2	E 14 14	
+T3	E 69 69	
+T4	E 135 135	
+T5	E 245 245	
+T6	E 716 716	
+T7	E 1287 1287	
+T8	E 1362 1362	
+T9	E 1393 1393	
+T10	E 1569 1569	
+T11	EFINP 1869 1869	
+T12	E 2156 2156	
+T13	Polar_expression 0 12	En tapt time
+E1	Polar_expression:T13 
+A1	Polarity E1 Negative
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Target_is_general E1
+A5	Type E1 E
+T14	Polar_expression 43 66	ordentlig ålreite karer
+E2	Polar_expression:T14 Target:T15
+A6	Polarity E2 Positive
+A7	Source_is_author E2
+A8	Intensity E2 Strong
+A9	Type E2 E
+T15	Entity 14 26	Lostprophets
+T16	Entity 82 101	musikken de spiller
+T17	Polar_expression 108 131	ribbet for personlighet
+E3	Polar_expression:T17 Target:T16
+A10	Polarity E3 Negative
+A11	Source_is_author E3
+A12	Intensity E3 Strong
+A13	Type E3 E
+T18	Entity 135 153	Årets Hovefestival
+T19	Polar_expression 154 197	har fått kritikk for fraværet av headlinere
+E4	Polar_expression:T19 Target:T18
+A14	Polarity E4 Negative
+A15	Intensity E4 Standard
+A16	NFP E4
+A17	NOT E4
+A18	Type E4 E
+T20	Polar_expression 248 291	kritikken er ikke uten en viss berettigelse
+E5	Polar_expression:T20 
+A19	Polarity E5 Negative
+A20	Source_is_author E5
+A21	Intensity E5 Standard
+A22	NOT E5
+A23	Type E5 E
+T21	Polar_expression 389 485	ikke navn som i seg selv er kapable til å generere Bieber-tilstander i det sørlandske skogholtet
+E6	Polar_expression:T21 Target:T22
+A24	Polarity E6 Negative
+A25	Source_is_author E6
+A26	Intensity E6 Standard
+A27	NOT E6
+A28	Type E6 E
+T22	Entity 303 328	Rise Against og The Shins
+T23	Entity 738 745	Weapons
+T24	Polar_expression 817 869	populistisk mikstur av nu-metal , emorock og punkpop
+E7	Polar_expression:T24 Target:T23
+A29	Polarity E7 Negative
+A30	Source_is_author E7
+A31	Intensity E7 Slight
+A32	Type E7 EFINP
+T25	Entity 757 759	de
+T26	Polar_expression 748 756;760 807	fremstår tidvis som selve definisjonen av middelmådighet
+E8	Polar_expression:T26 Target:T25
+A33	Polarity E8 Negative
+A34	Source_is_author E8
+A35	Intensity E8 Standard
+A36	Type E8 E
+T27	Polar_expression 1362 1390	Det låter ikke spesielt fett
+E9	Polar_expression:T27 
+A37	Polarity E9 Negative
+A38	Source_is_author E9
+A39	Intensity E9 Strong
+A40	Target_is_general E9
+A41	Type E9 E
+T28	Entity 1400 1407	vokalen
+T29	Polar_expression 1414 1431	gigantisk problem
+E10	Polar_expression:T29 Target:T28
+A42	Polarity E10 Negative
+A43	Source_is_author E10
+A44	Intensity E10 Strong
+A45	Type E10 E
+T30	Polar_expression 1507 1534	høres veikt og kraftløst ut
+E11	Polar_expression:T30 Target:T28
+A46	Polarity E11 Negative
+A47	Source_is_author E11
+A48	Intensity E11 Strong
+A49	Type E11 E
+T31	Polar_expression 1540 1566	dødssynd i denne sjangeren
+E12	Polar_expression:T31 
+A50	Polarity E12 Negative
+A51	Source_is_author E12
+A52	Intensity E12 Strong
+A53	Type E12 E
+T32	Polar_expression 1586 1628	gjør det de skal , verken mer eller mindre
+E13	Polar_expression:T32 Target:T33
+A54	Polarity E13 Positive
+A55	Source_is_author E13
+A56	Intensity E13 Slight
+A57	Type E13 E
+T33	Entity 1569 1585	Resten av bandet
+T34	Entity 1752 1758	bandet
+T35	Polar_expression 1719 1745	noe grått og ordinært over
+E14	Polar_expression:T35 Target:T34
+A58	Polarity E14 Negative
+A59	Source_is_author E14
+A60	Intensity E14 Standard
+A61	Type E14 E
+T36	Polar_expression 1778 1804	svært mange rager over dem
+E15	Polar_expression:T36 Target:T34
+A62	Polarity E15 Negative
+A63	Source_is_author E15
+A64	Intensity E15 Standard
+A65	Type E15 E
+T37	Entity 1916 1919	han
+T38	Polar_expression 1920 1970	tar på seg en rosa hjelm noen har kastet på scenen
+E16	Polar_expression:T38 Target:T37
+A66	Polarity E16 Positive
+A67	Source_is_author E16
+A68	Intensity E16 Standard
+A69	Type E16 EFINP
+T39	Polar_expression 1869 1905	Den påstanden motbeviser hans stadig
+E17	Polar_expression:T39 Target:T40
+A70	Polarity E17 Positive
+A71	Source_is_author E17
+A72	Intensity E17 Strong
+A73	Type E17 EFINP
+T40	Entity 1894 1898	hans
+T41	Polar_expression 1980 2012	prøver å sette i gang en moshpit
+E18	Polar_expression:T41 Target:T37
+A74	Polarity E18 Positive
+A75	Source_is_author E18
+A76	Intensity E18 Standard
+A77	Type E18 EFINP
+T42	Polar_expression 2021 2081	oppfordrer publikum til å synge sin favorittlåt med Skrillex
+E19	Polar_expression:T42 Target:T37
+A78	Polarity E19 Positive
+A79	Source_is_author E19
+A80	Intensity E19 Standard
+A81	Type E19 EFINP
+T43	Polar_expression 2110 2153	lager matchende ) dupsteplyder i mikrofonen
+E20	Polar_expression:T43 Target:T37
+A82	Polarity E20 Positive
+A83	Source_is_author E20
+A84	Intensity E20 Standard
+A85	Type E20 EFINP
+T44	Entity 2156 2168	Lostprophets
+T45	Polar_expression 2178 2237	ville hatt godt av et fnugg av sjarmen han legger for dagen
+E21	Polar_expression:T45 Target:T44
+A86	Polarity E21 Negative
+A87	Source_is_author E21
+A88	Intensity E21 Standard
+A89	Type E21 E

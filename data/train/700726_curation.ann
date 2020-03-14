@@ -1,0 +1,151 @@
+T1	E 0 0	
+T2	E 33 33	
+T3	E 163 163	
+T4	E 301 301	
+T5	E 328 328	
+T6	E 472 472	
+T7	E 640 640	
+T8	E 831 831	
+T9	E 1234 1234	
+T10	E 1563 1563	
+T11	E 1617 1617	
+T12	E 1861 1861	
+T13	E 1980 1980	
+T14	Polar_expression 0 16	Delvis vellykket
+E35	Polar_expression:T14 
+A149	Polarity E35 Positive
+A150	Intensity E35 Slight
+A151	Type E35 E
+A152	Source_is_author E35
+A153	Target_is_general E35
+T15	Entity 305 313	åpningen
+T16	Polar_expression 317 325	knallbra
+E36	Polar_expression:T16 Target:T15
+A154	Polarity E36 Positive
+A155	Intensity E36 Strong
+A156	Type E36 E
+A157	Source_is_author E36
+T17	Entity 46 56	dokumentar
+T18	Polar_expression 121 159	blitt et solid og traust stykke arbeid
+E1	Polar_expression:T18 Target:T17
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Target_is_general E1
+A5	Type E1 E
+T19	Entity 163 166	Jeg
+T20	Polar_expression 167 179;184 297	skulle ønske hadde appellert mindre til de spesielt interesserte hoder og enda mer til følelser vi alle kan kjenne oss igjen i
+E2	Polar_expression:T20 Source:T19 Target:T21
+A6	Polarity E2 Positive
+A7	Source_is_author E2
+A8	Intensity E2 Standard
+T21	Entity 180 183	hun
+T22	Polar_expression 328 341	Taust talende
+E3	Polar_expression:T22 Target:T23
+A9	Polarity E3 Positive
+A10	Source_is_author E3
+A11	Intensity E3 Standard
+A12	Type E3 E
+T23	Entity 342 348	bilder
+T24	Polar_expression 423 439	slående kontrast
+E4	Polar_expression:T24 Target:T23
+A13	Polarity E4 Positive
+A14	Source_is_author E4
+A15	Intensity E4 Standard
+A16	Type E4 E
+T25	Polar_expression 551 569	rører hjerterøtter
+E5	Polar_expression:T25 
+A17	Polarity E5 Positive
+A18	Source_is_author E5
+A19	Intensity E5 Standard
+A21	Type E5 E
+T26	Entity 642 657	Svein Ludvigsen
+T27	Polar_expression 661 687	bedre enn sine forgjengere
+E6	Polar_expression:T27 Target:T26
+A20	Polarity E6 Positive
+A22	Intensity E6 Standard
+A23	NFP E6
+A24	NOT E6
+A25	Type E6 E
+T28	Entity 676 687	forgjengere
+T29	Polar_expression 642 666	Svein Ludvigsen er bedre
+E7	Polar_expression:T29 Target:T28
+A26	Polarity E7 Negative
+A27	Intensity E7 Standard
+A28	NFP E7
+A29	NOT E7
+A30	Type E7 E
+T30	Entity 845 848	han
+T31	Polar_expression 853 862	troverdig
+E8	Polar_expression:T31 Target:T30
+A31	Polarity E8 Positive
+A32	Source_is_author E8
+A33	Intensity E8 Standard
+A34	Type E8 E
+T32	Polar_expression 866 880	medmenneskelig
+E9	Polar_expression:T32 Target:T30
+A35	Polarity E9 Positive
+A36	Source_is_author E9
+A37	Intensity E9 Standard
+A38	Type E9 E
+T33	Entity 886 901	første halvtime
+T34	Polar_expression 902 919	fungerer utmerket
+E10	Polar_expression:T34 Target:T33
+A39	Polarity E10 Positive
+A40	Source_is_author E10
+A41	Intensity E10 Strong
+A42	Type E10 E
+T35	Polar_expression 1234 1290	Å være flue på veggen under et slikt møte er interessant
+E11	Polar_expression:T35 
+A43	Polarity E11 Positive
+A44	Source_is_author E11
+A45	Intensity E11 Standard
+A46	Type E11 E
+T36	Entity 1571 1594	midtveis i dokumentaren
+T37	Polar_expression 1595 1614	faller temperaturen
+E12	Polar_expression:T37 Target:T36
+A47	Polarity E12 Negative
+A48	Source_is_author E12
+A49	Intensity E12 Standard
+A50	Type E12 E
+T38	Entity 1617 1621	Holm
+T39	Polar_expression 1626 1648	sjarmert oss lenge nok
+E13	Polar_expression:T39 Target:T38
+A51	Polarity E13 Positive
+A52	Source_is_author E13
+A53	Intensity E13 Standard
+A54	Type E13 E
+T40	Entity 1718 1721	hun
+T41	Polar_expression 1722 1738	trenger en motor
+E14	Polar_expression:T41 Target:T40
+A55	Polarity E14 Negative
+A56	Source_is_author E14
+A57	Intensity E14 Standard
+A58	Type E14 E
+T42	Polar_expression 1872 1891	følelsene kobles av
+E15	Polar_expression:T42 Source:T43
+A59	Polarity E15 Negative
+A60	Source_is_author E15
+A61	Intensity E15 Standard
+A62	Type E15 E
+T43	Entity 1895 1898	jeg
+T44	Polar_expression 1899 1937	må bestemme seg for å være interessert
+E16	Polar_expression:T44 Source:T43
+A63	Polarity E16 Negative
+A64	Source_is_author E16
+A65	Intensity E16 Standard
+A66	Type E16 E
+T45	Entity 1991 1995	Holm
+T46	Polar_expression 1980 1984	Synd
+E17	Polar_expression:T46 
+A67	Polarity E17 Negative
+A68	Source_is_author E17
+A69	Intensity E17 Standard
+A70	Target_is_general E17
+A71	Type E17 E
+T47	Polar_expression 1996 2026	skal ha masse ros for forsøket
+E18	Polar_expression:T47 Target:T45
+A72	Polarity E18 Positive
+A73	Source_is_author E18
+A74	Intensity E18 Standard
+A75	Type E18 E

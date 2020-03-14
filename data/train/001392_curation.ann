@@ -31,7 +31,7 @@ A13	Intensity E3 Strong
 A14	Type E3 E
 T15	Entity 123 125	vi
 T18	Polar_expression 425 459	albumene skulle bli mer helhetlige
-E4	Polar_expression:T18 Target2:T23
+E4	Polar_expression:T18 Target:T23
 A15	Polarity E4 Negative
 A16	Source_is_author E4
 A17	Intensity E4 Standard

@@ -17,7 +17,7 @@ T14	E 1745 1745
 T15	E 1758 1758	
 T16	E 1863 1863	
 T17	E 1978 1978	
-T18	Polar_expression 22 60	TV-underholdning av høyeste kvalitet !
+T18	Polar_expression 42 60	høyeste kvalitet !
 E1	Polar_expression:T18 
 A3	Polarity E1 Positive
 A4	Source_is_author E1
@@ -40,7 +40,7 @@ A14	Source_is_author E3
 A15	Intensity E3 Standard
 A16	NOT E3
 A17	Type E3 E
-T23	Polar_expression 156 179	satt i et elegant miljø
+T23	Polar_expression 166 179	elegant miljø
 E4	Polar_expression:T23 Target:T19 Source:T20
 A18	Polarity E4 Positive
 A19	Source_is_author E4
@@ -48,7 +48,7 @@ A20	Intensity E4 Standard
 A21	NOT E4
 A22	Type E4 E
 T24	Entity 192 208	Mad Men sesong 2
-T25	Polar_expression 212 260	fremdeles tv-underholdning av høyeste kvalitet !
+T25	Polar_expression 242 260	høyeste kvalitet !
 E5	Polar_expression:T25 Target:T24
 A23	Polarity E5 Positive
 A24	Source_is_author E5
@@ -56,8 +56,8 @@ A25	Intensity E5 Strong
 A26	Target_is_general E5
 A27	Type E5 E
 T26	Entity 405 419	denne sesongen
-T27	Polar_expression 476 554	vi oppdager stadig nye og spennende sider ved både sjefer og ansatte i firmaet
-E6	Polar_expression:T27 Target:T26
+T27	Polar_expression 479 517	oppdager stadig nye og spennende sider
+E6	Polar_expression:T27 Target:T26 Source:T54
 A28	Polarity E6 Positive
 A29	Source_is_author E6
 A30	Intensity E6 Standard
@@ -71,33 +71,12 @@ A35	Intensity E7 Standard
 A36	Target_is_general E7
 A37	Type E7 E
 T29	Polar_expression 420 470	får flere figurer lov til å utvide sine horisonter
-E8	Polar_expression:T29 Target:T26
+E8	Polar_expression:T29 Target:T26 Source:T54
 A38	Polarity E8 Positive
 A39	Source_is_author E8
 A40	Intensity E8 Standard
 A41	Target_is_general E8
 A42	Type E8 E
-T30	Polar_expression 910 973	Dessuten får vi se Peggy Olson ( Elisabeth Moss ) på hjemmebane
-E9	Polar_expression:T30 
-A43	Polarity E9 Positive
-A44	Source_is_author E9
-A45	Intensity E9 Slight
-A46	Target_is_general E9
-A47	Type E9 E
-T31	Polar_expression 979 1064	vi blir bedre kjent med Paul Kinsey ( Michael Gladis ) og Harry Crane ( Rich Sommer )
-E10	Polar_expression:T31 
-A48	Polarity E10 Positive
-A49	Source_is_author E10
-A50	Intensity E10 Slight
-A51	Target_is_general E10
-A52	Type E10 E
-T32	Polar_expression 1138 1178	Nå får vi anledning til å bry oss om dem
-E11	Polar_expression:T32 
-A53	Polarity E11 Positive
-A54	Source_is_author E11
-A55	Intensity E11 Slight
-A56	Target_is_general E11
-A57	Type E11 E
 T33	Polar_expression 1182 1208	Interessant " gubbevelde "
 E12	Polar_expression:T33 
 A58	Polarity E12 Positive
@@ -105,7 +84,7 @@ A59	Source_is_author E12
 A60	Intensity E12 Standard
 A61	Type E12 E
 T34	Entity 1339 1345	serien
-T35	Polar_expression 1210 1354	Det kan fremdeles være vanskelig for noen kvinnelige seere å takle kvinnens underdanige rolle i det mannsdominerte samfunnet som serien skildrer
+T35	Polar_expression 1233 1334	vanskelig for noen kvinnelige seere å takle kvinnens underdanige rolle i det mannsdominerte samfunnet
 E13	Polar_expression:T35 Target:T34
 A62	Polarity E13 Negative
 A63	Source_is_author E13
@@ -136,8 +115,8 @@ A76	Polarity E16 Positive
 A77	Source_is_author E16
 A78	Intensity E16 Standard
 A80	Type E16 E
-T44	Polar_expression 1863 1928	Kulissene , kostymene og fargebruken kommer virkelig til sin rett
-E17	Polar_expression:T44 
+T44	Polar_expression 1900 1928	kommer virkelig til sin rett
+E17	Polar_expression:T44 Target:T32
 A81	Polarity E17 Positive
 A82	Source_is_author E17
 A83	Intensity E17 Standard
@@ -149,7 +128,7 @@ A79	Polarity E18 Positive
 A85	Source_is_author E18
 A86	Intensity E18 Standard
 A87	Type E18 E
-T47	Entity 2037 2045	sesong 2
+T47	Entity 2012 2045	fire første episodene av sesong 2
 T48	Entity 1752 1754	HD
 T49	Polar_expression 1745 1751	Best i
 E19	Polar_expression:T49 Target:T48
@@ -172,10 +151,17 @@ A98	Intensity E21 Standard
 A100	Type E21 E
 A99	Target_is_general E21
 A101	Target_is_general E16
-T53	Polar_expression 1115 1135	ble vi kjent med dem
-E22	Polar_expression:T53 
-A102	Polarity E22 Positive
-A103	Source_is_author E22
-A104	Intensity E22 Slight
-A105	Type E22 E
-#1	AnnotatorNotes E22	uenig - bør hvertfall være NOT, men egentlig helst NONE
+T54	Entity 476 478	vi
+T30	Entity 1863 1872	Kulissene
+T31	Entity 1875 1884	kostymene
+T32	Entity 1888 1899	fargebruken
+E9	Polar_expression:T44 Target:T31
+E10	Polar_expression:T44 Target:T30
+A43	Polarity E9 Positive
+A44	Polarity E10 Positive
+A45	Source_is_author E9
+A46	Source_is_author E10
+A47	Intensity E9 Standard
+A48	Intensity E10 Standard
+A49	Type E9 E
+A50	Type E10 E

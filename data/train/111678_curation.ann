@@ -1,0 +1,62 @@
+T1	E 0 0	
+T2	E 84 84	
+T3	E 251 251	
+T4	E 323 323	
+T5	E 454 454	
+T6	Polar_expression 0 8	Lettvint
+E1	Polar_expression:T6 
+A1	Polarity E1 Negative
+A2	Source_is_author E1
+A3	Intensity E1 Slight
+A4	Target_is_general E1
+A5	Type E1 E
+T7	Polar_expression 84 217	Mistanken om at sjangeren « ungdomskomedie med 30 - 40 år gamle menn » nærmer seg metningspunktet bekreftes av denne lettvinte farsen
+E2	Polar_expression:T7 
+A6	Polarity E2 Negative
+A7	Source_is_author E2
+A8	Intensity E2 Strong
+A9	Target_is_general E2
+A10	Type E2 E
+T8	Entity 211 217	farsen
+T9	Polar_expression 201 210	lettvinte
+E3	Polar_expression:T9 Target:T8
+A11	Polarity E3 Negative
+A12	Source_is_author E3
+A13	Intensity E3 Standard
+A14	Type E3 E
+T10	Polar_expression 306 316	man ler av
+E4	Polar_expression:T10 Target:T11
+A15	Polarity E4 Positive
+A16	Source_is_author E4
+A17	Intensity E4 Standard
+A18	Type E4 E
+T11	Entity 269 279	guttungene
+T12	Polar_expression 431 451	Richard Pryor verdig
+E5	Polar_expression:T12 Target:T13
+A19	Polarity E5 Positive
+A20	Source_is_author E5
+A21	Intensity E5 Standard
+A22	Type E5 E
+T13	Entity 370 387	Bobb'e J Thompson
+T14	Polar_expression 525 603	kanskje ikke et kvalitetstegn at flausescenene fikk fram den bredeste latteren
+E6	Polar_expression:T14 
+A23	Polarity E6 Negative
+A24	Source_is_author E6
+A25	Intensity E6 Strong
+A26	Target_is_general E6
+A27	Type E6 E
+#1	AnnotatorNotes E6	Negation
+T15	Polar_expression 572 603	fikk fram den bredeste latteren
+E7	Polar_expression:T15 Target:T16
+A28	Polarity E7 Positive
+A29	Source_is_author E7
+A30	Intensity E7 Standard
+A31	Type E7 E
+T16	Entity 558 571	flausescenene
+T17	Polar_expression 485 508	byr på mer av det samme
+E8	Polar_expression:T17 Target:T18
+A32	Polarity E8 Positive
+A33	Source_is_author E8
+A34	Intensity E8 Slight
+A35	Type E8 EFINP
+T18	Entity 468 484	ekstramaterialet

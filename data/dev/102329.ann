@@ -37,7 +37,7 @@ T23	E 2976 2976
 A14	NOT T23
 T24	E 3103 3103	
 T25	E 3166 3166	
-T26	Polar_expression 79 113	blitt kalt tidenes skumleste spill
+T26	Polar_expression 90 113	tidenes skumleste spill
 E1	Polar_expression:T26 Target:T27
 A15	Polarity E1 Positive
 A16	Intensity E1 Standard

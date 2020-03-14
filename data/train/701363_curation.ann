@@ -174,7 +174,7 @@ A82	Target_is_general E19
 A83	Target_is_general E17
 T60	Entity 2037 2039	Vi
 T61	Polar_expression 2040 2045	liker
-E21	Polar_expression:T61 Target:T60
+E21	Polar_expression:T61 Target:T90 Source:T60
 A84	Polarity E21 Positive
 A85	Source_is_author E21
 A86	Intensity E21 Standard
@@ -239,7 +239,7 @@ A122	Intensity E29 Standard
 A123	Type E29 E
 T76	Entity 3104 3107	han
 T77	Polar_expression 3148 3174	kjerringaktig småkrangling
-E30	Polar_expression:T77 Target2:T79
+E30	Polar_expression:T77 Target:T79
 A124	Polarity E30 Negative
 A125	Source_is_author E30
 A126	Intensity E30 Standard
@@ -302,3 +302,4 @@ A163	Intensity E38 Standard
 A164	Target_is_general E38
 A165	Type E38 E
 T89	Entity 4020 4023	den
+T90	Entity 2046 2049	det

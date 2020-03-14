@@ -99,7 +99,7 @@ A57	Intensity E14 Standard
 A58	Type E14 E
 T28	Entity 2881 2884	jeg
 T29	Entity 3011 3027	teateroppsetning
-T30	Polar_expression 3068 3086	helhetlig og sterk
+T30	Polar_expression 3068 3077	helhetlig
 E15	Polar_expression:T30 Target:T29
 A59	Polarity E15 Positive
 A60	Source_is_author E15
@@ -113,23 +113,9 @@ A64	Polarity E16 Positive
 A65	Source_is_author E16
 A66	Intensity E16 Standard
 A67	Type E16 E
-T33	Polar_expression 3090 3116;3163 3197	Rebekka Ringsts scenografi har den samme åpne fleksibiliteten
-E17	Polar_expression:T33 Target:T34
+T33	Polar_expression 3081 3086	sterk
+E17	Polar_expression:T33 Target:T29
 A68	Polarity E17 Positive
 A69	Source_is_author E17
 A70	Intensity E17 Standard
 A71	Type E17 E
-T34	Entity 3202 3219	rolleidentitetene
-T35	Entity 3223 3233	replikkene
-T36	Polar_expression 2984 3038;3065 3086	den ene unntaksscenen i en teateroppsetning som ellers er helhetlig og sterk
-E18	Polar_expression:T36 Target:T29
-A72	Polarity E18 Negative
-A73	Source_is_author E18
-A74	Intensity E18 Standard
-A75	Target_is_general E18
-A76	Type E18 E
-E19	Polar_expression:T33 Target:T35
-A77	Polarity E19 Positive
-A78	Source_is_author E19
-A79	Intensity E19 Standard
-A80	Type E19 E

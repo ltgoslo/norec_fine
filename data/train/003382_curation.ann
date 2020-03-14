@@ -1,0 +1,80 @@
+T1	E 180 180	
+T2	E 872 872	
+T3	E 992 992	
+T4	E 1184 1184	
+T5	E 1490 1490	
+T6	E 1622 1622	
+T7	E 1667 1667	
+T8	E 1862 1862	
+T9	Entity 1023 1032	historien
+T10	Polar_expression 1033 1045	uforutsigbar
+E25	Polar_expression:T10 Target:T9
+A114	Polarity E25 Positive
+A115	Intensity E25 Standard
+A116	Type E25 E
+A117	Source_is_author E25
+A118	Target_is_general E25
+T11	Polar_expression 1055 1066	interessant
+E26	Polar_expression:T11 Target:T9
+A119	Polarity E26 Positive
+A120	Intensity E26 Standard
+A121	Type E26 E
+A122	Source_is_author E26
+A123	Target_is_general E26
+T12	Polar_expression 180 211	Det må han gjerne fortsette med
+E1	Polar_expression:T12 
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Strong
+A4	Target_is_general E1
+A5	Type E1 E
+T13	Polar_expression 262 354	veldig flink til å skildre unge mennesker i den håpløse overgangsfasen mellom barn og voksen
+E2	Polar_expression:T13 Target:T14
+A6	Polarity E2 Positive
+A7	Source_is_author E2
+A8	Intensity E2 Strong
+A9	Type E2 E
+T14	Entity 245 248	han
+T16	Polar_expression 959 988	bruker dette grepet effektivt
+E4	Polar_expression:T16 Target:T17
+A15	Polarity E4 Positive
+A16	Source_is_author E4
+A17	Intensity E4 Strong
+A18	Type E4 E
+T17	Entity 950 958	Van Sant
+T15	Polar_expression 1199 1220	et funn i hovedrollen
+E3	Polar_expression:T15 Target:T18
+A10	Polarity E3 Positive
+A11	Source_is_author E3
+A12	Intensity E3 Strong
+A13	Type E3 E
+T18	Entity 1184 1195	Gabe Nevins
+T19	Entity 1559 1562	det
+T20	Polar_expression 1566 1598	hjerteskjærende å være vitne til
+E5	Polar_expression:T20 Target:T19
+A14	Polarity E5 Positive
+A19	Source_is_author E5
+A20	Intensity E5 Standard
+A21	Type E5 E
+T21	Polar_expression 1630 1664	litt problemer med å takle slutten
+E6	Polar_expression:T21 Target:T22 Source:T23
+A22	Polarity E6 Negative
+A23	Source_is_author E6
+A24	Intensity E6 Standard
+A25	Type E6 E
+T22	Entity 1657 1664	slutten
+T23	Entity 1622 1625	Jeg
+T24	Polar_expression 1703 1729	savner en slags konklusjon
+E7	Polar_expression:T24 Source:T25
+A26	Polarity E7 Negative
+A27	Source_is_author E7
+A28	Intensity E7 Standard
+A29	Type E7 E
+T25	Entity 1699 1702	jeg
+T26	Entity 1866 1883	” Paranoid Park ”
+T27	Polar_expression 1884 1944	gir et sørgelig bilde på et ungt menneske uten voksen støtte
+E8	Polar_expression:T27 Target:T26
+A30	Polarity E8 Positive
+A31	Source_is_author E8
+A32	Intensity E8 Standard
+A33	Type E8 E

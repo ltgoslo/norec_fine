@@ -157,3 +157,5 @@ E18	Polar_expression:T44
 A79	Source_is_author E18
 A80	Intensity E18 Standard
 A81	Type E18 E
+A82	Polarity E12 Positive
+A83	Polarity E18 Negative

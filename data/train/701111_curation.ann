@@ -1,0 +1,79 @@
+T1	E 18 18	
+T2	E 528 528	
+T3	E 646 646	
+T4	E 824 824	
+T5	E 918 918	
+T6	E 924 924	
+T7	E 1071 1071	
+T8	E 1245 1245	
+T9	Entity 528 534	Mannen
+T10	Polar_expression 538 549	forferdelig
+E21	Polar_expression:T10 Target:T9
+A86	Polarity E21 Negative
+A87	Intensity E21 Strong
+A88	Type E21 E
+A89	Source_is_author E21
+A90	NOT E21
+T11	Polar_expression 18 34;57 60	Verre kunne ikke bli
+E1	Polar_expression:T11 Target:T12
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Strong
+A4	Type E1 E
+T12	Entity 35 56	lanseringstidspunktet
+T13	Polar_expression 653 660;668 696	starter som et nedstemmende pysestyr
+E2	Polar_expression:T13 Target:T14
+A5	Polarity E2 Negative
+A6	Source_is_author E2
+A7	Intensity E2 Strong
+A8	Target_is_general E2
+A9	Type E2 E
+T14	Entity 661 667	filmen
+T15	Entity 824 893	Når Thurman har sex med en gutt som bærer hårstjert i stedet for lugg
+T16	Polar_expression 896 915	skriker du i smerte
+E3	Polar_expression:T16 Target:T15
+A10	Polarity E3 Negative
+A11	Source_is_author E3
+A12	Intensity E3 Strong
+A13	Type E3 E
+T17	Polar_expression 918 923	Nei !
+E4	Polar_expression:T17 
+A14	Polarity E4 Negative
+A15	Source_is_author E4
+A16	Intensity E4 Strong
+A17	Type E4 E
+T18	Entity 924 939	Macaulay Culkin
+T19	Polar_expression 940 956	ville vært bedre
+E5	Polar_expression:T19 Target:T18
+A18	Polarity E5 Positive
+A19	Source_is_author E5
+A20	Intensity E5 Standard
+A21	NOT E5
+A22	Type E5 E
+T20	Polar_expression 924 956	Macaulay Culkin ville vært bedre
+E6	Polar_expression:T20 
+A23	Polarity E6 Positive
+A24	Source_is_author E6
+A25	Intensity E6 Standard
+A26	Type E6 E
+T21	Entity 1071 1083	Meryl Streep
+T22	Polar_expression 1084 1142	triller en omtenksom karusell av forskrekka ansiktsuttrykk
+E7	Polar_expression:T22 Target:T21
+A27	Polarity E7 Positive
+A28	Source_is_author E7
+A29	Intensity E7 Slight
+A30	Type E7 E
+T23	Entity 1179 1182	hun
+T24	Polar_expression 1175 1178;1183 1242	ser stadig vekk ut som en kortbeint buksedressmodell for Lindex
+E8	Polar_expression:T24 Target:T23
+A31	Polarity E8 Negative
+A32	Source_is_author E8
+A33	Intensity E8 Standard
+A34	Type E8 E
+T25	Polar_expression 1245 1256	Litt vittig
+E9	Polar_expression:T25 Target:T26
+A35	Polarity E9 Positive
+A36	Source_is_author E9
+A37	Intensity E9 Standard
+A38	Type E9 E
+T26	Entity 1273 1369	når den uvitende Uma snakker med Streep om at hun gjerne ville strikke hatt til kjærestens penis

@@ -1,0 +1,123 @@
+T1	E 64 64	
+T2	E 129 129	
+T3	E 232 232	
+T4	E 444 444	
+T5	E 870 870	
+T6	E 947 947	
+T7	E 1092 1092	
+T8	E 1183 1183	
+T9	E 1283 1283	
+T10	E 1441 1441	
+T11	E 1580 1580	
+T12	E 1800 1800	
+T13	Entity 202 212	« Hatere »
+T14	Polar_expression 188 201	forglemmelige
+E30	Polar_expression:T14 Target:T13
+A134	Polarity E30 Negative
+A135	Intensity E30 Standard
+A136	Type E30 E
+A137	Source_is_author E30
+A138	NOT E30
+T15	Entity 280 290	« Bobler »
+T16	Entity 1283 1292	Admiralen
+T17	Polar_expression 1293 1306	gjør greia si
+E31	Polar_expression:T17 Target:T16
+A139	Polarity E31 Positive
+A140	Intensity E31 Standard
+A141	Type E31 E
+A142	Source_is_author E31
+T18	Entity 1310 1314	Onkl
+T19	Polar_expression 1331 1352	flytende på dancehall
+E32	Polar_expression:T19 Target:T18
+A143	Polarity E32 Positive
+A144	Intensity E32 Standard
+A145	Type E32 E
+A146	Source_is_author E32
+T20	Polar_expression 235 254	reiser de kjerringa
+E33	Polar_expression:T20 Target:T15
+A147	Polarity E33 Positive
+A148	Intensity E33 Standard
+A149	Type E33 E
+A150	Source_is_author E33
+A151	Target_is_general E33
+T21	Polar_expression 64 89	Hjernedødt , gjort riktig
+E1	Polar_expression:T21 
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Target_is_general E1
+A5	Type E1 E
+T22	Polar_expression 64 74	Hjernedødt
+E2	Polar_expression:T22 
+A6	Polarity E2 Negative
+A7	Source_is_author E2
+A8	Intensity E2 Standard
+A9	Target_is_general E2
+A10	Type E2 E
+T23	Polar_expression 594 672	bruker verdens mest avvæpnende sammensetning av bokstaver for alt det er verdt
+E3	Polar_expression:T23 Source:T24
+A11	Polarity E3 Positive
+A12	Source_is_author E3
+A13	Intensity E3 Standard
+A14	Target_is_general E3
+A15	Type E3 E
+T24	Entity 487 490	jeg
+T25	Entity 918 928	« Bobler »
+T26	Polar_expression 932 944	stokk stupid
+E4	Polar_expression:T26 Target:T25 Source:T27
+A16	Polarity E4 Negative
+A17	Source_is_author E4
+A18	Intensity E4 Strong
+A19	Target_is_general E4
+A20	Type E4 E
+T27	Entity 886 889	jeg
+T28	Entity 1096 1102	låtens
+T29	Polar_expression 1103 1179	bejublende vibber er så smittefarlige at man vil steke og sikle om hverandre
+E5	Polar_expression:T29 Target:T28
+A21	Polarity E5 Positive
+A22	Source_is_author E5
+A23	Intensity E5 Standard
+A24	Target_is_general E5
+A25	Type E5 E
+T30	Entity 1201 1209	alle tre
+T31	Polar_expression 1216 1279	mestrer hva enn fag det er som omfatter « karibisk lykkepille »
+E6	Polar_expression:T31 Target:T30
+A26	Polarity E6 Positive
+A27	Source_is_author E6
+A28	Intensity E6 Standard
+A29	Type E6 E
+T32	Polar_expression 1526 1576	kunne man ha danset til på repeat i flere minutter
+E7	Polar_expression:T32 Target:T33
+A30	Polarity E7 Positive
+A31	Source_is_author E7
+A32	Intensity E7 Standard
+A33	Type E7 E
+T33	Entity 1441 1525	« Overalt er heftig , bob-e-ler så sexy , bob-e-ler som såpe , bob-e-ler som Pepsi »
+T34	Entity 1580 1610	Hele andreverset til Admiralen
+T35	Polar_expression 1617 1629	knallåpneren
+E8	Polar_expression:T35 Target:T36
+A34	Polarity E8 Positive
+A35	Source_is_author E8
+A36	Intensity E8 Standard
+A37	Type E8 E
+T36	Entity 1630 1660	« nå er det boblings på gang »
+T37	Polar_expression 1672 1676	fryd
+E9	Polar_expression:T37 Target:T34
+A38	Polarity E9 Positive
+A39	Source_is_author E9
+A40	Intensity E9 Standard
+T38	Entity 1800 1810	« Bobler »
+T39	Polar_expression 1820 1850	dum nok til å bli en sommerhit
+E10	Polar_expression:T39 Target:T38
+A41	Polarity E10 Negative
+A42	Source_is_author E10
+A43	Intensity E10 Slight
+A44	Target_is_general E10
+A45	Type E10 E
+T40	Polar_expression 1862 1894	fet nok til at den fortjener det
+E11	Polar_expression:T40 Target:T38
+A46	Polarity E11 Positive
+A47	Source_is_author E11
+A48	Intensity E11 Standard
+A49	Target_is_general E11
+A50	Type E11 E

@@ -1,0 +1,55 @@
+T1	E 0 0	
+T2	E 128 128	
+T3	E 401 401	
+T4	E 457 457	
+T5	E 531 531	
+T6	Polar_expression 0 18	Fin tone i stemmen
+E1	Polar_expression:T6 Target:T7
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Strong
+A4	Type E1 E
+T7	Entity 11 18	stemmen
+T8	Polar_expression 130 169	Det er ingen andre som koser seg så mye
+E2	Polar_expression:T8 Target:T9 Source:T10
+A5	Polarity E2 Positive
+A6	Intensity E2 Standard
+A7	NFP E2
+A8	Type E2 E
+T9	Entity 223 230	Natnael
+T10	Entity 183 194	Kurt Nilsen
+T11	Polar_expression 421 454	kommer nærmest i det andre verset
+E3	Polar_expression:T11 Target:T12
+A9	Polarity E3 Positive
+A10	Source_is_author E3
+A11	Intensity E3 Slight
+A12	Type E3 E
+T12	Entity 405 408	han
+T13	Polar_expression 474 494	orsiktig amatøraften
+E4	Polar_expression:T13 Target:T14
+A13	Polarity E4 Negative
+A14	Source_is_author E4
+A15	Intensity E4 Standard
+A16	Type E4 E
+T14	Entity 457 467	Det første
+T15	Entity 519 528	« moves »
+T16	Polar_expression 510 518	ubekveme
+E5	Polar_expression:T16 Target:T15
+A17	Polarity E5 Negative
+A18	Source_is_author E5
+A19	Intensity E5 Standard
+A20	Type E5 E
+T17	Entity 535 538	han
+T18	Polar_expression 539 564	har en fin tone i stemmen
+E6	Polar_expression:T18 Target:T17
+A21	Polarity E6 Positive
+A22	Source_is_author E6
+A23	Intensity E6 Strong
+A24	Type E6 E
+T19	Polar_expression 570 605	potensial til å bli varmere i trøya
+E7	Polar_expression:T19 Target:T17
+A25	Polarity E7 Negative
+A26	Source_is_author E7
+A27	Intensity E7 Slight
+A28	Type E7 E
+#1	AnnotatorNotes E7	Irrealis

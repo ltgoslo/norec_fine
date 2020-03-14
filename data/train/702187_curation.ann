@@ -1,0 +1,33 @@
+T1	E 375 375	
+T2	E 406 406	
+T3	E 716 716	
+T4	Entity 727 731	dame
+T5	Polar_expression 719 726	finslig
+E9	Polar_expression:T5 Target:T4
+A35	Polarity E9 Positive
+A36	Intensity E9 Standard
+A37	Type E9 E
+A38	Source_is_author E9
+A39	NOT E9
+T6	Polar_expression 375 380	Verre
+E1	Polar_expression:T6 Target:T7
+A1	Polarity E1 Negative
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Type E1 E
+T7	Entity 392 403	slagsmålene
+T8	Entity 454 463	slåssinga
+T9	Polar_expression 470 492	kjipt og kjapt klippet
+E2	Polar_expression:T9 Target:T8
+A5	Polarity E2 Negative
+A6	Source_is_author E2
+A7	Intensity E2 Standard
+A8	Type E2 E
+T10	Polar_expression 513 574	kunne ha inneholdt Titanics undergang uten at du oppdaget det
+E3	Polar_expression:T10 Target:T11
+A9	Polarity E3 Negative
+A10	Source_is_author E3
+A11	Intensity E3 Strong
+A12	Target_is_general E3
+A13	Type E3 E
+T11	Entity 496 502	filmen

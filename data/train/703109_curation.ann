@@ -1,0 +1,49 @@
+T1	E 0 0	
+T2	E 520 520	
+T3	E 601 601	
+T4	E 840 840	
+T5	E 980 980	
+T6	E 1856 1856	
+T7	Entity 625 642	barneskuespillere
+T8	Polar_expression 617 624	dyktige
+E14	Polar_expression:T8 Target:T7
+A62	Polarity E14 Positive
+A63	Intensity E14 Standard
+A64	Type E14 E
+A65	Source_is_author E14
+T9	Polar_expression 0 13	Sjelden perle
+E1	Polar_expression:T9 
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Strong
+A4	Target_is_general E1
+A5	Type E1 E
+T10	Entity 552 560	kinofilm
+T11	Polar_expression 595 598	god
+E2	Polar_expression:T11 Target:T10
+A6	Polarity E2 Positive
+A7	Source_is_author E2
+A8	Intensity E2 Standard
+A9	Target_is_general E2
+A10	Type E2 E
+T12	Entity 840 848	Mordaunt
+T13	Polar_expression 885 891	dyktig
+E3	Polar_expression:T13 Target:T12
+A11	Polarity E3 Positive
+A12	Source_is_author E3
+A13	Intensity E3 Standard
+A14	Type E3 E
+T14	Polar_expression 1910 1922	fascinerende
+E4	Polar_expression:T14 
+A15	Polarity E4 Positive
+A16	Source_is_author E4
+A17	Intensity E4 Standard
+A18	Target_is_general E4
+A19	Type E4 E
+T15	Polar_expression 1926 1939	underholdende
+E5	Polar_expression:T15 
+A20	Polarity E5 Positive
+A21	Source_is_author E5
+A22	Intensity E5 Standard
+A23	Target_is_general E5
+A24	Type E5 E

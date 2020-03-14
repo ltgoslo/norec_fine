@@ -1,0 +1,38 @@
+T1	E 85 85	
+T2	E 286 286	
+T3	E 555 555	
+T4	Entity 88 104	liksomdokumentar
+T5	Polar_expression 172 183	sliter litt
+E1	Polar_expression:T5 Target:T4
+A1	Polarity E1 Negative
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Target_is_general E1
+A5	Type E1 E
+T6	Entity 330 344	siste halvtime
+T7	Polar_expression 304 310	intens
+E2	Polar_expression:T7 Target:T6
+A6	Polarity E2 Positive
+A7	Source_is_author E2
+A8	Intensity E2 Standard
+A9	Type E2 E
+T8	Polar_expression 314 329	ganske pirrende
+E3	Polar_expression:T8 Target:T6
+A10	Polarity E3 Positive
+A11	Source_is_author E3
+A12	Intensity E3 Standard
+A13	Type E3 E
+T9	Polar_expression 376 403;435 466	grundig lei av Eva Mendes ' endeløse løping rundt i gangene
+E4	Polar_expression:T9 
+A14	Polarity E4 Negative
+A15	Source_is_author E4
+A16	Intensity E4 Standard
+A17	Target_is_general E4
+A18	Type E4 E
+T10	Polar_expression 555 577	Kun trailere som bonus
+E5	Polar_expression:T10 
+A19	Polarity E5 Negative
+A20	Source_is_author E5
+A21	Intensity E5 Standard
+A22	Target_is_general E5
+A23	Type E5 E

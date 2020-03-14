@@ -1,0 +1,143 @@
+T1	E 0 0	
+T2	E 37 37	
+T3	E 98 98	
+T4	E 1142 1142	
+T5	E 1209 1209	
+T6	E 1722 1722	
+T7	E 1913 1913	
+T8	E 2048 2048	
+T9	E 2501 2501	
+T10	E 2603 2603	
+T11	E 2704 2704	
+T12	E 2826 2826	
+T13	E 2965 2965	
+T14	E 3069 3069	
+T15	Polar_expression 0 5	Sterk
+E1	Polar_expression:T15 Target:T16
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Strong
+A4	Target_is_general E1
+A5	Type E1 E
+T16	Entity 6 20	høytlesingsbok
+T17	Polar_expression 61 95	utfordrer både store og små lesere
+E2	Polar_expression:T17 
+A6	Polarity E2 Positive
+A7	Source_is_author E2
+A8	Intensity E2 Standard
+A9	Target_is_general E2
+A10	Type E2 E
+T18	Entity 104 109	tekst
+T19	Polar_expression 110 133	god nok for Brageprisen
+E3	Polar_expression:T19 Target:T18
+A11	Polarity E3 Positive
+A12	Source_is_author E3
+A13	Intensity E3 Strong
+A14	Type E3 E
+T20	Polar_expression 1147 1154	intenst
+E4	Polar_expression:T20 
+A15	Polarity E4 Positive
+A16	Source_is_author E4
+A17	Intensity E4 Standard
+A18	Target_is_general E4
+T21	Polar_expression 1189 1206	stor troverdighet
+E5	Polar_expression:T21 Target:T22
+A19	Polarity E5 Positive
+A20	Source_is_author E5
+A21	Intensity E5 Standard
+T22	Entity 1176 1184	familien
+T23	Entity 1270 1275	språk
+T24	Polar_expression 1276 1303	så friskt at det er en fryd
+E6	Polar_expression:T24 Target:T23
+A22	Polarity E6 Positive
+A23	Source_is_author E6
+A24	Intensity E6 Strong
+A25	Type E6 E
+T25	Entity 1740 1820	å la Sara leve ut frustrasjonen uten at jeg som leser mister sympatien for henne
+T26	Polar_expression 1729 1739	godt gjort
+E7	Polar_expression:T26 Target:T25
+A26	Polarity E7 Positive
+A27	Source_is_author E7
+A28	Intensity E7 Standard
+A29	Type E7 E
+T27	Entity 1921 1938	« En bror for mye
+T28	Polar_expression 1944 1952	lettlest
+E8	Polar_expression:T28 Target:T27
+A30	Polarity E8 Positive
+A31	Source_is_author E8
+A32	Intensity E8 Standard
+A33	Target_is_general E8
+A34	Type E8 E
+T29	Polar_expression 1990 1999;2015 2045	anbefaler først og fremst til høytlesing
+E9	Polar_expression:T29 Target:T27 Source:T30
+A35	Polarity E9 Positive
+A36	Source_is_author E9
+A37	Intensity E9 Standard
+A38	Target_is_general E9
+A39	Type E9 E
+T30	Entity 2000 2003	jeg
+T31	Polar_expression 2055 2060;2068 2090	mange verdt å stoppe opp ved
+E10	Polar_expression:T31 Target:T32
+A40	Polarity E10 Positive
+A41	Source_is_author E10
+A42	Intensity E10 Standard
+A43	Type E10 E
+T32	Entity 2061 2067	scener
+T33	Polar_expression 2096 2101;2136 2145	mange utfordrer
+E11	Polar_expression:T33 
+A44	Polarity E11 Positive
+A45	Source_is_author E11
+A46	Intensity E11 Standard
+A47	Type E11 E
+T34	Entity 2501 2506	Boken
+T35	Polar_expression 2514 2528	herlig vending
+E12	Polar_expression:T35 Target:T34
+A48	Polarity E12 Positive
+A49	Source_is_author E12
+A50	Intensity E12 Strong
+A51	Target_is_general E12
+A52	Type E12 E
+T36	Polar_expression 2620 2627	suveren
+E13	Polar_expression:T36 
+A53	Polarity E13 Positive
+A54	Source_is_author E13
+A55	Intensity E13 Standard
+T37	Polar_expression 2704 2713;2791 2823	Dessverre uten å tilføre noe særlig ekstra
+E14	Polar_expression:T37 Target:T38
+A56	Polarity E14 Negative
+A57	Source_is_author E14
+A58	Intensity E14 Standard
+A59	Type E14 E
+T38	Entity 2717 2724	bildene
+T39	Polar_expression 2826 2876	Grove streker og store øyne får ikke frem nyansene
+E15	Polar_expression:T39 Target:T40
+A60	Polarity E15 Negative
+A61	Source_is_author E15
+A62	Intensity E15 Standard
+A63	Type E15 E
+T40	Entity 2879 2896	Saras opplevelser
+T41	Polar_expression 2907 2962	myntet på lesere som er yngre en denne bokens målgruppe
+E16	Polar_expression:T41 
+A64	Polarity E16 Positive
+A65	Source_is_author E16
+A66	Intensity E16 Standard
+T42	Polar_expression 2965 3021	Mer følsomme og antydende streker ville vært bedre egnet
+E17	Polar_expression:T42 Target:T43
+A67	Polarity E17 Negative
+A68	Source_is_author E17
+A69	Intensity E17 Standard
+A70	Type E17 E
+T43	Entity 2991 2998	streker
+T44	Polar_expression 3069 3131	Uten bildene ville dette vært en klar kandidat til Brageprisen
+E18	Polar_expression:T44 
+A71	Polarity E18 Positive
+A72	Source_is_author E18
+A73	Intensity E18 Slight
+A74	Type E18 E
+T45	Entity 3074 3081	bildene
+E19	Polar_expression:T44 Target:T45
+A75	Polarity E19 Negative
+A76	Source_is_author E19
+A77	Intensity E19 Standard
+A78	Type E19 E
+A79	Target_is_general E18

@@ -15,13 +15,7 @@ A4	Intensity E1 Standard
 A5	Target_is_general E1
 A6	Type E1 EFINP
 T10	Entity 115 142	Roberto Bolaños siste roman
-T11	Polar_expression 143 231	gir bud om at det ved inngangen til det 21. århundre fremdeles er mulig å fornye romanen
-E2	Polar_expression:T11 Target:T10
-A7	Polarity E2 Positive
-A8	Source_is_author E2
-A9	Intensity E2 Standard
-A10	Type E2 E
-T12	Polar_expression 245 285	dønn originalt verk relevant for vår tid
+T12	Polar_expression 245 259	dønn originalt
 E3	Polar_expression:T12 Target:T10
 A11	Polarity E3 Positive
 A12	Source_is_author E3
@@ -45,20 +39,20 @@ A23	NFP E5
 A24	Target_is_general E5
 A25	Type E5 E
 T17	Polar_expression 1280 1305	spennende som en thriller
-E6	Polar_expression:T17 
+E6	Polar_expression:T17 Target:T32
 A26	Polarity E6 Positive
 A27	Source_is_author E6
 A28	Intensity E6 Standard
 A29	Target_is_general E6
 A30	Type E6 E
 T18	Polar_expression 1240 1264	tidvis gåtefullt og rart
-E7	Polar_expression:T18 
+E7	Polar_expression:T18 Target:T32
 A31	Polarity E7 Positive
 A32	Source_is_author E7
 A33	Intensity E7 Slight
 A34	Target_is_general E7
 A35	Type E7 E
-T19	Polar_expression 2315 2324	glimrende
+T19	Polar_expression 2310 2324	alle glimrende
 E8	Polar_expression:T19 Target:T20
 A36	Polarity E8 Positive
 A37	Source_is_author E8
@@ -123,3 +117,11 @@ A75	Source_is_author E16
 A76	Intensity E16 Slight
 A77	Type E16 E
 #1	AnnotatorNotes E16	uenig - bør være NONE
+T11	Polar_expression 265 285	relevant for vår tid
+E2	Polar_expression:T11 Target:T10
+A7	Polarity E2 Positive
+A8	Source_is_author E2
+A9	Intensity E2 Standard
+A10	Target_is_general E2
+A78	Type E2 E
+T32	Entity 1233 1236	Det

@@ -1,0 +1,95 @@
+T1	E 60 60	
+T2	E 92 92	
+T3	E 178 178	
+T4	E 370 370	
+T5	E 465 465	
+T6	E 567 567	
+T7	E 636 636	
+T8	E 681 681	
+T9	E 757 757	
+T10	E 769 769	
+T11	Polar_expression 77 88	feil helhet
+E23	Polar_expression:T11 
+A105	Polarity E23 Negative
+A106	Intensity E23 Standard
+A107	Type E23 E
+A108	Source_is_author E23
+A109	Target_is_general E23
+T12	Polar_expression 60 70	Fine biter
+E24	Polar_expression:T12 
+A110	Polarity E24 Positive
+A111	Intensity E24 Standard
+A112	Type E24 E
+A113	Source_is_author E24
+A114	Target_is_general E24
+T13	Polar_expression 205 253	tatt til seg at « Challengers » var et feilskjær
+E25	Polar_expression:T13 
+A115	Polarity E25 Positive
+A116	Intensity E25 Standard
+A117	Type E25 E
+A118	Source_is_author E25
+A119	Target_is_general E25
+T14	Entity 221 236	« Challengers »
+T15	Polar_expression 244 253	feilskjær
+E26	Polar_expression:T15 Target:T14
+A120	Polarity E26 Negative
+A121	Intensity E26 Standard
+A122	Type E26 E
+A123	Source_is_author E26
+A124	NOT E26
+T16	Polar_expression 415 461	det de gjør best er å skrive fantastiske låter
+E1	Polar_expression:T16 Target:T17
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Strong
+A4	Type E1 E
+T17	Entity 419 421	de
+T18	Polar_expression 444 455	fantastiske
+E2	Polar_expression:T18 Target:T19
+A5	Polarity E2 Positive
+A6	Source_is_author E2
+A7	Intensity E2 Strong
+A8	Type E2 E
+T19	Entity 456 461	låter
+T20	Polar_expression 479 507	en gave til listefetisjister
+E3	Polar_expression:T20 Target:T21
+A9	Polarity E3 Positive
+A10	Source_is_author E3
+A11	Intensity E3 Strong
+A12	Type E3 E
+T21	Entity 465 475	Kanadierne
+T22	Polar_expression 517 564	musikk for flere av hverdagslivets sjatteringer
+E4	Polar_expression:T22 
+A13	Polarity E4 Positive
+A14	Source_is_author E4
+A15	Intensity E4 Standard
+A16	Target_is_general E4
+A17	Type E4 E
+T23	Polar_expression 610 633	ikke fungerer som album
+E5	Polar_expression:T23 Target:T24
+A18	Polarity E5 Negative
+A19	Source_is_author E5
+A20	Intensity E5 Standard
+A21	Type E5 E
+T24	Entity 602 609	albumet
+T25	Polar_expression 636 658	Alle bitene er riktige
+E6	Polar_expression:T25 
+A22	Polarity E6 Positive
+A23	Source_is_author E6
+A24	Intensity E6 Strong
+A25	Target_is_general E6
+A26	Type E6 E
+T26	Polar_expression 665 678	helheten feil
+E7	Polar_expression:T26 
+A27	Polarity E7 Negative
+A28	Source_is_author E7
+A29	Intensity E7 Standard
+A30	Type E7 E
+A31	Target_is_general E7
+T27	Polar_expression 707 753	har det ikke egentlig alltid vært sånn med dem
+E8	Polar_expression:T27 Target:T28
+A32	Polarity E8 Negative
+A33	Source_is_author E8
+A34	Intensity E8 Slight
+A35	Type E8 E
+T28	Entity 750 753	dem

@@ -1,0 +1,31 @@
+T1	E 106 106	
+T2	E 194 194	
+T3	E 403 403	
+T4	Polar_expression 171 191	ikke udelt vellykket
+E1	Polar_expression:T4 
+A1	Polarity E1 Negative
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Target_is_general E1
+A5	Type E1 E
+T5	Entity 231 237	stemme
+T6	Polar_expression 225 230	skarp
+E2	Polar_expression:T6 Target:T5
+A6	Polarity E2 Negative
+A7	Source_is_author E2
+A8	Intensity E2 Standard
+A9	Type E2 E
+T7	Polar_expression 225 261	skarp stemme som ikke passer til alt
+E3	Polar_expression:T7 Target:T8
+A10	Polarity E3 Negative
+A11	Source_is_author E3
+A12	Intensity E3 Standard
+A14	Type E3 E
+T8	Entity 194 217	66-åringen fra Michigan
+T9	Polar_expression 298 304	funker
+E4	Polar_expression:T9 Target:T10
+A13	Polarity E4 Positive
+A15	Source_is_author E4
+A16	Intensity E4 Standard
+A17	Type E4 E
+T10	Entity 279 289	tolkninger

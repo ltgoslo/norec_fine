@@ -86,13 +86,13 @@ A40	NFP E3
 A41	Target_is_general E3
 A42	Type E3 E
 T43	Entity 680 704	Bayern München-spilleren
-T44	Polar_expression 673 741	svarte Bayern München-spilleren med en scoring på ekte goalgettervis
+T44	Polar_expression 712 741	scoring på ekte goalgettervis
 E4	Polar_expression:T44 Target:T43
 A43	Polarity E4 Positive
 A44	Source_is_author E4
 A45	Intensity E4 Standard
 A46	Type E4 E
-T45	Polar_expression 756 788	dempet ballen fantastisk elegant
+T45	Polar_expression 770 788	fantastisk elegant
 E5	Polar_expression:T45 Target:T46
 A47	Polarity E5 Positive
 A48	Source_is_author E5
@@ -100,12 +100,6 @@ A49	Intensity E5 Strong
 A50	Type E5 E
 T46	Entity 745 755	22-åringen
 T47	Entity 878 908	Argentina-keeper Sergio Romero
-T48	Polar_expression 808 860	sendte av gårde en liggende volley i lengste hjørnet
-E6	Polar_expression:T48 Target:T46
-A51	Polarity E6 Positive
-A52	Source_is_author E6
-A53	Intensity E6 Standard
-A54	Type E6 EFINP
 T49	Polar_expression 868 877	fortumlet
 E7	Polar_expression:T49 Target:T47
 A55	Polarity E7 Negative
@@ -217,14 +211,8 @@ A121	Source_is_author E22
 A122	Intensity E22 Standard
 A123	Target_is_general E22
 A124	Type E22 E
-T76	Polar_expression 234 285	Det er utrolig hvordan vi alle har jobbet for dette
-E23	Polar_expression:T76 
-A125	Polarity E23 Positive
-A126	Intensity E23 Strong
-A127	NFP E23
-A128	Type E23 E
 T57	Entity 1448 1451	Jeg
-T77	Polar_expression 1455 1493	veldig glad for at vi har vunnet dette
+T77	Polar_expression 1455 1466	veldig glad
 E24	Polar_expression:T77 Source:T57
 A72	Polarity E24 Positive
 A129	Intensity E24 Standard
@@ -346,13 +334,13 @@ A193	Source_is_author E40
 A194	Intensity E40 Strong
 A195	Type E40 E
 T114	Polar_expression 3969 4003	vanvittige 7-1-seieren over Brasil
-E41	Polar_expression:T114 Target2:T133
+E41	Polar_expression:T114 Target:T133
 A196	Polarity E41 Positive
 A197	Source_is_author E41
 A198	Intensity E41 Strong
 A199	Type E41 E
 T113	Polar_expression 3924 3958	den store favoritten til VM-gullet
-E42	Polar_expression:T113 Target2:T133 Source:T134
+E42	Polar_expression:T113 Source:T134 Target:T133
 A200	Polarity E42 Positive
 A201	Intensity E42 Standard
 A202	NFP E42
@@ -365,7 +353,7 @@ A205	Intensity E43 Strong
 A206	Target_is_general E43
 A207	Type E43 E
 A208	Source_is_author E43
-T117	Polar_expression 4497 4511	perfekt utført
+T117	Polar_expression 4494 4513	så perfekt utført !
 E44	Polar_expression:T117 
 A209	Polarity E44 Positive
 A210	Source_is_author E44
@@ -428,14 +416,13 @@ A245	Intensity E52 Standard
 A246	NFP E52
 A247	Type E52 EFINP
 T131	Entity 6085 6105	keeper Sergio Romero
-T132	Polar_expression 6077 6084;6106 6165	stoppet et André Schürrle-skudd på mesterlig vis fra fem-seks meter
-E53	Polar_expression:T132 Target:T131
-A248	Polarity E53 Positive
-A249	Source_is_author E53
-A250	Intensity E53 Standard
-A251	Type E53 E
 #1	AnnotatorNotes E28	uenig - bør være efinp
 #2	AnnotatorNotes E27	uenig - bør være efinp
 T133	Entity 3901 3919	« Die Mannschaft »
 T134	Entity 3885 3894	de fleste
 #3	AnnotatorNotes E41	mulig nøsting
+T48	Polar_expression 6133 6142	mesterlig
+E6	Polar_expression:T48 Target:T131
+A51	Polarity E6 Positive
+A52	Intensity E6 Strong
+A53	Type E6 E

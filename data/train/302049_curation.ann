@@ -250,3 +250,4 @@ A107	Source_is_author E24
 A108	Intensity E24 Strong
 A109	Target_is_general E24
 A110	Type E24 E
+A111	Polarity E2 Positive

@@ -170,3 +170,4 @@ A89	Intensity E22 Standard
 A90	Target_is_general E22
 A91	Type E22 E
 A92	Target_is_general E21
+A93	Polarity E14 Positive

@@ -115,7 +115,7 @@ A33	Target_is_general E7
 A34	Type E7 E
 T46	Entity 1169 1175	Filmen
 T47	Entity 1218 1232	tre foregående
-T48	Polar_expression 1169 1214	Filmen ser langt bedre og mer påkostet ut enn
+T48	Polar_expression 1169 1210	Filmen ser langt bedre og mer påkostet ut
 E8	Polar_expression:T48 Target:T47
 A35	Polarity E8 Negative
 A36	Source_is_author E8
@@ -175,7 +175,7 @@ A72	Type E15 E
 T59	Entity 1755 1768	Skuespillerne
 T60	Polar_expression 1772 1784	karismatiske
 E16	Polar_expression:T60 Target:T59
-A73	Polarity E16 Negative
+A73	Polarity E16 Positive
 A74	Source_is_author E16
 A75	Intensity E16 Standard
 A76	Type E16 E

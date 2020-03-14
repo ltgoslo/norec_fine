@@ -1,0 +1,305 @@
+T1	E 13 13	
+T2	E 336 336	
+T3	E 693 693	
+T4	E 815 815	
+T5	EFINP 854 854	
+T6	E 945 945	
+T7	E 1022 1022	
+T8	E 1185 1185	
+T9	E 1420 1420	
+T10	EFINP 1479 1479	
+T11	E 1578 1578	
+T12	E 1851 1851	
+T13	E 2061 2061	
+T14	E 2083 2083	
+T15	E 2131 2131	
+T16	E 2291 2291	
+T17	E 2602 2602	
+T18	E 2734 2734	
+T19	E 2911 2911	
+T20	E 3028 3028	
+T21	Polar_expression 16 22	vakker
+E1	Polar_expression:T21 Target:T22
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Strong
+A4	Type E1 E
+T22	Entity 23 27	film
+T23	Polar_expression 32 57	skuespill av høyt kaliber
+E2	Polar_expression:T23 Target:T22
+A5	Polarity E2 Positive
+A6	Source_is_author E2
+A7	Intensity E2 Strong
+A8	Type E2 E
+T24	Entity 32 41	skuespill
+T25	Polar_expression 45 57	høyt kaliber
+E3	Polar_expression:T25 Target:T24
+A9	Polarity E3 Positive
+A10	Source_is_author E3
+A11	Intensity E3 Strong
+A12	Type E3 E
+T26	Polar_expression 350 368	spiller fantastisk
+E4	Polar_expression:T26 Target:T27
+A13	Polarity E4 Positive
+A14	Source_is_author E4
+A15	Intensity E4 Strong
+A16	Type E4 E
+T27	Entity 336 349	Timothy Spall
+T28	Polar_expression 470 478	litt vag
+E5	Polar_expression:T28 Target:T29
+A17	Polarity E5 Negative
+A18	Source_is_author E5
+A19	Intensity E5 Slight
+A20	Type E5 E
+T29	Entity 449 458	historien
+T30	Entity 399 403	foto
+T31	Polar_expression 407 442	like imponerende som tidskoloritten
+E6	Polar_expression:T31 Target:T30
+A21	Polarity E6 Positive
+A22	Source_is_author E6
+A23	Intensity E6 Strong
+A24	Type E6 E
+#1	AnnotatorNotes E6	Comparison
+T32	Polar_expression 749 762	mye å beundre
+E7	Polar_expression:T32 Target:T33
+A25	Polarity E7 Positive
+A26	Source_is_author E7
+A27	Intensity E7 Strong
+A28	Type E7 E
+T33	Entity 771 778	filmens
+T34	Polar_expression 779 791	vakre bilder
+E8	Polar_expression:T34 Target:T33
+A29	Polarity E8 Positive
+A30	Source_is_author E8
+A31	Intensity E8 Strong
+A32	Type E8 E
+T35	Entity 785 791	bilder
+T36	Polar_expression 779 784	vakre
+E9	Polar_expression:T36 Target:T35
+A33	Polarity E9 Positive
+A34	Source_is_author E9
+A35	Intensity E9 Strong
+A36	Type E9 E
+T37	Polar_expression 795 811	flotte skuespill
+E10	Polar_expression:T37 Target:T33
+A37	Polarity E10 Positive
+A38	Source_is_author E10
+A39	Intensity E10 Strong
+A40	Type E10 E
+T38	Polar_expression 795 801	flotte
+E11	Polar_expression:T38 Target:T39
+A41	Polarity E11 Positive
+A42	Source_is_author E11
+A43	Intensity E11 Strong
+A44	Type E11 E
+T39	Entity 802 811	skuespill
+T40	Polar_expression 815 852	Regissert med en veterans tålmodighet
+E12	Polar_expression:T40 
+A45	Polarity E12 Positive
+A46	Source_is_author E12
+A47	Intensity E12 Standard
+A48	Type E12 E
+A49	Target_is_general E12
+T41	Polar_expression 872 942	fordel med forhåndskunnskap om Turner for å ha fullt utbytte av filmen
+E13	Polar_expression:T41 Target:T42
+A50	Polarity E13 Negative
+A51	Source_is_author E13
+A52	Intensity E13 Slight
+A53	Type E13 E
+T42	Entity 936 942	filmen
+T43	Polar_expression 1002 1019	går meg hus forbi
+E14	Polar_expression:T43 Target:T44 Source:T45
+A54	Polarity E14 Negative
+A55	Source_is_author E14
+A56	Intensity E14 Standard
+A57	Type E14 E
+T44	Entity 968 978	referanser
+T45	Entity 1006 1009	meg
+T46	Entity 1048 1053	figur
+T47	Polar_expression 1036 1047	interessant
+E15	Polar_expression:T47 
+A58	Polarity E15 Positive
+A59	Source_is_author E15
+A60	Intensity E15 Standard
+A61	Type E15 E
+T48	Polar_expression 1191 1198;1203 1250	spiller med utstudert bruk av kroppsspråk og stemmeleie
+E16	Polar_expression:T48 Target:T49
+A62	Polarity E16 Positive
+A63	Source_is_author E16
+A64	Intensity E16 Strong
+A65	Type E16 E
+T49	Entity 1185 1190	Spall
+T50	Polar_expression 1431 1476	regisserer filmen med en veterans tålmodighet
+E17	Polar_expression:T50 Target:T51
+A66	Polarity E17 Positive
+A67	Source_is_author E17
+A68	Intensity E17 Strong
+A69	Type E17 E
+T51	Entity 1420 1430	Mike Leigh
+T52	Polar_expression 1479 1511	Ingen av scenene har det travelt
+E18	Polar_expression:T52 Target:T53
+A70	Polarity E18 Positive
+A71	Source_is_author E18
+A72	Intensity E18 Standard
+A73	Type E18 E
+T53	Entity 1488 1495	scenene
+T54	Polar_expression 1536 1575	utspilles i et rolig og bedagelig tempo
+E19	Polar_expression:T54 Target:T53
+A74	Polarity E19 Positive
+A75	Source_is_author E19
+A76	Intensity E19 Standard
+A77	Type E19 E
+T55	Entity 1570 1575	tempo
+T56	Polar_expression 1551 1556	rolig
+E20	Polar_expression:T56 Target:T55
+A78	Polarity E20 Positive
+A79	Source_is_author E20
+A80	Intensity E20 Standard
+A81	Type E20 E
+T57	Polar_expression 1560 1569	bedagelig
+E21	Polar_expression:T57 Target:T55
+A82	Polarity E21 Positive
+A83	Source_is_author E21
+A84	Intensity E21 Standard
+A85	Type E21 E
+T58	Polar_expression 1594 1619	får tid til å markere seg
+E22	Polar_expression:T58 Target:T59
+A86	Polarity E22 Positive
+A87	Source_is_author E22
+A88	Intensity E22 Standard
+A89	Type E22 E
+T59	Entity 1584 1593	bifigurer
+T60	Polar_expression 1885 1934	lar dem få nok tid til å synke inn hos tilskueren
+E23	Polar_expression:T60 Target:T61
+A90	Polarity E23 Positive
+A91	Source_is_author E23
+A92	Intensity E23 Strong
+A93	Type E23 E
+T61	Entity 1851 1861	Regissøren
+T62	Polar_expression 2061 2081	Treffende sort humor
+E24	Polar_expression:T62 
+A94	Polarity E24 Positive
+A95	Source_is_author E24
+A96	Intensity E24 Strong
+A97	Target_is_general E24
+A98	Type E24 E
+T63	Polar_expression 2061 2070	Treffende
+E25	Polar_expression:T63 Target:T64
+A99	Polarity E25 Positive
+A100	Source_is_author E25
+A101	Intensity E25 Strong
+A102	Type E25 E
+T64	Entity 2076 2081	humor
+T65	Entity 2083 2096	Timothy Spall
+T66	Polar_expression 2100 2114	litt av et syn
+E26	Polar_expression:T66 Target:T65
+A103	Polarity E26 Positive
+A104	Source_is_author E26
+A105	Intensity E26 Strong
+A106	Type E26 E
+T67	Entity 2131 2134	Han
+T68	Polar_expression 2135 2287	skaper en figur som har sine hemmeligheter , som det ikke alltid er like enkel å forstå , men som har trekk og nykker som gjør ham interessant å oppleve
+E27	Polar_expression:T68 Target:T67
+A107	Polarity E27 Positive
+A108	Source_is_author E27
+A109	Intensity E27 Strong
+A110	Type E27 E
+T69	Entity 2145 2150	figur
+T70	Polar_expression 2233 2287	har trekk og nykker som gjør ham interessant å oppleve
+E28	Polar_expression:T70 Target:T69
+A111	Polarity E28 Positive
+A112	Source_is_author E28
+A113	Intensity E28 Strong
+A114	Type E28 E
+T71	Polar_expression 2332 2366	beskrives med treffende sort humor
+E29	Polar_expression:T71 Target:T72
+A115	Polarity E29 Positive
+A116	Source_is_author E29
+A117	Intensity E29 Strong
+A118	Type E29 E
+T72	Entity 2296 2314	anstrengte forhold
+T73	Polar_expression 2455 2462	skjønne
+E30	Polar_expression:T73 Target:T74
+A119	Polarity E30 Positive
+A120	Source_is_author E30
+A121	Intensity E30 Strong
+A122	Type E30 E
+T74	Entity 2463 2471	øyeblikk
+T75	Polar_expression 2488 2512	sårbarhet er godt synlig
+E31	Polar_expression:T75 Target:T76
+A123	Polarity E31 Positive
+A124	Source_is_author E31
+A125	Intensity E31 Strong
+A126	Type E31 E
+T76	Entity 2478 2497	figurenes sårbarhet
+T77	Polar_expression 2605 2619	spesielt sterk
+E32	Polar_expression:T77 Target:T78
+A127	Polarity E32 Positive
+A128	Source_is_author E32
+A129	Intensity E32 Strong
+A130	Type E32 E
+T78	Entity 2620 2625	scene
+T79	Polar_expression 2742 2759	står ofte i fokus
+E33	Polar_expression:T79 Target:T80
+A131	Polarity E33 Positive
+A132	Source_is_author E33
+A133	Intensity E33 Standard
+A134	Type E33 E
+T80	Entity 2734 2741	Kunsten
+T81	Polar_expression 2778 2841	vi får et godt inntrykk av hvordan samtiden benyttet seg av den
+E34	Polar_expression:T81 Target:T80 Source:T84
+A135	Polarity E34 Positive
+A136	Source_is_author E34
+A137	Intensity E34 Strong
+A138	Type E34 E
+T82	Entity 2855 2868	Joseph Turner
+T83	Polar_expression 2869 2908	huskes som en av periodens store malere
+E35	Polar_expression:T83 Target:T82
+A139	Polarity E35 Positive
+A140	Source_is_author E35
+A141	Intensity E35 Strong
+A142	Type E35 E
+A143	NOT E35
+T84	Entity 2778 2780	vi
+T85	Polar_expression 2924 2947	særdeles vakkert filmet
+E36	Polar_expression:T85 Target:T86
+A144	Polarity E36 Positive
+A145	Source_is_author E36
+A146	Intensity E36 Strong
+A147	Type E36 E
+T86	Entity 2911 2920	Historien
+T87	Entity 2954 2963	skuespill
+T88	Polar_expression 2967 2979	høyt kaliber
+E37	Polar_expression:T88 Target:T87
+A148	Polarity E37 Positive
+A149	Source_is_author E37
+A150	Intensity E37 Strong
+A151	Type E37 E
+T89	Entity 2989 3001	enkeltscener
+T90	Polar_expression 3009 3025	dyktig regissert
+E38	Polar_expression:T90 Target:T89
+A152	Polarity E38 Positive
+A153	Source_is_author E38
+A154	Intensity E38 Strong
+A155	Type E38 E
+T91	Polar_expression 3028 3093	Da gjør det kanskje ikke så mye at helheten føles litt springende
+E39	Polar_expression:T91 
+A156	Polarity E39 Positive
+A157	Source_is_author E39
+A158	Intensity E39 Standard
+A159	Target_is_general E39
+A160	Type E39 E
+T92	Entity 3063 3071	helheten
+T93	Polar_expression 3072 3093	føles litt springende
+E40	Polar_expression:T93 Target:T92
+A161	Polarity E40 Negative
+A162	Source_is_author E40
+A163	Intensity E40 Slight
+A164	Type E40 E
+T94	Polar_expression 2346 2355	treffende
+E41	Polar_expression:T94 Target:T95
+A165	Polarity E41 Positive
+A166	Source_is_author E41
+A167	Intensity E41 Strong
+A168	Type E41 E
+T95	Entity 2361 2366	humor

@@ -1,0 +1,48 @@
+T1	E 129 129	
+T2	E 623 623	
+T3	E 881 881	
+T4	Polar_expression 269 277	ikoniske
+E1	Polar_expression:T4 Target:T5
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Target_is_general E1
+A5	Type E1 E
+T5	Entity 302 311	« Toxic »
+T6	Entity 640 645	plate
+T7	Polar_expression 650 669	kysser deg i nakken
+E2	Polar_expression:T7 Target:T6
+A6	Polarity E2 Positive
+A7	Source_is_author E2
+A8	Intensity E2 Standard
+A9	Target_is_general E2
+A10	Type E2 E
+T8	Polar_expression 675 688	butterdeigmør
+E3	Polar_expression:T8 Target:T6
+A11	Polarity E3 Positive
+A12	Source_is_author E3
+A13	Intensity E3 Standard
+A14	Target_is_general E3
+A15	Type E3 E
+T9	Entity 913 918	plata
+T10	Polar_expression 930 941	smule banal
+E4	Polar_expression:T10 Target:T9
+A16	Polarity E4 Negative
+A17	Source_is_author E4
+A18	Intensity E4 Standard
+A19	Target_is_general E4
+A20	Type E4 E
+T11	Polar_expression 966 981	litt for enkelt
+E5	Polar_expression:T11 Target:T9
+A21	Polarity E5 Negative
+A22	Source_is_author E5
+A23	Intensity E5 Standard
+A24	Target_is_general E5
+A25	Type E5 E
+T12	Polar_expression 988 1034	etter hvert åpner det nye rom og krinkelkroker
+E6	Polar_expression:T12 Target:T9
+A26	Polarity E6 Positive
+A27	Source_is_author E6
+A28	Intensity E6 Standard
+A29	Target_is_general E6
+A30	Type E6 E

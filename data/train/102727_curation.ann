@@ -1,0 +1,63 @@
+T1	E 546 546	
+T2	E 680 680	
+T3	E 1034 1034	
+T4	E 1127 1127	
+T5	E 1245 1245	
+T6	E 1394 1394	
+T7	E 1585 1585	
+T8	E 1703 1703	
+T9	Polar_expression 585 677	tar utfordringen med skikkelig behandling av noe så vanskelig som mellommenneskelige forhold
+E1	Polar_expression:T9 Target:T10
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Strong
+A4	Type E1 E
+T10	Entity 566 572	filmen
+T11	Polar_expression 731 737;763 800	må vel sies å være en slags ekspert på dette
+E2	Polar_expression:T11 Target:T12
+A5	Polarity E2 Positive
+A6	Source_is_author E2
+A7	Intensity E2 Strong
+A8	Type E2 E
+T12	Entity 738 762	regissør Alexander Payne
+T13	Polar_expression 1041 1061	gjør det enormt godt
+E3	Polar_expression:T13 Target:T14
+A9	Polarity E3 Positive
+A10	Source_is_author E3
+A11	Intensity E3 Strong
+A12	Type E3 E
+T14	Entity 1037 1040	han
+T15	Polar_expression 1127 1194	Man opplever en intelligent skuespiller flink nok til å holde igjen
+E4	Polar_expression:T15 Target:T16
+A13	Polarity E4 Positive
+A14	Source_is_author E4
+A15	Intensity E4 Strong
+A16	Type E4 E
+T16	Entity 1155 1166	skuespiller
+T17	Polar_expression 1208 1241	tydelig nok i alt han foretar seg
+E5	Polar_expression:T17 Target:T16
+A17	Polarity E5 Positive
+A18	Source_is_author E5
+A19	Intensity E5 Standard
+A20	Type E5 E
+T18	Entity 1414 1436	beskrivelsen av Hawaii
+T19	Polar_expression 1394 1405	Interessant
+E6	Polar_expression:T19 Target:T18
+A21	Polarity E6 Positive
+A22	Source_is_author E6
+A23	Intensity E6 Standard
+A24	Type E6 E
+T20	Polar_expression 1588 1699	på flere plan makter denne filmen ikke bare å underholde og vise følelser - men også gi interessant ny kunnskap
+E7	Polar_expression:T20 Target:T21
+A25	Polarity E7 Positive
+A26	Source_is_author E7
+A27	Intensity E7 Strong
+A28	Type E7 E
+T21	Entity 1615 1621	filmen
+T22	Polar_expression 1710 1720	godt gjort
+E8	Polar_expression:T22 
+A29	Polarity E8 Positive
+A30	Source_is_author E8
+A31	Intensity E8 Strong
+A32	Target_is_general E8
+A33	Type E8 E

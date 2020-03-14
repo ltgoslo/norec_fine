@@ -1,0 +1,325 @@
+T1	E 24 24	
+T2	E 43 43	
+T3	E 102 102	
+T4	E 371 371	
+T5	EFINP 445 445	
+T6	E 717 717	
+T7	EFINP 828 828	
+T8	EFINP 944 944	
+T9	E 1099 1099	
+T10	E 1214 1214	
+T11	E 1294 1294	
+T12	E 1626 1626	
+T13	E 1760 1760	
+T14	E 1805 1805	
+T15	E 1867 1867	
+T16	E 2210 2210	
+T17	E 2592 2592	
+T18	E 2601 2601	
+T19	E 2632 2632	
+T20	E 2737 2737	
+T21	E 2842 2842	
+T22	E 2911 2911	
+T23	E 2972 2972	
+T24	E 3051 3051	
+T25	E 3152 3152	
+T26	EFINP 3288 3288	
+T27	E 3401 3401	
+T28	Polar_expression 24 31	Nydelig
+E81	Polar_expression:T28 
+A338	Polarity E81 Positive
+A339	Intensity E81 Strong
+A340	Type E81 E
+A341	Source_is_author E81
+A342	Target_is_general E81
+T29	Entity 43 57	Oslobys lesere
+T30	Polar_expression 78 89	byens beste
+E1	Polar_expression:T30 Target:T31 Source:T29
+A1	Polarity E1 Positive
+A2	Intensity E1 Strong
+A3	NFP E1
+A4	Target_is_general E1
+A5	Type E1 E
+T31	Entity 90 99	gastropub
+T32	Polar_expression 109 134	lett å være enig i dommen
+E2	Polar_expression:T32 
+A6	Polarity E2 Positive
+A7	Source_is_author E2
+A8	Intensity E2 Strong
+A9	Target_is_general E2
+A10	Type E2 E
+T33	Entity 145 159	enkelte retter
+T34	Polar_expression 164 176	stive priser
+E3	Polar_expression:T34 Target:T33
+A11	Polarity E3 Negative
+A12	Source_is_author E3
+A13	Intensity E3 Slight
+A14	Type E3 E
+T35	Polar_expression 371 442	Nå kan BI-studentene og bedriftene ta en ettermiddagspils og spise godt
+E4	Polar_expression:T35 
+A15	Polarity E4 Positive
+A16	Source_is_author E4
+A17	Intensity E4 Standard
+A18	Target_is_general E4
+A19	Type E4 E
+T36	Entity 500 527	Nydalen bryggeri og spiseri
+T37	Polar_expression 494 499;528 542	stakk av med seieren
+E5	Polar_expression:T37 Target:T36
+A20	Polarity E5 Positive
+A21	Source_is_author E5
+A22	Intensity E5 Strong
+A23	Target_is_general E5
+A24	Type E5 EFINP
+T38	Entity 717 723	Rommet
+T39	Polar_expression 727 752	stort og høyt under taket
+E6	Polar_expression:T39 Target:T38
+A25	Polarity E6 Positive
+A26	Source_is_author E6
+A27	Intensity E6 Standard
+A28	Type E6 EFINP
+T40	Polar_expression 759 825	man har laget en mesanin der det er mulig å nyte utsikten fra oven
+E7	Polar_expression:T40 
+A29	Polarity E7 Positive
+A30	Source_is_author E7
+A31	Intensity E7 Standard
+A32	Type E7 E
+T41	Polar_expression 904 940	en mengde kjente og ukjente ølsorter
+E8	Polar_expression:T41 
+A33	Polarity E8 Positive
+A34	Source_is_author E8
+A35	Intensity E8 Standard
+A36	Target_is_general E8
+A37	Type E8 EFINP
+T42	Entity 944 952	Ølmenyen
+T43	Polar_expression 959 968	eget kart
+E9	Polar_expression:T43 Target:T42
+A38	Polarity E9 Positive
+A39	Source_is_author E9
+A40	Intensity E9 Standard
+A41	Type E9 EFINP
+T44	Polar_expression 974 1082	byr på øl alle varianter , størrelser og styrkegrad fra norske og utenlandske bryggerier , både store og små
+E10	Polar_expression:T44 Target:T42
+A42	Polarity E10 Positive
+A43	Source_is_author E10
+A44	Intensity E10 Standard
+A45	Type E10 EFINP
+T45	Entity 1176 1195	amerikansk pale ale
+T46	Polar_expression 1198 1211	frisk på smak
+E11	Polar_expression:T46 Target:T45
+A46	Polarity E11 Positive
+A47	Source_is_author E11
+A48	Intensity E11 Standard
+A49	Type E11 E
+T47	Entity 1220 1230	bryggeriet
+T48	Polar_expression 1282 1291	kortreist
+E12	Polar_expression:T48 Target:T47
+A50	Polarity E12 Positive
+A51	Source_is_author E12
+A52	Intensity E12 Standard
+A53	Type E12 E
+T49	Entity 1303 1311	råvarene
+T50	Polar_expression 1320 1326	lokale
+E13	Polar_expression:T50 Target:T49
+A54	Polarity E13 Positive
+A55	Source_is_author E13
+A56	Intensity E13 Standard
+A57	Type E13 E
+T51	Polar_expression 1644 1671	stolte av hva man kan tilby
+E14	Polar_expression:T51 Source:T52
+A58	Polarity E14 Positive
+A60	Intensity E14 Standard
+A61	Target_is_general E14
+A62	Type E14 E
+A59	NFP E14
+T52	Entity 1626 1629	Man
+T53	Entity 1760 1780	Sitater om mat og øl
+T54	Polar_expression 1792 1801	artig vri
+E15	Polar_expression:T54 Target:T53
+A63	Polarity E15 Positive
+A64	Source_is_author E15
+A65	Intensity E15 Standard
+A66	Type E15 E
+T55	Polar_expression 1805 1816	Ekte pubmat
+E16	Polar_expression:T55 
+A67	Polarity E16 Positive
+A68	Source_is_author E16
+A69	Intensity E16 Standard
+A70	Target_is_general E16
+A71	Type E16 E
+T56	Entity 1955 1961	prisen
+T57	Polar_expression 1976 1995	virket avskrekkende
+E17	Polar_expression:T57 Target:T56
+A72	Polarity E17 Negative
+A73	Source_is_author E17
+A74	Intensity E17 Strong
+A75	Type E17 E
+T58	Entity 2011 2044	to typer skinke for en hundrelapp
+E18	Polar_expression:T57 Target:T58
+A76	Polarity E18 Negative
+A77	Source_is_author E18
+A78	Intensity E18 Strong
+A79	Type E18 E
+T59	Entity 2210 2221	Skagenrøren
+T60	Polar_expression 2225 2241	ikke særlig stor
+E19	Polar_expression:T60 Target:T59
+A80	Polarity E19 Negative
+A81	Source_is_author E19
+A82	Intensity E19 Slight
+A83	Type E19 E
+T61	Polar_expression 2248 2269	meget delikat på smak
+E20	Polar_expression:T61 Target:T59
+A84	Polarity E20 Positive
+A85	Source_is_author E20
+A86	Intensity E20 Strong
+A87	Type E20 E
+T62	Polar_expression 2274 2284	fine reker
+E21	Polar_expression:T62 
+A88	Polarity E21 Positive
+A89	Source_is_author E21
+A90	Intensity E21 Standard
+A91	Type E21 E
+T63	Polar_expression 2312 2315	fin
+E22	Polar_expression:T63 Target:T65
+A92	Polarity E22 Positive
+A93	Source_is_author E22
+A94	Intensity E22 Standard
+A95	Type E22 E
+T64	Polar_expression 2318 2322	sprø
+E23	Polar_expression:T64 Target:T65
+A96	Polarity E23 Positive
+A97	Source_is_author E23
+A98	Intensity E23 Standard
+A99	Type E23 E
+T65	Entity 2323 2328	toast
+T66	Polar_expression 2592 2599	Nam nam
+E24	Polar_expression:T66 
+A100	Polarity E24 Positive
+A101	Source_is_author E24
+A102	Intensity E24 Standard
+A103	Type E24 E
+T67	Polar_expression 2603 2631	For en lekker presentasjon !
+E25	Polar_expression:T67 
+A104	Polarity E25 Positive
+A105	Source_is_author E25
+A106	Intensity E25 Strong
+A107	Type E25 E
+T68	Entity 2635 2663	kremmerhus med pommes frites
+T69	Polar_expression 2720 2734	veldig god idé
+E26	Polar_expression:T69 Target:T68
+A108	Polarity E26 Positive
+A109	Source_is_author E26
+A110	Intensity E26 Standard
+A111	Type E26 E
+T70	Entity 2737 2749	Tartarsausen
+T71	Polar_expression 2753 2776	mild , men ikke smakløs
+E27	Polar_expression:T71 Target:T70
+A112	Polarity E27 Positive
+A113	Source_is_author E27
+A114	Intensity E27 Standard
+A115	Type E27 E
+T72	Entity 2779 2789	ertepureen
+T73	Polar_expression 2793 2796	fin
+E28	Polar_expression:T73 Target:T72
+A116	Polarity E28 Positive
+A117	Source_is_author E28
+A118	Intensity E28 Standard
+A119	Type E28 E
+T74	Polar_expression 2818 2839	passe fast konsistens
+E29	Polar_expression:T74 Target:T72
+A120	Polarity E29 Positive
+A121	Source_is_author E29
+A122	Intensity E29 Standard
+A123	Type E29 E
+T75	Entity 2845 2851	fisken
+T76	Polar_expression 2864 2875	sprø utside
+E30	Polar_expression:T76 Target:T75
+A124	Polarity E30 Positive
+A125	Source_is_author E30
+A126	Intensity E30 Standard
+A127	Type E30 E
+T77	Polar_expression 2885 2900	fin i fast inni
+E31	Polar_expression:T77 Target:T75
+A128	Polarity E31 Positive
+A129	Source_is_author E31
+A130	Intensity E31 Standard
+A131	Type E31 E
+T78	Polar_expression 2902 2905	mmm
+E32	Polar_expression:T78 Target:T75
+A132	Polarity E32 Positive
+A133	Source_is_author E32
+A134	Intensity E32 Standard
+A135	Type E32 E
+T79	Polar_expression 2911 2969	Pølse og potetstappe hjemme blir litt stusslig etter dette
+E33	Polar_expression:T79 Target:T80
+A136	Polarity E33 Positive
+A137	Source_is_author E33
+A138	Intensity E33 Standard
+A139	Type E33 E
+T80	Entity 2911 2931	Pølse og potetstappe
+T81	Entity 2989 2992	mos
+T82	Polar_expression 2982 2988	kremet
+E34	Polar_expression:T82 Target:T81
+A140	Polarity E34 Positive
+A141	Source_is_author E34
+A142	Intensity E34 Standard
+A143	Type E34 E
+T83	Polar_expression 2975 2979	tykk
+E35	Polar_expression:T83 Target:T81
+A144	Polarity E35 Positive
+A145	Source_is_author E35
+A146	Intensity E35 Standard
+A147	Type E35 E
+T84	Entity 3010 3015	pølse
+T85	Polar_expression 3023 3033	passe grov
+E36	Polar_expression:T85 Target:T84
+A148	Polarity E36 Positive
+A149	Source_is_author E36
+A150	Intensity E36 Standard
+A151	Type E36 E
+T86	Polar_expression 3037 3048	rik på smak
+E37	Polar_expression:T86 Target:T84
+A152	Polarity E37 Positive
+A153	Source_is_author E37
+A154	Intensity E37 Standard
+A155	Type E37 E
+T87	Entity 3075 3080	sjyen
+T88	Polar_expression 3055 3061	toppen
+E38	Polar_expression:T88 Target:T87
+A156	Polarity E38 Positive
+A157	Source_is_author E38
+A158	Intensity E38 Strong
+A159	Type E38 E
+T89	Polar_expression 3110 3148	god nok grunn til et snarlig gjenbesøk
+E39	Polar_expression:T89 Target:T87
+A160	Polarity E39 Positive
+A161	Source_is_author E39
+A162	Intensity E39 Strong
+A163	Type E39 E
+T90	Polar_expression 3161 3221	hyggelig at man tør etablere seg i et område utenfor sentrum
+E40	Polar_expression:T90 
+A164	Polarity E40 Positive
+A165	Source_is_author E40
+A166	Intensity E40 Standard
+A167	Target_is_general E40
+A168	Type E40 E
+T91	Polar_expression 3324 3345	byens beste gastropub
+E41	Polar_expression:T91 
+A169	Polarity E41 Positive
+A170	Intensity E41 Strong
+A171	Target_is_general E41
+A172	Type E41 E
+T92	Entity 3354 3369	kundegrunnlaget
+T93	Polar_expression 3348 3353;3370 3397	burde være sikret en tid fremover
+E42	Polar_expression:T93 Target:T92
+A173	Polarity E42 Positive
+A174	Source_is_author E42
+A175	Intensity E42 Standard
+A176	Type E42 E
+T94	Polar_expression 3408 3439	hit kan vi gjerne komme tilbake
+E43	Polar_expression:T94 Source:T95
+A177	Polarity E43 Positive
+A178	Source_is_author E43
+A179	Intensity E43 Standard
+A180	Target_is_general E43
+A181	Type E43 E
+T95	Entity 3416 3418	vi

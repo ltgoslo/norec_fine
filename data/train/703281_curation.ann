@@ -1,0 +1,103 @@
+T1	E 17 17	
+T2	E 103 103	
+T3	E 401 401	
+T4	E 491 491	
+T5	E 978 978	
+T6	E 1720 1720	
+T7	E 1869 1869	
+T8	Entity 17 41	Andreboka om danske Ravn
+T9	Polar_expression 42 99	løftes av skildringer fra Berlin før og etter murens fall
+E1	Polar_expression:T9 Target:T8
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Target_is_general E1
+A5	Type E1 E
+T10	Entity 103 123	Michael Katz Krefeld
+T11	Polar_expression 124 235	kan lett beskyldes for å prøve seg på en variant av krimsuksessen Jussi Adler-Olsen og historiene om avdeling Q
+E2	Polar_expression:T11 Target:T10
+A6	Polarity E2 Negative
+A7	Source_is_author E2
+A8	Intensity E2 Slight
+A9	Type E2 E
+T12	Entity 401 424	Førsteboka " Avsporet "
+T13	Polar_expression 425 446	sporet fullstendig av
+E3	Polar_expression:T13 Target:T12
+A10	Polarity E3 Negative
+A11	Source_is_author E3
+A12	Intensity E3 Strong
+A13	NOT E3
+A14	Type E3 E
+T14	Entity 512 524	Katz Krefeld
+T15	Polar_expression 525 551	bedre grep om virkemidlene
+E4	Polar_expression:T15 Target:T14
+A15	Polarity E4 Positive
+A16	Source_is_author E4
+A17	Intensity E4 Standard
+A18	Type E4 E
+T16	Polar_expression 578 596	relativt humørløst
+E5	Polar_expression:T16 
+A19	Polarity E5 Negative
+A20	Source_is_author E5
+A21	Intensity E5 Standard
+A22	Target_is_general E5
+A23	Type E5 E
+T17	Polar_expression 987 998	gruvekkende
+E6	Polar_expression:T17 Target:T19
+A24	Polarity E6 Positive
+A25	Source_is_author E6
+A26	Intensity E6 Standard
+A27	NOT E6
+A28	Type E6 E
+T18	Polar_expression 1002 1018	sertifisert psyk
+E7	Polar_expression:T18 Target:T19
+A29	Polarity E7 Negative
+A30	Source_is_author E7
+A31	Intensity E7 Standard
+A32	NOT E7
+A33	Type E7 E
+T19	Entity 1033 1040	Hausser
+T20	Entity 1720 1747	Ravns selvdestruktive sider
+T21	Polar_expression 1751 1787	ikke fullt så utpenslet denne gangen
+E8	Polar_expression:T21 Target:T20
+A34	Polarity E8 Negative
+A35	Source_is_author E8
+A36	Intensity E8 Strong
+A37	Type E8 E
+T22	Entity 1790 1803	gærne Hausser
+T23	Polar_expression 1807 1818	godt kommet
+E9	Polar_expression:T23 Target:T22
+A38	Polarity E9 Positive
+A39	Source_is_author E9
+A40	Intensity E9 Standard
+A41	Type E9 E
+T24	Entity 1831 1838	plottet
+T25	Polar_expression 1842 1866	tettere enn i førsteboka
+E10	Polar_expression:T25 Target:T24
+A42	Polarity E10 Negative
+A43	Source_is_author E10
+A44	Intensity E10 Standard
+A45	Type E10 E
+T26	Entity 1856 1866	førsteboka
+T27	Polar_expression 1831 1866	plottet er tettere enn i førsteboka
+E11	Polar_expression:T27 Target:T26
+A46	Polarity E11 Negative
+A47	Source_is_author E11
+A48	Intensity E11 Standard
+A49	NOT E11
+A50	Type E11 E
+T28	Entity 1871 1879	Savnet "
+T29	Polar_expression 1888 1900	angstbitersk
+E12	Polar_expression:T29 Target:T28
+A51	Polarity E12 Positive
+A52	Source_is_author E12
+A53	Intensity E12 Standard
+A54	Type E12 E
+T30	Polar_expression 1904 1912	veldreid
+E13	Polar_expression:T30 Target:T28
+A55	Polarity E13 Positive
+A56	Source_is_author E13
+A57	Intensity E13 Standard
+A58	Type E13 E
+A59	Target_is_general E12
+A60	Target_is_general E13

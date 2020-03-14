@@ -33,7 +33,7 @@ A7	Intensity E2 Standard
 A8	Type E2 E
 T24	Entity 2111 2115	Mena
 T25	Entity 40 50	Maria Mena
-T26	Polar_expression 51 77	synger bedre enn noen gang
+T26	Polar_expression 58 76	bedre enn noen gan
 E3	Polar_expression:T26 Target:T25
 A9	Polarity E3 Positive
 A10	Source_is_author E3
@@ -53,20 +53,13 @@ A17	Polarity E5 Negative
 A18	Source_is_author E5
 A19	Intensity E5 Standard
 A20	Type E5 E
-T31	Polar_expression 199 214	beste popslager
-E6	Polar_expression:T31 Target:T32
-A21	Polarity E6 Positive
-A22	Source_is_author E6
-A23	Intensity E6 Standard
-A24	Type E6 E
 T32	Entity 217 240	« You're The Only One »
-T33	Polar_expression 185 214	åpner med sin beste popslager
-E7	Polar_expression:T33 Target:T34
+T33	Polar_expression 199 214	beste popslager
+E7	Polar_expression:T33 
 A25	Polarity E7 Positive
 A26	Source_is_author E7
 A27	Intensity E7 Standard
 A28	Type E7 E
-T34	Entity 174 184	Maria Mena
 T35	Polar_expression 422 430	fengende
 E8	Polar_expression:T35 Target:T66
 A29	Polarity E8 Positive
@@ -93,7 +86,7 @@ A41	Polarity E11 Negative
 A42	Source_is_author E11
 A43	Intensity E11 Slight
 A44	Type E11 E
-T42	Polar_expression 1090 1108	litt snodig å høre
+T42	Polar_expression 1090 1115	litt snodig å høre i 2013
 E12	Polar_expression:T42 Target:T43
 A45	Polarity E12 Negative
 A46	Source_is_author E12
@@ -101,7 +94,7 @@ A47	Intensity E12 Slight
 A48	Type E12 E
 T43	Entity 1063 1074	« Fragile »
 T44	Entity 1179 1182	Jeg
-T45	Polar_expression 1183 1215	har aldri hørt henne synge bedre
+T45	Polar_expression 1187 1192;1210 1215	aldri bedre
 E13	Polar_expression:T45 Target:T46 Source:T44
 A49	Polarity E13 Positive
 A50	Source_is_author E13

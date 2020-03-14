@@ -1,0 +1,102 @@
+T1	E 372 372	
+T2	E 612 612	
+T3	E 773 773	
+T4	E 2057 2057	
+T5	E 2187 2187	
+T6	E 2365 2365	
+T7	E 2470 2470	
+T8	Entity 410 427	rammefortellingen
+T9	Polar_expression 398 409	noe trengte
+E1	Polar_expression:T9 Target:T8
+A1	Polarity E1 Negative
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Type E1 E
+T10	Entity 461 474	tiltaleformen
+T11	Polar_expression 437 460	unødvendig insisterende
+E2	Polar_expression:T11 Target:T10
+A5	Polarity E2 Negative
+A6	Source_is_author E2
+A7	Intensity E2 Standard
+A8	Type E2 E
+T12	Entity 602 609	romanen
+T13	Polar_expression 398 427;578 593	noe trengte rammefortellingen fungerer dårlig
+E3	Polar_expression:T13 Target:T12
+A9	Polarity E3 Negative
+A10	Source_is_author E3
+A11	Intensity E3 Standard
+A12	Target_is_general E3
+A13	Type E3 E
+T14	Polar_expression 437 474;578 593	unødvendig insisterende tiltaleformen fungerer dårlig
+E4	Polar_expression:T14 Target:T12
+A14	Polarity E4 Negative
+A15	Source_is_author E4
+A16	Intensity E4 Standard
+A17	Target_is_general E4
+A18	Type E4 E
+T15	Entity 616 627	forfatteren
+T16	Polar_expression 725 770	fortellertalent av sjelden kraft og frodighet
+E5	Polar_expression:T16 Target:T15
+A19	Polarity E5 Positive
+A20	Source_is_author E5
+A21	Intensity E5 Strong
+A22	Type E5 E
+T17	Entity 827 871	jødeforfølgelser under den annen verdenskrig
+T18	Polar_expression 784 822	ømskinnet og samtidig « slitent » tema
+E6	Polar_expression:T18 Target:T17
+A23	Polarity E6 Negative
+A24	Source_is_author E6
+A25	Intensity E6 Slight
+A26	NOT E6
+A27	Type E6 E
+T19	Polar_expression 773 822;923 953	Selv et så ømskinnet og samtidig « slitent » tema med innlevelse og troverdighet
+E7	Polar_expression:T19 Target:T20
+A28	Polarity E7 Positive
+A29	Source_is_author E7
+A30	Intensity E7 Standard
+A31	Type E7 E
+T20	Entity 911 922	forfatteren
+T21	Entity 2081 2085	Aarø
+T22	Polar_expression 2067 2077;2146 2184	prestasjon ikke virker trettende eller konstruert
+E8	Polar_expression:T22 Target:T21
+A32	Polarity E8 Positive
+A33	Source_is_author E8
+A34	Intensity E8 Standard
+A35	Type E8 E
+T23	Entity 2206 2209	hun
+T24	Polar_expression 2260 2269	sikkerhet
+E9	Polar_expression:T24 Target:T23
+A36	Polarity E9 Positive
+A37	Source_is_author E9
+A38	Intensity E9 Standard
+A39	Type E9 E
+T25	Polar_expression 2273 2281	eleganse
+E10	Polar_expression:T25 Target:T23
+A40	Polarity E10 Positive
+A41	Source_is_author E10
+A42	Intensity E10 Standard
+A43	Type E10 E
+T26	Entity 2369 2380	melodramaet
+T27	Polar_expression 2387 2413	plausibel litterær teknikk
+E11	Polar_expression:T27 Target:T26 Source:T29
+A44	Polarity E11 Positive
+A45	Source_is_author E11
+A46	Intensity E11 Standard
+A47	Type E11 E
+T28	Entity 2431 2439	nordmenn
+T29	Entity 2420 2422	vi
+T30	Polar_expression 2423 2430	hemmede
+E12	Polar_expression:T30 Source:T29 Target:T28
+A48	Polarity E12 Negative
+A49	Source_is_author E12
+A50	Intensity E12 Standard
+A51	NOT E12
+A52	Type E12 E
+T31	Entity 2476 2483	romanen
+T32	Polar_expression 2516 2562	vitnesbyrd om et forfatterskap i rik utvikling
+E13	Polar_expression:T32 Target:T31
+A53	Polarity E13 Positive
+A54	Source_is_author E13
+A55	Intensity E13 Standard
+A56	Target_is_general E13
+A57	Type E13 E

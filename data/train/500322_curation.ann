@@ -1,0 +1,141 @@
+T1	Polar_expression 33 43	ubehagelig
+E1	Polar_expression:T1 
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Target_is_general E1
+A5	Type E1 E
+T2	Polar_expression 22 29	Intenst
+E2	Polar_expression:T2 
+A6	Polarity E2 Positive
+A7	Source_is_author E2
+A8	Intensity E2 Standard
+A9	Target_is_general E2
+A10	Type E2 E
+T3	Entity 475 482	scenene
+T4	Polar_expression 483 503	ekstremt ubehagelige
+E3	Polar_expression:T4 Target:T3
+A11	Polarity E3 Positive
+A12	Source_is_author E3
+A13	Intensity E3 Strong
+A14	Type E3 E
+T5	Polar_expression 619 663	en av Hollywoods fremste krigsfilmregissører
+E4	Polar_expression:T5 Target:T6
+A15	Polarity E4 Positive
+A16	Source_is_author E4
+A17	Intensity E4 Strong
+A18	Type E4 E
+T6	Entity 589 605	Kathryn Bigelows
+T7	Entity 554 560	Filmen
+T8	Polar_expression 589 663	Kathryn Bigelows posisjon som en av Hollywoods fremste krigsfilmregissører
+E5	Polar_expression:T8 Target:T7
+A19	Polarity E5 Positive
+A20	Source_is_author E5
+A21	Intensity E5 Strong
+A22	Target_is_general E5
+A23	Type E5 E
+T9	Entity 847 850	jeg
+T10	Polar_expression 859 877	forkjær tilnærming
+E6	Polar_expression:T10 Source:T9
+A24	Polarity E6 Negative
+A25	Source_is_author E6
+A26	Intensity E6 Standard
+A27	NOT E6
+A28	Type E6 E
+T11	Polar_expression 932 937;957 981	åpner for selvstendig tenkning
+E7	Polar_expression:T11 Target:T12
+A29	Polarity E7 Positive
+A30	Source_is_author E7
+A31	Intensity E7 Standard
+A32	Type E7 E
+T12	Entity 919 928	krigsfilm
+T13	Polar_expression 1018 1037	kvalitet i seg selv
+E8	Polar_expression:T13 
+A33	Polarity E8 Positive
+A34	Source_is_author E8
+A35	Intensity E8 Standard
+A36	Type E8 E
+T14	Polar_expression 1043 1077	distinkte , filmatiske kvalitetene
+E9	Polar_expression:T14 
+A37	Polarity E9 Positive
+A38	Source_is_author E9
+A39	Intensity E9 Standard
+A40	Target_is_general E9
+A41	Type E9 E
+T15	Polar_expression 1547 1570	intens , isende følelse
+E10	Polar_expression:T15 
+A42	Polarity E10 Positive
+A43	Source_is_author E10
+A44	Intensity E10 Standard
+A45	Type E10 E
+T16	Entity 1642 1662	« Zero Dark Thirty »
+T17	Polar_expression 1670 1685	uhyre spennende
+E11	Polar_expression:T17 Target:T16
+A46	Polarity E11 Positive
+A47	Source_is_author E11
+A48	Intensity E11 Strong
+A49	Target_is_general E11
+A50	Type E11 E
+T18	Entity 2153 2157	Maya
+T19	Polar_expression 2166 2175	råskinnet
+E12	Polar_expression:T19 Target:T18
+A51	Polarity E12 Positive
+A52	Source_is_author E12
+A53	Intensity E12 Standard
+A54	Type E12 E
+T20	Entity 2281 2284	Hun
+T21	Polar_expression 2292 2304	intelligente
+E13	Polar_expression:T21 Target:T20
+A55	Polarity E13 Positive
+A56	Source_is_author E13
+A57	Intensity E13 Standard
+A58	NOT E13
+A59	Type E13 E
+T22	Entity 2934 2948	filmindustrien
+T23	Entity 2956 2959	hun
+T24	Polar_expression 2960 2976	så gammeldags ut
+E14	Polar_expression:T24 Source:T22 Target:T23
+A60	Polarity E14 Negative
+A61	Intensity E14 Standard
+A62	NFP E14
+A63	Type E14 E
+T25	Polar_expression 3016 3056	brukte hennes ytre for alt det var verdt
+E15	Polar_expression:T25 
+A64	Polarity E15 Positive
+A65	Source_is_author E15
+A66	Intensity E15 Standard
+A67	Type E15 E
+T26	Polar_expression 3107 3146	evnen til å spille på et bredt register
+E16	Polar_expression:T26 
+A68	Polarity E16 Positive
+A69	Source_is_author E16
+A70	Intensity E16 Standard
+A71	Type E16 E
+T27	Entity 3207 3213	filmen
+T28	Polar_expression 3217 3234	maktdemonstrasjon
+E17	Polar_expression:T28 Target:T27
+A72	Polarity E17 Positive
+A73	Source_is_author E17
+A74	Intensity E17 Strong
+A75	Target_is_general E17
+A76	Type E17 E
+T29	Polar_expression 3332 3370	verdens mest etterspurte filmkomponist
+E18	Polar_expression:T29 Target:T30
+A77	Polarity E18 Positive
+A78	Source_is_author E18
+A79	Intensity E18 Strong
+A80	Type E18 E
+T30	Entity 3299 3316	Alexandre Desplat
+T31	Entity 3384 3392	Musikken
+T32	Polar_expression 3418 3471	distinkte , elegante understrekninger og fremhevinger
+E19	Polar_expression:T32 Target:T31
+A81	Polarity E19 Positive
+A82	Source_is_author E19
+A83	Intensity E19 Strong
+A84	Type E19 E
+T33	Polar_expression 3480 3500	ren nytelse for øret
+E20	Polar_expression:T33 Target:T31
+A85	Polarity E20 Positive
+A86	Source_is_author E20
+A87	Intensity E20 Strong
+A88	Type E20 E

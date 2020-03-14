@@ -1,0 +1,136 @@
+T1	E 153 153	
+T2	E 271 271	
+T3	E 360 360	
+T4	E 745 745	
+T5	E 1062 1062	
+T6	E 1217 1217	
+T7	E 1231 1231	
+T8	E 1334 1334	
+T9	E 1489 1489	
+T10	E 1596 1596	
+T11	E 1784 1784	
+T12	Polar_expression 163 167	tørt
+E1	Polar_expression:T12 Target:T14 Source:T19
+A1	Polarity E1 Negative
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Type E1 E
+A5	Target_is_general E1
+T13	Polar_expression 171 177	sobert
+E2	Polar_expression:T13 Target:T14 Source:T19
+A6	Polarity E2 Positive
+A7	Source_is_author E2
+A8	Intensity E2 Standard
+A9	Target_is_general E2
+A10	Type E2 E
+T14	Entity 178 183	drama
+T15	Entity 197 209	skuespillere
+T16	Polar_expression 190 196	flinke
+E3	Polar_expression:T16 Target:T15 Source:T19
+A11	Polarity E3 Positive
+A12	Source_is_author E3
+A13	Intensity E3 Standard
+A14	Type E3 E
+T17	Polar_expression 235 255	ikke bryr meg så mye
+E4	Polar_expression:T17 Target:T18 Source:T19
+A15	Polarity E4 Negative
+A16	Source_is_author E4
+A17	Intensity E4 Standard
+A18	Type E4 E
+T18	Entity 259 267	figurene
+T19	Entity 231 234	jeg
+T20	Polar_expression 316 332	ikke overbeviser
+E5	Polar_expression:T20 Target:T21
+A19	Polarity E5 Negative
+A20	Source_is_author E5
+A21	Intensity E5 Standard
+A22	Type E5 E
+T21	Entity 302 315	Colin Farrell
+T22	Entity 285 298	Ewan McGregor
+E6	Polar_expression:T20 Target:T22
+A23	Polarity E6 Negative
+A24	Source_is_author E6
+A25	Intensity E6 Standard
+A26	Type E6 E
+T23	Polar_expression 360 405	Har Allen rett og slett bommet på castingen ?
+E7	Polar_expression:T23 
+A27	Polarity E7 Positive
+A28	Source_is_author E7
+A29	Intensity E7 Standard
+A30	Target_is_general E7
+A31	Type E7 E
+#1	AnnotatorNotes E7	interrogative 
+T24	Entity 745 754	Historien
+T25	Polar_expression 755 797	tar seg god til til å bygge opp bakgrunnen
+E8	Polar_expression:T25 Target:T24 Source:T26
+A32	Polarity E8 Positive
+A33	Source_is_author E8
+A34	Intensity E8 Standard
+A35	Type E8 E
+T26	Entity 928 931	jeg
+T27	Polar_expression 916 927;934 1005	greier ikke godta at de i det hele tatt vurderer om de skal oppfylle onkelens ønske
+E9	Polar_expression:T27 Target:T24 Source:T26
+A36	Polarity E9 Negative
+A37	Source_is_author E9
+A38	Intensity E9 Standard
+A39	Type E9 E
+T28	Entity 1149 1152	jeg
+T29	Polar_expression 1171 1184	nøkkelproblem
+E10	Polar_expression:T29 Target:T30 Source:T28
+A40	Polarity E10 Negative
+A41	Source_is_author E10
+A42	Intensity E10 Standard
+A43	Target_is_general E10
+A44	Type E10 E
+T30	Entity 1189 1200	Allens film
+T31	Polar_expression 1075 1101	folk drepes for bagateller
+E11	Polar_expression:T31 
+A45	Polarity E11 Negative
+A46	Source_is_author E11
+A47	Intensity E11 Standard
+A48	Target_is_general E11
+A49	Type E11 E
+T32	Polar_expression 1217 1229	Dårlig match
+E12	Polar_expression:T32 
+A50	Polarity E12 Negative
+A51	Source_is_author E12
+A52	Intensity E12 Standard
+A53	Target_is_general E12
+A54	Type E12 E
+T33	Entity 1236 1266	Ewan McGregor og Colin Farrell
+T35	Polar_expression 1270 1276	flinke
+E14	Polar_expression:T35 Target:T33 Source:T34
+A59	Polarity E14 Positive
+A60	Source_is_author E14
+A61	Intensity E14 Standard
+A62	Type E14 E
+T36	Polar_expression 1315 1331	dårlig match her
+E15	Polar_expression:T36 Target:T33 Source:T34
+A63	Polarity E15 Negative
+A64	Source_is_author E15
+A65	Intensity E15 Standard
+A66	Type E15 E
+T34	Entity 1296 1299	jeg
+T37	Entity 1345 1348	jeg
+T38	Polar_expression 1421 1442	ikke veldig troverdig
+E13	Polar_expression:T38 Target:T39 Source:T37
+A55	Polarity E13 Negative
+A56	Source_is_author E13
+A57	Intensity E13 Standard
+A58	Type E13 E
+T39	Entity 1409 1411	de
+T40	Entity 1497 1529	dramatiske sekvenser mot slutten
+T41	Polar_expression 1492 1496;1543 1576	noen preget av litt frynsete skuespill
+E16	Polar_expression:T41 Target:T40
+A67	Polarity E16 Negative
+A68	Source_is_author E16
+A69	Intensity E16 Slight
+A70	Type E16 E
+T42	Entity 1596 1619	” Cassandra ’ s dream ”
+T43	Polar_expression 1623 1650	en av Woody Allens svakeste
+E17	Polar_expression:T43 Target:T42
+A71	Polarity E17 Negative
+A72	Source_is_author E17
+A73	Intensity E17 Standard
+A74	Target_is_general E17
+A75	Type E17 E

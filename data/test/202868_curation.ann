@@ -1,0 +1,83 @@
+T1	E 16 16	
+T2	E 156 156	
+T3	E 225 225	
+T4	E 267 267	
+T5	E 302 302	
+T6	EFINP 358 358	
+T7	Entity 67 74	knapper
+T8	Polar_expression 27 63	hele 20 forhåndsprogrammerte kanaler
+E1	Polar_expression:T8 Target:T7
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Type E1 E
+T9	Polar_expression 109 121	litt klønete
+E2	Polar_expression:T9 Target:T7
+A5	Polarity E2 Positive
+A6	Source_is_author E2
+A7	Intensity E2 Standard
+A8	Type E2 E
+T10	Entity 156 158	Vi
+T11	Entity 175 182	klaffen
+T12	Entity 205 212	radioen
+T13	Polar_expression 159 174	misliker sterkt
+E3	Polar_expression:T13 Target:T11
+A9	Polarity E3 Negative
+A10	Source_is_author E3
+A11	Intensity E3 Strong
+A12	Type E3 E
+T14	Polar_expression 159 182	misliker sterkt klaffen
+E4	Polar_expression:T14 Target:T12
+A13	Polarity E4 Negative
+A14	Source_is_author E4
+A15	Intensity E4 Strong
+A16	Target_is_general E4
+A17	Type E4 E
+T15	Polar_expression 225 248	Hva er vitsen med det ?
+E5	Polar_expression:T15 
+A18	Polarity E5 Negative
+A19	Source_is_author E5
+A20	Intensity E5 Strong
+A21	Type E5 E
+T16	Entity 267 272	Lyden
+T17	Polar_expression 276 280	tynn
+E6	Polar_expression:T17 Target:T16
+A22	Polarity E6 Negative
+A23	Source_is_author E6
+A24	Intensity E6 Standard
+A25	Type E6 E
+T18	Polar_expression 284 299	blikkboks-aktig
+E7	Polar_expression:T18 Target:T16
+A26	Polarity E7 Negative
+A27	Source_is_author E7
+A28	Intensity E7 Standard
+A29	Type E7 E
+T19	Polar_expression 302 327	Egner seg ikke til musikk
+E8	Polar_expression:T19 
+A30	Polarity E8 Negative
+A31	Source_is_author E8
+A32	Intensity E8 Standard
+A33	Target_is_general E8
+A34	Type E8 E
+T20	Polar_expression 334 354	grei nok til nyheter
+E9	Polar_expression:T20 
+A35	Polarity E9 Positive
+A36	Source_is_author E9
+A37	Intensity E9 Standard
+A38	Target_is_general E9
+A39	Type E9 E
+T21	Entity 369 377	POPmusic
+T22	Entity 401 408	radioen
+T23	Polar_expression 413 451	ikke spiller etter 15 timer på batteri
+E10	Polar_expression:T23 Target:T22
+A40	Polarity E10 Negative
+A41	Source_is_author E10
+A42	Intensity E10 Standard
+A43	Target_is_general E10
+A44	Type E10 E
+E11	Polar_expression:T23 Target:T21
+A45	Polarity E11 Negative
+A46	Source_is_author E11
+A47	Intensity E11 Standard
+A49	Type E11 E
+A48	NOT E11

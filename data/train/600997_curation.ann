@@ -1,0 +1,237 @@
+T1	E 31 31	
+T2	E 378 378	
+T3	E 563 563	
+T4	E 782 782	
+T5	E 837 837	
+T6	E 882 882	
+T7	E 948 948	
+T8	E 991 991	
+T9	E 1095 1095	
+T10	E 1149 1149	
+T11	E 1232 1232	
+T12	E 1447 1447	
+T13	E 1573 1573	
+T14	E 1627 1627	
+T15	E 1706 1706	
+T16	E 1929 1929	
+T17	E 2048 2048	
+T18	E 2086 2086	
+T19	E 2106 2106	
+T20	E 2229 2229	
+T21	Entity 782 789	Bildene
+T22	Polar_expression 812 833	sentimentale klisjeer
+E50	Polar_expression:T22 Target:T21
+A222	Polarity E50 Negative
+A223	Intensity E50 Standard
+A224	Type E50 E
+A225	Source_is_author E50
+T23	Entity 882 898	Utvalget diktere
+T24	Polar_expression 902 908	skjevt
+E51	Polar_expression:T24 Target:T23
+A226	Polarity E51 Negative
+A227	Intensity E51 Standard
+A228	Type E51 E
+A229	Source_is_author E51
+T25	Polar_expression 2052 2085	hvor ble det av Jens Gunderssen ?
+E52	Polar_expression:T25 
+A230	Polarity E52 Negative
+A231	Intensity E52 Standard
+A232	Type E52 E
+A233	Source_is_author E52
+A234	Target_is_general E52
+T26	Polar_expression 2089 2105	Jens Bjørneboe ?
+E53	Polar_expression:T26 
+A235	Polarity E53 Negative
+A236	Intensity E53 Standard
+A237	Type E53 E
+A238	Source_is_author E53
+A239	Target_is_general E53
+T27	Polar_expression 2106 2180	Enn Gaute Heivoll og Ivar Skippervold , for ikke å snakke om Børre Knudsen
+E54	Polar_expression:T27 
+A240	Polarity E54 Negative
+A241	Intensity E54 Standard
+A242	Type E54 E
+A243	Source_is_author E54
+A244	Target_is_general E54
+T28	Polar_expression 34 56	mangelfullt sammenrask
+E1	Polar_expression:T28 Target:T29
+A1	Polarity E1 Negative
+A2	Source_is_author E1
+A3	Intensity E1 Strong
+A4	Type E1 E
+T29	Entity 78 81	bok
+T30	Polar_expression 69 77	underlig
+E2	Polar_expression:T30 Target:T29
+A5	Polarity E2 Negative
+A6	Source_is_author E2
+A7	Intensity E2 Slight
+A8	Type E2 E
+T31	Polar_expression 86 122	levner forlag og forfatter liten ære
+E3	Polar_expression:T31 Target:T29
+A9	Polarity E3 Negative
+A10	Source_is_author E3
+A11	Intensity E3 Strong
+A12	Type E3 E
+T32	Polar_expression 382 417	har prestert å overse den viktigste
+E4	Polar_expression:T32 Target:T33
+A13	Polarity E4 Negative
+A14	Source_is_author E4
+A15	Intensity E4 Strong
+A16	Type E4 E
+T33	Entity 378 381	Han
+T34	Polar_expression 651 681	var kapellan på Lista i sju år
+E5	Polar_expression:T34 Target:T35
+A17	Polarity E5 Positive
+A18	Source_is_author E5
+A19	Intensity E5 Standard
+A20	Type E5 EFINP
+T35	Entity 633 646	Anders Hovden
+T36	Polar_expression 604 646	atskillig mer sørlending enn Anders Hovden
+E6	Polar_expression:T36 Target:T37
+A21	Polarity E6 Positive
+A22	Source_is_author E6
+A23	Intensity E6 Standard
+A24	Type E6 E
+T37	Entity 563 566	Hun
+T38	Polar_expression 582 603	minst 17 år i Lyngdal
+E7	Polar_expression:T38 Target:T37
+A25	Polarity E7 Positive
+A26	Source_is_author E7
+A27	Intensity E7 Standard
+A28	Type E7 EFINP
+T39	Polar_expression 875 879	tynn
+E8	Polar_expression:T39 Target:T40
+A29	Polarity E8 Negative
+A30	Source_is_author E8
+A31	Intensity E8 Strong
+A32	Type E8 E
+T40	Entity 837 849	Definisjonen
+T41	Polar_expression 954 987	interesserer seg bare for tekster
+E9	Polar_expression:T41 Target:T42
+A33	Polarity E9 Negative
+A34	Source_is_author E9
+A35	Intensity E9 Standard
+A36	Type E9 E
+T42	Entity 948 953	Olsen
+T43	Polar_expression 1000 1034	språkformen en smule oppmerksomhet
+E10	Polar_expression:T43 Target:T44
+A37	Polarity E10 Positive
+A38	Source_is_author E10
+A39	Intensity E10 Slight
+A40	Type E10 E
+T44	Entity 991 994	Han
+T45	Polar_expression 1060 1092	gjengitt i en nokså moderne form
+E11	Polar_expression:T45 Target:T46
+A41	Polarity E11 Negative
+A42	Source_is_author E11
+A43	Intensity E11 Slight
+A44	Type E11 EFINP
+T46	Entity 1041 1056	de aller fleste
+T47	Polar_expression 1107 1146	kaudervelsk blanding av gammelt og nytt
+E12	Polar_expression:T47 Target:T48
+A45	Polarity E12 Negative
+A46	Source_is_author E12
+A47	Intensity E12 Standard
+A48	Type E12 E
+T48	Entity 1095 1099	Noen
+T49	Polar_expression 1107 1118	kaudervelsk
+E13	Polar_expression:T49 Target:T50
+A49	Polarity E13 Negative
+A50	Source_is_author E13
+A51	Intensity E13 Standard
+A52	Type E13 E
+T50	Entity 1119 1127	blanding
+T51	Polar_expression 1159 1229	ulykke at ikke Olsen Bruuns og Zetlitz ’ salmer er gjengitt i original
+E14	Polar_expression:T51 Target:T52
+A53	Polarity E14 Negative
+A54	Source_is_author E14
+A55	Intensity E14 Strong
+A56	Type E14 E
+T52	Entity 1174 1206	Olsen Bruuns og Zetlitz ’ salmer
+#1	AnnotatorNotes E14	Negation
+T53	Polar_expression 1304 1311	steiler
+E15	Polar_expression:T53 Target:T54 Source:T55
+A57	Polarity E15 Negative
+A58	Source_is_author E15
+A59	Intensity E15 Strong
+A60	Type E15 E
+T54	Entity 1236 1301	det heter at en av melodiene til en Zetlitz-salme er av Ryga 1527
+T55	Entity 1312 1315	jeg
+T56	Polar_expression 1462 1479	rimer svak på tag
+E16	Polar_expression:T56 Target:T57
+A61	Polarity E16 Negative
+A62	Source_is_author E16
+A63	Intensity E16 Strong
+A64	Type E16 E
+T57	Entity 1451 1461	Jørgen Moe
+T58	Polar_expression 1531 1570	burde være svag på tag eller svak på ta
+E17	Polar_expression:T58 Target:T57
+A65	Polarity E17 Negative
+A66	Source_is_author E17
+A67	Intensity E17 Strong
+A68	Type E17 E
+#2	AnnotatorNotes E17	irrealis
+T59	Polar_expression 1613 1623	bare klein
+E18	Polar_expression:T59 Target:T60
+A69	Polarity E18 Negative
+A70	Source_is_author E18
+A71	Intensity E18 Standard
+A72	Type E18 E
+T60	Entity 1573 1607	Kombinasjonen av gammel og ny form
+T61	Polar_expression 1678 1703	forkortet til tre strofer
+E19	Polar_expression:T61 Target:T62
+A73	Polarity E19 Negative
+A74	Source_is_author E19
+A75	Intensity E19 Strong
+A76	Type E19 E
+T62	Entity 1627 1641;1655 1668	Gabriel Scotts Godnatt-salme
+T63	Polar_expression 1642 1654	vidunderlige
+E20	Polar_expression:T63 Target:T62
+A77	Polarity E20 Positive
+A78	Source_is_author E20
+A79	Intensity E20 Strong
+A80	NOT E20
+A81	Type E20 E
+T64	Polar_expression 1879 1926	trolig den vakreste salmen som er skapt her sør
+E21	Polar_expression:T64 Target:T65
+A82	Polarity E21 Positive
+A83	Source_is_author E21
+A84	Intensity E21 Strong
+A85	NOT E21
+A86	Type E21 E
+T65	Entity 1706 1709	Den
+T66	Polar_expression 1741 1811	sørlandsk variant av Petter Dass ’ « Herre Guud dit Dyre Navn og Ære »
+E22	Polar_expression:T66 Target:T65
+A87	Polarity E22 Positive
+A88	Source_is_author E22
+A89	Intensity E22 Standard
+A90	NOT E22
+A91	Type E22 E
+T67	Polar_expression 1814 1847	like omfattende hele skaperverket
+E23	Polar_expression:T67 Target:T65
+A92	Polarity E23 Positive
+A93	Source_is_author E23
+A94	Intensity E23 Strong
+A95	NOT E23
+A96	Type E23 E
+T68	Polar_expression 1854 1876	mer sørlandsk i lynnet
+E24	Polar_expression:T68 Target:T65
+A97	Polarity E24 Positive
+A98	Source_is_author E24
+A99	Intensity E24 Standard
+A100	NOT E24
+A101	Type E24 E
+T69	Polar_expression 1937 1959	skulle altså forkortes
+E25	Polar_expression:T69 Target:T70
+A102	Polarity E25 Negative
+A103	Source_is_author E25
+A104	Intensity E25 Strong
+A105	Type E25 E
+T70	Entity 1933 1936	den
+T71	Polar_expression 2240 2284	tjener verken forlag eller forfatter til ære
+E26	Polar_expression:T71 Target:T72
+A106	Polarity E26 Negative
+A107	Source_is_author E26
+A108	Intensity E26 Strong
+A109	Type E26 E
+T72	Entity 2235 2239	boka

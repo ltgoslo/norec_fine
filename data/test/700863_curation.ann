@@ -1,0 +1,86 @@
+T1	E 37 37	
+T2	E 400 400	
+T3	E 548 548	
+T4	E 1219 1219	
+T5	E 1433 1433	
+T6	E 1801 1801	
+T7	E 1950 1950	
+T8	Polar_expression 41 54	superpopulære
+E1	Polar_expression:T8 Target:T9
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Strong
+A4	NOT E1
+A5	Type E1 E
+T9	Entity 55 84	dataspillet World of Warcraft
+T10	Entity 98 104	filmen
+T11	Polar_expression 108 150	kommer seg brukbart igjennom forvandlingen
+E2	Polar_expression:T11 Target:T10
+A6	Polarity E2 Positive
+A7	Source_is_author E2
+A8	Intensity E2 Standard
+A9	Target_is_general E2
+A10	Type E2 E
+T12	Entity 419 437	enkelte onde orker
+T13	Polar_expression 460 507	ser ti ganger verre ut enn i " Ringenes herre "
+E3	Polar_expression:T13 Target:T12
+A11	Polarity E3 Negative
+A12	Source_is_author E3
+A13	Intensity E3 Strong
+A14	Type E3 E
+T14	Polar_expression 526 545	vekker litt sympati
+E4	Polar_expression:T14 Target:T12
+A15	Polarity E4 Positive
+A16	Source_is_author E4
+A17	Intensity E4 Standard
+A18	Type E4 E
+T15	Entity 579 584	scene
+T16	Polar_expression 567 578	lett munter
+E5	Polar_expression:T16 Target:T15
+A19	Polarity E5 Positive
+A20	Source_is_author E5
+A21	Intensity E5 Standard
+A22	Type E5 E
+T17	Entity 1219 1226	Slagene
+T18	Polar_expression 1230 1268	dataanimert etter alle kunstens regler
+E6	Polar_expression:T18 Target:T17 Source:T21
+A23	Polarity E6 Positive
+A24	Source_is_author E6
+A25	Intensity E6 Standard
+A26	Type E6 E
+T19	Entity 1293 1311	noen få skikkelser
+T20	Polar_expression 1312 1329	står ut i mengden
+E7	Polar_expression:T20 Target:T19 Source:T21
+A27	Polarity E7 Positive
+A28	Source_is_author E7
+A29	Intensity E7 Standard
+A30	Type E7 E
+T21	Entity 1345 1348	jeg
+T22	Polar_expression 1349 1380	gidder å engasjere meg en smule
+E8	Polar_expression:T22 Target:T19 Source:T21
+A31	Polarity E8 Positive
+A32	Source_is_author E8
+A33	Intensity E8 Slight
+A34	Type E8 E
+T23	Entity 1449 1457	spenning
+T24	Polar_expression 1433 1448;1458 1508	Hardt tiltrengt oppstår ved hjelp av figurer med uklar tilhørighet
+E9	Polar_expression:T24 Target:T23
+A35	Polarity E9 Positive
+A36	Source_is_author E9
+A37	Intensity E9 Standard
+A38	Type E9 E
+T25	Polar_expression 1846 1868	for mange gjentakelser
+E10	Polar_expression:T25 Target:T26
+A39	Polarity E10 Negative
+A40	Source_is_author E10
+A41	Intensity E10 Standard
+A42	Type E10 E
+T26	Entity 1872 1882	slagscener
+T27	Entity 1959 1962	jeg
+T28	Polar_expression 1954 1958;1963 1965	falt av
+E11	Polar_expression:T28 Source:T27
+A43	Polarity E11 Negative
+A44	Source_is_author E11
+A45	Intensity E11 Standard
+A46	Target_is_general E11
+A47	Type E11 E

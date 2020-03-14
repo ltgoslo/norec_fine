@@ -1,0 +1,206 @@
+T1	E 27 27	
+T2	E 56 56	
+T3	E 143 143	
+T4	E 364 364	
+T5	E 499 499	
+T6	E 632 632	
+T7	E 1128 1128	
+T8	E 1285 1285	
+T9	E 1785 1785	
+T10	E 1912 1912	
+T11	E 1991 1991	
+T12	E 2086 2086	
+T13	E 2351 2351	
+T14	EFINP 2560 2560	
+T15	E 2600 2600	
+T16	Entity 444 450	filmen
+T17	Polar_expression 368 434	skal imidlertid mer til enn tre stjerner for å skape et fyrverkeri
+E54	Polar_expression:T17 Target:T16
+A259	Polarity E54 Negative
+A260	Intensity E54 Standard
+A261	Type E54 E
+A262	Source_is_author E54
+A263	Target_is_general E54
+T18	Entity 38 54	Hollywood-remake
+T19	Polar_expression 27 37	Uspennende
+E1	Polar_expression:T19 Target:T18
+A1	Polarity E1 Negative
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Type E1 E
+T20	Polar_expression 65 141	greier ikke å løfte denne nyinnspillingen av en Oscar-vinnende spenningsfilm
+E2	Polar_expression:T20 Target:T21
+A5	Polarity E2 Negative
+A6	Source_is_author E2
+A7	Intensity E2 Standard
+A8	Type E2 E
+T21	Entity 56 64	Stjerner
+T22	Entity 193 219	Hemmeligheten i deres øyne
+T23	Polar_expression 159 168	glimrende
+E3	Polar_expression:T23 Target:T22
+A9	Polarity E3 Positive
+A10	Source_is_author E3
+A11	Intensity E3 Strong
+A12	NOT E3
+A13	Type E3 E
+T24	Polar_expression 150 154;237 274	vant Oscar for beste fremmedspråklige film
+E4	Polar_expression:T24 Target:T22
+A14	Polarity E4 Positive
+A15	Intensity E4 Strong
+A16	NFP E4
+A17	NOT E4
+A18	Type E4 E
+T25	Entity 499 506	Remaken
+T26	Polar_expression 537 629	like unødvendig som den bedrøvelige makeoveren Nicole Kidmans ansikt har fått de siste årene
+E5	Polar_expression:T26 Target:T25
+A19	Polarity E5 Negative
+A20	Source_is_author E5
+A21	Intensity E5 Strong
+A22	Type E5 E
+T27	Entity 573 583	makeoveren
+T28	Polar_expression 561 572	bedrøvelige
+E6	Polar_expression:T28 Target:T27
+A23	Polarity E6 Negative
+A24	Source_is_author E6
+A25	Intensity E6 Standard
+A26	NOT E6
+A27	Type E6 E
+T29	Entity 654 663	Hollywood
+T30	Polar_expression 650 653;664 730	har tatt noe fullkomment og transformert det til en blek og glatt kopi
+E7	Polar_expression:T30 Target:T29
+A28	Polarity E7 Negative
+A29	Source_is_author E7
+A30	Intensity E7 Strong
+A31	Type E7 E
+T31	Polar_expression 673 684	fullkomment
+E8	Polar_expression:T31 
+A32	Polarity E8 Positive
+A33	Source_is_author E8
+A34	Intensity E8 Strong
+A35	NOT E8
+A36	Type E8 E
+T32	Polar_expression 712 730	blek og glatt kopi
+E9	Polar_expression:T32 
+A37	Polarity E9 Negative
+A38	Source_is_author E9
+A39	Intensity E9 Strong
+A40	Target_is_general E9
+A41	Type E9 E
+T33	Entity 726 730	kopi
+T34	Polar_expression 712 716	blek
+E10	Polar_expression:T34 Target:T33
+A42	Polarity E10 Negative
+A43	Source_is_author E10
+A44	Intensity E10 Standard
+A45	Type E10 E
+T35	Polar_expression 720 725	glatt
+E11	Polar_expression:T35 Target:T33
+A46	Polarity E11 Negative
+A47	Source_is_author E11
+A48	Intensity E11 Standard
+A49	Type E11 E
+T36	Polar_expression 1197 1282	vil du garantert slite med å forstå hva som er fortid og nåtid i Secret in Their Eyes
+E12	Polar_expression:T36 Target:T37
+A50	Polarity E12 Negative
+A51	Source_is_author E12
+A52	Intensity E12 Standard
+A53	Type E12 E
+T37	Entity 1262 1282	Secret in Their Eyes
+T38	Entity 1145 1161	TV-serien Mammon
+T39	Polar_expression 1166 1194	litt krevende å følge med på
+E13	Polar_expression:T39 Target:T38
+A54	Polarity E13 Negative
+A55	Source_is_author E13
+A56	Intensity E13 Standard
+A57	NOT E13
+A58	Type E13 E
+T40	Entity 1306 1333	potensielle spenningskurven
+T41	Polar_expression 1292 1301;1334 1338	ødelegges litt
+E14	Polar_expression:T41 Target:T40
+A59	Polarity E14 Negative
+A60	Source_is_author E14
+A61	Intensity E14 Standard
+A62	Type E14 E
+T42	Entity 1795 1838	nøkkelscenene fra den argentinske versjonen
+T43	Polar_expression 1785 1794;1842 1849	De fleste beholdt
+E15	Polar_expression:T43 Target:T42
+A63	Polarity E15 Positive
+A64	Source_is_author E15
+A65	Intensity E15 Standard
+A66	Type E15 E
+T44	Polar_expression 1868 1875	flatere
+E16	Polar_expression:T44 Target:T42
+A67	Polarity E16 Negative
+A68	Source_is_author E16
+A69	Intensity E16 Standard
+A70	Type E16 E
+T45	Polar_expression 1879 1891	mer sjelløse
+E17	Polar_expression:T45 Target:T42
+A71	Polarity E17 Negative
+A72	Source_is_author E17
+A73	Intensity E17 Strong
+A74	Type E17 E
+T46	Entity 1894 1909	nyinnspillingen
+T47	Polar_expression 1795 1841;1859 1891	nøkkelscenene fra den argentinske versjonen er er blitt flatere og mer sjelløse
+E18	Polar_expression:T47 Target:T46
+A75	Polarity E18 Negative
+A76	Source_is_author E18
+A77	Intensity E18 Standard
+A78	Type E18 E
+T48	Entity 1924 1988	flørten mellom FBI-agent Ray og Nicole Kidmans karakter , Claire
+T49	Polar_expression 1912 1915	Tam
+E19	Polar_expression:T49 Target:T48
+A79	Polarity E19 Negative
+A80	Source_is_author E19
+A81	Intensity E19 Standard
+A82	Type E19 E
+T50	Entity 1993 2007;2017 2023	originalfilmen Claire
+T51	Polar_expression 2029 2035	vakker
+E20	Polar_expression:T51 Target:T50
+A83	Polarity E20 Positive
+A84	Source_is_author E20
+A85	Intensity E20 Strong
+A86	NOT E20
+A87	Type E20 E
+T52	Polar_expression 2051 2068	usedvanlig verbal
+E21	Polar_expression:T52 Target:T50
+A88	Polarity E21 Positive
+A89	Source_is_author E21
+A90	Intensity E21 Strong
+A91	NOT E21
+A92	Type E21 E
+T53	Polar_expression 2051 2061;2072 2083	usedvanlig sjarmerende
+E22	Polar_expression:T53 Target:T50
+A93	Polarity E22 Positive
+A94	Source_is_author E22
+A95	Intensity E22 Strong
+A96	Type E22 E
+A97	NOT E22
+T54	Entity 2093 2096	hun
+T55	Polar_expression 2097 2127	redusert til en stiv pappfigur
+E23	Polar_expression:T55 Target:T54
+A98	Polarity E23 Negative
+A99	Source_is_author E23
+A100	Intensity E23 Strong
+A101	Type E23 E
+T56	Entity 2372 2378	filmen
+T57	Polar_expression 2382 2450	så usmart tråklet sammen at man hverken blir underholdt eller berørt
+E24	Polar_expression:T57 Target:T56
+A102	Polarity E24 Negative
+A103	Source_is_author E24
+A104	Intensity E24 Strong
+A105	Type E24 E
+T58	Polar_expression 2561 2597	end i tide – det er ingen skam å snu
+E25	Polar_expression:T58 
+A106	Polarity E25 Negative
+A107	Source_is_author E25
+A108	Intensity E25 Strong
+A109	Target_is_general E25
+A110	Type E25 E
+T59	Polar_expression 2600 2676	I stedet for å ta turen på kino ; grav deg ned i sofaen og se originalfilmen
+E26	Polar_expression:T59 
+A111	Polarity E26 Negative
+A112	Source_is_author E26
+A113	Intensity E26 Strong
+A114	Target_is_general E26
+A115	Type E26 E

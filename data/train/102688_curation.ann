@@ -1,0 +1,23 @@
+T1	E 134 134	
+T2	Entity 146 151	Tooji
+T3	Polar_expression 152 165	forsøker godt
+E1	Polar_expression:T3 Target:T2
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Type E1 E
+T5	Entity 220 226	bidrag
+T4	Polar_expression 173 181	dansbart
+E2	Polar_expression:T4 Target:T5
+A5	Polarity E2 Positive
+A6	Source_is_author E2
+A7	Intensity E2 Standard
+A8	Target_is_general E2
+A9	Type E2 E
+T6	Polar_expression 208 219	refrenglett
+E3	Polar_expression:T6 Target:T5
+A10	Polarity E3 Positive
+A11	Source_is_author E3
+A12	Intensity E3 Standard
+A13	Target_is_general E3
+A14	Type E3 E

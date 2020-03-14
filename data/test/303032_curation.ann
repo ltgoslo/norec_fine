@@ -1,0 +1,172 @@
+T1	E 0 0	
+T2	E 52 52	
+T3	E 114 114	
+T4	E 216 216	
+T5	E 321 321	
+T6	E 460 460	
+T7	E 491 491	
+T8	EFINP 719 719	
+T9	E 764 764	
+T10	E 840 840	
+T11	E 996 996	
+T12	E 1099 1099	
+T13	E 1138 1138	
+T14	E 1258 1258	
+T15	E 1381 1381	
+T16	Polar_expression 78 102	Kristiansunds store sønn
+E40	Polar_expression:T16 
+A179	Polarity E40 Positive
+A180	Intensity E40 Standard
+A181	Type E40 E
+A182	Source_is_author E40
+A183	NOT E40
+T17	Entity 1127 1134	albumet
+T18	Polar_expression 1103 1115	ville løftet
+E41	Polar_expression:T18 Target:T17
+A184	Polarity E41 Negative
+A185	Intensity E41 Standard
+A186	Type E41 E
+A187	Source_is_author E41
+A188	Target_is_general E41
+T19	Polar_expression 20 50	ville vært enda bedre på norsk
+E1	Polar_expression:T19 Target:T20
+A1	Polarity E1 Negative
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Type E1 E
+#1	AnnotatorNotes E1	Irrealis
+T20	Entity 5 19	« feelosophy »
+T21	Polar_expression 193 213	gir gode vibrasjoner
+E2	Polar_expression:T21 Target:T22
+A5	Polarity E2 Positive
+A6	Source_is_author E2
+A7	Intensity E2 Strong
+A8	Type E2 E
+T22	Entity 119 127	tittelen
+T23	Polar_expression 278 284	temmet
+E3	Polar_expression:T23 Target:T24
+A9	Polarity E3 Positive
+A10	Source_is_author E3
+A11	Intensity E3 Standard
+A12	Type E3 E
+T24	Entity 261 268	vokalen
+T25	Polar_expression 288 299	disiplinert
+E4	Polar_expression:T25 Target:T24
+A13	Polarity E4 Positive
+A14	Source_is_author E4
+A15	Intensity E4 Standard
+A16	Type E4 E
+T26	Polar_expression 216 223;233 255	Uten at han legger bånd på seg
+E5	Polar_expression:T26 Target:T24 Source:T27
+A17	Polarity E5 Positive
+A18	Source_is_author E5
+A19	Intensity E5 Standard
+A20	Type E5 E
+T27	Entity 224 232	jeg tror
+T28	Polar_expression 338 357	feelgood hele veien
+E6	Polar_expression:T28 
+A21	Polarity E6 Positive
+A22	Source_is_author E6
+A23	Intensity E6 Strong
+A24	Target_is_general E6
+A25	Type E6 E
+T29	Polar_expression 360 372	halvakustisk
+E7	Polar_expression:T29 
+A26	Polarity E7 Positive
+A27	Source_is_author E7
+A28	Intensity E7 Standard
+A29	Target_is_general E7
+A30	Type E7 EFINP
+T30	Polar_expression 375 383	organisk
+E8	Polar_expression:T30 
+A31	Polarity E8 Positive
+A32	Source_is_author E8
+A33	Intensity E8 Standard
+A34	Target_is_general E8
+A35	Type E8 E
+T31	Polar_expression 390 408	innslag av blåsere
+E9	Polar_expression:T31 
+A36	Polarity E9 Positive
+A37	Source_is_author E9
+A38	Intensity E9 Standard
+A39	Target_is_general E9
+A40	Type E9 EFINP
+T32	Polar_expression 481 488	en drøm
+E10	Polar_expression:T32 Target:T33
+A41	Polarity E10 Positive
+A42	Source_is_author E10
+A43	Intensity E10 Strong
+A44	Type E10 E
+T33	Entity 470 477	stemmen
+T34	Polar_expression 464 469	røffe
+E11	Polar_expression:T34 Target:T33
+A45	Polarity E11 Positive
+A46	Source_is_author E11
+A47	Intensity E11 Standard
+A48	Type E11 E
+T35	Polar_expression 538 557	sedvanlig høyt nivå
+E12	Polar_expression:T35 Target:T36
+A49	Polarity E12 Positive
+A50	Source_is_author E12
+A51	Intensity E12 Strong
+A52	Type E12 E
+T36	Entity 491 499	Tekstene
+T37	Polar_expression 566 589	mer føling enn filosofi
+E13	Polar_expression:T37 Target:T36
+A53	Polarity E13 Positive
+A54	Source_is_author E13
+A55	Intensity E13 Standard
+A56	Type E13 E
+T38	Polar_expression 723 737	synger engelsk
+E14	Polar_expression:T38 Target:T39
+A57	Polarity E14 Negative
+A58	Source_is_author E14
+A59	Intensity E14 Slight
+A60	Type E14 EFINP
+T39	Entity 719 722	Elg
+T40	Polar_expression 768 774	flotte
+E15	Polar_expression:T40 Target:T41
+A61	Polarity E15 Positive
+A62	Source_is_author E15
+A63	Intensity E15 Strong
+A64	Type E15 E
+T41	Entity 775 800	« Summer In My Hometown »
+T42	Polar_expression 925 970	kunne vært beskrevet vel så godt på morsmålet
+E16	Polar_expression:T42 
+A65	Polarity E16 Negative
+A66	Source_is_author E16
+A67	Intensity E16 Standard
+A68	Type E16 E
+#2	AnnotatorNotes E16	Irreals
+T43	Polar_expression 1080 1096	unektelig nærere
+E17	Polar_expression:T43 Target:T44
+A69	Polarity E17 Positive
+A70	Source_is_author E17
+A71	Intensity E17 Strong
+A72	Type E17 E
+T44	Entity 1066 1074	tekstene
+A73	NOT E17
+T45	Polar_expression 1004 1034	sunget på norsk med stort hell
+E18	Polar_expression:T45 Target:T46
+A74	Polarity E18 Positive
+A75	Source_is_author E18
+A76	Intensity E18 Strong
+A77	NOT E18
+A78	Type E18 E
+T46	Entity 1041 1060	tidligere soloalbum
+T47	Polar_expression 1138 1150	Sterke låter
+E19	Polar_expression:T47 Target:T48
+A79	Polarity E19 Positive
+A80	Source_is_author E19
+A81	Intensity E19 Strong
+A82	NOT E19
+A83	Type E19 E
+T48	Entity 1155 1178;1191 1204	« Gud – hjælp må hjæm » « Morrasola »
+T49	Polar_expression 1311 1378	absolutte høydepunktet fra seks sesonger med « Hver gang vi møtes »
+E20	Polar_expression:T49 Target:T50
+A84	Polarity E20 Positive
+A85	Source_is_author E20
+A86	Intensity E20 Strong
+A87	NOT E20
+A88	Type E20 E
+T50	Entity 1258 1294	Hans versjon av « Hjernen er alene »

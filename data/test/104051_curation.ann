@@ -1,0 +1,44 @@
+T1	E 32 32	
+T2	E 138 138	
+T3	E 299 299	
+T4	Polar_expression 35 40	stolt
+E1	Polar_expression:T4 Target:T5
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A5	Type E1 E
+T5	Entity 41 60	sigøyner fra Ungarn
+T6	Entity 107 112	Papai
+T7	Polar_expression 113 135;75 102	å stå på scenen i Kiev høres godt at det betyr mye
+E2	Polar_expression:T7 Target:T6
+A4	Polarity E2 Positive
+A6	Source_is_author E2
+A7	Intensity E2 Standard
+A8	Type E2 E
+T8	Entity 138 150	Stemmebruken
+T9	Polar_expression 159 162	sår
+E3	Polar_expression:T9 Target:T8
+A9	Polarity E3 Positive
+A10	Source_is_author E3
+A11	Intensity E3 Standard
+A12	Type E3 E
+T10	Polar_expression 166 174	spesiell
+E4	Polar_expression:T10 Target:T8
+A13	Polarity E4 Positive
+A14	Source_is_author E4
+A15	Intensity E4 Standard
+A16	Type E4 E
+T11	Polar_expression 203 260	forsterker låtens sterke etniske preg på en utmerket måte
+E5	Polar_expression:T11 Target:T12
+A17	Polarity E5 Positive
+A18	Source_is_author E5
+A19	Intensity E5 Standard
+A20	Type E5 E
+T12	Entity 180 202	hans dansende venninne
+T13	Entity 299 316	Rap ’ en midtveis
+T14	Polar_expression 320 352	dessverre en showstopper de luxe
+E6	Polar_expression:T14 Target:T13
+A21	Polarity E6 Positive
+A22	Source_is_author E6
+A23	Intensity E6 Strong
+A24	Type E6 E

@@ -1,0 +1,107 @@
+T1	E 9 9	
+T2	E 95 95	
+T3	E 1803 1803	
+T4	E 2117 2117	
+T5	E 2221 2221	
+T6	E 2291 2291	
+T7	E 2352 2352	
+T8	E 2408 2408	
+T9	E 2517 2517	
+T10	E 2638 2638	
+T11	Polar_expression 9 17	Spenstig
+E1	Polar_expression:T11 
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Target_is_general E1
+A5	Type E1 E
+T12	Entity 95 106	Vi nordmenn
+T13	Polar_expression 110 126	gale etter bolig
+E2	Polar_expression:T13 Target:T12
+A6	Polarity E2 Positive
+A7	Source_is_author E2
+A8	Intensity E2 Standard
+A9	NOT E2
+A10	Type E2 E
+T14	Polar_expression 1803 1834	Noen drypp av faglig opplysning
+E3	Polar_expression:T14 
+A11	Polarity E3 Positive
+A12	Source_is_author E3
+A13	Intensity E3 Slight
+A14	Target_is_general E3
+A15	Type E3 E
+T15	Entity 1858 1865	panelet
+T16	Polar_expression 1866 1890	tyr til meningsløst tøys
+E4	Polar_expression:T16 Target:T15
+A16	Polarity E4 Negative
+A17	Source_is_author E4
+A18	Intensity E4 Standard
+A19	Type E4 E
+T17	Polar_expression 1918 1953	savnet etter en strammere framdrift
+E5	Polar_expression:T17 
+A20	Polarity E5 Negative
+A21	Source_is_author E5
+A22	Intensity E5 Standard
+A23	Target_is_general E5
+A24	Type E5 E
+T18	Polar_expression 2162 2218	pirrer nysgjerrigheten langt mer enn programmet utnytter
+E6	Polar_expression:T18 
+A25	Polarity E6 Negative
+A26	Source_is_author E6
+A27	Intensity E6 Standard
+A28	Target_is_general E6
+A29	Type E6 E
+T19	Polar_expression 2221 2290	Hva med litt infografikk om kjennetegn for en periode eller stilart ?
+E7	Polar_expression:T19 
+A30	Polarity E7 Negative
+A31	Source_is_author E7
+A32	Intensity E7 Standard
+A33	Target_is_general E7
+A34	Type E7 E
+#1	AnnotatorNotes E7	interrogative
+T20	Polar_expression 2291 2351	Eller intervjuer med ekspertene der de får fortelle om det ?
+E8	Polar_expression:T20 
+A35	Polarity E8 Negative
+A36	Source_is_author E8
+A37	Intensity E8 Standard
+A38	Target_is_general E8
+A39	Type E8 E
+#2	AnnotatorNotes E8	interrogative
+T21	Polar_expression 2356 2379	hadde gjort underverker
+E9	Polar_expression:T21 
+A40	Polarity E9 Negative
+A41	Source_is_author E9
+A42	Intensity E9 Standard
+A43	Target_is_general E9
+A44	Type E9 E
+#3	AnnotatorNotes E9	irrealis
+T22	Entity 2427 2434	program
+T23	Polar_expression 2442 2472	pent og pyntelig på overflaten
+E10	Polar_expression:T23 Target:T22
+A45	Polarity E10 Positive
+A46	Source_is_author E10
+A47	Intensity E10 Standard
+A48	Target_is_general E10
+A49	Type E10 E
+T24	Polar_expression 2479 2513	mangler substansen til å engasjere
+E11	Polar_expression:T24 Target:T22
+A50	Polarity E11 Negative
+A51	Source_is_author E11
+A52	Intensity E11 Standard
+A53	Target_is_general E11
+A54	Type E11 E
+T25	Polar_expression 2766 2788	tv-versjonen av Bonytt
+E12	Polar_expression:T25 
+A55	Polarity E12 Negative
+A56	Source_is_author E12
+A57	Intensity E12 Standard
+A58	Target_is_general E12
+A59	Type E12 E
+T26	Polar_expression 2646 2666	hadde vært befriende
+E13	Polar_expression:T26 
+A60	Polarity E13 Negative
+A61	Source_is_author E13
+A62	Intensity E13 Standard
+A63	Target_is_general E13
+A64	Type E13 E
+#4	AnnotatorNotes E13	irrealis

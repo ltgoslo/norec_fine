@@ -1,0 +1,79 @@
+T1	E 52 52	
+T2	E 98 98	
+T3	E 364 364	
+T4	E 553 553	
+T5	Polar_expression 52 68	Forbausende matt
+E19	Polar_expression:T5 
+A81	Polarity E19 Negative
+A82	Intensity E19 Strong
+A83	Type E19 E
+A84	Source_is_author E19
+A85	Target_is_general E19
+T6	Polar_expression 231 361	går de legendene i næringen på en måte som dessverre avslører hvilken autoritet Supergrass mangler for å komme opp på samme høyder
+E1	Polar_expression:T6 Target:T7
+A1	Polarity E1 Negative
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Type E1 E
+T7	Entity 311 321	Supergrass
+T8	Polar_expression 109 165	har muligens hørt vel mye på Led Zeppelin det siste året
+E2	Polar_expression:T8 Target:T9
+A5	Polarity E2 Negative
+A6	Source_is_author E2
+A7	Intensity E2 Slight
+A8	Type E2 E
+T9	Entity 98 108	Supergrass
+T10	Polar_expression 381 434	bygger videre på mye av Zeppelins flytende psykedelia
+E3	Polar_expression:T10 Target:T11
+A9	Polarity E3 Positive
+A10	Source_is_author E3
+A11	Intensity E3 Slight
+A12	Type E3 E
+T11	Entity 374 380	platen
+T12	Polar_expression 486 550	mangler ethvert gripetak som er nødvendig for å fange interessen
+E4	Polar_expression:T12 Target:T13
+A13	Polarity E4 Negative
+A14	Source_is_author E4
+A15	Intensity E4 Strong
+A16	Type E4 E
+T13	Entity 441 447	låtene
+T14	Entity 605 609	band
+T15	Polar_expression 578 584	skarpt
+E5	Polar_expression:T15 Target:T14
+A17	Polarity E5 Positive
+A18	Source_is_author E5
+A19	Intensity E5 Strong
+A20	NOT E5
+A21	Type E5 E
+T16	Polar_expression 587 594	morsomt
+E6	Polar_expression:T16 Target:T14
+A22	Polarity E6 Positive
+A23	Source_is_author E6
+A24	Intensity E6 Standard
+A25	NOT E6
+A26	Type E6 E
+T17	Polar_expression 598 604	friskt
+E7	Polar_expression:T17 Target:T14
+A27	Polarity E7 Positive
+A28	Source_is_author E7
+A29	Intensity E7 Standard
+A30	NOT E7
+A31	Type E7 E
+T18	Polar_expression 621 625	matt
+E8	Polar_expression:T18 Target:T14
+A32	Polarity E8 Negative
+A33	Source_is_author E8
+A34	Intensity E8 Strong
+A35	Type E8 E
+T19	Polar_expression 628 638	melankolsk
+E9	Polar_expression:T19 Target:T14
+A36	Polarity E9 Negative
+A37	Source_is_author E9
+A38	Intensity E9 Standard
+A39	Type E9 E
+T20	Polar_expression 642 654	mistilpasset
+E10	Polar_expression:T20 Target:T14
+A40	Polarity E10 Negative
+A41	Source_is_author E10
+A42	Intensity E10 Strong
+A43	Type E10 E

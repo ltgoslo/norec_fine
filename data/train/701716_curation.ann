@@ -1,0 +1,86 @@
+T1	E 13 13	
+T2	E 43 43	
+T3	E 171 171	
+T4	E 584 584	
+T5	E 1202 1202	
+T6	E 1381 1381	
+T7	E 1587 1587	
+T8	E 1739 1739	
+T9	Polar_expression 13 20	Vakkert
+E1	Polar_expression:T9 
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Strong
+A4	Target_is_general E1
+A5	Type E1 E
+T10	Polar_expression 54 137	en av de skjønne japanske filmene der rollefigurene får god tid til bare å være til
+E2	Polar_expression:T10 
+A6	Polarity E2 Positive
+A7	Source_is_author E2
+A8	Intensity E2 Strong
+A9	Target_is_general E2
+A10	Type E2 E
+T11	Entity 180 199	japanske regissører
+T12	Polar_expression 200 270	har utmerket seg med svært stemningsfulle tegnefilmer de siste tiårene
+E3	Polar_expression:T12 Target:T11
+A11	Polarity E3 Positive
+A12	Source_is_author E3
+A13	Intensity E3 Strong
+A14	NOT E3
+A15	Type E3 E
+T13	Polar_expression 647 654	rørende
+E4	Polar_expression:T13 Target:T14
+A16	Polarity E4 Positive
+A17	Source_is_author E4
+A18	Intensity E4 Standard
+A19	NOT E4
+A20	Type E4 E
+T14	Entity 655 669	familiedramaet
+T15	Polar_expression 1211 1247	har funnet noen skjønne skuespillere
+E5	Polar_expression:T15 Target:T16
+A21	Polarity E5 Positive
+A22	Source_is_author E5
+A23	Intensity E5 Strong
+A24	Type E5 E
+T16	Entity 1202 1210	Kore-eda
+T17	Entity 1235 1247	skuespillere
+T18	Polar_expression 1227 1234	skjønne
+E6	Polar_expression:T18 Target:T17
+A25	Polarity E6 Positive
+A26	Source_is_author E6
+A27	Intensity E6 Strong
+A28	Type E6 E
+T19	Polar_expression 1252 1328	levendegjør de fire jentene / kvinnene på en poetisk , nesten meditativ måte
+E7	Polar_expression:T19 Target:T17
+A29	Polarity E7 Positive
+A30	Source_is_author E7
+A31	Intensity E7 Strong
+A32	Type E7 E
+T20	Polar_expression 1385 1435	betyr ikke at filmen er uten nerve og motsetninger
+E8	Polar_expression:T20 Target:T21
+A33	Polarity E8 Positive
+A34	Source_is_author E8
+A35	Intensity E8 Strong
+A36	Type E8 E
+#1	AnnotatorNotes E8	Negation
+T21	Entity 1399 1405	filmen
+T22	Polar_expression 1604 1625	aldeles nydelig spilt
+E9	Polar_expression:T22 Target:T23
+A37	Polarity E9 Positive
+A38	Source_is_author E9
+A39	Intensity E9 Strong
+A40	Type E9 E
+T23	Entity 1629 1640	Suzu Hirose
+T24	Polar_expression 1744 1751;1761 1782	spinner en vev av såre tråder
+E10	Polar_expression:T24 Target:T25
+A41	Polarity E10 Positive
+A42	Source_is_author E10
+A43	Intensity E10 Strong
+A44	Type E10 E
+T25	Entity 1752 1760	Kore-eda
+T26	Polar_expression 1789 1892	formidler også at det er mulig å utvikle forståelse og kjærlighet på tvers av motsetninger i en familie
+E11	Polar_expression:T26 Target:T25
+A45	Polarity E11 Positive
+A46	Source_is_author E11
+A47	Intensity E11 Strong
+A48	Type E11 E

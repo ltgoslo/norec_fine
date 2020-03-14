@@ -18,7 +18,7 @@ A3	Intensity E1 Strong
 A4	Target_is_general E1
 A5	Type E1 E
 T14	Entity 140 155	« One One One »
-T15	Polar_expression 170 216	vel verdt ventetiden siden gjennombruddsalbume
+T15	Polar_expression 170 190	vel verdt ventetiden
 E2	Polar_expression:T15 Target:T14
 A6	Polarity E2 Positive
 A7	Source_is_author E2
@@ -26,7 +26,7 @@ A8	Intensity E2 Standard
 A9	Target_is_general E2
 A10	Type E2 E
 T16	Entity 266 273	Shining
-T17	Polar_expression 259 343	klarte Shining noe veldig få andre har fått til , nemlig å definere sin egen sjanger
+T17	Polar_expression 319 343	efinere sin egen sjanger
 E3	Polar_expression:T17 Target:T16
 A11	Polarity E3 Positive
 A12	Source_is_author E3
@@ -39,12 +39,6 @@ A16	Polarity E4 Positive
 A17	Source_is_author E4
 A18	Intensity E4 Standard
 A19	Type E4 E
-T19	Polar_expression 464 473	greit nok
-E5	Polar_expression:T19 
-A20	Polarity E5 Positive
-A21	Source_is_author E5
-A22	Intensity E5 Slight
-A23	Type E5 E
 T20	Entity 513 528	Jørgen Munkebys
 T21	Entity 505 509	riff
 T22	Polar_expression 492 504	tettsittende
@@ -156,10 +150,24 @@ A91	Source_is_author E22
 A92	Intensity E22 Standard
 A93	Type E22 E
 T43	Polar_expression 1421 1459	lover godt for heftige liveopptredener
-E23	Polar_expression:T43 
+E23	Polar_expression:T43 Target:T44
 A94	Polarity E23 Positive
 A95	Source_is_author E23
 A96	Intensity E23 Standard
 A97	Target_is_general E23
 A98	Type E23 E
 T44	Entity 1413 1420	Albumet
+T45	Entity 247 258	det albumet
+E24	Polar_expression:T17 Target:T45
+A99	Polarity E24 Positive
+A100	Source_is_author E24
+A101	Intensity E24 Standard
+A102	NOT E24
+A103	Type E24 E
+T19	Polar_expression 1554 1568	sterke budskap
+E5	Polar_expression:T19 Target:T44
+A20	Polarity E5 Positive
+A21	Source_is_author E5
+A22	Intensity E5 Standard
+A23	Target_is_general E5
+A104	Type E5 E

@@ -1,0 +1,83 @@
+T1	E 0 0	
+T2	E 1331 1331	
+T3	E 1746 1746	
+T4	E 1966 1966	
+T5	E 2098 2098	
+T6	E 2181 2181	
+T7	E 2192 2192	
+T8	Polar_expression 2181 2189	Briljant
+E26	Polar_expression:T8 
+A113	Polarity E26 Positive
+A114	Intensity E26 Strong
+A115	Type E26 E
+A116	Source_is_author E26
+A117	Target_is_general E26
+T9	Polar_expression 2192 2218	Anbefales på det sterkeste
+E27	Polar_expression:T9 
+A118	Polarity E27 Positive
+A119	Intensity E27 Strong
+A120	Type E27 E
+A121	Source_is_author E27
+A122	Target_is_general E27
+T10	Entity 9 17	thriller
+T11	Polar_expression 0 8	Briljant
+E1	Polar_expression:T11 Target:T10
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Type E1 E
+A5	Target_is_general E1
+T12	Entity 1331 1347	« The American »
+T13	Polar_expression 1354 1367	briljant film
+E2	Polar_expression:T13 Target:T12
+A6	Polarity E2 Positive
+A7	Source_is_author E2
+A8	Intensity E2 Standard
+A9	Target_is_general E2
+A10	Type E2 E
+T14	Entity 1746 1757	Regigrepene
+T15	Polar_expression 1765 1796	mer europeiske enn hollywoodske
+E3	Polar_expression:T15 Target:T14
+A11	Polarity E3 Positive
+A12	Source_is_author E3
+A13	Intensity E3 Standard
+A14	Type E3 E
+T16	Entity 1832 1851	fortellerstrukturen
+T17	Entity 1856 1867	stemningene
+T18	Entity 1872 1899	presentasjonen av personene
+T19	Entity 1907 1928	filmatiske uttrykkene
+E4	Polar_expression:T15 Target:T16
+E5	Polar_expression:T15 Target:T17
+E6	Polar_expression:T15 Target:T18
+E7	Polar_expression:T15 Target:T19
+A15	Polarity E4 Positive
+A16	Polarity E5 Positive
+A17	Polarity E6 Positive
+A18	Polarity E7 Positive
+A19	Source_is_author E4
+A20	Source_is_author E5
+A21	Source_is_author E6
+A22	Source_is_author E7
+A23	Intensity E4 Standard
+A24	Intensity E5 Standard
+A25	Intensity E6 Standard
+A26	Intensity E7 Standard
+A27	Type E4 E
+A28	Type E5 E
+A29	Type E6 E
+A30	Type E7 E
+T20	Entity 1966 1972	Filmen
+T21	Polar_expression 1985 1994	dyp nerve
+E8	Polar_expression:T21 Target:T20
+A31	Polarity E8 Positive
+A32	Source_is_author E8
+A33	Intensity E8 Standard
+A34	Target_is_general E8
+A35	Type E8 E
+T22	Polar_expression 2031 2095	hele tiden beholdes den ulmende spenningen og den tikkende uroen
+E9	Polar_expression:T22 Target:T20
+A36	Polarity E9 Positive
+A37	Source_is_author E9
+A38	Intensity E9 Standard
+A39	Target_is_general E9
+A40	Type E9 E

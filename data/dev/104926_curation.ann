@@ -1,0 +1,105 @@
+T1	E 37 37	
+T2	E 125 125	
+T3	E 623 623	
+T4	E 1086 1086	
+T5	E 1359 1359	
+T6	E 1593 1593	
+T7	E 1667 1667	
+T8	E 1681 1681	
+T9	E 1786 1786	
+T10	E 2014 2014	
+T11	E 2129 2129	
+T12	E 2232 2232	
+T13	Polar_expression 37 43	Deilig
+E1	Polar_expression:T13 
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Target_is_general E1
+A5	Type E1 E
+T14	Polar_expression 125 142	Passe selvopptatt
+E2	Polar_expression:T14 
+A6	Polarity E2 Negative
+A7	Source_is_author E2
+A8	Intensity E2 Slight
+A9	Target_is_general E2
+A10	Type E2 E
+T15	Polar_expression 178 195	humrende severdig
+E3	Polar_expression:T15 
+A11	Polarity E3 Positive
+A12	Source_is_author E3
+A13	Intensity E3 Standard
+A14	Target_is_general E3
+A15	Type E3 E
+T16	Polar_expression 627 657	skjer nemlig mye i kulissene !
+E4	Polar_expression:T16 
+A16	Polarity E4 Positive
+A17	Source_is_author E4
+A18	Intensity E4 Strong
+A19	Target_is_general E4
+A20	Type E4 E
+T17	Entity 1113 1133	scenene mellom disse
+T18	Polar_expression 1140 1158	hysterisk morsomme
+E5	Polar_expression:T18 Target:T17
+A21	Polarity E5 Positive
+A22	Source_is_author E5
+A23	Intensity E5 Strong
+A24	Type E5 E
+T19	Entity 1396 1404	filmsett
+T20	Polar_expression 1386 1395	staselige
+E6	Polar_expression:T20 Target:T19
+A25	Polarity E6 Positive
+A26	Source_is_author E6
+A27	Intensity E6 Standard
+A28	Type E6 E
+T21	Polar_expression 1439 1478	ren fest for fans av klassisk Hollywood
+E7	Polar_expression:T21 
+A29	Polarity E7 Positive
+A30	Source_is_author E7
+A31	Intensity E7 Strong
+A32	Target_is_general E7
+A33	Type E7 E
+T22	Entity 1593 1606	Coen-brødrene
+T23	Polar_expression 1607 1654	kan sikkert beskyldes for « showoff » og jåleri
+E8	Polar_expression:T23 Target:T22
+A34	Polarity E8 Negative
+A35	Source_is_author E8
+A36	Intensity E8 Standard
+A37	Type E8 E
+T24	Entity 1713 1728	« Hail Caesar »
+T25	Polar_expression 1742 1783	omsorg og hjerte for hver eneste karakter
+E9	Polar_expression:T25 Target:T24
+A38	Polarity E9 Positive
+A39	Source_is_author E9
+A40	Intensity E9 Standard
+A41	Target_is_general E9
+A42	Type E9 E
+T26	Polar_expression 1786 1884	Hver lille særegenhet hos selv den minste rollefiguren blir foredlet på morsomt og intelligent vis
+E10	Polar_expression:T26 
+A43	Polarity E10 Positive
+A44	Source_is_author E10
+A45	Intensity E10 Strong
+A46	Target_is_general E10
+A47	Type E10 E
+T27	Polar_expression 2021 2061	lett å se hvorfor stjernene strømmer til
+E11	Polar_expression:T27 Target:T28
+A48	Polarity E11 Positive
+A49	Source_is_author E11
+A50	Intensity E11 Standard
+A51	Target_is_general E11
+A52	Type E11 E
+T28	Entity 2070 2074	film
+T29	Polar_expression 2080 2126	at de koser seg smitter over på oss som ser på
+E12	Polar_expression:T29 Target:T28
+A53	Polarity E12 Positive
+A54	Source_is_author E12
+A55	Intensity E12 Standard
+A56	Target_is_general E12
+A57	Type E12 E
+T30	Polar_expression 2236 2286	deiligere bagatell får du ikke på kino for tiden !
+E13	Polar_expression:T30 
+A58	Polarity E13 Positive
+A59	Source_is_author E13
+A60	Intensity E13 Strong
+A61	Target_is_general E13
+A62	Type E13 E

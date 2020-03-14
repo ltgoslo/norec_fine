@@ -1,0 +1,270 @@
+T1	E 23 23	
+T2	E 117 117	
+T3	E 280 280	
+T4	E 318 318	
+T5	E 414 414	
+T6	E 828 828	
+T7	E 846 846	
+T8	E 1268 1268	
+T9	EFINP 1694 1694	
+T10	E 1834 1834	
+T11	E 1909 1909	
+T12	E 2041 2041	
+T13	E 2293 2293	
+T14	E 2361 2361	
+T15	E 2416 2416	
+T16	E 2562 2562	
+T17	E 2667 2667	
+T18	E 2739 2739	
+T19	E 2792 2792	
+T20	E 2838 2838	
+T21	Polar_expression 828 844	Halvkokt komedie
+E70	Polar_expression:T21 
+A306	Polarity E70 Negative
+A307	Intensity E70 Standard
+A308	Type E70 E
+A309	Source_is_author E70
+A310	Target_is_general E70
+T22	Entity 2562 2569	Spillet
+T23	Entity 2841 2844	den
+T24	Polar_expression 2573 2579	ujevnt
+E71	Polar_expression:T24 Target:T22
+A311	Polarity E71 Negative
+A312	Intensity E71 Standard
+A313	Type E71 E
+A314	Source_is_author E71
+T25	Polar_expression 2845 2872	lever ikke opp til råvarene
+E72	Polar_expression:T25 Target:T23
+A315	Polarity E72 Negative
+A316	Intensity E72 Standard
+A317	Type E72 E
+A318	Source_is_author E72
+T26	Entity 23 45	« Heart of Lightness »
+T27	Polar_expression 50 62	gode råvarer
+E1	Polar_expression:T27 Target:T26
+A1	Polarity E1 Positive
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Target_is_general E1
+A5	Type E1 E
+T28	Polar_expression 69 91	feiler i bearbeidelsen
+E2	Polar_expression:T28 Target:T26
+A6	Polarity E2 Negative
+A7	Source_is_author E2
+A8	Intensity E2 Standard
+A9	Target_is_general E2
+A10	Type E2 E
+T29	Entity 196 203	forfilm
+T30	Polar_expression 188 195	tøysete
+E3	Polar_expression:T30 Target:T29
+A11	Polarity E3 Negative
+A12	Source_is_author E3
+A13	Intensity E3 Standard
+A14	Type E3 E
+T31	Polar_expression 221 277	full av interne vitser og kjærlige festbilder av gjengen
+E4	Polar_expression:T31 Target:T29
+A15	Polarity E4 Negative
+A16	Source_is_author E4
+A17	Intensity E4 Standard
+A18	Type E4 E
+T32	Polar_expression 295 306	studentfilm
+E5	Polar_expression:T32 
+A19	Polarity E5 Negative
+A20	Source_is_author E5
+A21	Intensity E5 Standard
+A22	Target_is_general E5
+A23	Type E5 E
+T33	Entity 374 383	debutfilm
+T34	Polar_expression 384 411	føles uvøren på flere måter
+E6	Polar_expression:T34 Target:T33
+A24	Polarity E6 Negative
+A25	Source_is_author E6
+A26	Intensity E6 Standard
+A27	Target_is_general E6
+A28	Type E6 E
+T35	Entity 422 444	« Heart of Lightness »
+T36	Entity 530 543	innspillingen
+T37	Polar_expression 521 529	kaotiske
+E7	Polar_expression:T37 Target:T36
+A29	Polarity E7 Negative
+A30	NOT E7
+T38	Entity 550 557	Vardøen
+T39	Polar_expression 560 594	uten å ha lest gjennom skuespillet
+E8	Polar_expression:T39 Target:T38
+A31	Polarity E8 Negative
+A32	Source_is_author E8
+A33	Intensity E8 Standard
+A34	NOT E8
+A35	Type E8 E
+T40	Polar_expression 598 656	tilsynelatende uten planer om å holde seg våken eller edru
+E9	Polar_expression:T40 Target:T38
+A36	Polarity E9 Negative
+A37	Source_is_author E9
+A38	Intensity E9 Standard
+A39	NOT E9
+A40	Type E9 E
+T41	Polar_expression 659 756	sleper åtte britiske skuespillere til Lofoten for å bruke opp støtten han har fått fra Filmfondet
+E10	Polar_expression:T41 Target:T38
+A41	Polarity E10 Negative
+A42	Source_is_author E10
+A43	Intensity E10 Strong
+A44	NOT E10
+A45	Type E10 E
+T42	Entity 917 938	« filmen bak filmen »
+T43	Polar_expression 967 1029	tydeligere burde vært konstruert for å belyse Ibsens skuespill
+E11	Polar_expression:T43 Target:T42
+A46	Polarity E11 Negative
+A47	Source_is_author E11
+A48	Intensity E11 Standard
+A49	Target_is_general E11
+A50	Type E11 E
+T44	Polar_expression 881 908	litt for svakt utgangspunkt
+E12	Polar_expression:T44 
+A51	Polarity E12 Negative
+A52	Source_is_author E12
+A53	Intensity E12 Standard
+A54	Type E12 E
+A55	Target_is_general E12
+T45	Polar_expression 1098 1125	halvkokt og umorsom komedie
+E13	Polar_expression:T45 Target:T42
+A56	Polarity E13 Negative
+A57	Source_is_author E13
+A58	Intensity E13 Standard
+A59	Target_is_general E13
+A60	Type E13 E
+T46	Entity 1166 1177	midnattssol
+T47	Entity 1145 1155	regissører
+T48	Polar_expression 1129 1144	selvhøytidelige
+E14	Polar_expression:T48 Target:T47
+A61	Polarity E14 Negative
+A62	Source_is_author E14
+A63	Intensity E14 Standard
+A64	NOT E14
+A65	Type E14 E
+T49	Polar_expression 1158 1165	plagsom
+E15	Polar_expression:T49 Target:T46
+A66	Polarity E15 Negative
+A67	Source_is_author E15
+A68	Intensity E15 Standard
+A69	NOT E15
+A70	Type E15 E
+T50	Entity 1297 1306	historien
+T51	Polar_expression 1271 1287	snev av relevans
+E16	Polar_expression:T51 Target:T50
+A71	Polarity E16 Positive
+A72	Source_is_author E16
+A73	Intensity E16 Slight
+A74	Type E16 E
+T52	Entity 1834 1856	« Heart of Lightness »
+T53	Polar_expression 1869 1906	kimen til et godt formidlingsprosjekt
+E17	Polar_expression:T53 Target:T52
+A75	Polarity E17 Positive
+A76	Source_is_author E17
+A77	Intensity E17 Slight
+A78	Target_is_general E17
+A79	Type E17 E
+T54	Entity 1978 1983	tekst
+T55	Polar_expression 1944 1977	mørkt romantiske , nesten gotiske
+E18	Polar_expression:T55 Target:T54
+A80	Polarity E18 Positive
+A81	Source_is_author E18
+A82	Intensity E18 Standard
+A83	Type E18 E
+T56	Entity 2006 2016	landskapet
+T57	Polar_expression 2000 2005	vakre
+E19	Polar_expression:T57 Target:T56
+A84	Polarity E19 Positive
+A85	Source_is_author E19
+A86	Intensity E19 Strong
+A87	Type E19 E
+T58	Polar_expression 1919 1926	fin idé
+E20	Polar_expression:T58 
+A88	Polarity E20 Positive
+A89	Source_is_author E20
+A90	Intensity E20 Standard
+A91	Target_is_general E20
+A92	Type E20 E
+T59	Entity 2053 2066	skuespillerne
+T60	Polar_expression 2088 2099	modellvakre
+E21	Polar_expression:T60 Target:T59
+A93	Polarity E21 Positive
+A94	Source_is_author E21
+A95	Intensity E21 Strong
+A96	Type E21 E
+T61	Polar_expression 2224 2262	Vogue-versjonen av « Fruen fra havet »
+E22	Polar_expression:T61 
+A97	Polarity E22 Negative
+A98	Source_is_author E22
+A99	Intensity E22 Slight
+A100	Target_is_general E22
+A101	Type E22 E
+T62	Polar_expression 2293 2307	Stemningsfullt
+E23	Polar_expression:T62 
+A102	Polarity E23 Positive
+A103	Source_is_author E23
+A104	Intensity E23 Standard
+A105	Target_is_general E23
+A106	Type E23 E
+T63	Polar_expression 2310 2329	nydelig fotografert
+E24	Polar_expression:T63 
+A107	Polarity E24 Positive
+A108	Source_is_author E24
+A109	Intensity E24 Strong
+A110	Target_is_general E24
+A111	Type E24 E
+T64	Polar_expression 2336 2343	glanset
+E25	Polar_expression:T64 
+A112	Polarity E25 Negative
+A113	Source_is_author E25
+A114	Intensity E25 Standard
+A115	Target_is_general E25
+A116	Type E25 E
+T65	Polar_expression 2347 2358	overfladisk
+E26	Polar_expression:T65 
+A117	Polarity E26 Negative
+A118	Source_is_author E26
+A119	Intensity E26 Standard
+A120	Target_is_general E26
+A121	Type E26 E
+T66	Entity 2361 2371	Prosjektet
+T67	Polar_expression 2378 2413	ikke gjennomtenkt eller gjennomført
+E27	Polar_expression:T67 Target:T66
+A122	Polarity E27 Negative
+A123	Source_is_author E27
+A124	Intensity E27 Standard
+A125	Target_is_general E27
+A126	Type E27 E
+T68	Entity 2416 2426	Klippingen
+T69	Polar_expression 2427 2443	skaper ikke flyt
+E28	Polar_expression:T69 Target:T68
+A127	Polarity E28 Negative
+A128	Source_is_author E28
+A129	Intensity E28 Standard
+A130	Type E28 E
+T70	Entity 2447 2459	musikkvalget
+T71	Polar_expression 2526 2539	litt åpenbart
+E29	Polar_expression:T71 Target:T70
+A131	Polarity E29 Negative
+A132	Source_is_author E29
+A133	Intensity E29 Slight
+A134	Type E29 E
+T72	Polar_expression 2543 2559	litt malplassert
+E30	Polar_expression:T72 Target:T70
+A135	Polarity E30 Negative
+A136	Source_is_author E30
+A137	Intensity E30 Slight
+A138	Type E30 E
+T73	Polar_expression 2694 2698	gode
+E31	Polar_expression:T73 Target:T74
+A139	Polarity E31 Positive
+A140	Source_is_author E31
+A141	Intensity E31 Standard
+A142	Type E31 E
+T74	Entity 2699 2708	replikker
+T75	Entity 2726 2736	omgivelser
+T76	Polar_expression 2720 2725	vakre
+E32	Polar_expression:T76 Target:T75
+A143	Polarity E32 Positive
+A144	Source_is_author E32
+A145	Intensity E32 Standard
+A146	Type E32 E

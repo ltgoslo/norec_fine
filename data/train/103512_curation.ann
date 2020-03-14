@@ -1,0 +1,84 @@
+T1	E 161 161	
+T2	E 302 302	
+T3	E 399 399	
+T4	E 642 642	
+T5	Entity 178 194	Björn Rosenström
+T6	Polar_expression 161 177	Vorspielartisten
+E1	Polar_expression:T6 Target:T5
+A1	Polarity E1 Negative
+A2	Source_is_author E1
+A3	Intensity E1 Slight
+A4	Type E1 E
+T7	Polar_expression 195 230	beholder nok sine mange norske fans
+E2	Polar_expression:T7 Target:T8
+A5	Polarity E2 Positive
+A6	Source_is_author E2
+A7	Intensity E2 Standard
+A8	Target_is_general E2
+A9	Type E2 E
+T8	Entity 280 298	« Pop på svenska »
+T9	Entity 318 326	popplate
+T10	Polar_expression 314 317	god
+E3	Polar_expression:T10 Target:T9
+A10	Polarity E3 Positive
+A11	Source_is_author E3
+A12	Intensity E3 Standard
+A13	Target_is_general E3
+A14	Type E3 E
+T11	Entity 381 395	Rosenström før
+T12	Polar_expression 318 361	popplate , mer bandpreget og mindre rølpete
+E4	Polar_expression:T12 Target:T11
+A15	Polarity E4 Negative
+A16	Source_is_author E4
+A17	Intensity E4 Standard
+A18	NOT E4
+A19	Type E4 E
+T13	Polar_expression 329 395	mer bandpreget og mindre rølpete enn vi har hør fra Rosenström før
+E5	Polar_expression:T13 Target:T9
+A20	Polarity E5 Positive
+A21	Source_is_author E5
+A22	Intensity E5 Standard
+A23	Target_is_general E5
+A24	Type E5 E
+T14	Polar_expression 437 463	variert syng-med-popmusikk
+E6	Polar_expression:T14 
+A25	Polarity E6 Positive
+A26	Source_is_author E6
+A27	Intensity E6 Standard
+A28	Target_is_general E6
+A29	Type E6 E
+T15	Entity 491 498	tekster
+T16	Polar_expression 468 476	ironiske
+E7	Polar_expression:T16 Target:T15
+A30	Polarity E7 Positive
+A31	Source_is_author E7
+A32	Intensity E7 Standard
+A33	Type E7 E
+T17	Polar_expression 480 490	humorfylte
+E8	Polar_expression:T17 Target:T15
+A34	Polarity E8 Positive
+A35	Source_is_author E8
+A36	Intensity E8 Standard
+A37	Type E8 E
+T18	Polar_expression 468 498	ironiske og humorfylte tekster
+E9	Polar_expression:T18 
+A38	Polarity E9 Positive
+A39	Source_is_author E9
+A40	Intensity E9 Standard
+A41	Target_is_general E9
+A42	Type E9 E
+T19	Entity 676 681	plate
+T20	Polar_expression 666 675	jevnt god
+E10	Polar_expression:T20 Target:T19
+A43	Polarity E10 Positive
+A44	Source_is_author E10
+A45	Intensity E10 Standard
+A46	Target_is_general E10
+A47	Type E10 E
+T21	Polar_expression 686 713	lever opp til platetittelen
+E11	Polar_expression:T21 Target:T19
+A48	Polarity E11 Positive
+A49	Source_is_author E11
+A50	Intensity E11 Standard
+A51	Target_is_general E11
+A52	Type E11 E

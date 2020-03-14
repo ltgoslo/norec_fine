@@ -1,0 +1,411 @@
+T1	E 0 0	
+T2	E 30 30	
+T3	E 112 112	
+T4	EFINP 171 171	
+T5	E 496 496	
+T6	E 606 606	
+T7	E 707 707	
+T8	E 846 846	
+T9	E 1021 1021	
+T10	E 1132 1132	
+T11	E 1283 1283	
+T12	E 1388 1388	
+T13	E 1560 1560	
+T14	E 1717 1717	
+T15	E 1889 1889	
+T16	E 1953 1953	
+T17	E 2093 2093	
+T18	E 2114 2114	
+T19	E 2249 2249	
+T20	E 2418 2418	
+T21	E 2455 2455	
+T22	E 2567 2567	
+T23	E 2692 2692	
+T24	E 2998 2998	
+T25	E 3221 3221	
+T26	E 3309 3309	
+T27	E 3457 3457	
+T28	E 3550 3550	
+T29	E 3617 3617	
+T30	E 3769 3769	
+T31	E 3866 3866	
+T32	E 4175 4175	
+T33	E 4271 4271	
+T34	E 4317 4317	
+T35	E 4430 4430	
+T36	E 4495 4495	
+T37	E 4603 4603	
+T38	E 4754 4754	
+T39	E 4844 4844	
+T40	E 4981 4981	
+T41	E 5090 5090	
+T42	E 5311 5311	
+T43	Polar_expression 131 167	mye å sette en kritisk pekefinger på
+E115	Polar_expression:T43 
+A506	Polarity E115 Negative
+A507	Intensity E115 Standard
+A508	Type E115 E
+A509	Source_is_author E115
+A510	Target_is_general E115
+T44	Polar_expression 4278 4284	herlig
+E116	Polar_expression:T44 
+A511	Polarity E116 Positive
+A512	Intensity E116 Standard
+A513	Type E116 E
+A514	Source_is_author E116
+A515	Target_is_general E116
+T45	Polar_expression 4287 4297	fengslende
+E117	Polar_expression:T45 
+A516	Polarity E117 Positive
+A517	Intensity E117 Standard
+A518	Type E117 E
+A519	Source_is_author E117
+A520	Target_is_general E117
+T46	Polar_expression 4301 4313	vanedannende
+E118	Polar_expression:T46 
+A521	Polarity E118 Positive
+A522	Intensity E118 Standard
+A523	Type E118 E
+A524	Source_is_author E118
+A525	Target_is_general E118
+T47	Polar_expression 12 28	gamle sleivspark
+E1	Polar_expression:T47 
+A1	Polarity E1 Negative
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Target_is_general E1
+A5	Type E1 E
+T48	Entity 30 55	« Football Manager 2005 »
+T49	Polar_expression 59 109	utvilsomt den beste managersimulatoren på markedet
+E2	Polar_expression:T49 Target:T48
+A6	Polarity E2 Positive
+A7	Source_is_author E2
+A8	Intensity E2 Strong
+A9	Type E2 E
+T51	Entity 237 269	« Championship Manager » -serien
+T52	Polar_expression 222 236	svært populære
+E3	Polar_expression:T52 Target:T51
+A10	Polarity E3 Positive
+A11	Source_is_author E3
+A12	Intensity E3 Standard
+A13	Type E3 EFINP
+A14	NOT E3
+T50	Entity 515 540	« Football Manager 2005 »
+T53	Polar_expression 552 576	mye er likt forgjengeren
+E4	Polar_expression:T53 Target:T50
+A15	Polarity E4 Negative
+A16	Source_is_author E4
+A17	Intensity E4 Slight
+A18	Target_is_general E4
+A19	Type E4 E
+T54	Entity 642 665	oppbygningen av menyene
+T55	Polar_expression 685 704	blitt til det bedre
+E5	Polar_expression:T55 Target:T54
+A20	Polarity E5 Positive
+A21	Source_is_author E5
+A22	Intensity E5 Standard
+A23	Type E5 E
+T56	Polar_expression 760 785	veldig greit å finne fram
+E6	Polar_expression:T56 Target:T57
+A24	Polarity E6 Positive
+A25	Source_is_author E6
+A26	Intensity E6 Standard
+A27	Type E6 E
+T57	Entity 735 752	det nye opplegget
+T58	Entity 848 873	« Football Manager 2005 »
+T59	Polar_expression 894 915	51 spillbare nasjoner
+E7	Polar_expression:T59 Target:T58
+A28	Polarity E7 Positive
+A29	Source_is_author E7
+A30	Intensity E7 Standard
+A31	Type E7 E
+T60	Polar_expression 918 941	158 forskjellige ligaer
+E8	Polar_expression:T60 Target:T58
+A32	Polarity E8 Positive
+A33	Source_is_author E8
+A34	Intensity E8 Standard
+A35	Type E8 E
+T61	Polar_expression 944 962	2352 spillbare lag
+E9	Polar_expression:T61 Target:T58
+A36	Polarity E9 Positive
+A37	Source_is_author E9
+A38	Intensity E9 Strong
+A39	Type E9 E
+T62	Polar_expression 966 1017	vanvittige 235.000 ekte navn på spillere og ansatte
+E10	Polar_expression:T62 Target:T58
+A40	Polarity E10 Positive
+A41	Source_is_author E10
+A42	Intensity E10 Standard
+A43	Type E10 E
+T63	Polar_expression 1028 1044	imponerende tall
+E11	Polar_expression:T63 Target:T64
+A44	Polarity E11 Positive
+A45	Source_is_author E11
+A46	Intensity E11 Standard
+A47	Type E11 E
+T64	Entity 1021 1024	Det
+T65	Polar_expression 1051 1060;1068 1129	dessverre så omfattende at opplagte feil og mangler ikke er til å unngå
+E12	Polar_expression:T65 Target:T64
+A48	Polarity E12 Negative
+A49	Source_is_author E12
+A50	Intensity E12 Standard
+A51	Type E12 E
+T66	Polar_expression 1155 1186	større skuffelse enn fornøyelse
+E13	Polar_expression:T66 
+A52	Polarity E13 Negative
+A53	Source_is_author E13
+A54	Intensity E13 Standard
+A55	Type E13 E
+T67	Polar_expression 1294 1305	nok å ta av
+E14	Polar_expression:T67 
+A56	Polarity E14 Positive
+A57	Source_is_author E14
+A58	Intensity E14 Standard
+A59	Type E14 E
+T68	Polar_expression 1311 1371	i de største klubbene og ligaene er det mer enn bra nok nivå
+E15	Polar_expression:T68 Target:T69
+A60	Polarity E15 Positive
+A61	Source_is_author E15
+A62	Intensity E15 Standard
+A63	Type E15 E
+T69	Entity 1375 1384	databasen
+T70	Entity 1446 1449	jeg
+T71	Polar_expression 1450 1467	ikke tør stole på
+E16	Polar_expression:T71 Target:T72 Source:T70
+A64	Polarity E16 Negative
+A65	Source_is_author E16
+A66	Intensity E16 Standard
+A67	Type E16 E
+T72	Entity 1468 1478	« flyten »
+T73	Polar_expression 1492 1557	venter hele tiden på at jeg skal oppdage ting som ødelegger moroa
+E17	Polar_expression:T73 Source:T70
+A68	Polarity E17 Negative
+A69	Source_is_author E17
+A70	Intensity E17 Standard
+A71	Type E17 E
+T74	Polar_expression 1560 1713	Flere små , men likevel irriterende , feil og detaljer gjør at summen kanskje blir i overkant av det man klarer å overse for å kunne kose seg med spillet
+E18	Polar_expression:T74 
+A72	Polarity E18 Negative
+A73	Source_is_author E18
+A74	Intensity E18 Slight
+A75	Target_is_general E18
+A76	Type E18 E
+T76	Entity 1750 1762	børspoengene
+T77	Polar_expression 1791 1828	ikke klarer å skape større kontraster
+E20	Polar_expression:T77 Target:T76
+A82	Polarity E20 Negative
+A83	Source_is_author E20
+A84	Intensity E20 Standard
+A85	Type E20 E
+T75	Polar_expression 1737 1746	skuffende
+E19	Polar_expression:T75 Target:T76
+A77	Polarity E19 Positive
+A78	Source_is_author E19
+A79	Intensity E19 Standard
+A80	Type E19 E
+T78	Entity 1889 1892	Det
+T79	Polar_expression 1905 1916	meningsløst
+E21	Polar_expression:T79 Target:T78
+A81	Polarity E21 Negative
+A86	Source_is_author E21
+A87	Intensity E21 Standard
+A88	Type E21 E
+T80	Polar_expression 1953 2090	Jeg har fortsatt til gode å se at en spiller som har scoret , til og med på straffe etter å ha spilt kun ett minutt , får dårligere enn 7
+E22	Polar_expression:T80 
+A89	Polarity E22 Negative
+A90	Source_is_author E22
+A91	Intensity E22 Standard
+A92	Type E22 E
+A93	Target_is_general E22
+T81	Polar_expression 2102 2110	for dumt
+E23	Polar_expression:T81 Target:T82
+A94	Polarity E23 Positive
+A95	Source_is_author E23
+A96	Intensity E23 Standard
+A97	Type E23 E
+T82	Entity 2093 2096	Det
+T83	Polar_expression 2132 2159	med på å ødelegge realismen
+E24	Polar_expression:T83 Target:T84
+A98	Polarity E24 Negative
+A99	Source_is_author E24
+A100	Intensity E24 Standard
+A101	Type E24 E
+T84	Entity 2175 2246	at det svært ofte skapes vanvittig mange sjanser i løpet av 90 minutter
+T85	Polar_expression 2193 2246	skapes vanvittig mange sjanser i løpet av 90 minutter
+E25	Polar_expression:T85 Target:T84
+A102	Polarity E25 Negative
+A103	Source_is_author E25
+A104	Intensity E25 Standard
+A105	Type E25 E
+T86	Polar_expression 2375 2415	skal det tross alt tilhøre sjeldenhetene
+E26	Polar_expression:T86 
+A106	Polarity E26 Negative
+A107	Source_is_author E26
+A108	Intensity E26 Standard
+A109	Type E26 E
+T87	Polar_expression 2431 2451	ikke i dette spillet
+E27	Polar_expression:T87 
+A110	Polarity E27 Negative
+A111	Source_is_author E27
+A112	Intensity E27 Standard
+A113	Type E27 E
+T88	Polar_expression 2492 2521	altfor enkelt å oppnå suksess
+E28	Polar_expression:T88 
+A114	Polarity E28 Negative
+A115	Source_is_author E28
+A116	Intensity E28 Standard
+A117	Type E28 E
+T89	Entity 2604 2607	jeg
+T90	Polar_expression 2608 2653	mer enn nok med utfordringene i andre klubber
+E29	Polar_expression:T90 Source:T89
+A118	Polarity E29 Negative
+A119	Source_is_author E29
+A120	Intensity E29 Standard
+A121	Type E29 E
+A122	Target_is_general E29
+A123	Target_is_general E28
+T91	Polar_expression 2700 2763	burde det også være en vanskelig jobb å lede de store gigantene
+E30	Polar_expression:T91 Target:T92
+A124	Polarity E30 Negative
+A125	Source_is_author E30
+A126	Intensity E30 Standard
+A127	Type E30 E
+T92	Entity 2771 2796	« Football Manager 2005 »
+A128	Target_is_general E30
+T93	Polar_expression 3005 3123	småartig å f.eks . kunne si til Alex Ferguson eller Frank Riijkard at du ikke er spesielt imponert over jobben de gjør
+E31	Polar_expression:T93 
+A129	Polarity E31 Positive
+A130	Source_is_author E31
+A131	Intensity E31 Standard
+A132	Type E31 E
+T94	Polar_expression 3229 3271	savner at mediedelen i spillet tar mer tak
+E32	Polar_expression:T94 Source:T95
+A133	Polarity E32 Negative
+A134	Source_is_author E32
+A135	Type E32 E
+A136	Intensity E32 Standard
+T95	Entity 3225 3228	jeg
+T96	Polar_expression 3385 3454	bør ikke det gå upåaktet hen i den kritiske og nådeløse sportspressen
+E33	Polar_expression:T96 
+A137	Polarity E33 Negative
+A138	Source_is_author E33
+A139	Intensity E33 Standard
+A140	Type E33 E
+T97	Polar_expression 3469 3509	altfor lite å få to spørsmål fra pressen
+E34	Polar_expression:T97 
+A141	Polarity E34 Negative
+A142	Source_is_author E34
+A143	Intensity E34 Standard
+A144	Type E34 E
+T98	Polar_expression 3554 3613	skal ikke rare journalisten til for å hoste opp mer enn det
+E35	Polar_expression:T98 
+A145	Polarity E35 Negative
+A146	Source_is_author E35
+A147	Intensity E35 Standard
+A148	Type E35 E
+T99	Entity 3632 3635	jeg
+T100	Polar_expression 3645 3765	litt bakvendt at du kan uttale deg om en hvilken som helst manager , men ikke kan kommunisere mer med dine egne spillere
+E36	Polar_expression:T100 Source:T99
+A149	Polarity E36 Positive
+A150	Source_is_author E36
+A151	Intensity E36 Standard
+A152	Type E36 E
+T101	Entity 3659 3711	at du kan uttale deg om en hvilken som helst manager
+T102	Polar_expression 3645 3658	litt bakvendt
+E37	Polar_expression:T102 Target:T101
+A153	Polarity E37 Negative
+A154	Source_is_author E37
+A155	Intensity E37 Standard
+A156	Type E37 E
+T103	Polar_expression 3806 3837	ikke noe problem å bli hekta på
+E38	Polar_expression:T103 Target:T104
+A157	Polarity E38 Positive
+A158	Source_is_author E38
+A159	Intensity E38 Standard
+A160	Type E38 E
+T104	Entity 3838 3863	« Football Manager 2005 »
+A161	Target_is_general E38
+T105	Polar_expression 3866 3883;3956 3971	Å drømme seg bort skremmende lett
+E39	Polar_expression:T105 
+A162	Polarity E39 Positive
+A163	Source_is_author E39
+A164	Intensity E39 Standard
+A165	Type E39 E
+T106	Polar_expression 4175 4268	For ikke å snakke om det å komme over et totalt ukjent kjempetalent i en sølepytt av en klubb
+E40	Polar_expression:T106 
+A166	Polarity E40 Positive
+A167	Source_is_author E40
+A168	Intensity E40 Standard
+A169	NOT E40
+A170	Type E40 E
+T107	Polar_expression 4405 4427	gir faktisk resultater
+E41	Polar_expression:T107 Target:T108
+A171	Polarity E41 Positive
+A172	Source_is_author E41
+A173	Intensity E41 Standard
+A174	Type E41 E
+T108	Entity 4317 4371	Å ta seg tid til å bygge opp taktikken rundt spillerne
+T109	Entity 4434 4459	taktiske delen av spillet
+T110	Polar_expression 4477 4492	mer enn bra nok
+E42	Polar_expression:T110 Target:T109
+A175	Polarity E42 Positive
+A176	Source_is_author E42
+A177	Intensity E42 Standard
+A178	Type E42 E
+T111	Entity 4502 4568	2-dimensjonale visningen av kampene kombinert med informativ tekst
+T112	Polar_expression 4569 4600	fungerer fortsatt særdeles godt
+E43	Polar_expression:T112 Target:T111
+A179	Polarity E43 Positive
+A180	Source_is_author E43
+A181	Intensity E43 Standard
+A182	Type E43 E
+T113	Polar_expression 4606 4648	ser og får med deg akkurrat det du trenger
+E44	Polar_expression:T113 
+A183	Polarity E44 Positive
+A184	Source_is_author E44
+A185	Intensity E44 Standard
+A186	Type E44 E
+T114	Polar_expression 4757 4830	bør det være like morsomt og utfordrende etter fem sesonger som det var i
+E45	Polar_expression:T114 Target:T115
+A187	Polarity E45 Positive
+A188	Source_is_author E45
+A189	Intensity E45 Standard
+A190	NOT E45
+A191	Type E45 E
+T115	Entity 4831 4841	den første
+T116	Polar_expression 4757 4841	bør det være like morsomt og utfordrende etter fem sesonger som det var i den første
+E46	Polar_expression:T116 
+A192	Polarity E46 Negative
+A193	Source_is_author E46
+A194	Intensity E46 Slight
+A195	Target_is_general E46
+A196	Type E46 E
+T117	Polar_expression 4873 4881	tapt seg
+E47	Polar_expression:T117 Target:T118
+A197	Polarity E47 Negative
+A198	Source_is_author E47
+A199	Intensity E47 Standard
+A200	Type E47 E
+T118	Entity 4866 4872	serien
+T119	Entity 5050 5071	Football Manager 2005
+T120	Polar_expression 5076 5087	mye å gå på
+E48	Polar_expression:T120 Target:T119
+A201	Polarity E48 Negative
+A202	Source_is_author E48
+A203	Intensity E48 Standard
+A204	Type E48 E
+A205	Target_is_general E48
+T121	Entity 5141 5154	oppdateringer
+T122	Polar_expression 5200 5266	ikke tilgjengelige og blir naturlig nok umulige å forholde seg til
+E49	Polar_expression:T122 Target:T121
+A206	Polarity E49 Negative
+A207	Source_is_author E49
+A208	Intensity E49 Standard
+A209	Type E49 E
+T123	Polar_expression 5318 5431	lov å håpe på at et par offisielle oppdateringer i løpet av kort tid gjør susen og hever spillet et hakk eller to
+E50	Polar_expression:T123 Target:T124
+A210	Polarity E50 Negative
+A211	Source_is_author E50
+A212	Intensity E50 Slight
+A213	Type E50 E
+T124	Entity 5407 5414	spillet

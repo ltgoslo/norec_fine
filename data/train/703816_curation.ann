@@ -1,0 +1,104 @@
+T1	E 27 27	
+T2	E 54 54	
+T3	E 246 246	
+T4	E 335 335	
+T5	E 378 378	
+T6	E 413 413	
+T7	E 512 512	
+T8	E 602 602	
+T9	E 674 674	
+T10	E 739 739	
+T11	E 752 752	
+T12	Entity 335 345	Trompetene
+T13	Polar_expression 362 375	skingrer ikke
+E25	Polar_expression:T13 Target:T12
+A108	Polarity E25 Negative
+A109	Intensity E25 Standard
+A110	Type E25 E
+A111	Source_is_author E25
+T14	Polar_expression 27 53	Hvor ble det av energien ?
+E1	Polar_expression:T14 
+A1	Polarity E1 Negative
+A2	Source_is_author E1
+A3	Intensity E1 Standard
+A4	Type E1 E
+A5	Target_is_general E1
+T15	Entity 128 136	Calexico
+T16	Polar_expression 150 235	forblåst ørkenrock og feststemt mariachi-musikk vært blandingen som fungerte utmerket
+E2	Polar_expression:T16 Target:T15
+A6	Polarity E2 Positive
+A7	Source_is_author E2
+A8	Intensity E2 Strong
+A9	NOT E2
+A10	Type E2 E
+T17	Entity 246 260	Arizona-bandet
+T18	Polar_expression 264 277	mer neddempet
+E3	Polar_expression:T18 Target:T17
+A11	Polarity E3 Negative
+A12	Source_is_author E3
+A13	Intensity E3 Standard
+A14	Type E3 E
+T19	Polar_expression 301 332	viskes også mye av særpreget ut
+E4	Polar_expression:T19 Target:T17
+A15	Polarity E4 Negative
+A16	Source_is_author E4
+A17	Intensity E4 Standard
+A18	Type E4 E
+T20	Polar_expression 386 410	kan ses , men ikke føles
+E5	Polar_expression:T20 Target:T33
+A19	Polarity E5 Negative
+A20	Source_is_author E5
+A21	Intensity E5 Standard
+A22	Type E5 E
+T21	Entity 454 459	plate
+T22	Entity 482 485	jeg
+T23	Polar_expression 413 417;447 453	Ikke dårlig
+E6	Polar_expression:T23 Target:T21 Source:T22
+A23	Polarity E6 Positive
+A24	Source_is_author E6
+A25	Intensity E6 Slight
+A26	Target_is_general E6
+A27	Type E6 E
+T24	Polar_expression 473 481;490 509	ikke den ventet i fire år på
+E7	Polar_expression:T24 Source:T22 Target:T21
+A28	Polarity E7 Negative
+A29	Source_is_author E7
+A30	Intensity E7 Standard
+A31	Target_is_general E7
+A32	Type E7 E
+T26	Polar_expression 512 538;573 599	Er du fornøyd med Calexico fungerer dette likevel bra
+E8	Polar_expression:T26 
+A33	Polarity E8 Positive
+A34	Source_is_author E8
+A35	Intensity E8 Standard
+A36	Target_is_general E8
+A37	Type E8 E
+T27	Entity 602 610	Calexico
+T28	Polar_expression 614 637	fortsatt gjenkjennelige
+E9	Polar_expression:T28 Target:T27
+A38	Polarity E9 Positive
+A39	Source_is_author E9
+A40	Intensity E9 Standard
+A41	Type E9 E
+T29	Polar_expression 648 671	tyngdepunktet er endret
+E10	Polar_expression:T29 Target:T27
+A42	Polarity E10 Negative
+A43	Source_is_author E10
+A44	Intensity E10 Slight
+A45	Type E10 E
+T30	Polar_expression 678 735	renger noen slike avstikkere for ikke å bli forutsigelige
+E11	Polar_expression:T30 Target:T31
+A46	Polarity E11 Positive
+A47	Source_is_author E11
+A48	Intensity E11 Standard
+A49	Type E11 E
+T31	Entity 674 676	De
+T25	Entity 150 197	forblåst ørkenrock og feststemt mariachi-musikk
+T32	Polar_expression 227 235	utmerket
+E12	Polar_expression:T32 Target:T25
+A50	Polarity E12 Positive
+A51	Source_is_author E12
+A52	Intensity E12 Strong
+A53	Type E12 E
+A54	NOT E12
+T33	Entity 378 385	Ørkenen

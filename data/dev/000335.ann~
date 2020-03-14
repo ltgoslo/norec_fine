@@ -1,0 +1,171 @@
+T1	E 24 24	
+T2	E 56 56	
+T3	E 167 167	
+T4	E 376 376	
+A1	NOT T4
+T5	E 432 432	
+A2	NOT T5
+T6	E 559 559	
+A3	NOT T6
+T7	E 709 709	
+A4	NOT T7
+T8	E 782 782	
+T9	E 1013 1013	
+A5	NOT T9
+T10	E 1769 1769	
+T11	E 1926 1926	
+T12	E 1975 1975	
+T13	E 2021 2021	
+T14	E 2151 2151	
+T15	E 2321 2321	
+T16	E 2345 2345	
+T17	E 2484 2484	
+T18	E 2604 2604	
+T19	E 2674 2674	
+T20	E 2770 2770	
+T21	E 2920 2920	
+T22	E 3186 3186	
+T23	E 3424 3424	
+T24	E 3632 3632	
+T25	Polar_expression 34 52	ufrivillig morsomt
+E1	Polar_expression:T25 
+A6	Polarity E1 Negative
+A7	Source_is_author E1
+A8	Intensity E1 Slight
+A9	Type E1 E
+A10	Target_is_general E1
+T26	Polar_expression 45 52	morsomt
+E2	Polar_expression:T26 
+A11	Polarity E2 Positive
+A12	Source_is_author E2
+A13	Intensity E2 Standard
+A14	Type E2 E
+A15	Target_is_general E2
+T27	Polar_expression 81 117	tyr til svært billige såpeserietriks
+E3	Polar_expression:T27 Target:T28
+A16	Polarity E3 Negative
+A17	Source_is_author E3
+A18	Intensity E3 Strong
+A19	Type E3 E
+A20	Target_is_general E3
+T28	Entity 56 80	Dramakrimserien Frikjent
+T29	Polar_expression 182 196	hukommelsestap
+E4	Polar_expression:T29 
+A21	Polarity E4 Negative
+A22	Source_is_author E4
+A23	Intensity E4 Standard
+A24	Type E4 E
+T30	Polar_expression 200 231	sjokkerende familieforbindelser
+E5	Polar_expression:T30 
+A25	Polarity E5 Negative
+A26	Source_is_author E5
+A27	Intensity E5 Standard
+A28	Type E5 E
+T31	Entity 259 271	virkemidlene
+T32	Polar_expression 243 258	parodisk slitte
+E6	Polar_expression:T32 Target:T31
+A29	Polarity E6 Negative
+A30	Source_is_author E6
+A31	Intensity E6 Standard
+A32	Type E6 E
+T33	Polar_expression 280 372	jeg ler høyt på steder hvor jeg tror serieskaperne ønsker at jeg egentlig skal bli revet med
+E7	Polar_expression:T33 
+A33	Polarity E7 Negative
+A34	Source_is_author E7
+A35	Intensity E7 Standard
+A36	Type E7 E
+T34	Polar_expression 280 292	jeg ler høyt
+E8	Polar_expression:T34 
+A37	Polarity E8 Positive
+A38	Source_is_author E8
+A39	Intensity E8 Standard
+A40	Type E8 E
+T35	Entity 376 379	Jeg
+T36	Polar_expression 380 385;418 429	likte ganske godt
+E9	Polar_expression:T36 Target:T37 Source:T35
+A41	Polarity E9 Positive
+A42	Source_is_author E9
+A43	Intensity E9 Standard
+A44	Type E9 E
+T37	Entity 386 417	den første sesongen av Frikjent
+T38	Polar_expression 471 491	led av dårlig dialog
+E10	Polar_expression:T38 Target:T42
+A45	Polarity E10 Negative
+A46	Source_is_author E10
+A47	Intensity E10 Standard
+A48	Type E10 E
+T39	Polar_expression 471 477;495 511	led av en del overspill
+E11	Polar_expression:T39 Target:T42
+A49	Polarity E11 Negative
+A50	Source_is_author E11
+A51	Type E11 E
+T40	Polar_expression 529 538	god nerve
+E12	Polar_expression:T40 Target:T41
+A52	Polarity E12 Positive
+A53	Source_is_author E12
+A54	Intensity E12 Standard
+A55	NOT E12
+A56	Type E12 E
+A57	NOT E11
+A58	NOT E10
+T41	Entity 541 555	hovedmysteriet
+T42	Entity 432 470	Handlingstrådene som gikk til utlandet
+T43	Polar_expression 567 578	interessant
+E13	Polar_expression:T43 
+A59	Polarity E13 Positive
+A60	Source_is_author E13
+A61	Intensity E13 Standard
+A62	NOT E13
+A63	Type E13 E
+T44	Polar_expression 733 756	sjangerkledelige finter
+E14	Polar_expression:T44 Target:T45
+A64	Polarity E14 Positive
+A65	Source_is_author E14
+A66	Intensity E14 Standard
+A67	NOT E14
+A68	Type E14 E
+T45	Entity 709 716	Slutten
+T46	Polar_expression 782 791	Dessverre
+E15	Polar_expression:T46 
+A69	Polarity E15 Negative
+A70	Source_is_author E15
+A71	Intensity E15 Standard
+A72	Type E15 E
+T47	Polar_expression 802 810	oppkavet
+E16	Polar_expression:T47 
+A73	Polarity E16 Negative
+A74	Source_is_author E16
+A75	Intensity E16 Standard
+A76	Type E16 E
+T48	Polar_expression 1017 1030	høydramatiske
+E17	Polar_expression:T48 Target:T49
+A77	Polarity E17 Positive
+A78	Source_is_author E17
+A79	Intensity E17 Slight
+A80	NOT E17
+A81	Type E17 E
+T49	Entity 1031 1060	avslutningen på første sesong
+T50	Polar_expression 1106 1127	får ikke klinge lenge
+E18	Polar_expression:T50 
+A82	Polarity E18 Negative
+A83	Source_is_author E18
+A84	Intensity E18 Slight
+A85	Type E18 E
+T51	Polar_expression 1780 1784	gode
+E19	Polar_expression:T51 Target:T52
+A86	Polarity E19 Positive
+A87	Source_is_author E19
+A88	Intensity E19 Standard
+A89	Type E19 E
+T52	Entity 1785 1802	problemstillinger
+T53	Polar_expression 1813 1831	kjennes litt seigt
+E20	Polar_expression:T53 
+A90	Polarity E20 Negative
+A91	Source_is_author E20
+A92	Intensity E20 Standard
+A93	Type E20 E
+E21	Polar_expression:T54 
+A94	Polarity E21 Negative
+A95	Source_is_author E21
+A96	Intensity E21 Standard
+A97	Type E21 E
