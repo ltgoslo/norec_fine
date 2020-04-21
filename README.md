@@ -30,7 +30,7 @@ You can import them by using the json library in python:
 
 Each sentence has a dictionary with the following keys and values:
 ---
-"idx": unique NoReC identifier for document + paragraph + sentence which lines up with the identifiers from the document and sentence-level NoReC data
+"sent_id": unique NoReC identifier for document + paragraph + sentence which lines up with the identifiers from the document and sentence-level NoReC data
 
 "text": raw text
 
