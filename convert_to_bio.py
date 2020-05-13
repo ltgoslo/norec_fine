@@ -148,9 +148,9 @@ def replace_with_labels(labels, offsets, bidx, tags):
     except:
         return labels
 
-def drop_orphans(labels):
+def restart_orphans(labels):
     """Wen opinion expression tags are written on top of previous expression tags, 
-    I-tags can be orphaned, so they do not correspond with previous tags. We reset these to O.
+    I-tags can be orphaned, so they do not correspond with the previous tag. We reset these to a B
 
         labels : list(Str) tag sequence for a sentence.
     """
@@ -158,7 +158,7 @@ def drop_orphans(labels):
     for tag_idx,tag in enumerate(labels):
         if tag[0] == "I":
             if prev == "O" or (len(prev)>1 and tag[1:] != prev[1:]):
-                labels[tag_idx] = "O"
+                labels[tag_idx] = "B"+tag[1:] #Replace I with B since contents is different from prev
                 #print("correcting", prev, tag)
         prev = labels[tag_idx]
     return labels
@@ -186,7 +186,7 @@ def create_bio_labels(text, opinions):
     for c in columns:
         for bidx, tags in anns[c]:
             labels[c] = replace_with_labels(labels[c], offsets, bidx, tags)
-        labels[c] = drop_orphans(labels[c])
+        labels[c] = restart_orphans(labels[c])
     return labels
 
 
