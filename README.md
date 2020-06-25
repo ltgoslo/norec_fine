@@ -47,7 +47,7 @@ Additionally, each opinion in a sentence is a dictionary with the following keys
 
 "Target_is_general": (True, False)
 
-"NFP": Whether or not the Source is 'Not First Person' (True, False)
+"Not_First_Person": Whether or not the Source is 'Not First Person' (True, False)
 
 "Type": Whether the polar expression is Evaluative (E) or Evaluative Fact Implied (EFINP)
 
@@ -76,7 +76,7 @@ Additionally, each opinion in a sentence is a dictionary with the following keys
 
                      'Target_is_general': True,
 
-                     'NFP': True,
+                     'Not_First_Person': True,
 
                      'Type': 'E'
                      }
