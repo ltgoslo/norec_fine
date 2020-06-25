@@ -5,7 +5,7 @@ This dataset is described in the paper _A Fine-Grained Sentiment Dataset for Nor
 ## Overview
 While the previously released dataset [NoReC_eval](https://github.com/ltgoslo/norec_eval) labeled sentences as to whether they are _evaluative_ or sentiment-bearing, NoReC_fine expands on these annotations by also labeling polar expressions, holders and targets. The data comprises roughly 8000 sentences across almost 300 reviews and 10 different thematic categories (literature, products, restaurants, etc.), and is a subset of the [Norwegian Review Corpus](https://github.com/ltgoslo/norec) (NoReC; [Velldal et al. 2018](http://www.lrec-conf.org/proceedings/lrec2018/pdf/851.pdf)).
 
-# Terms of use
+## Terms of use
 NoReC_fine inherits the license of the underlying [NoReC](https://github.com/ltgoslo/norec) corpus, copied here for convenience:
 
 The data is distributed under a Creative Commons Attribution-NonCommercial licence (CC BY-NC 4.0), access the full license text here: https://creativecommons.org/licenses/by-nc/4.0/
