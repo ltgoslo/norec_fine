@@ -1,6 +1,7 @@
 import json
 import nltk
 import re
+import argparse
 from nltk.tokenize.simple import SpaceTokenizer
 
 tk = SpaceTokenizer()
@@ -147,26 +148,45 @@ def replace_with_labels(labels, offsets, bidx, tags):
     except:
         return labels
 
+def restart_orphans(labels):
+    """Wen opinion expression tags are written on top of previous expression tags, 
+    I-tags can be orphaned, so they do not correspond with the previous tag. We reset these to a B
+
+        labels : list(Str) tag sequence for a sentence.
+    """
+    prev = "O"
+    for tag_idx,tag in enumerate(labels):
+        if tag[0] == "I":
+            if prev == "O" or (len(prev)>1 and tag[1:] != prev[1:]):
+                labels[tag_idx] = "B"+tag[1:] #Replace I with B since contents is different from prev
+                #print("correcting", prev, tag)
+        prev = labels[tag_idx]
+    return labels
+
 
 def create_bio_labels(text, opinions):
     offsets = [l[0] for l in tk.span_tokenize(text)]
     #
-    labels = ["O"] * len(offsets)
+    columns = ["holder", "target", "expression"]
+    labels = {c:["O"] * len(offsets) for c in columns}
     #
-    anns = []
+    anns = {c:[] for c in columns}
+
 
     # TODO: deal with targets which can have multiple polarities, due to
-    # contrasting polar expressions
+    # contrasting polar expressions. At present the last polarity wins.
     for o in opinions:
         try:
-            anns.extend(get_bio_holder(o))
-            anns.extend(get_bio_target(o))
-            anns.extend(get_bio_expression(o))
+            anns["holder"].extend(get_bio_holder(o))
+            anns["target"].extend(get_bio_target(o))
+            anns["expression"].extend(get_bio_expression(o))
         except:
             pass
     #
-    for bidx, tags in anns:
-        labels = replace_with_labels(labels, offsets, bidx, tags)
+    for c in columns:
+        for bidx, tags in anns[c]:
+            labels[c] = replace_with_labels(labels[c], offsets, bidx, tags)
+        labels[c] = restart_orphans(labels[c])
     return labels
 
 
@@ -184,6 +204,14 @@ def to_bio(dataset):
     return tokenized, all_labels
 
 if __name__ == "__main__":
+    
+    parser = argparse.ArgumentParser(description='Convert norec_fine json files to conll. By default one column is made for holder, one for target and one for opinion expresseion.')
+    parser.add_argument("-c","--column", default="all", 
+    help="Optionally select one tag column for the output.",
+    choices=["holder", "target", "expression", "all"])
+
+    args = parser.parse_args()
+    columns = ["holder", "target", "expression"]
 
     for split in ["train", "dev", "test"]:
         with open("data/{0}.json".format(split)) as o:
@@ -191,10 +219,21 @@ if __name__ == "__main__":
 
         tokenized, labels = to_bio(dev)
 
-        with open("data/{0}.conll".format(split), "w") as outfile:
-            for meta, sent, label in zip(dev, tokenized, labels):
-                sent_id = meta["sent_id"]
-                outfile.write("# sent_id = {0}\n".format(sent_id))
-                for token, tag in zip(sent, label):
-                    outfile.write("{0}\t{1}\n".format(token, tag))
-                outfile.write("\n")
+        if args.column in columns: #Write selected column only
+            with open("data/{0}_{1}.conll".format(split,args.column), "w") as outfile:
+                for meta, sent, label in zip(dev, tokenized, labels):
+                    label = label[args.column]
+                    sent_id = meta["sent_id"]
+                    outfile.write("# sent_id = {0}\n".format(sent_id))
+                    for token, tag in zip(sent, label):
+                        outfile.write("{0}\t{1}\n".format(token, tag))
+                    outfile.write("\n")
+        else: #Write all columns
+            with open("data/{0}.conll".format(split), "w") as outfile:
+                for meta, sent, label in zip(dev, tokenized, labels):
+                    sent_id = meta["sent_id"]
+                    outfile.write("# sent_id = {0}\n".format(sent_id))
+                    for token, h_tag, t_tag, e_tag in zip(sent, label["holder"], label["target"], label["expression"]):
+                        outfile.write("\t".join([token, h_tag, t_tag, e_tag])+"\n")
+                    outfile.write("\n")
+
