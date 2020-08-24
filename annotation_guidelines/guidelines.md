@@ -12,7 +12,43 @@ April 2019
 2.5 [Type](#type)
 3. [Part 2: Brat](#part-2-brat)\
 3.1 [Brat](#brat)\
-3.2 [Entities, Events and Attributes](#entities-events-and-attributes)
+3.2 [Entities, Events and Attributes](#entities-events-and-attributes)\
+3.3 [Marking spans](#marking-spans)\
+3.4 [Discontinous spans](#discontinous-spans)\
+3.5 [Multiple targets](#multiple-targets)\
+3.6 [Comments (notes)](#comments-(notes))\
+3.7 [Multiple expressions](#multiple-expressions)\
+3.8 [Known issues](#known-issues)\
+3.9 [Curation](#curation)
+4. [Part 3: Annotation details](#part-3:-annotation-details)\
+4.1 [Entities](#entities)\
+4.1.1 [Sources](#sources)\
+4.1.2 [Targets](#targets)\
+4.1.3 [Target-related polar expression attribute "Target is general"](#target-related-polar-expression-attribute-"target-is-general")\
+4.1.4 [Words that combine the target with polar expressions](#words-that-combine-the-target-with-polar-expressions)\
+4.1.5 [Polar-target combinations as targets](#polar-target-combinations-as-targets)\
+4.1.6 [Infinitive clauses as targets](#infinitive-clauses-as-targets)\
+4.2 [Polar expressions](#polar-expressions)\
+4.2.1 [Polar-like expressions in symopses](#polar-like-expressions-in-symopses)\
+4.2.2 [Punctuation marks](#punctuation-marks)\
+4.2.3 [Demonstratives and articles](#demonstratives-and-articles)\
+4.2.4 [Verbs](#verbs)\
+4.2.5 [Particle verbs and reflexive verbs](#particle-verbs-and-reflexive-verbs)\
+4.2.6 [Verbs expressing sentiment](#verbs-expressing-sentiment)\
+4.2.7 [Sentence level adverbs](#sentence-level-adverbs)\
+4.2.8 [Words expressing sensatory input](#words-expressing-sensatory-input)\
+4.2.9 [Conjunctions and subjunctions](#conjunctions-and-subjunctions)\
+4.2.10 [Expletive subjects](#expletive-subjects)\
+4.3 [Polarity](#polarity)\
+4.4 [Strength](#strength)\
+4.5 [Polar expressions in E-FINP sentences](#polar-expressions-in-e-finp-sentences)\
+4.6 [When targets are part of polar expression](#when-targets-are-part-of-polar-expression)\
+4.7 [Entities in comparative sentences](#entities-in-comparative-sentences)\
+4.8 [Text errrors](#text-errrors)\
+4.9 [Suggested steps](#suggested-steps)
+5. [References](#references)
+
+
 
 ## Introduction
 These guidelines are intended to give an introduction to fine grained annotation for the SANT project, based on the previous sentence level annotations. The sentences that were labeled as evaluative in the previous round are annotated on a more fine-grained level, based largely upon the schema introduced in Van de Kauter et al. (link). These guidelines come in three parts: an introduction to terminology, an introduction to Brat labels and terminology, and a detailed description of how to annotate and how to delimit spans.
