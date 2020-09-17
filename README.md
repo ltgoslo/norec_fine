@@ -1,16 +1,16 @@
 # NoReC_fine
 
-This dataset is described in the paper _A Fine-Grained Sentiment Dataset for Norwegian_ by L. Øvrelid, P. Mæhlum, J. Barnes, and E. Velldal, accepted at LREC 2020, [paper available](https://www.aclweb.org/anthology/2020.lrec-1.618).
+This dataset is based largely on the original data described in the paper _A Fine-Grained Sentiment Dataset for Norwegian_ by L. Øvrelid, P. Mæhlum, J. Barnes, and E. Velldal, accepted at LREC 2020, [paper available](https://www.aclweb.org/anthology/2020.lrec-1.618). However, we have since added annotations for another 3476 sentences, increasing the overall size and scope of the dataset.
 
 ## Overview
-While the previously released dataset [NoReC_eval](https://github.com/ltgoslo/norec_eval) labeled sentences as to whether they are _evaluative_ or sentiment-bearing, NoReC_fine expands on these annotations by labeling _polar expressions_, _opinion holders_ and _opinion targets_. The data comprises roughly 8000 sentences across almost 300 reviews and 10 different thematic categories (literature, products, restaurants, etc.), and is a subset of the [Norwegian Review Corpus](https://github.com/ltgoslo/norec) (NoReC; [Velldal et al. 2018](http://www.lrec-conf.org/proceedings/lrec2018/pdf/851.pdf)).
+While the previously released dataset [NoReC_eval](https://github.com/ltgoslo/norec_eval) labeled sentences as to whether they are _evaluative_ or sentiment-bearing, NoReC_fine expands on these annotations by labeling _polar expressions_, _opinion holders_ and _opinion targets_. This data comprises roughly 11,000 sentences across more than 400 reviews and 10 different thematic categories (literature, products, restaurants, etc.), and is a subset of the [Norwegian Review Corpus](https://github.com/ltgoslo/norec) (NoReC; [Velldal et al. 2018](http://www.lrec-conf.org/proceedings/lrec2018/pdf/851.pdf)).
 
 | Type     | Train  | Dev    | Test   |  Total |
 | :--------|-------:|-------:|-------:|-------:|
-| Sentences         |   5915 |   1151 |    895 |   7961 |
-| Holders           |   585  |     76 |     75 |    735 |
-| Targets           |   4458 |    832 |    709 |   5999 |
-| Polar Expressions |  5695  |   1050 |    872 |   7581 |
+| Sentences         |   8634 |   1531 |    1272 |   11437 |
+| Holders           |   898  |     120 |     110 |    1128 |
+| Targets           |   6778 |    1152 |    993 |   8923 |
+| Polar Expressions |  8448  |   1432 |    1235 |   11115 |
 
 
 ## Terms of use
@@ -47,8 +47,6 @@ Additionally, each opinion in a sentence is a dictionary with the following keys
 
 "Target_is_general": (True, False)
 
-"Not_First_Person": Whether or not the Source is 'Not First Person' (True, False)
-
 "Type": Whether the polar expression is Evaluative (E) or Evaluative Fact Implied (EFINP)
 
 ```
@@ -76,8 +74,6 @@ Additionally, each opinion in a sentence is a dictionary with the following keys
 
                      'Target_is_general': True,
 
-                     'Not_First_Person': True,
-
                      'Type': 'E'
                      }
 
@@ -87,10 +83,10 @@ Additionally, each opinion in a sentence is a dictionary with the following keys
 
 ```
 
-Note that for a single text, it is common to have many opinions. At the same time, it is common for many datasets to lack one of the elements of an opinion, e.g. the holder. In this case, the value for that element is None.
+Note that for a single text, it is common to have many opinions. At the same time, it is common for many datasets to lack one of the elements of an opinion, e.g. the holder. In this case, the value for that element is [[],[]].
 
 # Importing the data
-We include train.json, dev.json, and test.json in the data directory.
+We include train.json, dev.json, and test.json in this directory.
 
 You can import them by using the json library in python:
 
@@ -98,15 +94,7 @@ You can import them by using the json library in python:
 >>> import json
 >>> data = {}
 >>> for name in ["train", "dev", "test"]:
-        with open("data/{0}.json".format(name)) as infile:
+        with open("{0}.json".format(name)) as infile:
             data[name] = json.load(infile)
 ```
 
-# Conversion to CONLL-U format
-We also include a script to convert the json files to conllu with IOB labels.
-
-```
-python convert_to_bio.py
-```
-
-This will create train.conll, dev.conll, and test.conll files in the data directory.
