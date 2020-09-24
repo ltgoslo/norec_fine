@@ -3,7 +3,7 @@
 This dataset is based largely on the original data described in the paper _A Fine-Grained Sentiment Dataset for Norwegian_ by L. Øvrelid, P. Mæhlum, J. Barnes, and E. Velldal, accepted at LREC 2020, [paper available](https://www.aclweb.org/anthology/2020.lrec-1.618). However, we have since added annotations for another 3476 sentences, increasing the overall size and scope of the dataset.
 
 ## Overview
-While the previously released dataset [NoReC_eval](https://github.com/ltgoslo/norec_eval) labeled sentences as to whether they are _evaluative_ or sentiment-bearing, NoReC_fine expands on these annotations by labeling _polar expressions_, _opinion holders_ and _opinion targets_. This data comprises roughly 11,000 sentences across more than 400 reviews and 10 different thematic categories (literature, products, restaurants, etc.), and is a subset of the [Norwegian Review Corpus](https://github.com/ltgoslo/norec) (NoReC; [Velldal et al. 2018](http://www.lrec-conf.org/proceedings/lrec2018/pdf/851.pdf)).
+While the previously released dataset [NoReC_eval](https://github.com/ltgoslo/norec_eval) labeled sentences as to whether they are _evaluative_ or sentiment-bearing, NoReC_fine expands on these annotations by labeling _polar expressions_, _opinion holders_ and _opinion targets_. This data comprises roughly 11,000 sentences across more than 400 reviews and 10 different thematic categories (literature, products, restaurants, etc.), taken from  a subset of the [Norwegian Review Corpus](https://github.com/ltgoslo/norec) (NoReC; [Velldal et al. 2018](http://www.lrec-conf.org/proceedings/lrec2018/pdf/851.pdf)). The data comes with a predefined train/dev/test split (inheritet from NoReC), and some key statistics are summarized in the table below: 
 
 | Type     | Train  | Dev    | Test   |  Total |
 | :--------|-------:|-------:|-------:|-------:|
@@ -24,30 +24,30 @@ The licence is motivated by the need to block the possibility of third parties r
 ## Json Format
 
 Each sentence has a dictionary with the following keys and values:
----
-"sent_id": unique NoReC identifier for document + paragraph + sentence which lines up with the identifiers from the document and sentence-level NoReC data
 
-"text": raw text
+* "sent_id": unique NoReC identifier for document + paragraph + sentence which lines up with the identifiers from the document and sentence-level NoReC data
 
-"opinions": list of all opinions (dictionaries) in the sentence
+* "text": raw text
+
+* "opinions": list of all opinions (dictionaries) in the sentence
 
 Additionally, each opinion in a sentence is a dictionary with the following keys and values:
----
-"Source": a list of text and character offsets for the opinion holder
 
-"Target": a list of text and character offsets for the opinion target
+* "Source": a list of text and character offsets for the opinion holder
 
-"Polar_expression": a list of text and character offsets for the opinion expression
+* "Target": a list of text and character offsets for the opinion target
 
-"Polarity": sentiment label ("Negative", "Positive")
+* "Polar_expression": a list of text and character offsets for the opinion expression
 
-"Intensity": sentiment intensity ("Standard", "Strong", "Slight")
+* "Polarity": sentiment label ("Negative", "Positive")
 
-"NOT": Whether the target is 'Not on Topic' (True, False)
+* "Intensity": sentiment intensity ("Standard", "Strong", "Slight")
 
-"Target_is_general": (True, False)
+* "NOT": Whether the target is 'Not on Topic' (True, False)
 
-"Type": Whether the polar expression is Evaluative (E) or Evaluative Fact Implied (EFINP)
+* "Target_is_general": (True, False)
+
+* "Type": Whether the polar expression is Evaluative (E) or Evaluative Fact Implied (EFINP)
 
 ```
 {
@@ -98,3 +98,16 @@ You can import them by using the json library in python:
             data[name] = json.load(infile)
 ```
 
+## Cite
+If you use this dataset, please cite the following paper:
+
+```
+@InProceedings{OvrMaeBar20,
+  author = {Lilja {\O}vrelid and Petter M{\ae}hlum and Jeremy Barnes and Erik Velldal}, 
+  title = {A Fine-grained Sentiment Dataset for {N}orwegian},
+  booktitle = {{Proceedings of the 12th Edition of the Language Resources and Evaluation Conference}},
+  year = 2020, 
+  address = "Marseille, France, 2020"
+}
+```
+URL: https://www.aclweb.org/anthology/2020.lrec-1.618/
