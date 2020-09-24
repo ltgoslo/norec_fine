@@ -3,14 +3,26 @@
 This dataset is based largely on the original data described in the paper _A Fine-Grained Sentiment Dataset for Norwegian_ by L. Øvrelid, P. Mæhlum, J. Barnes, and E. Velldal, accepted at LREC 2020, [paper available](https://www.aclweb.org/anthology/2020.lrec-1.618). However, we have since added annotations for another 3476 sentences, increasing the overall size and scope of the dataset.
 
 ## Overview
-While the previously released dataset [NoReC_eval](https://github.com/ltgoslo/norec_eval) labeled sentences as to whether they are _evaluative_ or sentiment-bearing, NoReC_fine expands on these annotations by labeling _polar expressions_, _opinion holders_ and _opinion targets_. This data comprises roughly 11,000 sentences across more than 400 reviews and 10 different thematic categories (literature, products, restaurants, etc.), taken from  a subset of the [Norwegian Review Corpus](https://github.com/ltgoslo/norec) (NoReC; [Velldal et al. 2018](http://www.lrec-conf.org/proceedings/lrec2018/pdf/851.pdf)). The data comes with a predefined train/dev/test split (inheritet from NoReC), and some key statistics are summarized in the table below: 
+While the previously released dataset [NoReC_eval](https://github.com/ltgoslo/norec_eval) labeled sentences as to whether they are _evaluative_ or sentiment-bearing, NoReC_fine expands on these annotations by labeling _polar expressions_, _opinion holders_ and _opinion targets_. This data comprises roughly 11,000 sentences across more than 400 reviews and 10 different thematic categories (literature, products, restaurants, etc.), taken from  a subset of the [Norwegian Review Corpus](https://github.com/ltgoslo/norec) (NoReC; [Velldal et al. 2018](http://www.lrec-conf.org/proceedings/lrec2018/pdf/851.pdf)). The data comes with a predefined train/dev/test split (inheritet from NoReC), and some key statistics are summarized in the table below:
 
-| Type     | Train  | Dev    | Test   |  Total |
-| :--------|-------:|-------:|-------:|-------:|
-| Sentences         |   8634 |   1531 |    1272 |   11437 |
+| Type              | Train  | Dev    | Test     |  Total  |
+| :--------         |-------:|-------:|-------:  |-------: |
+| Sentences         |   8634 |   1531  |    1272 |   11437 |
+| --- avg. len      | 16.7   | 16.9    |    17.2 |   16.8  |
 | Holders           |   898  |     120 |     110 |    1128 |
-| Targets           |   6778 |    1152 |    993 |   8923 |
-| Polar Expressions |  8448  |   1432 |    1235 |   11115 |
+| --- avg. len      |   1.1  |     1.0 |     1.0 |    1.1  |
+| Targets           |   6778 |    1152 |    993  |   8923  |
+| --- avg. len      |   1.9  |    2.0  |    2.0  |   2.0   |
+| --- discontinuous |39      |     5   |    6    |   50    |
+| --- Not On Topic  |  971   |     226 |   148   |  1345   |
+| Polar Expressions |  8448  |   1432  |    1235 |   11115 |
+| --- avg. len      |   4.9  |     5.1 |     4.9 |  4.9    |
+| --- discontiuous  |  783   |     131 |    125  |   1039  |
+
+
+Each opinion is annotated for _polarity_ (positive, negative) and _intensity_ (slight, standard, strong). The distribution is shown in the figure below:
+
+![Polarity Distribution](annotation_guidelines/images/distribution.png)
 
 
 ## Terms of use
@@ -101,10 +113,10 @@ If you use this dataset, please cite the following paper:
 
 ```
 @InProceedings{OvrMaeBar20,
-  author = {Lilja {\O}vrelid and Petter M{\ae}hlum and Jeremy Barnes and Erik Velldal}, 
+  author = {Lilja {\O}vrelid and Petter M{\ae}hlum and Jeremy Barnes and Erik Velldal},
   title = {A Fine-grained Sentiment Dataset for {N}orwegian},
   booktitle = {{Proceedings of the 12th Edition of the Language Resources and Evaluation Conference}},
-  year = 2020, 
+  year = 2020,
   address = "Marseille, France, 2020"
 }
 ```
