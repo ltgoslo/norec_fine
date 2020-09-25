@@ -49,21 +49,21 @@ Each sentence has a dictionary with the following keys and values:
 
 Additionally, each opinion in a sentence is a dictionary with the following keys and values:
 
-* "Source": a list of text and character offsets for the opinion holder
+* 'Source': a list of text and character offsets for the opinion holder
 
-* "Target": a list of text and character offsets for the opinion target
+* 'Target': a list of text and character offsets for the opinion target
 
-* "Polar_expression": a list of text and character offsets for the opinion expression
+* 'Polar_expression': a list of text and character offsets for the opinion expression
 
-* "Polarity": sentiment label ("Negative", "Positive")
+* 'Polarity': sentiment label ('Negative', 'Positive')
 
-* "Intensity": sentiment intensity ("Standard", "Strong", "Slight")
+* 'Intensity': sentiment intensity ('Standard', 'Strong', 'Slight')
 
-* "NOT": Whether the target is 'Not on Topic' (True, False)
+* 'NOT': Whether the target is 'Not on Topic' (True, False)
 
-* "Target_is_general": (True, False)
+* 'Target_is_general': (True, False)
 
-* "Type": Whether the polar expression is Evaluative (E) or Evaluative Fact Implied (EFINP)
+* 'Type': Whether the polar expression is Evaluative (E) or Evaluative Fact Implied (EFINP)
 
 ```
 {
