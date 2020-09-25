@@ -120,7 +120,7 @@ Entities are either sources or targets of a sentiment expression. Sources should
 Sources are not always explicitly mentioned, in fact, that seldomly seems to be the case. If they are, they can take many forms. Frequently it is in the form of pronouns, but they can also be expressed as nouns such as "(the) author", names, etc. A source is at first just marked as an entity. Then the source is marked as a relation between the polar expression event and a target. If the author is implicit but it is understood as being the author of the article, the event is given the attribute "source is author". If the author is implicit, but *not* the author of the article, then it is simply left out.  
 
 
-[image1]: https://raw.githubusercontent.com/ltgoslo/norec_fine/master/annotation_guidelines/setning2.png "Labels"
+[image1]: https://raw.githubusercontent.com/ltgoslo/norec_fine/master/annotation_guidelines/images/setning2.png "Labels"
 
 ![alt text][image1]
 <br/>*Example 1: implicit source*
@@ -183,7 +183,7 @@ One source of longer-than-usual targets is the infinitive clause.
 
 In the following sentence, the whole infinitive clause is necessary to fully capture the polarity and evaluation of the sentence.
 
-[image2]: https://raw.githubusercontent.com/ltgoslo/norec_fine/master/annotation_guidelines/setning1.png "Labels"
+[image2]: https://raw.githubusercontent.com/ltgoslo/norec_fine/master/annotation_guidelines/images/setning1.png "Labels"
 
 ![alt text][image2]
 <br/>*Example 5: infinitive clause target*
@@ -237,20 +237,20 @@ Conjunct expressions should as a general rule be treated as two expressions. In 
 
 Subjunctions should not be included unless excluding them alone leads to a discontinous span.
 
-[image6]: https://raw.githubusercontent.com/ltgoslo/norec_fine/master/annotation_guidelines/setning6.png "Labels"
+[image6]: https://raw.githubusercontent.com/ltgoslo/norec_fine/master/annotation_guidelines/images/setning6.png "Labels"
 
 ![alt text][image6]
 
 
 
-[image5]: https://raw.githubusercontent.com/ltgoslo/norec_fine/master/annotation_guidelines/setning5.png "Labels"
+[image5]: https://raw.githubusercontent.com/ltgoslo/norec_fine/master/annotation_guidelines/images/setning5.png "Labels"
 
 ![alt text][image5]
 
 #### Expletive subjects
 Expletive subjects are generally not included in the span of polar expressions.
 
-[image4]: https://raw.githubusercontent.com/ltgoslo/norec_fine/master/annotation_guidelines/setning4.png "Labels"
+[image4]: https://raw.githubusercontent.com/ltgoslo/norec_fine/master/annotation_guidelines/images/setning4.png "Labels"
 
 ![alt text][image4]
 
