@@ -8,15 +8,23 @@ While the previously released dataset [NoReC_eval](https://github.com/ltgoslo/no
 | Type              | Train  | Dev    | Test     |  Total  |
 | :--------         |-------:|-------:|-------:  |-------: |
 | Sentences         |   8634 |   1531  |    1272 |   11437 |
+| --- subjective    |  4555  |   821   |    674  |   6050  |
+| --- multiple polarities | 660 | 120  |    91   |   871   |
 | --- avg. len      | 16.7   | 16.9    |    17.2 |   16.8  |
 | Holders           |   898  |     120 |     110 |    1128 |
+| --- unique        |  585   |  88     | 73      |   746   |
 | --- avg. len      |   1.1  |     1.0 |     1.0 |    1.1  |
+| --- avg. per subj sent |  0.1  |  0.1  |  0.1  |    0.1  |
 | Targets           |   6778 |    1152 |    993  |   8923  |
+| --- unique        | 5000   |    871  |    729  |   6699  |
 | --- avg. len      |   1.9  |    2.0  |    2.0  |   2.0   |
+| --- avg. per subj sent |  1.1  |  1.1  |  1.1  |   1.1   |
 | --- discontinuous |39      |     5   |    6    |   50    |
 | --- Not On Topic  |  971   |     226 |   148   |  1345   |
 | Polar Expressions |  8448  |   1432  |    1235 |   11115 |
+| --- unique        | 8071   |   1390  |    1190 |   10651 |
 | --- avg. len      |   4.9  |     5.1 |     4.9 |  4.9    |
+| --- avg. per subj sent |  1.8  |  1.7  |  1.8  |  1.8    |
 | --- discontiuous  |  783   |     131 |    125  |   1039  |
 
 
