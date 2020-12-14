@@ -179,7 +179,13 @@ def create_bio_labels(text, opinions):
     for o in opinions:
         try:
             anns["holder"].extend(get_bio_holder(o))
+        except:
+            pass
+        try:
             anns["target"].extend(get_bio_target(o))
+        except:
+            pass
+        try:
             anns["expression"].extend(get_bio_expression(o))
         except:
             pass
