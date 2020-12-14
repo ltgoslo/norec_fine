@@ -1,6 +1,7 @@
 import json
 import nltk
 import re
+import os
 import argparse
 from nltk.tokenize.simple import SpaceTokenizer
 
@@ -212,9 +213,11 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     columns = ["holder", "target", "expression"]
+    if not os.path.exists("data"):
+        os.makedirs("data")
 
     for split in ["train", "dev", "test"]:
-        with open("data/{0}.json".format(split)) as o:
+        with open("{0}.json".format(split)) as o:
             dev = json.load(o)
 
         tokenized, labels = to_bio(dev)
